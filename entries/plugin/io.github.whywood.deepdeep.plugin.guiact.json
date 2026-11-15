@@ -1,0 +1,42 @@
+{
+  "type": "plugin",
+  "id": "io.github.whywood.deepdeep.plugin.guiact",
+  "name": {
+    "zh": "GUI 批执行",
+    "en": "GUI Act"
+  },
+  "summary": {
+    "zh": "批量执行安卓屏幕操作，支持稳定节点引用",
+    "en": "Batch Android screen actions with stable node references"
+  },
+  "description": {
+    "zh": "使用节点树查找控件，批量执行点击、输入、滑动和等待。节点引用过期时重新定位一次，连续操作无进展时及时返回。屏幕能力由 DeepDeep 提供。可选的坐标输入需通过宿主授权，默认关闭。",
+    "en": "Find controls from the accessibility tree and run taps, text entry, swipes, and waits in a batch. The plugin retries stale references once and reports repeated lack of progress. Screen actions use the DeepDeep host. Optional coordinate input requires host authorization and is off by default."
+  },
+  "icon": "icons/guiact.png",
+  "tags": {
+    "zh": [
+      "屏幕操作",
+      "无障碍",
+      "批处理"
+    ],
+    "en": [
+      "Screen control",
+      "Accessibility",
+      "Batch actions"
+    ]
+  },
+  "version": "1.1.2",
+  "artifact": {
+    "url": "https://github.com/shuziyuxingxing-stack/deepdeep-guiact/releases/download/plugins-20261115/guiact-1.1.2.ddp",
+    "sha256": "44950c765d1961d730253e34daa92c8bac488c71938beaf8b3abaa1aa576f751",
+    "size": 59612
+  },
+  "plugin": {
+    "apiLevel": 6,
+    "minHostVersion": "1.0.6",
+    "publisherKeyId": "ed25519:43866cc4b21d5243ede17d32768a77b7e2faf012f11aeccc4bb8f128cbcbdd58",
+    "requiredAccess": "normal",
+    "version": "1.1.2"
+  }
+}
