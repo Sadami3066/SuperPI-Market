@@ -6,12 +6,12 @@
     "en": "Mail"
   },
   "summary": {
-    "zh": "接入 IMAP/SMTP 邮箱，读信、找信、起草与发送",
-    "en": "Read, search, draft and send from your IMAP/SMTP mailbox"
+    "zh": "接入 IMAP/SMTP 邮箱，让 DeepDeep 读信、找邮件、起草与发送",
+    "en": "Connect IMAP/SMTP mailboxes so DeepDeep can read, search, draft and send"
   },
   "description": {
-    "zh": "用授权码或应用专用密码接入 QQ、163、126、腾讯企业邮、阿里云邮箱、Gmail、iCloud、Fastmail、Yahoo、Zoho 与自定义 IMAP/SMTP 邮箱。\n插件提供邮件列表、会话阅读、写信（含附件）、账户管理、后台定时同步与新邮件通知；HTML 正文按原排版渲染，支持表格、内嵌样式与图片，发件人显示头像；聊天里的邮件卡片可以直接打开线程 sheet，Agent 可以搜索、阅读、归档、起草，并在你明确要求时直接发送。",
-    "en": "Connect QQ, 163, 126, Tencent Exmail, Alibaba Mail, Gmail, iCloud, Fastmail, Yahoo, Zoho or any custom IMAP/SMTP mailbox with an authorization code or app password.\nThe plugin provides a message list, conversation reading, composing with attachments, account management, background sync and notifications; HTML bodies keep their original layout with tables, inline styles and images, and senders show avatars; mail cards in chat open the thread sheet in place, and the agent can search, read, archive, draft and send directly when you ask."
+    "zh": "用授权码或应用专用密码接入 QQ、163、126、腾讯企业邮、阿里云邮箱、Gmail、iCloud、Fastmail、Yahoo、Zoho 与自定义 IMAP/SMTP 邮箱。插件提供邮件列表、会话阅读、写信与账户管理，并让 Agent 搜索、阅读、归档邮件、起草回复；你明确要求时可以让 Agent 直接发送。",
+    "en": "Connect QQ, 163, 126, Tencent Exmail, Alibaba Mail, Gmail, iCloud, Fastmail, Yahoo, Zoho or any custom IMAP/SMTP mailbox with an authorization code or app password. The plugin provides message list, conversation reading, composing and account management, and lets the agent search, read, archive and draft replies; when you ask it to send, it can send directly."
   },
   "icon": "icons/mail.png",
   "tags": {
@@ -26,18 +26,18 @@
       "Productivity"
     ]
   },
-  "version": "1.4.2",
+  "version": "1.6.0",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261114-3/mail-1.4.2.ddp",
-    "sha256": "b5e7c84f95b714ae2118c074f41952cc69a3b4b381d00bb42d658b4153cf101e",
-    "size": 1759908
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/mail-1.6.0.ddp",
+    "sha256": "6f62e28fac2f7b965961f5af50de4269556e352b1514d996e6565b6b3dac3075",
+    "size": 1810102
   },
   "plugin": {
     "apiLevel": 6,
-    "minHostVersion": "1.0.8",
+    "minHostVersion": "1.3.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "1.4.2"
+    "version": "1.6.0"
   }
 }

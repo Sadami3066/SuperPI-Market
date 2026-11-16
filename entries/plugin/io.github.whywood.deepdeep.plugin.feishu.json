@@ -7,11 +7,11 @@
   },
   "summary": {
     "zh": "消息、日历、云文档与邮箱",
-    "en": "Messages, calendar, docs, and mail"
+    "en": "Messages, calendar, docs and mail"
   },
   "description": {
-    "zh": "通过官方 lark-cli 读写飞书消息、日历、云文档、云空间、邮箱与任务。\n在插件页面安装 CLI、连接账号并管理应用权限。",
-    "en": "Read and send Feishu messages, manage calendar events, cloud docs, drive files, mail, and tasks through the official lark-cli.\nInstall the CLI and connect your account on the plugin page."
+    "zh": "连接飞书账号后，可以在对话里读写消息、日历、云文档、云空间、邮箱与任务；在插件页完成安装、连接与权限管理。",
+    "en": "Connect your Feishu account to read and write messages, calendar, docs, drive, mail and tasks in chat; install, connect and manage permissions from the plugin page."
   },
   "icon": "icons/feishu.png",
   "tags": {
@@ -26,18 +26,18 @@
       "Messaging"
     ]
   },
-  "version": "2.2.1",
+  "version": "2.7.0",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261114/feishu-2.2.1.ddp",
-    "sha256": "877ccbc06332b459dbc29b7364947c3f34b1bc9f5bc3f1bc6ee68a7e79591791",
-    "size": 955811
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/feishu-2.7.0.ddp",
+    "sha256": "7c274c77be0a85e75e8be34d61d8b14f954a1ea07ba1a0240d99dc4ace8b35ab",
+    "size": 1226819
   },
   "plugin": {
     "apiLevel": 6,
-    "minHostVersion": "1.0.8",
+    "minHostVersion": "1.4.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "2.2.1"
+    "version": "2.7.0"
   }
 }

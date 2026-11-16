@@ -7,11 +7,11 @@
   },
   "summary": {
     "zh": "消息、邮件、文档、日程与待办",
-    "en": "Messages, mail, docs, schedules, and tasks"
+    "en": "Messages, mail, docs, calendar and to-dos"
   },
   "description": {
-    "zh": "安装官方 wecom-cli 后扫码授权，操作企业微信的消息、邮件、文档、日程与待办。\n账号授权与 CLI 安装都在插件页面完成。",
-    "en": "Scan the QR code to authorize the official wecom-cli, then work with WeCom messages, mail, docs, schedules, and tasks.\nCLI install and account authorization both happen on the plugin page."
+    "zh": "连接企业微信后，可以在对话里处理消息、邮件、文档、日程与待办；在插件页完成安装与扫码授权。",
+    "en": "Connect WeCom to handle messages, mail, docs, calendar and to-dos in chat; install and scan to authorize from the plugin page."
   },
   "icon": "icons/wecom.png",
   "tags": {
@@ -26,18 +26,18 @@
       "Messaging"
     ]
   },
-  "version": "2.2.0",
+  "version": "2.6.0",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261114/wecom-2.2.0.ddp",
-    "sha256": "28149fe1923fdfe14d7006e0421744367da69ced7c1f65de849563f040930ec3",
-    "size": 985302
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/wecom-2.6.0.ddp",
+    "sha256": "150376f20d09d6710598dee14aa630da9d22f496fb10bf459d5d13019d579488",
+    "size": 1234330
   },
   "plugin": {
     "apiLevel": 6,
-    "minHostVersion": "1.0.8",
+    "minHostVersion": "1.4.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "2.2.0"
+    "version": "2.6.0"
   }
 }

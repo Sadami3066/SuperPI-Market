@@ -1,0 +1,43 @@
+{
+  "type": "plugin",
+  "id": "io.github.whywood.deepdeep.plugin.hotel",
+  "name": {
+    "zh": "RollingGo酒店",
+    "en": "RollingGo Hotels"
+  },
+  "tags": {
+    "zh": [
+      "酒店",
+      "预订",
+      "旅行"
+    ],
+    "en": [
+      "Hotels",
+      "Booking",
+      "Travel"
+    ]
+  },
+  "summary": {
+    "zh": "搜索 RollingGo 酒店、查看房型与订单、创建待支付订单与取消订单",
+    "en": "Search RollingGo hotels, view rooms and orders, create or cancel a booking"
+  },
+  "description": {
+    "zh": "连接 RollingGo 后，在对话里按预算、距离、标签和品牌筛选酒店，查看实时房型、创建待支付订单、查订单与取消订单；结果以卡片展示，支付在 RollingGo 官方页面完成。插件页管理服务安装、更新与登录，不需要 API Key。",
+    "en": "Connect RollingGo to filter hotels by budget, distance, tags and brand, view live rooms, create a pending booking, check orders and cancel a booking from chat. Results appear as cards; payment happens on the official RollingGo page. The plugin page manages installation, updates and sign-in, with no API key."
+  },
+  "icon": "icons/hotel.png",
+  "version": "1.4.1",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/hotel-1.4.1.ddp",
+    "sha256": "2648852624eccaccfaae44d0ad5f710114fa9355cdd4b72483cf795eb14ef891",
+    "size": 1463476
+  },
+  "plugin": {
+    "apiLevel": 6,
+    "minHostVersion": "1.4.0",
+    "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
+    "publisherName": "milous",
+    "requiredAccess": "normal",
+    "version": "1.4.1"
+  }
+}

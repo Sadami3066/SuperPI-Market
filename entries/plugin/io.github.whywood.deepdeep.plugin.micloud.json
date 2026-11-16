@@ -6,12 +6,12 @@
     "en": "Mi Cloud"
   },
   "summary": {
-    "zh": "读取小米云笔记、待办、相册与短信",
-    "en": "Notes, tasks, photos, and SMS from Mi Cloud"
+    "zh": "读取小米云服务中的笔记、待办、相册、短信、联系人与录音",
+    "en": "Read notes, to-dos, photos, SMS, contacts and recordings from Xiaomi Cloud services"
   },
   "description": {
-    "zh": "连接小米账号后读取小米云服务中的笔记、待办、短信、联系人、相册与录音。\n首次使用需在插件页面完成小米账号登录。",
-    "en": "Connect a Xiaomi account to read notes, tasks, SMS, contacts, photos, and recordings from Mi Cloud.\nSign in to your Xiaomi account on the plugin page first."
+    "zh": "连接小米账号后读取小米云服务中的笔记、待办、短信、联系人、相册与录音；笔记和待办可新建、修改与删除。首次使用需在插件页面完成小米账号登录。",
+    "en": "Read notes, to-dos, SMS, contacts, photos and recordings from Xiaomi Cloud after signing in; notes and to-dos can be created, edited and deleted. Sign in from the plugin page first."
   },
   "icon": "icons/micloud.png",
   "tags": {
@@ -26,18 +26,18 @@
       "Photos"
     ]
   },
-  "version": "2.2.0",
+  "version": "2.7.3",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261114/micloud-2.2.0.ddp",
-    "sha256": "fe5ad991c77686ecc68a8b5977b52f25c9fef36601594773225329f93bf52846",
-    "size": 943887
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/micloud-2.7.3.ddp",
+    "sha256": "c9b3db73313d0850aaf94e92b527778b21024559f2b254fc5ceff55ebd509529",
+    "size": 1128469
   },
   "plugin": {
     "apiLevel": 6,
-    "minHostVersion": "1.0.8",
+    "minHostVersion": "1.4.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "2.2.0"
+    "version": "2.7.3"
   }
 }

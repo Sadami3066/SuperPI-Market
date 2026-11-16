@@ -7,11 +7,11 @@
   },
   "summary": {
     "zh": "教务、在线教学、体育场馆与网费",
-    "en": "Academics, LMS, gym, and campus network"
+    "en": "Academics, LMS, sports venues, and campus network"
   },
   "description": {
-    "zh": "使用 Node.js sysu CLI 查询课表、成绩、考试、公告、在线教学、场馆预约、网费与统一认证换票；账号密码只在插件页使用",
-    "en": "Query timetable, grades, exams, notices, online courses, gym bookings, campus network, and SSO tickets with the Node.js sysu CLI inside the Linux runtime.\nSign-in and credentials are handled on the plugin page, and the CLI installs automatically on first use."
+    "zh": "在 Linux 运行环境里使用 Node.js 版校园 CLI：课表、成绩、作业、课件下载、体育场馆预约、网费查询与续费。账号密码只在插件页使用，首次打开会自动安装。",
+    "en": "Use the Node.js campus CLI inside the Linux runtime: timetable, grades, assignments, course files, sports venue booking, and campus network fees. Credentials are handled on the plugin page; the CLI installs itself on first use."
   },
   "icon": "icons/sysu.png",
   "tags": {
@@ -26,22 +26,18 @@
       "CLI"
     ]
   },
-  "version": "2.2.0",
+  "version": "2.7.0",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261114/sysu-2.2.0.ddp",
-    "sha256": "63b9511802adb07485bcd8ab7f4eacb0a371f5dacc54fcd51b4aaf65ddec7a4d",
-    "size": 971771
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/sysu-2.7.0.ddp",
+    "sha256": "9b6c486e45b22dbccc6dcbba06de31c16f23f83876469fbae46e1dff9495181b",
+    "size": 1304356
   },
   "plugin": {
     "apiLevel": 6,
-    "minHostVersion": "1.0.8",
+    "minHostVersion": "1.4.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "previews": [
-      "https://raw.githubusercontent.com/Sadami3066/deepdeep-market/master/previews/sysu-1.jpg",
-      "https://raw.githubusercontent.com/Sadami3066/deepdeep-market/master/previews/sysu-2.jpg"
-    ],
-    "version": "2.2.0"
+    "version": "2.7.0"
   }
 }

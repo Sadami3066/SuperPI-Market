@@ -1,0 +1,43 @@
+{
+  "type": "plugin",
+  "id": "io.github.whywood.deepdeep.plugin.ride",
+  "name": {
+    "zh": "滴滴打车",
+    "en": "DiDi Ride"
+  },
+  "tags": {
+    "zh": [
+      "打车",
+      "滴滴",
+      "出行"
+    ],
+    "en": [
+      "Ride",
+      "DiDi",
+      "Travel"
+    ]
+  },
+  "summary": {
+    "zh": "滴滴车型预估、创建订单、订单与司机位置",
+    "en": "Didi estimates, order creation, ride status and driver location"
+  },
+  "description": {
+    "zh": "在对话里搜索地点、预估车型与价格、创建滴滴订单、查询订单与司机位置；也可生成滴滴 App/小程序发单链接。滴滴 Key 加密保存在本机；支付在滴滴内完成，插件不会自动支付。",
+    "en": "Search places, estimate ride options and fares, create Didi orders, and check orders and driver locations from chat; also generate Didi app or mini program booking links. The Didi key is stored encrypted on this device; payment happens in Didi and the plugin never pays automatically."
+  },
+  "icon": "icons/ride.png",
+  "version": "1.3.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/ride-1.3.0.ddp",
+    "sha256": "6a41ccef0fe32389a48def44c42d01d6bbec63526a597e67b7ec3a6b8a78ca50",
+    "size": 1014994
+  },
+  "plugin": {
+    "apiLevel": 6,
+    "minHostVersion": "1.4.0",
+    "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
+    "publisherName": "milous",
+    "requiredAccess": "normal",
+    "version": "1.3.0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "plugin",
+  "id": "io.github.whywood.deepdeep.plugin.amap",
+  "name": {
+    "zh": "高德地图",
+    "en": "Amap Maps"
+  },
+  "tags": {
+    "zh": [
+      "高德",
+      "地图",
+      "路线"
+    ],
+    "en": [
+      "Amap",
+      "Maps",
+      "Routes"
+    ]
+  },
+  "summary": {
+    "zh": "在对话里查地点、路线和天气，在高德地图里出发",
+    "en": "Search places, plan routes and check weather in chat, then continue in Amap Maps"
+  },
+  "description": {
+    "zh": "搜索地点、查看周边、把坐标还原成地址、规划驾车/公交/步行/骑行路线和查询天气，结果以卡片展示；点卡片可在高德地图里查看与导航。高德 Key 只保存在本机，导航和打车在高德地图内完成。",
+    "en": "Search places, explore nearby spots, turn coordinates into addresses, plan driving, transit, walking and cycling routes, and check weather. Results appear as cards you can open in Amap Maps. The key stays on this device; navigation and rides happen inside Amap Maps."
+  },
+  "icon": "icons/amap.png",
+  "version": "1.5.2",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/amap-1.5.2.ddp",
+    "sha256": "92e2436e4411788f109bda2032db60abd0a67cfacad4ef0e4ad186d658a3fbad",
+    "size": 1103823
+  },
+  "plugin": {
+    "apiLevel": 6,
+    "minHostVersion": "1.4.0",
+    "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
+    "publisherName": "milous",
+    "requiredAccess": "normal",
+    "version": "1.5.2"
+  }
+}
