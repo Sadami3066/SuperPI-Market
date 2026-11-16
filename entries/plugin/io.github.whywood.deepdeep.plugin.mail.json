@@ -26,11 +26,11 @@
       "Productivity"
     ]
   },
-  "version": "1.6.0",
+  "version": "1.6.1",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/mail-1.6.0.ddp",
-    "sha256": "6f62e28fac2f7b965961f5af50de4269556e352b1514d996e6565b6b3dac3075",
-    "size": 1810102
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116-2/mail-1.6.1.ddp",
+    "sha256": "7a62f9599540b83b180b603b4cb8d08f844003e5934d6291a9e0817dffaba37d",
+    "size": 1810216
   },
   "plugin": {
     "apiLevel": 6,
@@ -38,6 +38,6 @@
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "1.6.0"
+    "version": "1.6.1"
   }
 }
