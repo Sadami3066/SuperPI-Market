@@ -2,29 +2,33 @@
   "type": "plugin",
   "id": "io.github.whywood.deepdeep.plugin.zanao",
   "name": {
-    "zh": "zanao",
-    "en": "zanao"
-  },
-  "tags": {
-    "zh": [
-      "zanao"
-    ],
-    "en": [
-      "zanao"
-    ]
+    "zh": "校园集市",
+    "en": "Campus Market"
   },
   "summary": {
     "zh": "赞噢校园集市 · 作者资料与历史检索",
     "en": "Zanao market with author profiles and history search"
   },
   "description": {
-    "zh": "内置 Token 捕捉器与离线签名 CLI，可浏览、发帖，并支持查看帖子/评论的作者资料、按昵称或头像检索历史帖子。",
-    "en": "Bundled token catcher and offline-signing CLI: browse, post, view post/comment author profiles, and search history by nickname or avatar."
+    "zh": "内置 Token 捕捉器与离线签名 CLI，可浏览、发帖（支持图片），并支持查看帖子/评论的作者资料、按昵称或头像检索历史帖子。",
+    "en": "Bundled token catcher and offline-signing CLI: browse, post with images, view post/comment author profiles, and search history by nickname or avatar."
   },
   "icon": "icons/zanao.png",
+  "tags": {
+    "zh": [
+      "校园集市",
+      "校园",
+      "命令行"
+    ],
+    "en": [
+      "Campus market",
+      "Campus",
+      "CLI"
+    ]
+  },
   "version": "1.0.18",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/zanao-1.0.18.ddp",
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261114-6/zanao-1.0.18.ddp",
     "sha256": "b64961a5da8e0cea07ffaa63d9758b8df2e128fe9c32b927c6b8a69e7e916d56",
     "size": 1721947
   },
