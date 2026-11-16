@@ -26,11 +26,11 @@
     "en": "Search places, explore nearby spots, turn coordinates into addresses, plan driving, transit, walking and cycling routes, and check weather. Results appear as cards you can open in Amap Maps. The key stays on this device; navigation and rides happen inside Amap Maps."
   },
   "icon": "icons/amap.png",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/amap-1.5.2.ddp",
-    "sha256": "92e2436e4411788f109bda2032db60abd0a67cfacad4ef0e4ad186d658a3fbad",
-    "size": 1103823
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116-5/amap-1.5.3.ddp",
+    "sha256": "e5f065b796697cd074b0f46ffc55def83e396192f5c52ad9d9f63c457254ff29",
+    "size": 1104735
   },
   "plugin": {
     "apiLevel": 6,
@@ -38,6 +38,6 @@
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "1.5.2"
+    "version": "1.5.3"
   }
 }

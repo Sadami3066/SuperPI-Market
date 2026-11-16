@@ -26,11 +26,11 @@
     "en": "Search places, estimate ride options and fares, create Didi orders, and check orders and driver locations from chat; also generate Didi app or mini program booking links. The Didi key is stored encrypted on this device; payment happens in Didi and the plugin never pays automatically."
   },
   "icon": "icons/ride.png",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/ride-1.3.0.ddp",
-    "sha256": "6a41ccef0fe32389a48def44c42d01d6bbec63526a597e67b7ec3a6b8a78ca50",
-    "size": 1014994
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116-5/ride-1.3.1.ddp",
+    "sha256": "8753e6a0118d98e4f1fa50a35a89a4aa31e4562c3638fa118f0db21019a9fa66",
+    "size": 1015863
   },
   "plugin": {
     "apiLevel": 6,
@@ -38,6 +38,6 @@
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "1.3.0"
+    "version": "1.3.1"
   }
 }
