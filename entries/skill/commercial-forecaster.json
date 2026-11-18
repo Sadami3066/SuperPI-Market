@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "commercial-forecaster",
+  "name": {
+    "zh": "营收预测",
+    "en": "Revenue Forecasting"
+  },
+  "summary": {
+    "zh": "测算预订、ARR、管道与 NRR 预测",
+    "en": "Forecast bookings, ARR, pipeline and NRR with assumptions"
+  },
+  "description": {
+    "zh": "构建预订额、ARR、管道和净收入留存率的预测，给出 commit、best case 与管道三种口径的季度数字，并展示每个转化假设。适合季度业务评审前使用。",
+    "en": "Builds bookings, ARR, pipeline and NRR forecasts, producing commit, best-case and pipeline numbers while showing every conversion assumption. Useful ahead of a quarterly business review."
+  },
+  "tags": {
+    "zh": [
+      "营收",
+      "预测",
+      "增长"
+    ],
+    "en": [
+      "Forecasting",
+      "ARR",
+      "Pipeline"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/commercial-forecaster-1.0.0.zip",
+    "sha256": "3eee765f1e2ca4b4f4a3463948af32d3ec09b1cfee593b9d5caf055c3c58e09f",
+    "size": 31251
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "design-system-patterns",
+  "name": {
+    "zh": "设计系统搭建",
+    "en": "Design System Patterns"
+  },
+  "summary": {
+    "zh": "用设计令牌搭建可扩展的设计系统",
+    "en": "Design tokens, theming, and component architecture."
+  },
+  "description": {
+    "zh": "规划设计令牌、主题切换与组件架构，让设计系统能随产品规模一起扩展。适合从零建立设计系统、接入明暗主题，或统一多个产品的组件来源。",
+    "en": "Lays out design tokens, theme switching, and component architecture so a design system scales with the product. Fits building one from scratch, adding light and dark themes, or consolidating components across products."
+  },
+  "tags": {
+    "zh": [
+      "设计系统",
+      "设计令牌",
+      "主题"
+    ],
+    "en": [
+      "Design system",
+      "Design tokens",
+      "Theming"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/design-system-patterns-1.0.0.zip",
+    "sha256": "7f16863f14fd940c5b1074b61d226409c4f895df1e65ea80efc23043d2a202d5",
+    "size": 17557
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

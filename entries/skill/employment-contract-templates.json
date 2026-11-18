@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "employment-contract-templates",
+  "name": {
+    "zh": "雇佣合同模板",
+    "en": "Employment Contract Templates"
+  },
+  "summary": {
+    "zh": "起草劳动合同、录用通知与人事政策文件",
+    "en": "Draft employment contracts, offer letters, and HR policy documents"
+  },
+  "description": {
+    "zh": "提供劳动合同、录用通知、员工手册和保密协议等模板，涵盖试用期、薪酬、竞业限制等常见条款。适合在为团队建立标准化雇佣文件时参考使用。各地劳动法差异较大，正式签署前应由本地法律顾问审阅。",
+    "en": "Templates for employment contracts, offer letters, employee handbooks, and NDAs, covering probation, pay, and non-compete terms. Use them to standardize hiring documents. Local law varies, so have counsel review before signing."
+  },
+  "tags": {
+    "zh": [
+      "劳动合同",
+      "人事文档",
+      "合规"
+    ],
+    "en": [
+      "Contracts",
+      "HR",
+      "Compliance"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/employment-contract-templates-1.0.0.zip",
+    "sha256": "73fceb37bebea7641673a29902a02c43ece6dfdaf0d5e17efa3e33bdcae2c877",
+    "size": 8465
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

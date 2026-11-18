@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "ship-gate",
+  "name": {
+    "zh": "上线检查",
+    "en": "Ship gate"
+  },
+  "summary": {
+    "zh": "发版前扫描安全、数据库与依赖风险",
+    "en": "Scan security, database and dependency risks before you ship."
+  },
+  "description": {
+    "zh": "部署前对代码库做一次体检，覆盖安全、数据库、部署配置、依赖和可观测性，把关键问题标出来并拦住流程。适合发版前和上线评审时使用。扫描结果需要结合业务判断，不替代人工评审。",
+    "en": "Runs a pre-deploy check across security, database, deploy config, dependencies and observability, then blocks the release on critical findings. Use it before a launch or a go-live review. Findings still need business judgment."
+  },
+  "tags": {
+    "zh": [
+      "发布前检查",
+      "风险扫描",
+      "上线"
+    ],
+    "en": [
+      "Preflight",
+      "Risk scan",
+      "Release"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/ship-gate-1.0.0.zip",
+    "sha256": "17b818a301e4345814c151469c7bef1120cf7e029add9919861b69cdb5ca4f3a",
+    "size": 28830
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

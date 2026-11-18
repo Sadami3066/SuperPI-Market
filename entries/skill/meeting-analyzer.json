@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "meeting-analyzer",
+  "name": {
+    "zh": "会议表现分析",
+    "en": "Meeting Analyzer"
+  },
+  "summary": {
+    "zh": "分析会议记录，评估发言表现并给出建议",
+    "en": "Analyze transcripts for talk ratio, filler words and avoidance habits."
+  },
+  "description": {
+    "zh": "读取 .vtt、.srt、.txt 或 Otter、Granola、Zoom 导出的会议记录，测算发言占比、口头禅和回避性表达，指出你在会上的表现并给出针对性建议。适合个人表达复盘、团队沟通改进或面试演练。",
+    "en": "Reads transcripts from .vtt, .srt, .txt, Otter, Granola or Zoom, measures talk ratio, filler words and avoidance patterns, then coaches on how you come across. Useful for personal review, team communication and interview practice."
+  },
+  "tags": {
+    "zh": [
+      "会议记录",
+      "表达沟通",
+      "复盘"
+    ],
+    "en": [
+      "Transcripts",
+      "Communication",
+      "Coaching"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/meeting-analyzer-1.0.0.zip",
+    "sha256": "3d008c41aa6fab3d84e284e3d5d4e68300d6fe64cbe6db98ffe55b7bd6695a99",
+    "size": 6746
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

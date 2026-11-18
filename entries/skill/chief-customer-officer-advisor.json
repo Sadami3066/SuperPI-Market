@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "chief-customer-officer-advisor",
+  "name": {
+    "zh": "客户成功顾问",
+    "en": "Customer Success Advisor"
+  },
+  "summary": {
+    "zh": "分析留存与流失，划分客户层级并配团队",
+    "en": "Plan retention, segment customers and size CS coverage"
+  },
+  "description": {
+    "zh": "分析留存与流失成因，做客户分层，并测算客户成功团队的覆盖方式与人力配置。适合 GRR、NRR 表现异常，流失上升，或需要决定客户成功团队规模时使用。",
+    "en": "Breaks down retention and churn, designs customer segments and sizes customer success coverage, working from GRR and NRR. Use it when retention slips or you need to decide how many CSMs to hire."
+  },
+  "tags": {
+    "zh": [
+      "留存",
+      "客户分层",
+      "客户成功"
+    ],
+    "en": [
+      "Retention",
+      "Segmentation",
+      "Customer Success"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/chief-customer-officer-advisor-1.0.0.zip",
+    "sha256": "fd0fec2a0df5c138d33f68bdcd88bcd9c01992e793081ac4247a9003d286b8cb",
+    "size": 32314
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

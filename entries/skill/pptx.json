@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "pptx",
+  "name": {
+    "zh": "演示文稿制作",
+    "en": "Presentations"
+  },
+  "summary": {
+    "zh": "创建、编辑并解析 PPTX 幻灯片",
+    "en": "Create, edit, parse and merge PowerPoint slide decks."
+  },
+  "description": {
+    "zh": "能从零做幻灯片，也能读取现有 .pptx 与 .potx 的文字和版式，改写内容、合并拆分文件，并保留讲者备注与批注。适合做提案汇报、复用模板或从演示稿里取内容。使用前需要安装演示文稿处理依赖。",
+    "en": "Builds decks from scratch and edits existing .pptx or .potx files, combining or splitting them while keeping speaker notes and comments. Suits pitches, reports and template reuse. Requires presentation libraries installed."
+  },
+  "tags": {
+    "zh": [
+      "幻灯片",
+      "演示",
+      "办公"
+    ],
+    "en": [
+      "slides",
+      "presentation",
+      "office"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/pptx-1.0.0.zip",
+    "sha256": "9c38e26fbae5b51b3f06358dfa7c9bb092217a459a5d2726160f44991504c2b5",
+    "size": 186938
+  },
+  "skill": {
+    "license": "Apache-2.0",
+    "source": "https://github.com/anthropics/skills"
+  }
+}

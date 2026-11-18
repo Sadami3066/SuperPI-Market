@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "python-anti-patterns",
+  "name": {
+    "zh": "Python 反模式",
+    "en": "Python Anti-Patterns"
+  },
+  "summary": {
+    "zh": "用清单排查 Python 代码里的常见坏做法",
+    "en": "A checklist of common Python bad practices to avoid"
+  },
+  "description": {
+    "zh": "汇总重试逻辑散落、可变默认参数、异常被吞掉等常见问题，作为代码审查和自查的对照清单。适合合并前审阅，或排查由不良写法引起的问题。",
+    "en": "Lists common Python mistakes such as scattered retry logic, mutable defaults, and swallowed exceptions as a review checklist. Use it before merging code or when debugging odd behavior."
+  },
+  "tags": {
+    "zh": [
+      "Python",
+      "代码审查",
+      "最佳实践"
+    ],
+    "en": [
+      "Python",
+      "review",
+      "checklist"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/python-anti-patterns-1.0.0.zip",
+    "sha256": "453e6361436715fbf0de4046b5011266be2cde76889dd5c35c3c4b99b08e1ffb",
+    "size": 4317
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

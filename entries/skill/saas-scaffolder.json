@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "saas-scaffolder",
+  "name": {
+    "zh": "SaaS 项目脚手架",
+    "en": "SaaS Scaffolder"
+  },
+  "summary": {
+    "zh": "搭好带登录、计费和后台的 SaaS 骨架",
+    "en": "Scaffold a SaaS app with auth, Stripe billing and a dashboard"
+  },
+  "description": {
+    "zh": "搭出带登录、数据库、Stripe 订阅计费和后台面板的 SaaS 项目骨架，技术栈为 Next.js App Router、TypeScript、Tailwind、shadcn/ui 和 Drizzle。适合从零启动一个订阅制产品时使用。",
+    "en": "Bootstraps a SaaS app with auth, database, Stripe billing and a dashboard, built on Next.js App Router, TypeScript, Tailwind, shadcn/ui and Drizzle. Use it to start a subscription product from scratch."
+  },
+  "tags": {
+    "zh": [
+      "SaaS",
+      "脚手架",
+      "Stripe"
+    ],
+    "en": [
+      "SaaS",
+      "Scaffold",
+      "Stripe"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/saas-scaffolder-1.0.0.zip",
+    "sha256": "d6fe26be1f092671b6ba3983a1f730021cb977974581335c72f1706816c41113",
+    "size": 22202
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "skill",
+  "id": "youtube-full",
+  "name": {
+    "zh": "YouTube速查",
+    "en": "YouTube Research"
+  },
+  "summary": {
+    "zh": "抓取视频字幕、搜索结果并追踪频道更新",
+    "en": "Pull transcripts and search results, track channels"
+  },
+  "description": {
+    "zh": "针对任意 YouTube 链接、视频 ID 或 @handle，提取字幕、搜索结果、频道与播放列表信息，也能持续关注新上传内容。适合资料整理、竞品频道调研或选题参考。需要联网，并安装 yt-dlp 与 youtube-transcript-api，无需 API Key。",
+    "en": "Fetches transcripts, search results, channel and playlist data for any YouTube URL, video ID or @handle, and tracks new uploads. Suits research and competitor audits. Needs network access plus yt-dlp; no API key."
+  },
+  "tags": {
+    "zh": [
+      "视频字幕",
+      "内容调研"
+    ],
+    "en": [
+      "Transcripts",
+      "Research"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/youtube-full-1.0.0.zip",
+    "sha256": "02091d4435ddf8dd5df75b60483a63d5cd96d7290a652eb38b4e8a77346a0072",
+    "size": 4259
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

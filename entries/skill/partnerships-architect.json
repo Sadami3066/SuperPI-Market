@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "partnerships-architect",
+  "name": {
+    "zh": "伙伴合作设计",
+    "en": "Partnership Architect"
+  },
+  "summary": {
+    "zh": "判断是否签约伙伴并设计分层、分成与联合 GTM",
+    "en": "Decide whether to partner, at what tier and on what revshare"
+  },
+  "description": {
+    "zh": "评估是否与某家伙伴签约、适合哪种层级（推荐、分销、OEM、系统集成或联盟），并设计分成结构与联合上市方式。适合拓展新渠道前做合作结构设计。",
+    "en": "Decides whether to sign a partner, which tier fits (referral, reseller, OEM, SI or alliance), and how revenue share and joint go-to-market should work. Useful before committing to a new channel."
+  },
+  "tags": {
+    "zh": [
+      "合作",
+      "分成",
+      "渠道"
+    ],
+    "en": [
+      "Partnerships",
+      "Revshare",
+      "GTM"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/partnerships-architect-1.0.0.zip",
+    "sha256": "318e35485377e344b3cb1e3bb794ee307949dd75f2712b0b81f517fc39391930",
+    "size": 35948
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "dispatching-parallel-agents",
+  "name": {
+    "zh": "并行任务分派",
+    "en": "Parallel Agents"
+  },
+  "summary": {
+    "zh": "把互不依赖的任务拆开并行执行",
+    "en": "Split independent tasks across agents that run in parallel."
+  },
+  "description": {
+    "zh": "当有两项以上互不依赖、不共享状态的任务时，拆成并行子任务同时推进，再汇总结果。适合大范围检索、多文件改造这类可以切分的工作。需要运行环境支持子代理分发。",
+    "en": "When two or more tasks have no shared state or ordering between them, splits the work into parallel subtasks and collects the results. Suits broad searches and multi-file changes. Requires a runtime that can dispatch subagents."
+  },
+  "tags": {
+    "zh": [
+      "并行",
+      "任务编排",
+      "效率"
+    ],
+    "en": [
+      "parallel",
+      "tasks",
+      "efficiency"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/dispatching-parallel-agents-1.0.0.zip",
+    "sha256": "00ee23fdffa56b37f1cd9dbf4ad6d06520d4afd81ed0acd0540ccddf6d74bdd2",
+    "size": 3831
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/obra/superpowers"
+  }
+}

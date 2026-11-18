@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "epic-design",
+  "name": {
+    "zh": "电影感网页设计",
+    "en": "Cinematic Web Design"
+  },
+  "summary": {
+    "zh": "做有视差与滚动叙事的电影感落地页",
+    "en": "Cinematic landing pages with parallax and scrollytelling"
+  },
+  "description": {
+    "zh": "做有纵深感的落地页与首屏：视差、滚动叙事、分区叠压、文字进出场，风格接近 Apple 产品页，落地前先给视觉方案。基于静态图片和 CSS、JavaScript 实现，不需要 WebGL 或 3D 建模。",
+    "en": "Builds immersive landing pages and hero sections with parallax, scrollytelling, overlapping sections and text reveals, in the spirit of Apple product pages. Works from flat images, CSS and JavaScript, no WebGL or 3D modeling needed."
+  },
+  "tags": {
+    "zh": [
+      "落地页",
+      "动效",
+      "视差"
+    ],
+    "en": [
+      "Landing page",
+      "Animation",
+      "Parallax"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/epic-design-1.0.0.zip",
+    "sha256": "8f97baa22076e705cd8108662ff55a7494bcfd3dda7db8d66cb70a1fb73a65d3",
+    "size": 54288
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

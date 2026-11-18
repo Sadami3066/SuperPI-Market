@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "monetize",
+  "name": {
+    "zh": "副业变现规划",
+    "en": "Side Income Plan"
+  },
+  "summary": {
+    "zh": "把个人履历变成可执行的副业与加薪路径",
+    "en": "Turn your history into a side-income and pay-raise plan"
+  },
+  "description": {
+    "zh": "从履历或几轮问答中整理出被低估的技能，盘点可行的副业方向，给出产品化形态和一个本周就能动手的动作，也会分析薪资上限与跳槽空间。每条价格和薪资都标注来源，无法联网检索时明确标为估算。适合想增加收入但不知道从哪开始的人，需要本地 Python 3 环境。",
+    "en": "Mines a résumé or short interview for under-priced skills, scans side-income paths, shapes real offers and picks one action for this week, plus a salary-ceiling read. Prices are cited or marked as estimates. Needs Python 3."
+  },
+  "tags": {
+    "zh": [
+      "副业",
+      "职业规划",
+      "技能变现"
+    ],
+    "en": [
+      "side income",
+      "career",
+      "pricing"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/monetize-1.0.0.zip",
+    "sha256": "3d9d1bc481b7c8b1093ce0a9af79d296aebd912caebbee95ff73d88fd3eb1627",
+    "size": 14862
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

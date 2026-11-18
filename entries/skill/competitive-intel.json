@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "competitive-intel",
+  "name": {
+    "zh": "竞品情报",
+    "en": "Competitive Intel"
+  },
+  "summary": {
+    "zh": "建立持续跟踪竞品的竞争情报体系",
+    "en": "A tracking system for competitors, battlecards and win/loss"
+  },
+  "description": {
+    "zh": "做竞品分析、对战卡片、赢单与丢单复盘，以及相对替代方案的位置说明。形成的跟踪体系会同时服务定位、销售和产品路线图。适合竞品动作变多、销售需要统一话术的时候。",
+    "en": "Competitor analysis, battlecards, win/loss reviews and positioning against alternatives. The tracking system it builds feeds positioning, sales conversations and the roadmap. For when competitors outrun the sales team."
+  },
+  "tags": {
+    "zh": [
+      "竞品",
+      "销售",
+      "定位"
+    ],
+    "en": [
+      "Competitors",
+      "Sales",
+      "Positioning"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/competitive-intel-1.0.0.zip",
+    "sha256": "3c1cd55082b3c0ac6dae13360ed0c71c9021f53ce210edd1e58e0b3a0446280d",
+    "size": 11614
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

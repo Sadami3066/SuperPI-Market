@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "product-analytics",
+  "name": {
+    "zh": "产品数据分析",
+    "en": "Product Analytics"
+  },
+  "summary": {
+    "zh": "定义指标、搭看板，做留存与队列分析",
+    "en": "Define KPIs, build dashboards and run retention analysis"
+  },
+  "description": {
+    "zh": "定义产品关键指标，搭建指标看板，做队列与留存分析，并解读功能采用趋势。适合在确定北极星指标、解释留存下滑，或评估新功能表现时使用。",
+    "en": "Defines product KPIs, builds metric dashboards and runs cohort, retention and feature adoption analysis. Use it to set a north-star metric, explain a retention drop or judge how a new feature is landing."
+  },
+  "tags": {
+    "zh": [
+      "指标",
+      "留存分析",
+      "看板"
+    ],
+    "en": [
+      "Metrics",
+      "Retention",
+      "Dashboards"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/product-analytics-1.0.0.zip",
+    "sha256": "8ceeead670c754ca5fcda15f369770e9d3934a1b84e97389de7c60e02af8920c",
+    "size": 8198
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "process-mapper",
+  "name": {
+    "zh": "流程与瓶颈分析",
+    "en": "Process Mapper"
+  },
+  "summary": {
+    "zh": "梳理端到端流程并定位等待环节",
+    "en": "Map end-to-end processes, measure cycle time and find bottlenecks."
+  },
+  "description": {
+    "zh": "把采购、入职、跨部门交接等流程画成端到端链路，测算各阶段耗时，找出工作真正卡在哪里。适合流程说不清、审批总是慢半拍或准备做流程优化时使用。",
+    "en": "Maps end-to-end business processes such as procurement, onboarding and handoffs, measures cycle time per stage and finds where work waits. Useful when a process is unclear or approvals keep stalling."
+  },
+  "tags": {
+    "zh": [
+      "流程梳理",
+      "周期时间",
+      "瓶颈"
+    ],
+    "en": [
+      "Process",
+      "Cycle Time",
+      "Bottlenecks"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/process-mapper-1.0.0.zip",
+    "sha256": "ff23e2c8559d8b1e5372ceeade2ff68d6e8e79746c70fbb7cfc6fc7e287af360",
+    "size": 26574
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

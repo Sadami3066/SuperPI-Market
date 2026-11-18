@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "google-workspace-cli",
+  "name": {
+    "zh": "Google 办公自动化",
+    "en": "Google Workspace CLI"
+  },
+  "summary": {
+    "zh": "用命令行管理 Gmail、Drive 和日历",
+    "en": "Manage Gmail, Drive and Calendar from the CLI"
+  },
+  "description": {
+    "zh": "通过 gws 命令行操作 Gmail、Drive、Sheets、Calendar、Docs、Chat 和 Tasks，自带授权引导、环境诊断、常用任务配方和安全审计。适合批量处理邮件、文件与日程。需要先完成 Google 账号授权。",
+    "en": "Runs Workspace tasks from the gws command line across Gmail, Drive, Sheets, Calendar, Docs and Tasks, with auth setup, diagnostics, recipes and a security audit. Good for bulk mail and file work. Google authorization comes first."
+  },
+  "tags": {
+    "zh": [
+      "Gmail",
+      "自动化",
+      "命令行"
+    ],
+    "en": [
+      "gmail",
+      "automation",
+      "cli"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/google-workspace-cli-1.0.0.zip",
+    "sha256": "845855ece6607e060be802123d1c478a65bee1b76e2712f7d8bac8c2dcd3e5a9",
+    "size": 40556
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

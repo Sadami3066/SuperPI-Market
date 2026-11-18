@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "visual-edit-precision",
+  "name": {
+    "zh": "视觉改动精准编辑",
+    "en": "Visual Edit Precision"
+  },
+  "summary": {
+    "zh": "按截图或圈选范围做最小 UI 改动",
+    "en": "Make minimal UI edits from screenshots and selections"
+  },
+  "description": {
+    "zh": "在带有截图、元素圈选或标注的改动请求下，定位对应组件并只修改被指出的部分，保留原有样式、行为与无障碍属性。适合以视觉反馈驱动的界面微调。需要提供截图或可选元素信息。",
+    "en": "Finds the component behind a screenshot, selected element or annotation and changes only what was indicated, keeping existing styles, behavior and accessibility. Suits visual-feedback UI tweaks. Requires screenshots or selections."
+  },
+  "tags": {
+    "zh": [
+      "UI 微调",
+      "前端",
+      "视觉反馈"
+    ],
+    "en": [
+      "UI Tweak",
+      "Frontend",
+      "Visual Feedback"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/visual-edit-precision-1.0.0.zip",
+    "sha256": "a00ee6bb3ba47195b248a96e320cb67371215ab96d64138b59a072baf537c9b2",
+    "size": 2441
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

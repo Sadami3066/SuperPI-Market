@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "hard-call",
+  "name": {
+    "zh": "艰难抉择",
+    "en": "Hard Call"
+  },
+  "summary": {
+    "zh": "为每个选项都痛的决策提供框架",
+    "en": "Framework for decisions where every option hurts"
+  },
+  "description": {
+    "zh": "处理没有好答案的重大决策，比如裁员还是折价融资、是否关停投入很多的产品。从当下、十个月和十年三个时间尺度看代价，再用后悔最小化挑出更能接受的一条路。适合选项都要付出高昂代价的场合。",
+    "en": "For decisions where no option is good, such as layoffs versus a down round or shutting down a product people love. Weighs the cost at three time scales, then uses regret minimization to make the trade-off explicit."
+  },
+  "tags": {
+    "zh": [
+      "决策",
+      "取舍",
+      "管理层"
+    ],
+    "en": [
+      "Decisions",
+      "Trade-offs",
+      "Leadership"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/hard-call-1.0.0.zip",
+    "sha256": "1fecaec82d55f1aac35742d10b2d2d83765c7536a500f07702222ccf068eb18a",
+    "size": 4448
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

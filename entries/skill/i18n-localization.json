@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "i18n-localization",
+  "name": {
+    "zh": "多语言适配",
+    "en": "I18n Localization"
+  },
+  "summary": {
+    "zh": "新增界面文案或语言时检查缺失键与占位符",
+    "en": "Check missing keys, placeholders and plurals when adding a language"
+  },
+  "description": {
+    "zh": "在加界面文案、上线新语言或审查翻译文件时，检查缺失的 key、错位的占位符和复数形式，并找出写死在代码里的字符串。适合准备多语言发布，或翻译后页面出现占位符和语序问题时使用。检查脚本需要本地 Python 环境。",
+    "en": "Checks missing keys, misplaced placeholders and plural forms when adding UI text or a new language, and finds strings hardcoded in code. Use it before shipping localized releases. The check scripts need local Python."
+  },
+  "tags": {
+    "zh": [
+      "多语言",
+      "翻译检查",
+      "占位符"
+    ],
+    "en": [
+      "i18n",
+      "Translations",
+      "Placeholders"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/i18n-localization-1.0.0.zip",
+    "sha256": "f5643099259ecc660be70a7634b01e962f54abe83f6ef4815e41abd95d5dc4be",
+    "size": 34927
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

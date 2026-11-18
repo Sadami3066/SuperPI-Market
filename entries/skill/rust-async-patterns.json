@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "rust-async-patterns",
+  "name": {
+    "zh": "Rust 异步编程",
+    "en": "Rust Async Patterns"
+  },
+  "summary": {
+    "zh": "用 Tokio 编写并发安全的异步 Rust 代码",
+    "en": "Write concurrent async Rust with Tokio"
+  },
+  "description": {
+    "zh": "覆盖 Tokio 运行时、异步 trait、错误传播与常见并发模式，帮助搭建或调试异步 Rust 服务。适合实现高并发任务、worker pool 或排查 async 代码卡住的问题。",
+    "en": "Covers the Tokio runtime, async traits, error propagation, and concurrency patterns for building or debugging async Rust services, including hangs and high-throughput workloads."
+  },
+  "tags": {
+    "zh": [
+      "Rust",
+      "异步",
+      "Tokio"
+    ],
+    "en": [
+      "Rust",
+      "async",
+      "Tokio"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/rust-async-patterns-1.0.0.zip",
+    "sha256": "65f27ff4cd0572181205f1103e84e879bb3cab4017f54f10ce2a0ac2a64ef99d",
+    "size": 6117
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "debugging-strategies",
+  "name": {
+    "zh": "系统化调试",
+    "en": "Systematic Debugging"
+  },
+  "summary": {
+    "zh": "用分治与性能剖析定位疑难缺陷",
+    "en": "Track down hard bugs with profiling and root cause analysis"
+  },
+  "description": {
+    "zh": "给出复现、二分定位、日志排查与性能剖析工具的使用顺序，适用于跨语言栈的缺陷排查。适合线上故障、偶发错误和性能退化时使用。",
+    "en": "A repeatable order for reproducing, bisecting, logging, and profiling across language stacks. Useful for production incidents, intermittent failures, and performance regressions."
+  },
+  "tags": {
+    "zh": [
+      "调试",
+      "性能分析",
+      "排错"
+    ],
+    "en": [
+      "debugging",
+      "profiling",
+      "root cause"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/debugging-strategies-1.0.0.zip",
+    "sha256": "c8fde758fa5e116a002b43fb0381a0a7dcae0728d968c8d1c903878545b81366",
+    "size": 7024
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

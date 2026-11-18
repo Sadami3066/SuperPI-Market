@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "product-discovery",
+  "name": {
+    "zh": "产品想法验证",
+    "en": "Product Discovery"
+  },
+  "summary": {
+    "zh": "梳理假设、规划发现冲刺，检验问题方案匹配",
+    "en": "Map assumptions and test problem-solution fit early"
+  },
+  "description": {
+    "zh": "验证一个想法是否值得做：梳理关键假设、安排发现冲刺、检验问题与方案的匹配度。适合在投入开发前判断方向，或想法很多需要先排优先级时使用。",
+    "en": "Validates a product idea by mapping assumptions, planning discovery sprints and testing problem-solution fit. Use it before committing to build, or when several ideas need narrowing down first."
+  },
+  "tags": {
+    "zh": [
+      "需求验证",
+      "假设",
+      "发现冲刺"
+    ],
+    "en": [
+      "Validation",
+      "Assumptions",
+      "Discovery"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/product-discovery-1.0.0.zip",
+    "sha256": "24301ef44ab316adaf359f6071f6a8491f633bfb6e6bd671b48048e6b921191c",
+    "size": 5629
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

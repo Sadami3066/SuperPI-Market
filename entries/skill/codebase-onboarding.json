@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "codebase-onboarding",
+  "name": {
+    "zh": "代码库上手",
+    "en": "Codebase onboarding"
+  },
+  "summary": {
+    "zh": "讲清陌生仓库的架构与阅读顺序，产出上手文档",
+    "en": "Explain an unfamiliar repo's architecture and write onboarding docs."
+  },
+  "description": {
+    "zh": "通读仓库后给出架构概览、模块职责、关键流程和推荐的阅读顺序，并整理成给新人看的上手文档。适合刚加入项目、接手他人代码或需要快速了解整体结构时使用。",
+    "en": "Reads a repository and explains its architecture, module responsibilities and key flows, plus a suggested reading order, as onboarding docs. Use it when joining a project, inheriting code or needing a quick grasp of the whole."
+  },
+  "tags": {
+    "zh": [
+      "架构梳理",
+      "上手文档",
+      "代码阅读"
+    ],
+    "en": [
+      "Architecture",
+      "Onboarding docs",
+      "Code reading"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/codebase-onboarding-1.0.0.zip",
+    "sha256": "01b04fb7c7299979529633931b50847653f8d96ff13d510b52a3ccbabd3d9e7c",
+    "size": 7422
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

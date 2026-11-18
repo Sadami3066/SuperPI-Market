@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "executive-mentor",
+  "name": {
+    "zh": "高管决策陪练",
+    "en": "Executive Mentor"
+  },
+  "summary": {
+    "zh": "用对抗式提问检验高管计划与决策",
+    "en": "Adversarial thinking partner for founder and executive decisions"
+  },
+  "description": {
+    "zh": "为创始人和高管提供对抗式的思考伙伴，用于检验计划、处理难下的决定、准备董事会会议或做一次坦诚的复盘。会对备选方案打分并梳理关键干系人。适合需要外部视角而不是附和的时候。",
+    "en": "An adversarial thinking partner for founders and executives: pressure-test a plan, make a dreaded decision, prepare a hard board meeting or run an honest post-mortem. Scores options and maps stakeholders."
+  },
+  "tags": {
+    "zh": [
+      "高管",
+      "决策",
+      "董事会"
+    ],
+    "en": [
+      "Executive",
+      "Decisions",
+      "Board"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/executive-mentor-1.0.0.zip",
+    "sha256": "9fe0f9a48b3551b8b5785d6f73b11cb5c0cbe6e598b159a3eb6de4bd814a083f",
+    "size": 31874
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

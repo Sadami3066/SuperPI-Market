@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "microservices-patterns",
+  "name": {
+    "zh": "微服务架构模式",
+    "en": "Microservices Patterns"
+  },
+  "summary": {
+    "zh": "划分服务边界并设计韧性的通信方式",
+    "en": "Set service boundaries and resilient communication"
+  },
+  "description": {
+    "zh": "覆盖按业务能力与领域拆分服务、服务间同步与事件驱动通信、分布式数据一致性，以及熔断、重试、限流等韧性手段。适合从单体拆分微服务、设计新服务边界或构建分布式系统时参考。",
+    "en": "Covers splitting services by business capability and domain, sync versus event-driven communication, distributed data consistency, and resilience with circuit breakers, retries, and rate limits. Use it when decomposing a monolith."
+  },
+  "tags": {
+    "zh": [
+      "微服务",
+      "分布式",
+      "架构"
+    ],
+    "en": [
+      "Microservices",
+      "Distributed",
+      "Architecture"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/microservices-patterns-1.0.0.zip",
+    "sha256": "3ae9f3fc14e24456b46e3333571d8e19d3f48ee0c222b76e1b2d9067cf6ab395",
+    "size": 6379
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

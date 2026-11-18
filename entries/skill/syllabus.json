@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "syllabus",
+  "name": {
+    "zh": "课程阅读清单",
+    "en": "Course Readings"
+  },
+  "summary": {
+    "zh": "为课程大纲补充近期同行评议论文与阅读材料",
+    "en": "Adds recent peer-reviewed papers to a course syllabus"
+  },
+  "description": {
+    "zh": "读取课程大纲或教学提纲，按主题分组查找近期同行评议论文，最后输出一份含摘要和讨论题的 Word 文档。适合备课时补充阅读材料，或为学生整理延伸阅读。需要联网检索文献。",
+    "en": "Takes a course syllabus or outline, groups the topics, finds recent peer-reviewed papers and writes a Word document with summaries and discussion questions. Useful for building reading lists. Needs internet access."
+  },
+  "tags": {
+    "zh": [
+      "课程备课",
+      "文献检索",
+      "阅读清单"
+    ],
+    "en": [
+      "education",
+      "literature",
+      "readings"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/syllabus-1.0.0.zip",
+    "sha256": "a991fa67a26a1b8168e1fe03fb0e3eeba9374cef6752d52d8faee95a8e07954f",
+    "size": 30023
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "ui-design-system",
+  "name": {
+    "zh": "设计系统搭建",
+    "en": "Design System Builder"
+  },
+  "summary": {
+    "zh": "建立 design token、组件文档与响应式规范",
+    "en": "Build design tokens, component docs and responsive scales"
+  },
+  "description": {
+    "zh": "从 design token 到组件文档和响应式尺度，搭起一套可交付的设计系统。适合新产品统一视觉语言，或需要把设计规范交接给开发时使用。",
+    "en": "Builds a design system from tokens through component docs, responsive scales and developer handoff. Use it to unify a visual language across a product or to prepare specs for engineering."
+  },
+  "tags": {
+    "zh": [
+      "设计系统",
+      "Design Token",
+      "组件规范"
+    ],
+    "en": [
+      "Design System",
+      "Tokens",
+      "Handoff"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/ui-design-system-1.0.0.zip",
+    "sha256": "8e53a9b7bacbeffb8f94ecad266564729b62186dc1134c07ab8456aae17fe414",
+    "size": 26537
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

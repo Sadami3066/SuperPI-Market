@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "pptx-slide-specification",
+  "name": {
+    "zh": "PPT 坐标规格",
+    "en": "Slide Spec Authoring"
+  },
+  "summary": {
+    "zh": "编写逐页精确到坐标的 PPT 结构描述",
+    "en": "Author coordinate-explicit JSON specs for slide decks"
+  },
+  "description": {
+    "zh": "按统一的 JSON 契约写出每页的版式树，包含元素坐标、样式、层级和可编辑分类，并遵循安全边距与最小字号。适合需要精确控制版面、不接受自动排版压缩文字的场景。",
+    "en": "Writes a per-slide layout tree in JSON with explicit inch bounds, styles, z-order, and editability classes, respecting safe margins and minimum type size. Use it when layout must be exact."
+  },
+  "tags": {
+    "zh": [
+      "PPT",
+      "JSON",
+      "版式"
+    ],
+    "en": [
+      "PPTX",
+      "JSON",
+      "layout"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/pptx-slide-specification-1.0.0.zip",
+    "sha256": "4ac425d409cc32ff655251d932b5824834b47f9b6b56b36291d1c09dcaaaaebc",
+    "size": 3283
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

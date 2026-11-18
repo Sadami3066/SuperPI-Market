@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "git-advanced-workflows",
+  "name": {
+    "zh": "Git 高级操作",
+    "en": "Advanced Git Workflows"
+  },
+  "summary": {
+    "zh": "用变基、拣选、二分与 reflog 处理复杂历史",
+    "en": "Handle complex history with rebase, bisect, and reflog"
+  },
+  "description": {
+    "zh": "覆盖变基、cherry-pick、bisect、worktree 和 reflog 的用法，用于整理提交历史、定位引入回归的提交以及找回误删内容。适合多人协作的功能分支管理和仓库故障恢复。",
+    "en": "Covers rebase, cherry-pick, bisect, worktrees, and reflog for cleaning up history, finding regression commits, and recovering lost work. Useful for feature-branch collaboration and repo troubleshooting."
+  },
+  "tags": {
+    "zh": [
+      "Git",
+      "版本控制",
+      "排错"
+    ],
+    "en": [
+      "Git",
+      "version control",
+      "troubleshooting"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/git-advanced-workflows-1.0.0.zip",
+    "sha256": "bb2f27f9f3cea607ae4f855b28d7e826fad698e903048a640034e84349fce3fb",
+    "size": 5505
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

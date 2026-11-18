@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "architecture-patterns",
+  "name": {
+    "zh": "后端架构模式",
+    "en": "Backend Architecture Patterns"
+  },
+  "summary": {
+    "zh": "落地整洁架构、六边形与领域驱动设计",
+    "en": "Apply Clean, Hexagonal, and Domain-Driven Design"
+  },
+  "description": {
+    "zh": "指导新微服务的整洁架构分层、单体到限界上下文的拆分，以及六边形与洋葱架构的落地。也用于排查应用层之间的依赖环。适合架构评审或大规模重构前参考。",
+    "en": "Guidance for Clean, Hexagonal, and onion architecture in new services and monolith refactors, covering bounded contexts and dependency-cycle fixes. Fits architecture reviews and pre-refactor planning."
+  },
+  "tags": {
+    "zh": [
+      "架构设计",
+      "领域驱动",
+      "重构"
+    ],
+    "en": [
+      "architecture",
+      "DDD",
+      "refactoring"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/architecture-patterns-1.0.0.zip",
+    "sha256": "b14826c3ad156dfebc54bfc327cc3d0abb47097ca480e1ee1536cfa1390184b5",
+    "size": 12962
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

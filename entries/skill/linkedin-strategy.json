@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "linkedin-strategy",
+  "name": {
+    "zh": "领英内容规划",
+    "en": "LinkedIn strategy"
+  },
+  "summary": {
+    "zh": "规划内容支柱、定位与发布节奏",
+    "en": "Plan LinkedIn pillars, positioning and posting cadence."
+  },
+  "description": {
+    "zh": "为一个账号或一个人制定 LinkedIn 内容规划：内容支柱、账号定位、能长期执行的发布节奏，以及是否值得开通讯栏目。适合不确定该发什么、多久发一次的时候使用。",
+    "en": "Builds a LinkedIn content plan: pillars, positioning, a cadence you can actually keep and whether a newsletter is worth starting. Use it when you are unsure what to post about or how often."
+  },
+  "tags": {
+    "zh": [
+      "领英",
+      "内容规划",
+      "增长"
+    ],
+    "en": [
+      "LinkedIn",
+      "Content plan",
+      "Growth"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/linkedin-strategy-1.0.0.zip",
+    "sha256": "0328d8cf9eb2f0cbab12302ee0b3ee6c7b3144a40abeed8f6bb472ad7e618736",
+    "size": 29393
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "senior-prompt-engineer",
+  "name": {
+    "zh": "提示词调优",
+    "en": "Prompt Engineer"
+  },
+  "summary": {
+    "zh": "改进提示词并评测模型输出质量",
+    "en": "Improve prompts and measure model quality"
+  },
+  "description": {
+    "zh": "能修整前后不一致的提示词，搭建评测集，给 RAG 召回结果打分，并检查 agent 的工具配置。适合聊天机器人或 RAG 回答忽好忽坏、需要先量化再改的时候使用。",
+    "en": "Fixes inconsistent prompts, builds eval sets, scores RAG retrieval and checks agent tool configuration. Use it when a chatbot or RAG answer is unreliable and you want a measurable baseline before changing anything."
+  },
+  "tags": {
+    "zh": [
+      "提示词",
+      "评测",
+      "RAG"
+    ],
+    "en": [
+      "prompts",
+      "evals",
+      "rag"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/senior-prompt-engineer-1.0.0.zip",
+    "sha256": "47f32d203b0c6f3b9fab6355eaccd4d73b9f155b5ee37758ae34b6f6c6a895ba",
+    "size": 39655
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

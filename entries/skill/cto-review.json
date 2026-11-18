@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "cto-review",
+  "name": {
+    "zh": "技术方案评审",
+    "en": "Tech Review"
+  },
+  "summary": {
+    "zh": "质疑架构押注、十倍扩容与自建取舍",
+    "en": "Challenge an architecture bet, a 10x scaling plan, or a rebuild call."
+  },
+  "description": {
+    "zh": "在做出架构押注、规划十倍流量增长，或决定重写还是采购之前，追问依据、总成本和失败代价。适合技术方案评审会前的自查。",
+    "en": "Asks what the architecture bet rests on, what 10x scaling really costs, and whether rebuilding beats buying. Useful as a self-check before a technical design review."
+  },
+  "tags": {
+    "zh": [
+      "架构决策",
+      "扩容",
+      "自建与采购"
+    ],
+    "en": [
+      "architecture",
+      "scaling",
+      "build vs buy"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/cto-review-1.0.0.zip",
+    "sha256": "0859015298acd21ea3c7ba13d1e8493b5bbb60e37ad278fc4cbd1186628bf360",
+    "size": 2932
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

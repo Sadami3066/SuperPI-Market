@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "ai-debt-detector",
+  "name": {
+    "zh": "AI 代码隐患检查",
+    "en": "AI Debt Detector"
+  },
+  "summary": {
+    "zh": "排查 AI 生成代码中的隐藏缺陷与债务",
+    "en": "Spot hidden debt in AI-generated code"
+  },
+  "description": {
+    "zh": "针对 AI 生成代码常见的薄弱环节逐项检查，包括缺失的错误处理、未释放的资源、虚构依赖与架构偏移。适合生成代码之后、合并 AI 提交之前，或代码能跑但感觉不踏实的时候使用。",
+    "en": "Audits AI-written code for missing error handling, leaked resources, hallucinated dependencies and architectural drift. Suits checking generated code before merging or when it runs but feels fragile."
+  },
+  "tags": {
+    "zh": [
+      "代码审查",
+      "技术债",
+      "AI 代码"
+    ],
+    "en": [
+      "Code Review",
+      "Tech Debt",
+      "AI Code"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/ai-debt-detector-1.0.0.zip",
+    "sha256": "1dbcb8f9b37858b19f49a856bacbd92a94114e580b738b3c59628526b5b22477",
+    "size": 3004
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

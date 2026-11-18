@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "roadmap-communicator",
+  "name": {
+    "zh": "路线图与发布说明",
+    "en": "Roadmap Communicator"
+  },
+  "summary": {
+    "zh": "写路线图叙事、发布说明与干系人更新",
+    "en": "Write roadmap narratives, release notes and updates"
+  },
+  "description": {
+    "zh": "撰写路线图叙事、发布说明、更新日志和面向不同对象的进展汇报。适合要把计划讲给高管、工程团队或客户听时使用。",
+    "en": "Writes roadmap narratives, release notes, changelogs and stakeholder updates. Use it when explaining plans to executives, engineers or customers, each needing a different level of detail."
+  },
+  "tags": {
+    "zh": [
+      "路线图",
+      "发布说明",
+      "沟通"
+    ],
+    "en": [
+      "Roadmap",
+      "Release Notes",
+      "Updates"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/roadmap-communicator-1.0.0.zip",
+    "sha256": "b1e8e86944c5ad44bed75cdc47c128e75e3fc053c4f0436c7877ca868affdc22",
+    "size": 5987
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

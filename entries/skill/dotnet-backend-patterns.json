@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "dotnet-backend-patterns",
+  "name": {
+    "zh": ".NET 后端模式",
+    "en": ".NET Backend Patterns"
+  },
+  "summary": {
+    "zh": "用 C# 构建稳健的 API 与后端服务",
+    "en": "Build robust C#/.NET APIs and backend services"
+  },
+  "description": {
+    "zh": "覆盖 async/await、依赖注入、EF Core、Dapper、配置与 xUnit 测试等后端常见写法。适合开发 .NET API、MCP server 或企业应用时参考，也用于评审 C# 代码。需要 .NET SDK。",
+    "en": "Covers async/await, dependency injection, EF Core, Dapper, configuration and xUnit testing for backend work. Suits building .NET APIs, MCP servers or enterprise apps, and reviewing C# code. Requires the .NET SDK."
+  },
+  "tags": {
+    "zh": [
+      ".NET",
+      "C#",
+      "后端"
+    ],
+    "en": [
+      ".NET",
+      "C#",
+      "Backend"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/dotnet-backend-patterns-1.0.0.zip",
+    "sha256": "0ef814bf612bcad2323e1e60c3919c43c92af2fa62bd4eeb710dd179a0835d35",
+    "size": 22726
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

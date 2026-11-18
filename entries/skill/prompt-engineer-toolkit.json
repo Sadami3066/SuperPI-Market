@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "prompt-engineer-toolkit",
+  "name": {
+    "zh": "提示词测试与版本",
+    "en": "Prompt Testing Toolkit"
+  },
+  "summary": {
+    "zh": "在提示词上线前做用例对比测试并留存版本差异",
+    "en": "Test prompts against cases and keep diffed versions before launch"
+  },
+  "description": {
+    "zh": "在提示词正式上线前，用一组典型用例做对比测试，记录每轮改动并保留可回溯的版本差异。适合营销团队评审、复用或交接提示词时使用。运行附带的示例脚本需要本地 Python 环境。",
+    "en": "Runs comparison tests of prompts against representative cases and keeps a diffed history of every revision, so teams can review and reuse prompts with confidence. The included sample scripts need a local Python setup."
+  },
+  "tags": {
+    "zh": [
+      "提示词",
+      "测试",
+      "版本管理"
+    ],
+    "en": [
+      "Prompts",
+      "Testing",
+      "Versioning"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/prompt-engineer-toolkit-1.0.0.zip",
+    "sha256": "f14db6dd2d60e609bc12bde5a7b78895c27ffef860557c6fec2ffddf07a18789",
+    "size": 18400
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

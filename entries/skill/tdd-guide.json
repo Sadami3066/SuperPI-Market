@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "tdd-guide",
+  "name": {
+    "zh": "测试先行开发",
+    "en": "Test-First Development"
+  },
+  "summary": {
+    "zh": "先写测试再写实现的开发与补测流程",
+    "en": "Test-first development and test generation across stacks"
+  },
+  "description": {
+    "zh": "按红绿重构的节奏推进开发：先写失败的测试，再实现功能，最后整理结构；也支持给已有代码补测试。适配 Jest、Pytest、JUnit、Vitest 与 Mocha，适合需要 mock 依赖或提高覆盖率时使用。",
+    "en": "Drives development in red-green-refactor steps: a failing test first, then the implementation, then cleanup, plus backfilling tests for existing code. Covers Jest, Pytest, JUnit, Vitest and Mocha."
+  },
+  "tags": {
+    "zh": [
+      "TDD",
+      "单元测试",
+      "重构"
+    ],
+    "en": [
+      "TDD",
+      "Unit tests",
+      "Refactoring"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/tdd-guide-1.0.0.zip",
+    "sha256": "c06a14efb3e6b1ebd09d2f94d0a1309771cbf4b457ca4b7fa91ac3925e7a8725",
+    "size": 53143
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

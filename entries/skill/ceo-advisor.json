@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "ceo-advisor",
+  "name": {
+    "zh": "创始人决策顾问",
+    "en": "CEO Advisor"
+  },
+  "summary": {
+    "zh": "公司层面的融资、战略与组织抉择",
+    "en": "Company-level counsel on funding, strategy and organization"
+  },
+  "description": {
+    "zh": "面向 CEO 和创始人，处理董事会与投资人关系、融资还是收缩、战略押注、组织与文化等公司层面问题。适合需要有人站在经营全局给出判断，而不是只谈某个职能的时候。",
+    "en": "Counsel for CEOs and founders on company-level matters: board and investor trouble, raising versus cutting, strategy bets, organization and culture. For moments that need a whole-company view rather than one function's answer."
+  },
+  "tags": {
+    "zh": [
+      "CEO",
+      "战略",
+      "董事会"
+    ],
+    "en": [
+      "CEO",
+      "Strategy",
+      "Board"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/ceo-advisor-1.0.0.zip",
+    "sha256": "32c9e80cc5a36848f926a85a595659f3af72bd2f5ac01e26d06918dcbac83e50",
+    "size": 30832
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

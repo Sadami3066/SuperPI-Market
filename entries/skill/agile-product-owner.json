@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "agile-product-owner",
+  "name": {
+    "zh": "敏捷需求拆解",
+    "en": "Agile Product Owner"
+  },
+  "summary": {
+    "zh": "写用户故事与验收标准，拆分史诗并排优先级",
+    "en": "Writes user stories, splits epics and sets priority"
+  },
+  "description": {
+    "zh": "面向产品待办：撰写用户故事和验收标准，把大史诗拆成可交付的小块，估算工作量并为冲刺排序。适合迭代计划会前准备待办，或需求太粗需要落地时使用。",
+    "en": "Handles backlog work: writes user stories and acceptance criteria, splits epics into deliverable slices, and estimates or prioritizes them for a sprint. Useful before planning meetings or when requirements are too rough."
+  },
+  "tags": {
+    "zh": [
+      "用户故事",
+      "待办管理",
+      "冲刺规划"
+    ],
+    "en": [
+      "user stories",
+      "backlog",
+      "agile"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/agile-product-owner-1.0.0.zip",
+    "sha256": "90b4c268768e0e91e9d53ef0931e521b6c45f95952045ece87973e8ed2e6116a",
+    "size": 20274
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

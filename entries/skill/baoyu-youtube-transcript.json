@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "baoyu-youtube-transcript",
+  "name": {
+    "zh": "视频字幕提取",
+    "en": "YouTube Transcript"
+  },
+  "summary": {
+    "zh": "下载视频字幕并提取封面图",
+    "en": "Download YouTube captions and cover images"
+  },
+  "description": {
+    "zh": "按链接或视频 ID 抓取字幕与封面图，支持多语言、翻译、章节切分和说话人标注。原始数据会缓存下来，方便之后换格式反复整理。需要联网访问 YouTube。",
+    "en": "Fetches subtitles or cover art for a video by URL or ID, with language selection, translation, chapters and speaker labels. Raw data is cached so you can reformat it later. Requires network access to YouTube."
+  },
+  "tags": {
+    "zh": [
+      "字幕",
+      "视频",
+      "文本提取"
+    ],
+    "en": [
+      "captions",
+      "video",
+      "extraction"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/baoyu-youtube-transcript-1.0.0.zip",
+    "sha256": "54d4752c6cd5e9dd57c81a172116fcab25c035fd3a8fcab2bc0be2aa8d3da4ab",
+    "size": 25305
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/JimLiu/baoyu-skills"
+  }
+}

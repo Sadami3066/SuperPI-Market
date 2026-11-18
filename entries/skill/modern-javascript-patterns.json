@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "modern-javascript-patterns",
+  "name": {
+    "zh": "现代 JS 写法",
+    "en": "Modern JavaScript Patterns"
+  },
+  "summary": {
+    "zh": "用 ES6+ 特性写出更清晰的 JS",
+    "en": "Modern ES6+ patterns for cleaner JavaScript"
+  },
+  "description": {
+    "zh": "整理 async/await、解构、展开、模块、迭代器和函数式写法，替换旧式回调与冗余代码。适合重构遗留 JavaScript，或在新项目里统一编码习惯。",
+    "en": "Covers async/await, destructuring, spread, modules, iterators, and functional patterns to replace callback-heavy code. Use it when refactoring legacy JavaScript or setting conventions in a new project."
+  },
+  "tags": {
+    "zh": [
+      "JavaScript",
+      "ES6+",
+      "重构"
+    ],
+    "en": [
+      "JavaScript",
+      "ES6",
+      "refactoring"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/modern-javascript-patterns-1.0.0.zip",
+    "sha256": "9280c5e43d61abbaceafecfcd34a36055259924c389b7be237b7298330bb32a4",
+    "size": 10287
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

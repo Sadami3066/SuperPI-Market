@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "bash-defensive-patterns",
+  "name": {
+    "zh": "防御式 Bash 编程",
+    "en": "Defensive Bash Patterns"
+  },
+  "summary": {
+    "zh": "编写容错可靠的 shell 脚本",
+    "en": "Write fault-tolerant, production-grade shell scripts"
+  },
+  "description": {
+    "zh": "汇总参数校验、错误处理、资源清理与超时等防御式写法，让脚本在异常输入和部分失败时行为仍然可预期。适合编写部署脚本、CI 步骤或系统工具时使用。",
+    "en": "Covers argument validation, error handling, cleanup and timeouts so scripts stay predictable under bad input and partial failure. Suits deployment scripts, CI steps and system utilities."
+  },
+  "tags": {
+    "zh": [
+      "Bash",
+      "容错",
+      "脚本"
+    ],
+    "en": [
+      "Bash",
+      "Robustness",
+      "Scripting"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/bash-defensive-patterns-1.0.0.zip",
+    "sha256": "16c61d0c58fe3834032b5dd1f38974cc8c92649ad9600088bf9e26ef5713d10c",
+    "size": 6643
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

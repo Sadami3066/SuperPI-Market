@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "senior-data-engineer",
+  "name": {
+    "zh": "数据管道工程",
+    "en": "Data Pipeline Engineering"
+  },
+  "summary": {
+    "zh": "搭建与排查数据管道、ETL 与批处理任务",
+    "en": "Build and debug Airflow, Spark, dbt and Kafka pipelines"
+  },
+  "description": {
+    "zh": "覆盖 Airflow DAG、Spark 作业、dbt 模型与 Kafka 消费链路的设计和排错。任务超时、数据落错或需要新建入仓流程时使用，同时给出数据质量校验与安全重跑方案。",
+    "en": "Designs and debugs Airflow DAGs, Spark jobs, dbt models and Kafka consumers. Use it when a batch job times out or fails, data lands wrong, or you need a new ingestion path with quality checks and safe reruns."
+  },
+  "tags": {
+    "zh": [
+      "数据管道",
+      "ETL",
+      "批处理"
+    ],
+    "en": [
+      "Data pipelines",
+      "ETL",
+      "Airflow"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/senior-data-engineer-1.0.0.zip",
+    "sha256": "04259c339a017c53806a3b3839f5b3f266939932894878f9c7f6658b7289ce6f",
+    "size": 73985
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

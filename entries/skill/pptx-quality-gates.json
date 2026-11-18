@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "pptx-quality-gates",
+  "name": {
+    "zh": "PPT 交付检查",
+    "en": "Deck Quality Checks"
+  },
+  "summary": {
+    "zh": "检查 PPT 的排版越界、可编辑性和文件完整性",
+    "en": "Check deck geometry, accessibility, and file integrity"
+  },
+  "description": {
+    "zh": "交付前校验页面几何、文字溢出、阅读顺序、图片替代文本和来源引用，并检查 OOXML 包是否损坏。发现问题时回到规格或构建脚本修复后重跑同一套检查。适合对外发布前的最后一道关。",
+    "en": "Validates geometry, text overflow, reading order, alt text, source references, and OOXML package integrity before delivery. Failures are repaired and rechecked. Use it as the last gate before sharing a deck."
+  },
+  "tags": {
+    "zh": [
+      "PPT",
+      "质量检查",
+      "可访问性"
+    ],
+    "en": [
+      "PPTX",
+      "QA",
+      "accessibility"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/pptx-quality-gates-1.0.0.zip",
+    "sha256": "5a53c9e5bfcfbe208e9dbb8217df6a5597eb784a4cb0dcf329a5b50ec02a9ee9",
+    "size": 3408
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "founder-coach",
+  "name": {
+    "zh": "创始人教练",
+    "en": "Founder Coach"
+  },
+  "summary": {
+    "zh": "帮创始人摆脱瓶颈、学会授权与分工",
+    "en": "Help founders delegate, recover energy, and grow into the CEO role."
+  },
+  "description": {
+    "zh": "针对创始人成为公司瓶颈、无法授权、精力透支，或从个人贡献者转向 CEO 的阶段给出建议。内容涵盖授权练习、精力与日程审计、盲区识别和继任安排。",
+    "en": "For founders who have become the bottleneck, cannot let go, are running low, or are moving from individual contributor to CEO. Covers delegation practice, energy and calendar audits, blind spots, and succession."
+  },
+  "tags": {
+    "zh": [
+      "创始人",
+      "授权",
+      "精力管理"
+    ],
+    "en": [
+      "founder",
+      "delegation",
+      "leadership"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/founder-coach-1.0.0.zip",
+    "sha256": "052ef05b6716d7e012d775fdceaea8cf04426c4d3986ea34d1d25fff11eb9c66",
+    "size": 15335
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

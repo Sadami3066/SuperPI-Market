@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "ciso-review",
+  "name": {
+    "zh": "安全方案评审",
+    "en": "Security Review"
+  },
+  "summary": {
+    "zh": "审涉及客户数据、合规与生产权限的计划",
+    "en": "Challenge plans that touch customer data, compliance, or prod access."
+  },
+  "description": {
+    "zh": "在计划触碰客户数据、合规要求或生产环境权限时，指出数据流向、访问范围和审计缺口。适合新功能上线、供应商接入和权限变更前使用。",
+    "en": "Flags data flows, access scope, and audit gaps when a plan touches customer data, compliance obligations, or production access. Use it before a launch, a vendor integration, or a permission change."
+  },
+  "tags": {
+    "zh": [
+      "数据安全",
+      "访问控制",
+      "合规"
+    ],
+    "en": [
+      "security",
+      "access",
+      "compliance"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/ciso-review-1.0.0.zip",
+    "sha256": "d02e2d9ff76306513fcfd81256daedeaa2af7e5ab8a70e22d0bc98c8dcbea429",
+    "size": 2911
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "writing-skills",
+  "name": {
+    "zh": "技能编写规范",
+    "en": "Writing Skills"
+  },
+  "summary": {
+    "zh": "编写、修改并验证技能文档是否可用",
+    "en": "Write, revise and verify that a skill definition works."
+  },
+  "description": {
+    "zh": "说明技能文档的结构、触发条件与写法要点，并给出交付前的验证方法。适合新建技能或修改已有技能时对照，避免写完却在实际任务里不生效。",
+    "en": "Covers how to structure a skill, phrase its trigger conditions and keep it focused, along with ways to verify it before shipping. Useful when adding a new skill or revising an existing one that never fires as intended."
+  },
+  "tags": {
+    "zh": [
+      "技能编写",
+      "规范",
+      "验证"
+    ],
+    "en": [
+      "authoring",
+      "guidelines",
+      "verification"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/writing-skills-1.0.0.zip",
+    "sha256": "54fa5c97605b5bc490c3e442b759cfe2899e21221477fe56fa9619cb464a8543",
+    "size": 43853
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/obra/superpowers"
+  }
+}

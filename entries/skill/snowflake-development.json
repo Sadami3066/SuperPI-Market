@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "snowflake-development",
+  "name": {
+    "zh": "Snowflake 数据开发",
+    "en": "Snowflake Development"
+  },
+  "summary": {
+    "zh": "编写 Snowflake SQL 与数据管道",
+    "en": "Write Snowflake SQL, pipelines and models"
+  },
+  "description": {
+    "zh": "覆盖 SQL 查询、Dynamic Tables、Streams and Tasks、Cortex AI 函数、Snowpark Python，以及在 Snowflake 上跑 dbt，也能帮助定位报错。适合数据仓库的日常开发与查询调优。需要能访问 Snowflake 账号。",
+    "en": "Covers Snowflake SQL, Dynamic Tables, Streams and Tasks, Cortex AI functions, Snowpark Python and dbt models, and helps trace errors. Built for day-to-day warehouse development and query tuning. Needs access to a Snowflake account."
+  },
+  "tags": {
+    "zh": [
+      "SQL",
+      "数据仓库",
+      "数据管道"
+    ],
+    "en": [
+      "sql",
+      "warehouse",
+      "pipelines"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/snowflake-development-1.0.0.zip",
+    "sha256": "038fb68a026d9f4880efe4a7583c137a54966bd4b67f66b39c6cdfeb6e7827c6",
+    "size": 18890
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

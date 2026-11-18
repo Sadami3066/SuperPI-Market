@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "python-testing-patterns",
+  "name": {
+    "zh": "Python 测试实践",
+    "en": "Python testing patterns"
+  },
+  "summary": {
+    "zh": "用 pytest 搭可维护的测试体系",
+    "en": "Build pytest suites with fixtures, mocks and TDD habits."
+  },
+  "description": {
+    "zh": "讲解 pytest 的 fixture、mock 和测试驱动开发的组织方式，帮项目建立可维护的测试套件。写单元测试、搭测试目录，或给存量项目补测试时使用。",
+    "en": "Organises pytest fixtures, mocking and test-driven workflows into a maintainable suite. Use it when writing unit tests, setting up a test layout or adding coverage to an existing codebase."
+  },
+  "tags": {
+    "zh": [
+      "pytest",
+      "单元测试",
+      "mock"
+    ],
+    "en": [
+      "pytest",
+      "Unit tests",
+      "Mocking"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/python-testing-patterns-1.0.0.zip",
+    "sha256": "50452530bf555d3a44dd79b722356e2ae4da1094a545b669556af6aa4186562e",
+    "size": 10424
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

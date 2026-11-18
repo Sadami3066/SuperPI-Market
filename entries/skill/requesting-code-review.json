@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "requesting-code-review",
+  "name": {
+    "zh": "发起代码评审",
+    "en": "Requesting Code Review"
+  },
+  "summary": {
+    "zh": "在合并前发起评审，确认实现满足需求",
+    "en": "Request review before merging to confirm requirements are met."
+  },
+  "description": {
+    "zh": "在功能做完或准备合并时组织评审，说明改动范围与需要重点看的地方，让评审聚焦真实风险而不是格式细节。适合阶段完成与合并前的检查。",
+    "en": "Organises a review once a feature is done or a merge is near, scoping the change and calling out where scrutiny matters, so feedback targets real risk rather than style. Fits milestone checks and pre-merge gates."
+  },
+  "tags": {
+    "zh": [
+      "代码评审",
+      "质量",
+      "合并"
+    ],
+    "en": [
+      "code review",
+      "quality",
+      "merge"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/requesting-code-review-1.0.0.zip",
+    "sha256": "a221df10cc26e77a776680031eb6c2a242eb48918bdbbe71be75348a37f8da42",
+    "size": 5856
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/obra/superpowers"
+  }
+}

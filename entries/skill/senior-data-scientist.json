@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "senior-data-scientist",
+  "name": {
+    "zh": "实验与数据分析",
+    "en": "Experiment Analysis"
+  },
+  "summary": {
+    "zh": "设计 A/B 实验并分析数据与模型效果",
+    "en": "Design A/B tests, run causal analysis and evaluate models"
+  },
+  "description": {
+    "zh": "设计与解读实验：A/B 测试的样本量和指标定义、因果推断、特征工程与模型评估。适合判断某个改动是否真的带来提升、该补哪些特征，或评估模型好坏时使用。",
+    "en": "Designs experiments and reads the results: A/B test setup, sample size and metrics, causal inference, feature engineering and model evaluation. Use it to tell whether a change caused a lift or how good a model is."
+  },
+  "tags": {
+    "zh": [
+      "A/B 测试",
+      "因果推断",
+      "建模"
+    ],
+    "en": [
+      "A/B testing",
+      "Causal inference",
+      "Modeling"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/senior-data-scientist-1.0.0.zip",
+    "sha256": "ec0f7d6db8f4ff221925ad6a8300cfe3f0d5f405bc5dd1df48e64c7ed56906a5",
+    "size": 11501
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

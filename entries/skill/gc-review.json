@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "gc-review",
+  "name": {
+    "zh": "法务风险评审",
+    "en": "Legal Review"
+  },
+  "summary": {
+    "zh": "签署前审条款表、MSA 与知识产权",
+    "en": "Challenge a term sheet, customer MSA, or IP and regulatory exposure."
+  },
+  "description": {
+    "zh": "在签署条款表、客户 MSA、知识产权转让或涉及监管敞口的协议前，指出需要澄清和谈判的条款。适合融资、大客户签约和跨境业务落地前使用。",
+    "en": "Reviews term sheets, customer MSAs, IP assignment, and regulatory exposure before signature, naming the clauses that need clarification or negotiation. Use it ahead of a financing round, a large customer contract, or a cross-border launch."
+  },
+  "tags": {
+    "zh": [
+      "合同法务",
+      "条款审查",
+      "合规"
+    ],
+    "en": [
+      "legal",
+      "contracts",
+      "compliance"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/gc-review-1.0.0.zip",
+    "sha256": "a860d926ddc120ac05fe4bb0d59a6bb642e69c9b20c79c10f8a9bc409c8a0b91",
+    "size": 3476
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

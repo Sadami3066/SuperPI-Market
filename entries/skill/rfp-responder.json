@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "rfp-responder",
+  "name": {
+    "zh": "投标应答撰写",
+    "en": "RFP Responder"
+  },
+  "summary": {
+    "zh": "解析招标需求并起草有实证支撑的应答",
+    "en": "Parse RFP requirements and draft proof-backed answers"
+  },
+  "description": {
+    "zh": "收到 RFP、RFI、RFQ 或安全问卷后，区分必答项与加权评分项，按要点起草附有实证材料的应答，并估算中标概率。适合投标截止前的集中写作。",
+    "en": "When an RFP, RFI, RFQ or security questionnaire arrives, it separates mandatory from weighted requirements, drafts answers backed by proof points and estimates win probability. Useful near a deadline."
+  },
+  "tags": {
+    "zh": [
+      "投标",
+      "问卷",
+      "应答"
+    ],
+    "en": [
+      "RFP",
+      "Questionnaire",
+      "Proposal"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/rfp-responder-1.0.0.zip",
+    "sha256": "341ff8dcbddcc78f7b3e1528ce7ed8a2b7f58151e27c014420edef5778e86325",
+    "size": 30090
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

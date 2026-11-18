@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "file-conversion",
+  "name": {
+    "zh": "本地文件转换",
+    "en": "Local File Converter"
+  },
+  "summary": {
+    "zh": "在本地转换图片、音视频和文档格式",
+    "en": "Convert images, audio, video, and docs locally"
+  },
+  "description": {
+    "zh": "在本机完成图片、音频、视频、文档和数据之间的格式转换，转换前确认源文件与目标要求，转换后校验输出是否可用。适合需要离线处理、文件不宜上传的场景。需要本机已安装 FFmpeg、ImageMagick、Pandoc 或 LibreOffice 等对应工具。",
+    "en": "Converts image, audio, video, document, and data formats on your own machine, checking the source and verifying the result. Fits work that must stay offline. Requires the matching tool, such as FFmpeg, ImageMagick, Pandoc, or LibreOffice."
+  },
+  "tags": {
+    "zh": [
+      "格式转换",
+      "本地处理",
+      "音视频"
+    ],
+    "en": [
+      "conversion",
+      "local",
+      "media"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/file-conversion-1.0.0.zip",
+    "sha256": "2e3599cabb9e5ad275fd2c5a5a2aacfa9a44ef8add554a9285094d8634ac5686",
+    "size": 4981
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "skill",
+  "id": "ab-test-setup",
+  "name": {
+    "zh": "A/B测试设计",
+    "en": "A/B Test Setup"
+  },
+  "summary": {
+    "zh": "先算样本量再定指标，避免过早下结论",
+    "en": "Size the test and define metric and stop rules up front"
+  },
+  "description": {
+    "zh": "在规划 A/B、分流或多变量实验之前，先明确假设、核心指标和停止规则，并按预期提升幅度估算所需样本量。适合上线前判断实验是否值得做，以及结果出来后确认是否显著。",
+    "en": "Plans A/B, split or multivariate tests: states the hypothesis, primary metric and stop rule, then sizes the sample for the expected lift. Use it before launching a test or to judge whether results are significant."
+  },
+  "tags": {
+    "zh": [
+      "实验设计",
+      "样本量"
+    ],
+    "en": [
+      "Experimentation",
+      "Sample Size"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/ab-test-setup-1.0.0.zip",
+    "sha256": "5101c5807dc275571888c3e28bc9efcdf9ac66b4a89ba3813f63bb8a7d111052",
+    "size": 15939
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

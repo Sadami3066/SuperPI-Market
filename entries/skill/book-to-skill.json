@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "book-to-skill",
+  "name": {
+    "zh": "书籍转知识库",
+    "en": "Book to skill"
+  },
+  "summary": {
+    "zh": "把书或文档整理成可查阅的知识库",
+    "en": "Compile a book or docs folder into a skill knowledge base."
+  },
+  "description": {
+    "zh": "把一本书、一套文档或规格集整理成结构化的知识库，含章节摘要、术语表和速查表，便于按需查阅而不是整本重读。支持 PDF、EPUB、DOCX、HTML 和 Markdown 输入，处理受版权保护的材料前会先做授权检查。",
+    "en": "Turns a book or docs folder into a knowledge base with chapter summaries, a glossary and a cheatsheet, built for lookup rather than rereading. Accepts PDF, EPUB, DOCX, HTML and Markdown; copyrighted material passes a rights check first."
+  },
+  "tags": {
+    "zh": [
+      "知识库",
+      "文档",
+      "技能"
+    ],
+    "en": [
+      "Knowledge base",
+      "Documents",
+      "Skill"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/book-to-skill-1.0.0.zip",
+    "sha256": "8b03e8cafea3c3868c6aea9395aa90a8944c97468798dab7a8282c59ae7ecc4c",
+    "size": 97902
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

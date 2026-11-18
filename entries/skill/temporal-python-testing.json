@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "temporal-python-testing",
+  "name": {
+    "zh": "工作流测试",
+    "en": "Temporal Python Testing"
+  },
+  "summary": {
+    "zh": "用 pytest 测试 Temporal 工作流",
+    "en": "Test Temporal workflows with pytest and time-skipping"
+  },
+  "description": {
+    "zh": "覆盖 Temporal 工作流的单元测试、带模拟活动的集成测试和基于生产历史的回放测试，说明时间跳跃、异步 fixture 与本地开发环境搭建。适合为工作流补测试、排查测试不稳定或搭建 CI 流水线时使用。需要本地或容器化的 Temporal 服务。",
+    "en": "Covers unit, integration, and replay tests for Temporal workflows, with time-skipping, async fixtures, mocked activities, and local dev setup. Use it when adding workflow tests or wiring CI. A Temporal server is required."
+  },
+  "tags": {
+    "zh": [
+      "Temporal",
+      "测试",
+      "工作流"
+    ],
+    "en": [
+      "Temporal",
+      "Testing",
+      "Workflow"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/temporal-python-testing-1.0.0.zip",
+    "sha256": "abb0da0e3253a7b96466ae0710cf9249b5267bb8f87541f8cd6032869b097c46",
+    "size": 17050
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

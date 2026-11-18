@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "competitor-alternatives",
+  "name": {
+    "zh": "竞品对比页",
+    "en": "Competitor Alternatives"
+  },
+  "summary": {
+    "zh": "生成“X 对比 Y”与替代品页，附公平的对比矩阵",
+    "en": "Build a fair, sourced X vs Y or alternative page with a matrix"
+  },
+  "description": {
+    "zh": "为“某产品对比某产品”或“某产品的替代方案”这类页面搭结构：先建对比矩阵，再定版式，最后写有来源支撑的公平论述。适合做竞品对比页、替代品合集或换用说服页之前使用。矩阵生成脚本需要本地 Python 环境。",
+    "en": "Builds X vs Y and alternative-to pages: a comparison matrix first, then a layout, then fair claims with sources. Use it before a competitor comparison, an alternatives roundup or a switching page. The matrix builder needs local Python."
+  },
+  "tags": {
+    "zh": [
+      "竞品分析",
+      "对比页",
+      "SEO"
+    ],
+    "en": [
+      "competitor pages",
+      "comparison",
+      "SEO"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/competitor-alternatives-1.0.0.zip",
+    "sha256": "ca2b67ffa292175418c3c7faad24a5a2f5de9ce39c837e7c6d9c13ef5f5787ed",
+    "size": 15023
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

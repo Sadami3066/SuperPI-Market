@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "python-type-safety",
+  "name": {
+    "zh": "Python 类型安全",
+    "en": "Python type safety"
+  },
+  "summary": {
+    "zh": "补全类型注解并开启严格类型检查",
+    "en": "Add type hints, generics and strict mypy or pyright checks."
+  },
+  "description": {
+    "zh": "讲清类型注解、泛型和 Protocol 结构化接口的写法，帮 Python 项目逐步落地类型安全。给老代码补注解、设计通用类，或配置 mypy、pyright 的严格模式时使用。",
+    "en": "Covers type hints, generics and Protocol-based interfaces so a Python project can adopt type safety step by step. Use it when adding annotations, designing generic classes or turning on strict mypy and pyright checks."
+  },
+  "tags": {
+    "zh": [
+      "类型注解",
+      "泛型",
+      "mypy"
+    ],
+    "en": [
+      "Type hints",
+      "Generics",
+      "mypy"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/python-type-safety-1.0.0.zip",
+    "sha256": "94c15a30a1fa23729710efcddf8847aba98d79b386da5fbf470f0f79d6387c3e",
+    "size": 5975
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

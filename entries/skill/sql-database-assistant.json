@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "sql-database-assistant",
+  "name": {
+    "zh": "SQL 优化助手",
+    "en": "SQL optimizer"
+  },
+  "summary": {
+    "zh": "排查慢查询，改写 SQL，优化索引与迁移脚本",
+    "en": "Diagnose slow queries, rewrite SQL and tune indexes or ORM migrations."
+  },
+  "description": {
+    "zh": "针对慢查询或结果错误的 SQL，分析执行计划、索引和写法，给出改写方案；同时能处理 Prisma、Drizzle、SQLAlchemy 的迁移脚本。适合查询变慢、需要从零写一段 SQL，或迁移跑不过的时候。连接线上数据库需要你自行提供地址和权限。",
+    "en": "Explains why a statement is slow or wrong from its plan, indexes and shape, then rewrites it. Also covers Prisma, Drizzle and SQLAlchemy migrations. Use it when a query needs writing or a migration won't run. Database access comes from you."
+  },
+  "tags": {
+    "zh": [
+      "SQL 优化",
+      "索引",
+      "ORM 迁移"
+    ],
+    "en": [
+      "SQL tuning",
+      "Indexes",
+      "ORM migrations"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/sql-database-assistant-1.0.0.zip",
+    "sha256": "49c155c625d5e5ef8a419a21788f20804b48e3c038384e4278fe1a6e5387e136",
+    "size": 32580
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

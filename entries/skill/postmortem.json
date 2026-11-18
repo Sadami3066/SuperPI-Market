@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "postmortem",
+  "name": {
+    "zh": "无责复盘",
+    "en": "Blameless Postmortem"
+  },
+  "summary": {
+    "zh": "对失败项目做无责复盘并登记改进",
+    "en": "Blameless 5-Whys review with a change register after a failure"
+  },
+  "description": {
+    "zh": "用于发布失败、季度目标落空或招聘失误之后。用连续追问找根因，把责任放在流程而不是个人身上，并把改进措施登记成可跟踪的变更。适合团队要总结经验又不想互相指责的时候。",
+    "en": "Runs after a failed launch, a missed quarter or a bad hire. Uses repeated why-questions to reach root causes without blaming individuals, then logs each fix in a change register. Keeps the review honest enough that people speak up."
+  },
+  "tags": {
+    "zh": [
+      "复盘",
+      "根因分析",
+      "团队"
+    ],
+    "en": [
+      "Postmortem",
+      "Root cause",
+      "Team"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/postmortem-1.0.0.zip",
+    "sha256": "0ddd4e732246e26f6adaea19e28f91f80599291c22ce2d99e761d3106d7b047e",
+    "size": 4841
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

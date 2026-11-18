@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "content-strategy",
+  "name": {
+    "zh": "内容选题规划",
+    "en": "Content Strategy"
+  },
+  "summary": {
+    "zh": "规划主题集群、内容日历，并对应漏斗阶段与搜索需求",
+    "en": "Plan topic clusters and a content calendar tied to funnel stages"
+  },
+  "description": {
+    "zh": "决定接下来该写什么：把选题收拢成主题集群，按搜索需求和漏斗阶段排序，排出可执行的发布计划。适合已有内容但没方向，或要从零搭内容体系时使用。集群脚本需要本地 Python 环境。",
+    "en": "Decides what to write next: topic clusters ranked by search demand and funnel stage, then an executable plan. Use it when content has no direction or when building a system from zero. The cluster script needs local Python."
+  },
+  "tags": {
+    "zh": [
+      "内容策略",
+      "选题",
+      "内容日历"
+    ],
+    "en": [
+      "content strategy",
+      "topic clusters",
+      "calendar"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/content-strategy-1.0.0.zip",
+    "sha256": "fa6b0f406414f6a710c431cb240dfcb6c6ce7e50bb5b4e332158df66cfec9679",
+    "size": 11351
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

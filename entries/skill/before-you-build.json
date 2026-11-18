@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "before-you-build",
+  "name": {
+    "zh": "开工前风险评审",
+    "en": "Pre-build risk review"
+  },
+  "summary": {
+    "zh": "动手前先查需求、变现和留存风险",
+    "en": "Check demand, monetization and retention risk before building."
+  },
+  "description": {
+    "zh": "动手写代码前做一次简短的风险预演，给出风险结论、最可能失效的假设和最小的验证动作。准备做落地页、MVP、SaaS 产品或重要功能时使用。",
+    "en": "Runs a short pre-mortem before implementation and returns a risk verdict, the assumption most likely to break and the smallest validation step. Use it before building a landing page, MVP, SaaS product or major feature."
+  },
+  "tags": {
+    "zh": [
+      "产品验证",
+      "风险评估",
+      "MVP"
+    ],
+    "en": [
+      "Validation",
+      "Risk review",
+      "MVP"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/before-you-build-1.0.0.zip",
+    "sha256": "ceae00746dec3200eb742077f00f3420e587920bfb9e4a749b84d6e19c0e2ddf",
+    "size": 3642
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

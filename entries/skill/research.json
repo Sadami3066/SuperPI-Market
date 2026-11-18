@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "research",
+  "name": {
+    "zh": "通用调研",
+    "en": "Research Router"
+  },
+  "summary": {
+    "zh": "判断调研类型，交给专用流程或自行检索",
+    "en": "Route a research request to a specialist or run a cited search."
+  },
+  "description": {
+    "zh": "接收宽泛的调研请求，判断它属于文献、专利、资助、竞品还是泛调研，交给对应流程，或者自己拆解问题、检索并给出带引用的结论。适合不确定该用哪种调研方法时先做分诊。需要联网检索。",
+    "en": "Takes a broad research request, decides whether it belongs to literature, patents, grants, competitors or general search, and either hands off or runs its own cited plan. Good when you are unsure which method fits. Needs web access."
+  },
+  "tags": {
+    "zh": [
+      "调研",
+      "任务分诊",
+      "引用"
+    ],
+    "en": [
+      "Research",
+      "Routing",
+      "Citations"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/research-1.0.0.zip",
+    "sha256": "3831e8f0ea88a2bee4960c177972b62a71e79ad3f5da52be278f9812795601ea",
+    "size": 29208
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

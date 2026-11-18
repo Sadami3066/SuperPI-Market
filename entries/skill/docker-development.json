@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "docker-development",
+  "name": {
+    "zh": "Docker 优化",
+    "en": "Docker Development"
+  },
+  "summary": {
+    "zh": "编写、审查和优化 Dockerfile 与 compose 配置",
+    "en": "Write, review and optimize Dockerfiles and docker-compose files"
+  },
+  "description": {
+    "zh": "编写、审查和优化 Dockerfile 与 docker-compose 配置，关注镜像分层、构建缓存、体积和安全性。适合在改容器配置前先过一遍，或镜像过大、构建过慢、配置报错的时候使用。本地分析需要 Python 环境，构建校验需要装好 Docker。",
+    "en": "Reviews and optimizes Dockerfiles and docker-compose configs for layer count, build cache, image size and security. Use it before editing container config, or when builds are slow. Local analysis needs Python; build checks need Docker."
+  },
+  "tags": {
+    "zh": [
+      "容器",
+      "镜像优化",
+      "compose"
+    ],
+    "en": [
+      "Containers",
+      "Image Size",
+      "Compose"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/docker-development-1.0.0.zip",
+    "sha256": "a808a3c1e9f091b43a4b12908644d2d13e48c51dcbfa181fc8dcc51eb062017c",
+    "size": 19307
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

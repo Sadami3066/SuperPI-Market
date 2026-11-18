@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "human-gate",
+  "name": {
+    "zh": "人工签核",
+    "en": "Human Gate"
+  },
+  "summary": {
+    "zh": "交付前生成评审页面，卡住未签核的改动",
+    "en": "Build a review page and block release until a named reviewer signs off"
+  },
+  "description": {
+    "zh": "为需要人签字的交付物生成评审页面，列出待确认项与阻塞问题，没有具名评审人就不会放行。适合上线前的方案、规格、报告、数据迁移，以及其他不可逆操作。评审页面需要在浏览器中打开，脚本需要本地 Python 环境。",
+    "en": "Builds a review page for anything that needs sign-off, listing open questions and blockers, and refuses to close while a blocker is open or no reviewer is named. Review pages open in a browser; the scripts need local Python."
+  },
+  "tags": {
+    "zh": [
+      "交付评审",
+      "签核",
+      "阻塞项"
+    ],
+    "en": [
+      "Sign-off",
+      "Review Page",
+      "Blockers"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/human-gate-1.0.0.zip",
+    "sha256": "66799b4fb6638cc9590ae8202e6719d2304e68e056cada5e653e694fe81f21f8",
+    "size": 43874
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

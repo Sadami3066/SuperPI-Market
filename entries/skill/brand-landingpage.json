@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "brand-landingpage",
+  "name": {
+    "zh": "品牌落地页设计",
+    "en": "Brand Landing Page"
+  },
+  "summary": {
+    "zh": "先访谈品牌调性，再产出可部署落地页",
+    "en": "Interview brand direction, then ship a landing page"
+  },
+  "description": {
+    "zh": "通过品牌访谈确定配色、字体与形状语言，再据此生成单页落地页并反复调整细节。适合产品已有但缺少视觉方向时制作首页或推广页。需要联网并配置 Stitch 的 API Key。",
+    "en": "Runs a brand interview on colors, typography and shape language, then generates and refines a single landing page with deployable HTML. Suits products without an established visual direction. Requires network access and a Stitch API key."
+  },
+  "tags": {
+    "zh": [
+      "落地页",
+      "品牌",
+      "HTML"
+    ],
+    "en": [
+      "Landing Page",
+      "Branding",
+      "HTML"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/brand-landingpage-1.0.0.zip",
+    "sha256": "371ef65680efa6b87977045cd12a2e8ba54973a1a68b38f5146d386d01b37a63",
+    "size": 22041
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

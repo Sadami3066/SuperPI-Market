@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "python-resource-management",
+  "name": {
+    "zh": "资源与连接管理",
+    "en": "Python Resource Handling"
+  },
+  "summary": {
+    "zh": "用上下文管理器管好连接、文件和流",
+    "en": "Manage connections, files, and streams safely"
+  },
+  "description": {
+    "zh": "处理文件句柄、数据库连接和流式响应的打开与释放，保证异常路径也能清理干净。适合需要长时间持有资源、或流式返回大量数据的模块。",
+    "en": "Covers context managers, cleanup paths, and streaming for file handles, connections, and responses, including failure cases. Use it when code holds resources or streams large payloads."
+  },
+  "tags": {
+    "zh": [
+      "Python",
+      "资源释放",
+      "流式处理"
+    ],
+    "en": [
+      "Python",
+      "resources",
+      "streaming"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/python-resource-management-1.0.0.zip",
+    "sha256": "312d1180c809d2c1eb05df0ff8f182e25876536a9abddb7d703d4a163cdd8ff9",
+    "size": 5701
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

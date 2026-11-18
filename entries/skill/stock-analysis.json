@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "stock-analysis",
+  "name": {
+    "zh": "个股分析",
+    "en": "Stock Analysis"
+  },
+  "summary": {
+    "zh": "分析上市公司基本面、财务比率并评估估值",
+    "en": "Researches a listed stock with ratios and a valuation view"
+  },
+  "description": {
+    "zh": "研究一只上市股票或一家公司，整理财务数据和关键比率，给出评分与估值判断，覆盖美国、全球以及印度 NSE、BSE 等地的上市公司。适合在决定是否买入、判断合理价格或快速了解一家公司时使用。需要联网获取行情与财报数据。",
+    "en": "Researches a listed stock or company with verified financial data, key ratios, scores and a valuation view, covering US, global, NSE and BSE listings. Useful when deciding whether to buy or what a stock is worth. Needs internet access."
+  },
+  "tags": {
+    "zh": [
+      "股票",
+      "估值",
+      "财报"
+    ],
+    "en": [
+      "stocks",
+      "valuation",
+      "equities"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/stock-analysis-1.0.0.zip",
+    "sha256": "566bbd233790d3ae0d9516d26d1ee2a02c6246fccb8b2abd8db6f1e8add4db7b",
+    "size": 1052079
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "pdf",
+  "name": {
+    "zh": "PDF 文档处理",
+    "en": "PDF Toolkit"
+  },
+  "summary": {
+    "zh": "拆分合并、加水印、填表与提取 PDF 内容",
+    "en": "Split, merge, watermark, fill and extract content from PDFs."
+  },
+  "description": {
+    "zh": "覆盖 PDF 的文本与表格提取、合并拆分、旋转、加水印、加密解密和图片导出，也能为扫描件做 OCR 变成可搜索文本。适合整理合同、论文与扫描档案。使用前需要安装 PDF 处理依赖，OCR 还需额外语言包。",
+    "en": "Handles text and table extraction, merging, splitting, rotation, watermarks, encryption and image export, plus OCR to make scans searchable. Suits contracts, papers and archived scans. Needs PDF libraries, and OCR needs language packs."
+  },
+  "tags": {
+    "zh": [
+      "PDF",
+      "OCR",
+      "文档"
+    ],
+    "en": [
+      "PDF",
+      "OCR",
+      "documents"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/pdf-1.0.0.zip",
+    "sha256": "d27d32d5b1dcbb47653a5fc879c3749e9c895634a34080ac25be254b7fe65b6d",
+    "size": 25259
+  },
+  "skill": {
+    "license": "Apache-2.0",
+    "source": "https://github.com/anthropics/skills"
+  }
+}

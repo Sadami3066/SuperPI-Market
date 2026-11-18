@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "docx",
+  "name": {
+    "zh": "Word 文档处理",
+    "en": "Word Documents"
+  },
+  "summary": {
+    "zh": "读写编辑 Word 文档并生成规范排版",
+    "en": "Create, read and edit Word documents with professional formatting."
+  },
+  "description": {
+    "zh": "支持创建、读取和编辑 .docx 与 .dotx，可处理目录、标题、页码、表格、页眉，也能换图、查找替换和查看修订批注。适合把零散素材整理成报告、信函或模板。使用前需要安装文档处理依赖。",
+    "en": "Creates, reads and edits .docx and .dotx files with headings, TOCs, page numbers, images, find-and-replace and tracked changes. Suits turning loose material into reports or templates. Needs document libraries installed."
+  },
+  "tags": {
+    "zh": [
+      "文档",
+      "办公",
+      "排版"
+    ],
+    "en": [
+      "documents",
+      "office",
+      "formatting"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/docx-1.0.0.zip",
+    "sha256": "e1c2ae5602a19e211bfe711c3495546deaa022cf6d699b2b653840ea145b38f9",
+    "size": 173537
+  },
+  "skill": {
+    "license": "Apache-2.0",
+    "source": "https://github.com/anthropics/skills"
+  }
+}

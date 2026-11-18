@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "strict-api",
+  "name": {
+    "zh": "API 核实",
+    "en": "Strict API"
+  },
+  "summary": {
+    "zh": "确认每个 API 在已装版本中真实存在",
+    "en": "Prove every API you use exists in the installed version."
+  },
+  "description": {
+    "zh": "在写依赖某个库的代码之前，逐个确认方法、导入和变量在当前安装版本中确实存在。适合用户明确要求不要臆造接口，或所用版本尚未核对时使用。",
+    "en": "Requires proof that every method, import and variable exists in the version actually installed before code depends on it. Use it when the user asks for no invented APIs, or when the library version has not been checked yet."
+  },
+  "tags": {
+    "zh": [
+      "API",
+      "版本核对",
+      "代码质量"
+    ],
+    "en": [
+      "API",
+      "Version check",
+      "Code quality"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/strict-api-1.0.0.zip",
+    "sha256": "0b74824fc8b796428cb81131144d680a5f7e9e5961dabf956fab66ff11d69380",
+    "size": 2977
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

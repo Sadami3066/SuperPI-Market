@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "stride-analysis-patterns",
+  "name": {
+    "zh": "STRIDE 威胁分析",
+    "en": "STRIDE Threat Analysis"
+  },
+  "summary": {
+    "zh": "用 STRIDE 方法系统梳理系统威胁",
+    "en": "Apply STRIDE to systematically identify system threats."
+  },
+  "description": {
+    "zh": "按 STRIDE 的六个维度对系统架构逐项提问，产出可评审的威胁清单和安全文档素材。适合安全评审、架构设计，以及需要向团队讲清风险来源的场合。",
+    "en": "Walks a system architecture through the six STRIDE categories to produce a reviewable threat list and security write-up. Good for security reviews, design sessions, and explaining where risks come from."
+  },
+  "tags": {
+    "zh": [
+      "STRIDE",
+      "安全评审",
+      "架构"
+    ],
+    "en": [
+      "STRIDE",
+      "Security review",
+      "Architecture"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/stride-analysis-patterns-1.0.0.zip",
+    "sha256": "e43f5907820913b271ee1cbda754825e3a7c1065d698a9d45f8f81a18d670c83",
+    "size": 7737
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

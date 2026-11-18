@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "business-investment-advisor",
+  "name": {
+    "zh": "投资决策测算",
+    "en": "Business Investment Advisor"
+  },
+  "summary": {
+    "zh": "测算资本支出的回报，比较自制、外购与租赁方案",
+    "en": "Weighs whether a capital spend pays off"
+  },
+  "description": {
+    "zh": "判断一笔设备、房产、收购、招聘或技术投入是否值得，计算投资回报率、IRR、净现值和回本周期，并比较自建还是采购、租赁还是购买。适合在预算审批或重大采购前做量化论证。",
+    "en": "Decides whether a capital spend is worth it, covering equipment, property, acquisitions, hiring or technology. Computes ROI, IRR, NPV and payback, and compares build vs buy or lease vs buy. Useful before budget approval."
+  },
+  "tags": {
+    "zh": [
+      "投资测算",
+      "ROI",
+      "预算"
+    ],
+    "en": [
+      "capex",
+      "ROI",
+      "decision"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/business-investment-advisor-1.0.0.zip",
+    "sha256": "ad08bf6c7126b0403ba167d2cdb449366da9487e37d2030f80f762be6ba6f786",
+    "size": 5752
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "caio-review",
+  "name": {
+    "zh": "AI 方案评审",
+    "en": "AI Review"
+  },
+  "summary": {
+    "zh": "上线 AI 功能前检查评测与风险分级",
+    "en": "Check evals, error SLO, and EU AI Act risk before shipping AI."
+  },
+  "description": {
+    "zh": "在 AI 功能上线、签多年厂商合同或扩编 AI 团队前，要求给出评测集、量化错误率与降级方案，并判定 EU AI Act 风险等级。也用于在 API、微调和自托管之间做选择。",
+    "en": "Before an AI feature ships, it asks for an eval set, a quantified error SLO with a fallback, and the EU AI Act risk tier. Also helps choose between API, fine-tuning, and self-hosting, or size an AI hire."
+  },
+  "tags": {
+    "zh": [
+      "AI 治理",
+      "模型评测",
+      "合规"
+    ],
+    "en": [
+      "AI",
+      "evals",
+      "compliance"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/caio-review-1.0.0.zip",
+    "sha256": "d4690992a71a0776c97d6b89c1fb3d80abf489fc944eea5ef33a02cdfa19620f",
+    "size": 4048
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "baoyu-slide-deck",
+  "name": {
+    "zh": "幻灯片生成",
+    "en": "Slide Deck"
+  },
+  "summary": {
+    "zh": "把内容做成可滚动浏览的幻灯片图片",
+    "en": "Turn content into scrollable slide images"
+  },
+  "description": {
+    "zh": "先产出大纲和风格说明，再逐页生成幻灯片图片，版式偏向自行阅读和转发。适合做图文演示、课程讲义或社交平台分享。需要可用的图像生成后端。",
+    "en": "Outlines a deck with style directions, then generates each slide as an image. Designed for reading and sharing rather than live presenting, so pages stay self-explanatory. Requires an image generation backend."
+  },
+  "tags": {
+    "zh": [
+      "幻灯片",
+      "演示",
+      "配图"
+    ],
+    "en": [
+      "slides",
+      "presentation",
+      "imagery"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/baoyu-slide-deck-1.0.0.zip",
+    "sha256": "f9fe365cb2f08b53b696aded3d03c8712375ea99b50a2cb097ec13208f78000b",
+    "size": 62378
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/JimLiu/baoyu-skills"
+  }
+}

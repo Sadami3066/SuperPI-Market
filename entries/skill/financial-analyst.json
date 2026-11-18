@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "financial-analyst",
+  "name": {
+    "zh": "财务分析建模",
+    "en": "Financial Analyst"
+  },
+  "summary": {
+    "zh": "分析财报、用 DCF 估值并解释预算差异",
+    "en": "Analyzes statements, values with a DCF, explains variance"
+  },
+  "description": {
+    "zh": "分析财务报表，用现金流折现给公司估值，解释实际支出与预算的差异，并搭建滚动预测。适合投资评估、经营复盘或年度预算编制时做量化分析。",
+    "en": "Analyzes financial statements, values a company with a DCF, explains why spend missed budget and builds rolling forecasts. Useful for investment review, operating check-ins or annual budgeting."
+  },
+  "tags": {
+    "zh": [
+      "财报",
+      "DCF",
+      "预测"
+    ],
+    "en": [
+      "finance",
+      "DCF",
+      "forecasting"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/financial-analyst-1.0.0.zip",
+    "sha256": "09040e89e152d06657ac4f99761d134f118761e22231241db035f508ce5a0c42",
+    "size": 43367
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

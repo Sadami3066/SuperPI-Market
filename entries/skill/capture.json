@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "capture",
+  "name": {
+    "zh": "想法与待办整理",
+    "en": "Brain Dump Sort"
+  },
+  "summary": {
+    "zh": "把杂乱的想法和待办整理成项目与任务清单",
+    "en": "Sort a messy brain dump into projects, tasks and links"
+  },
+  "description": {
+    "zh": "把一段没有结构的想法、任务和计划倒出来之后，按项目、任务和彼此关联分类，保留原话语气，不丢任何条目。适合脑子里事情太多、或收到一大段混乱记录需要理清的时候，不需要额外配置。",
+    "en": "Sorts an unstructured dump of ideas, tasks and plans into projects, tasks and connections without dropping anything, keeping your own wording. Good when your head is full or you pasted a wall of notes."
+  },
+  "tags": {
+    "zh": [
+      "待办整理",
+      "信息归类",
+      "笔记"
+    ],
+    "en": [
+      "notes",
+      "organizing",
+      "tasks"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/capture-1.0.0.zip",
+    "sha256": "c9f5e5c719fe8077afaebe4707df5035509978c02bf5f9751abe21f5eea5e7b2",
+    "size": 21926
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

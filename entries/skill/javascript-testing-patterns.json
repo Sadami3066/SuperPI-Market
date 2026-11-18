@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "javascript-testing-patterns",
+  "name": {
+    "zh": "JS 测试方案",
+    "en": "JavaScript Testing Patterns"
+  },
+  "summary": {
+    "zh": "用 Jest 与 Vitest 写单元和集成测试",
+    "en": "Unit, integration, and end-to-end tests with Jest and Vitest"
+  },
+  "description": {
+    "zh": "覆盖 Jest、Vitest 与 Testing Library 的单元、集成和端到端测试写法，包括 mock、fixture 与 TDD 流程。适合新建测试体系，或给已有项目补齐测试覆盖。需要安装所选测试框架及依赖。",
+    "en": "Covers unit, integration, and end-to-end tests with Jest, Vitest, and Testing Library, including mocks, fixtures, and TDD. Use it to set up test infrastructure or raise coverage. Requires the chosen test packages."
+  },
+  "tags": {
+    "zh": [
+      "测试",
+      "Jest",
+      "Vitest"
+    ],
+    "en": [
+      "testing",
+      "Jest",
+      "Vitest"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/javascript-testing-patterns-1.0.0.zip",
+    "sha256": "988c5b7cff85d4632f5b1d3d9dbf6c2b21e17b2fd463bc3565afe43f7abeb1a7",
+    "size": 9003
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

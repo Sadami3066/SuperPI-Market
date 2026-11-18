@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "social-publishing",
+  "name": {
+    "zh": "社媒定时发布",
+    "en": "Social publishing"
+  },
+  "summary": {
+    "zh": "用一个 API 定时发布到多个社交平台",
+    "en": "Schedule and publish posts across social platforms via one API."
+  },
+  "description": {
+    "zh": "统一管理多个社交平台的发帖、排期、媒体附件和互动数据，适合一次性投放多平台内容。需要 SocialClaw API Key，并提前在服务端连好各平台账号。",
+    "en": "Publishes and schedules posts, attaches media and pulls engagement stats across social platforms from one workspace. Suited to multi-platform campaigns. Requires a SocialClaw API key and connected accounts."
+  },
+  "tags": {
+    "zh": [
+      "社媒发布",
+      "排期",
+      "API"
+    ],
+    "en": [
+      "Social media",
+      "Scheduling",
+      "API"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/social-publishing-1.0.0.zip",
+    "sha256": "15c6d44cb5283e354ab51fdad67a4397b10cb066be34ea238c262f00866bf5a4",
+    "size": 3022
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

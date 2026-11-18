@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "webinar-marketing",
+  "name": {
+    "zh": "网络研讨会策划",
+    "en": "Webinar Marketing"
+  },
+  "summary": {
+    "zh": "策划网络研讨会，找出报名到成单各环节的流失",
+    "en": "Plan a webinar and find where registrations leak before conversion"
+  },
+  "description": {
+    "zh": "从选题、邀请、报名页到直播出席率、回放跟进和成单转化，逐环节规划一场网络研讨会并定位漏损点。适合准备办线上活动，或报名不少但到场和转化一直上不去时使用。评分脚本需要本地 Python 环境。",
+    "en": "Plans a webinar end to end: topic, invite, signup page, show-up, follow-up and conversion, and scores the funnel to show where it leaks. Use it before the event or when signups are high but attendance is low. Needs local Python."
+  },
+  "tags": {
+    "zh": [
+      "网络研讨会",
+      "转化",
+      "活动运营"
+    ],
+    "en": [
+      "webinar",
+      "funnel",
+      "events"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/webinar-marketing-1.0.0.zip",
+    "sha256": "726216ea841c11029daaaa81deb4b98496f2953c9bc6e8bfcc881a5bdc4a432c",
+    "size": 18306
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

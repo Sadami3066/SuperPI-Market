@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "xlsx",
+  "name": {
+    "zh": "电子表格处理",
+    "en": "Spreadsheets"
+  },
+  "summary": {
+    "zh": "读写编辑表格，清理并重组杂乱数据",
+    "en": "Read, edit and clean spreadsheet files and tabular data."
+  },
+  "description": {
+    "zh": "支持 .xlsx、.xlsm、.csv、.tsv 的读取、写入与公式计算，可修掉错行错列、合并表头之类的脏数据，也能从零建表并设置格式与图表。适合交付规范表格或修复他人表格。使用前需要安装表格处理依赖。",
+    "en": "Reads, writes and recalculates .xlsx, .xlsm, .csv and .tsv files, cleaning messy rows, misplaced headers and junk data, and building sheets with formatting and charts from scratch. Requires spreadsheet libraries installed."
+  },
+  "tags": {
+    "zh": [
+      "表格",
+      "数据",
+      "办公"
+    ],
+    "en": [
+      "spreadsheet",
+      "data",
+      "office"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/xlsx-1.0.0.zip",
+    "sha256": "caebb78cf3e66143f1ba8fa29401b3337d99734c5b78e3687b7f99133c401314",
+    "size": 173361
+  },
+  "skill": {
+    "license": "Apache-2.0",
+    "source": "https://github.com/anthropics/skills"
+  }
+}

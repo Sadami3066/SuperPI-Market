@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "interaction-design",
+  "name": {
+    "zh": "交互反馈设计",
+    "en": "Interaction Design"
+  },
+  "summary": {
+    "zh": "设计微交互、动效与操作反馈",
+    "en": "Microinteractions, motion, and user feedback patterns."
+  },
+  "description": {
+    "zh": "规划按钮反馈、加载状态、转场动画与结果提示，让交互过程清楚可预期。适合打磨界面的细节体验，或为已有流程补上缺失的状态与反馈。",
+    "en": "Plans button feedback, loading states, transitions, and result messaging so interactions stay predictable. Useful for polishing interface details or adding missing states and feedback to a flow."
+  },
+  "tags": {
+    "zh": [
+      "交互",
+      "动效",
+      "反馈"
+    ],
+    "en": [
+      "Interaction",
+      "Motion",
+      "Feedback"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/interaction-design-1.0.0.zip",
+    "sha256": "839c846bb06eb4e7f4925041b64bd6fba08d969e95875e7b514547107679f423",
+    "size": 15102
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

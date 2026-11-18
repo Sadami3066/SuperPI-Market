@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "meta-research",
+  "name": {
+    "zh": "多源深度调研",
+    "en": "Deep Research"
+  },
+  "summary": {
+    "zh": "多源交叉验证的深度调研并留存证据",
+    "en": "Triangulate every claim across sources and keep a reusable folder."
+  },
+  "description": {
+    "zh": "面向高风险判断的深度调研：先写出可证伪的假设，多路并行检索，每个结论至少用三个不同类型的来源交叉验证，并保存原文引述和来源文件。适合制定策略、比较多个产品或验证一个假设，且答案错了代价很高时使用。需要联网检索。",
+    "en": "Deep research for costly decisions: falsifiable hypotheses, parallel searches, and every claim triangulated across three or more source types, with quotes and source files kept. Suits strategy and hypothesis tests. Needs web access."
+  },
+  "tags": {
+    "zh": [
+      "深度调研",
+      "交叉验证",
+      "证据留存"
+    ],
+    "en": [
+      "Deep Research",
+      "Triangulation",
+      "Evidence"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/meta-research-1.0.0.zip",
+    "sha256": "1f26cf7409857a698957843a2c6580a1cfec9256729cc23a21b426386cf72603",
+    "size": 5391
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

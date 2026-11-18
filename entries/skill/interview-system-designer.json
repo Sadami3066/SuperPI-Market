@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "interview-system-designer",
+  "name": {
+    "zh": "面试流程设计",
+    "en": "Interview system designer"
+  },
+  "summary": {
+    "zh": "设计面试轮次、能力矩阵、评分表与题库",
+    "en": "Design hiring loops, competency matrices, rubrics and question banks."
+  },
+  "description": {
+    "zh": "按岗位拆解能力项，排出面试轮次与每轮的考察重点，配好评分表和题库，还能检查面试官打分是否一致。适合新开岗位、重做招聘流程或复盘面试质量时使用。",
+    "en": "Breaks a role into competencies, lays out interview rounds with what each probes, and supplies rubrics and question banks. It also checks whether interviewers score consistently. Use it for a new role or a hiring rebuild."
+  },
+  "tags": {
+    "zh": [
+      "招聘",
+      "能力矩阵",
+      "评分表"
+    ],
+    "en": [
+      "Hiring",
+      "Competencies",
+      "Rubrics"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/interview-system-designer-1.0.0.zip",
+    "sha256": "4e95ca7638aeb2350df0c5b0b54cc21a1ffa8c0d688fe355f34ae98387f7763c",
+    "size": 72991
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

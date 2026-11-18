@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "baoyu-markdown-to-html",
+  "name": {
+    "zh": "Markdown 转网页",
+    "en": "Markdown to HTML"
+  },
+  "summary": {
+    "zh": "把 Markdown 转成带样式的网页",
+    "en": "Convert Markdown into styled, WeChat-ready HTML"
+  },
+  "description": {
+    "zh": "把 Markdown 渲染成带主题样式的 HTML，兼容公众号排版，支持代码高亮、公式、脚注和提示块。Mermaid 与 PlantUML 图也能一并处理，外链可自动收进文末引用。渲染 Mermaid 需要本机安装 headless Chrome。",
+    "en": "Renders Markdown to themed, WeChat-friendly HTML with code highlighting, math, footnotes and callouts. Mermaid and PlantUML diagrams are supported, and links can move to a footnote list. Mermaid needs headless Chrome."
+  },
+  "tags": {
+    "zh": [
+      "Markdown",
+      "HTML",
+      "公众号"
+    ],
+    "en": [
+      "markdown",
+      "html",
+      "wechat"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/baoyu-markdown-to-html-1.0.0.zip",
+    "sha256": "92622e6d96fc200a62a37055f00f0c2f6a15cd2064b6c333e33ab73d8265a851",
+    "size": 20313
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/JimLiu/baoyu-skills"
+  }
+}

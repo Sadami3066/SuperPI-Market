@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "product-manager-toolkit",
+  "name": {
+    "zh": "产品经理工具箱",
+    "en": "Product Manager Toolkit"
+  },
+  "summary": {
+    "zh": "用 RICE 排优先级，写 PRD 和访谈总结",
+    "en": "Prioritize with RICE, write PRDs, synthesize interviews"
+  },
+  "description": {
+    "zh": "覆盖 RICE 优先级排序、客户访谈归纳、PRD 撰写和上市方案。适合在决定下一步做什么、给需求排期，或把访谈记录整理成结论时使用。",
+    "en": "Covers RICE prioritization, customer interview synthesis, PRDs and go-to-market plans. Reach for it when deciding what to build next, ranking features or turning interview notes into decisions."
+  },
+  "tags": {
+    "zh": [
+      "产品管理",
+      "优先级",
+      "PRD"
+    ],
+    "en": [
+      "Product",
+      "Prioritization",
+      "PRD"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/product-manager-toolkit-1.0.0.zip",
+    "sha256": "0dd1a68a146432d2dc532ea03494921c422d2c5abc771b34e2e322e36646d1f3",
+    "size": 27107
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "contract-and-proposal-writer",
+  "name": {
+    "zh": "合同与提案起草",
+    "en": "Contract & Proposal Writer"
+  },
+  "summary": {
+    "zh": "起草合同、提案、SOW 与 NDA 等文书",
+    "en": "Drafts contracts, proposals, SOWs and NDAs"
+  },
+  "description": {
+    "zh": "按美国、欧盟、英国或 DACH 地区的常见做法，起草自由职业合同、项目提案、工作说明书、保密协议和主服务协议，输出结构化的 Markdown 并说明如何转成 Word。适合接单、外包或合作洽谈前准备文书。内容不构成法律意见，正式签署前仍需律师确认。",
+    "en": "Drafts freelance contracts, proposals, statements of work, NDAs and MSAs for US, EU, UK and DACH jurisdictions in structured Markdown, with steps to convert to Word. Useful before a new engagement. Not legal advice."
+  },
+  "tags": {
+    "zh": [
+      "合同",
+      "提案",
+      "法务文书"
+    ],
+    "en": [
+      "contracts",
+      "proposals",
+      "legal docs"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/contract-and-proposal-writer-1.0.0.zip",
+    "sha256": "4bf0254a6b5b36c5aa013754f52899424e6189f0deb08b0b96b0bafb691db988",
+    "size": 7291
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

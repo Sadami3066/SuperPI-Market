@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "react-state-management",
+  "name": {
+    "zh": "React 状态管理",
+    "en": "React State Management"
+  },
+  "summary": {
+    "zh": "在 Redux、Zustand、Jotai 与 Query 间选型",
+    "en": "Choose between Redux, Zustand, Jotai, and React Query"
+  },
+  "description": {
+    "zh": "对比 Redux Toolkit、Zustand、Jotai 和 React Query 的适用场景，区分客户端状态与服务端状态的处理方式。适合新项目选型、重构全局状态或治理重复请求时使用。",
+    "en": "Compare Redux Toolkit, Zustand, Jotai, and React Query by use case, separating client state from server state. Useful for new projects, state refactors, and cutting duplicate requests."
+  },
+  "tags": {
+    "zh": [
+      "React",
+      "状态管理",
+      "选型"
+    ],
+    "en": [
+      "React",
+      "state management",
+      "architecture"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/react-state-management-1.0.0.zip",
+    "sha256": "fe4094e95c10448e27314f25e059271a823b0a478325e3ee7b39f3d695548570",
+    "size": 5958
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

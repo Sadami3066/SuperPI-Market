@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "senior-pm",
+  "name": {
+    "zh": "项目组合管理",
+    "en": "Portfolio Manager"
+  },
+  "summary": {
+    "zh": "多项目组合的计划、进度与风险跟踪",
+    "en": "Plan multi-workstream programs and track status, risks and capacity."
+  },
+  "description": {
+    "zh": "面向跨团队的多项目组合，产出计划、状态报告、风险台账和人力容量视图，并支持向管理层汇报。适合同时盯多个工作流、需要定期向上同步进度时使用。",
+    "en": "Runs planning, status reports, risk registers and capacity views for multi-workstream programs, plus executive updates. Useful when several workstreams run at once and leadership needs a clear read."
+  },
+  "tags": {
+    "zh": [
+      "项目管理",
+      "风险台账",
+      "汇报"
+    ],
+    "en": [
+      "Programs",
+      "Risk",
+      "Reporting"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/senior-pm-1.0.0.zip",
+    "sha256": "d489087cacbb0003e0dba46ea0eb5d3a3aa3991b273889aebd9f65202ced1e30",
+    "size": 61461
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

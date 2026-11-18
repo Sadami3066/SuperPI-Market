@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "design-system",
+  "name": {
+    "zh": "品牌样式设定",
+    "en": "Brand Settings"
+  },
+  "summary": {
+    "zh": "设定配色与字体，保证正文对比度达标",
+    "en": "Set brand colors and fonts that pass WCAG AA contrast"
+  },
+  "description": {
+    "zh": "用十个问题确定文档的品牌配色、标题与正文字体、整体风格和目录形式，作为后续 markdown 转 HTML 的统一外观。配色会按 WCAG AA 校验正文与链接的对比度，不达标时拒绝保存并给出修改建议。适合第一次做文档转换前设定样式，或品牌更新后调整。",
+    "en": "Ten-question onboarding for document brand colors, heading and body fonts, style and table of contents, applied by later markdown-to-HTML conversions. Palettes failing WCAG AA contrast are rejected."
+  },
+  "tags": {
+    "zh": [
+      "品牌",
+      "配色",
+      "无障碍"
+    ],
+    "en": [
+      "brand",
+      "palette",
+      "accessibility"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/design-system-1.0.0.zip",
+    "sha256": "7eb23ac624efb000b9c4de6355a24a4650c0fadca4ada9c6b48da56730a954b1",
+    "size": 25367
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

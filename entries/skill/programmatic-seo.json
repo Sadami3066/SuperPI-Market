@@ -1,0 +1,36 @@
+{
+  "type": "skill",
+  "id": "programmatic-seo",
+  "name": {
+    "zh": "批量页面SEO",
+    "en": "Programmatic SEO"
+  },
+  "summary": {
+    "zh": "用模板加数据批量生成落地页并控风险",
+    "en": "Generate many SEO pages from a template and data"
+  },
+  "description": {
+    "zh": "用模板和数据批量产出地区页、集成页、对比页或目录页，先设计 URL 规则，再检查内容单薄带来的降权风险。适合需要成规模覆盖长尾关键词、又不想每页手写时使用。",
+    "en": "Builds location, integration, comparison or directory pages from a template and data, starting with URL patterns and guarding against thin-content penalties. Use it to cover long-tail keywords at scale."
+  },
+  "tags": {
+    "zh": [
+      "SEO",
+      "页面模板"
+    ],
+    "en": [
+      "SEO",
+      "Templates"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/programmatic-seo-1.0.0.zip",
+    "sha256": "d4df333567ce8af3310bbe985e87b87f354356aaf3bd8fd6f1237001abf40fe1",
+    "size": 8144
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

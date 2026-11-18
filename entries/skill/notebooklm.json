@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "notebooklm",
+  "name": {
+    "zh": "NotebookLM 助手",
+    "en": "NotebookLM Assistant"
+  },
+  "summary": {
+    "zh": "在 NotebookLM 查资料并生成音视频概览",
+    "en": "Query NotebookLM notes and generate overviews, reports and slides."
+  },
+  "description": {
+    "zh": "在 Google NotebookLM 中检索笔记、添加资料，生成音频或视频概览、报告、记忆卡和幻灯片。适合把一堆文档快速整理成可听可看的材料。需要浏览器自动化环境并已登录 NotebookLM。",
+    "en": "Queries notebooks, adds sources and generates Audio or Video Overviews, reports, flashcards and slides in Google NotebookLM. Good for turning a folder of documents into reviewable material. Needs browser automation and a signed-in session."
+  },
+  "tags": {
+    "zh": [
+      "NotebookLM",
+      "音频概览",
+      "笔记"
+    ],
+    "en": [
+      "NotebookLM",
+      "Overviews",
+      "Notes"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/notebooklm-1.0.0.zip",
+    "sha256": "f227d43710fcd4979a9f9d7aa4181705f9f206cdc4f290685c7d641935dbf6ba",
+    "size": 30918
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

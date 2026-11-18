@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "saas-metrics-coach",
+  "name": {
+    "zh": "SaaS 指标诊断",
+    "en": "SaaS Metrics Coach"
+  },
+  "summary": {
+    "zh": "核算增长指标并诊断 SaaS 经营状况",
+    "en": "Turns revenue numbers into SaaS metrics and a diagnosis"
+  },
+  "description": {
+    "zh": "根据给出的收入或客户数据，计算 ARR、MRR、流失率、LTV、CAC 和净收入留存等指标，并算出快速比率和单位经济。适合融资、董事会汇报或判断增长是否健康时使用。",
+    "en": "Turns revenue and customer numbers into ARR, MRR, churn, LTV, CAC and net revenue retention, plus quick ratio and unit economics. Useful for fundraising, board updates or checking whether growth is healthy."
+  },
+  "tags": {
+    "zh": [
+      "SaaS",
+      "增长指标",
+      "单位经济"
+    ],
+    "en": [
+      "SaaS",
+      "metrics",
+      "unit economics"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/saas-metrics-coach-1.0.0.zip",
+    "sha256": "1dbcc02b7990e18ff263c35840f03ffb65a0fe1eaa459e0827cd64e64122b940",
+    "size": 13808
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

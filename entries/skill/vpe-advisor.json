@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "vpe-advisor",
+  "name": {
+    "zh": "研发效能顾问",
+    "en": "VP Engineering Advisor"
+  },
+  "summary": {
+    "zh": "诊断交付变慢、招聘失灵与团队结构问题",
+    "en": "Diagnose slow delivery, broken hiring and team structure"
+  },
+  "description": {
+    "zh": "诊断交付速度变慢、招聘流程失灵和团队结构不清的问题，给出兼管幅度、招聘漏斗和何时增设工程经理的判断。适合研发组织扩张或效能下滑时使用。",
+    "en": "Diagnoses slowing delivery, a broken hiring funnel and unclear team structure, and advises on spans of control, hiring metrics and when to add an engineering manager. Use it when an eng org scales or slows."
+  },
+  "tags": {
+    "zh": [
+      "研发效能",
+      "团队结构",
+      "招聘"
+    ],
+    "en": [
+      "Engineering",
+      "Delivery",
+      "Hiring"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/vpe-advisor-1.0.0.zip",
+    "sha256": "15f513b1bf600373422f7338b8cf2dcfd706ef386ee26d51d76d7ab79e8029d6",
+    "size": 32340
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "boost-asio-pro",
+  "name": {
+    "zh": "Asio 网络编程",
+    "en": "Boost.Asio pro"
+  },
+  "summary": {
+    "zh": "写或审 Asio 网络代码时避开异步陷阱",
+    "en": "Write and review Asio networking code without async bugs."
+  },
+  "description": {
+    "zh": "面向使用 Boost.Asio 或独立版 Asio 的 C++ 网络代码，覆盖 TCP、UDP、SSL、定时器、strand、协程与完成回调。在动手写或审查之前套用对象生命周期、执行器绑定和取消规则，绕开常见的异步问题。",
+    "en": "Covers C++ networking with Boost.Asio or standalone Asio: TCP, UDP, SSL, timers, strands, coroutines and handlers. Use it before writing or reviewing such code; its lifetime, affinity and cancellation rules avoid the usual async bugs."
+  },
+  "tags": {
+    "zh": [
+      "C++",
+      "网络编程",
+      "异步"
+    ],
+    "en": [
+      "C++",
+      "Networking",
+      "Async"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/boost-asio-pro-1.0.0.zip",
+    "sha256": "e59c852a3797604ee732d5f587a15e2dcf53af291ef3557914ff9c4cdcef5b55",
+    "size": 18180
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

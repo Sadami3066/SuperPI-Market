@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "startup-metrics-framework",
+  "name": {
+    "zh": "创业指标体系",
+    "en": "Startup Metrics Framework"
+  },
+  "summary": {
+    "zh": "定义并计算 SaaS 等业务的增长指标",
+    "en": "Define and track unit economics and growth metrics."
+  },
+  "description": {
+    "zh": "为 SaaS、平台型和 B2B 业务定义关键指标，计算 CAC、LTV 与资金效率，并给出可对标的基准。适合搭建指标看板、判断业务健康度，或向投资人和董事会汇报。",
+    "en": "Defines key metrics for SaaS, marketplace, consumer, and B2B businesses, computes CAC, LTV, and cash efficiency, and adds benchmarks. Fits metric dashboards, health checks, or investor and board reporting."
+  },
+  "tags": {
+    "zh": [
+      "指标",
+      "单位经济",
+      "SaaS"
+    ],
+    "en": [
+      "Metrics",
+      "Unit economics",
+      "SaaS"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/startup-metrics-framework-1.0.0.zip",
+    "sha256": "9d560c25b80044c1ffcd5227c0ac5c31c7d47f999096eaf5732a9e97337c880e",
+    "size": 6454
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

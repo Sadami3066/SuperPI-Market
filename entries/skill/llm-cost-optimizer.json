@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "llm-cost-optimizer",
+  "name": {
+    "zh": "LLM 成本优化",
+    "en": "LLM Cost Optimizer"
+  },
+  "summary": {
+    "zh": "上线前定好模型选型、缓存和 token 上限，控制费用",
+    "en": "Set model choice, caching and token limits before the bill arrives"
+  },
+  "description": {
+    "zh": "在功能上线前把模型选型、提示缓存、max_tokens 上限和按功能记账定下来，而不是等账单出来再补。适合新建 LLM 功能、成本明显上涨，或需要给某个功能定预算时使用。",
+    "en": "Locks in model routing, prompt caching, max_tokens limits and per-feature cost logging before launch rather than after the bill arrives. Use it when adding an LLM feature, cutting spend or budgeting a specific feature."
+  },
+  "tags": {
+    "zh": [
+      "成本控制",
+      "模型选型",
+      "缓存"
+    ],
+    "en": [
+      "Cost Control",
+      "Model Choice",
+      "Caching"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/llm-cost-optimizer-1.0.0.zip",
+    "sha256": "13b269328f9a679a4a86fa6349e7995b2032abe81a2bf62dd3c546933f86ea9e",
+    "size": 6171
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

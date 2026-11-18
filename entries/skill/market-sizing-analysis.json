@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "market-sizing-analysis",
+  "name": {
+    "zh": "市场规模测算",
+    "en": "Market Sizing Analysis"
+  },
+  "summary": {
+    "zh": "测算 TAM、SAM 与 SOM 规模",
+    "en": "Calculate TAM, SAM, and SOM for an opportunity."
+  },
+  "description": {
+    "zh": "用自上而下、自下而上与价值理论三种方法测算 TAM、SAM 和 SOM，并交叉验证估算结果。适合验证新业务的收入空间，或为商业计划书和路演准备数据。",
+    "en": "Sizes TAM, SAM, and SOM with top-down, bottom-up, and value-based methods, cross-checking the estimates. Fits validating a new venture's revenue space or preparing figures for a business plan or pitch."
+  },
+  "tags": {
+    "zh": [
+      "市场规模",
+      "TAM",
+      "商业计划"
+    ],
+    "en": [
+      "Market sizing",
+      "TAM",
+      "Business plan"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/market-sizing-analysis-1.0.0.zip",
+    "sha256": "5c89148f8d146e52c0fd46d92e9f008a48a9073977098bcbb7ee913ac84dc30d",
+    "size": 14296
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

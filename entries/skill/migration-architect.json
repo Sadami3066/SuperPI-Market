@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "migration-architect",
+  "name": {
+    "zh": "零停机迁移",
+    "en": "Migration architect"
+  },
+  "summary": {
+    "zh": "规划不停机的库表与服务迁移，含回滚方案",
+    "en": "Plan zero-downtime migration for schemas, databases and services."
+  },
+  "description": {
+    "zh": "把一次迁移拆成阶段，检查新旧版本能否并存，写好回滚脚本和切换顺序。适合必须改线上大表、更换数据库或平滑切流量的场景。方案需要你提供当前表规模与流量特征。",
+    "en": "Splits a migration into phases, checks old and new versions can coexist, and writes rollback scripts and cutover order. For big live tables, moving databases or shifting traffic without downtime. Table size and traffic shape the plan."
+  },
+  "tags": {
+    "zh": [
+      "迁移",
+      "零停机",
+      "回滚"
+    ],
+    "en": [
+      "Migration",
+      "Zero downtime",
+      "Rollback"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/migration-architect-1.0.0.zip",
+    "sha256": "3d2a7846e7460f1280afa6c27049c56c5875858ed13d02d0e3bdaac88f134280",
+    "size": 87465
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

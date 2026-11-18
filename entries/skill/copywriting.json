@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "copywriting",
+  "name": {
+    "zh": "转化文案撰写",
+    "en": "Conversion Copywriting"
+  },
+  "summary": {
+    "zh": "为标题、CTA 与落地页撰写并评分初稿",
+    "en": "Draft and score headlines, CTAs and landing page copy"
+  },
+  "description": {
+    "zh": "撰写标题、标语、CTA、落地页、定价页和关于页文案，按页面区块结构成稿，候选标题先评分再定稿。适合从零写落地页，或重写关键转化页面时使用。",
+    "en": "Writes headlines, taglines, CTAs, landing pages, pricing and about pages section by section, scoring candidate headlines before settling on one. Good for a new page or a rewrite of a key one."
+  },
+  "tags": {
+    "zh": [
+      "文案",
+      "标题",
+      "落地页"
+    ],
+    "en": [
+      "Copywriting",
+      "Headlines",
+      "Landing page"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/copywriting-1.0.0.zip",
+    "sha256": "22d0fdce37cf853299ef60857da0f305cdca47e5749e102ac819b8e165590e25",
+    "size": 15301
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

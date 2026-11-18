@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "auth-implementation-patterns",
+  "name": {
+    "zh": "认证授权实现",
+    "en": "Auth Implementation Patterns"
+  },
+  "summary": {
+    "zh": "实现 JWT、OAuth2、会话与 RBAC 权限控制",
+    "en": "Implement JWT, OAuth2, sessions, and RBAC"
+  },
+  "description": {
+    "zh": "提供 JWT、OAuth2、会话管理和基于角色的访问控制方案，覆盖令牌校验、权限边界与常见安全漏洞。适合从零搭建认证系统、加固 API 或审查权限设计时使用。",
+    "en": "Implement JWT, OAuth2, sessions, and role-based access control, covering token validation, permission boundaries, and common security pitfalls. Useful for new auth systems, API hardening, and permission reviews."
+  },
+  "tags": {
+    "zh": [
+      "认证",
+      "权限",
+      "安全"
+    ],
+    "en": [
+      "auth",
+      "access control",
+      "security"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/auth-implementation-patterns-1.0.0.zip",
+    "sha256": "edd7a2a5b98e76159ee78ba4d730e98eaf438eff4e1e91db749913a404f03053",
+    "size": 7019
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

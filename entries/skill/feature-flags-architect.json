@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "feature-flags-architect",
+  "name": {
+    "zh": "特性开关规划",
+    "en": "Feature Flags Architect"
+  },
+  "summary": {
+    "zh": "规划开关灰度、清理陈旧开关并审查应急开关",
+    "en": "Plan flag rollouts, find stale flags and audit kill switches"
+  },
+  "description": {
+    "zh": "为开关设计灰度节奏、目标人群和回滚条件，定期扫出长期全开的陈旧开关，并检查应急开关是否真的可用。适合上线新功能、清理开关债，或需要确认一键关停路径的时候。配套脚本需要本地 Python 环境。",
+    "en": "Plans flag rollouts, targeting and rollback conditions, surfaces stale flags that are always on, and audits whether kill switches still work. Use it before shipping a flag or when flag debt builds up. The scripts need local Python."
+  },
+  "tags": {
+    "zh": [
+      "功能开关",
+      "灰度",
+      "技术债"
+    ],
+    "en": [
+      "Feature Flags",
+      "Rollout",
+      "Tech Debt"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/feature-flags-architect-1.0.0.zip",
+    "sha256": "d8bc5a9c4462a6d6bcfb5f8da5b29b94dc3079836ca442a4b0df563201c9479b",
+    "size": 22865
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

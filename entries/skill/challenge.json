@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "challenge",
+  "name": {
+    "zh": "失败预演",
+    "en": "Pre-mortem"
+  },
+  "summary": {
+    "zh": "假设计划一年后失败，倒推风险",
+    "en": "Assume the plan failed in 12 months, then work backward"
+  },
+  "description": {
+    "zh": "先假设计划在十二个月后已经失败，再倒推哪些假设、外部依赖和执行环节出了问题。产出一份需要提前设防的风险清单。适合即将投入大量资源，或周围反馈过于乐观的时候。",
+    "en": "Assumes the plan already failed twelve months out, then works backward to the assumptions, dependencies and execution gaps behind it. Produces a list of risks to guard against. Good before a big commitment."
+  },
+  "tags": {
+    "zh": [
+      "风险",
+      "预案",
+      "计划评审"
+    ],
+    "en": [
+      "Risk",
+      "Pre-mortem",
+      "Planning"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/challenge-1.0.0.zip",
+    "sha256": "380aafe2924ae0b35c2a6a7c9052f54cd10ad358e33d699eb242f016e22644e1",
+    "size": 4360
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

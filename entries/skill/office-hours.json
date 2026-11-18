@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "office-hours",
+  "name": {
+    "zh": "创始人问诊",
+    "en": "Founder Office Hours"
+  },
+  "summary": {
+    "zh": "先答六个问题，再给创业建议",
+    "en": "Six questions a founder must answer before any advice is given."
+  },
+  "description": {
+    "zh": "在给出任何建议前，先要求创始人写下对六个问题的回答：谁的问题、谁是客户、怎么获客、靠什么建立壁垒、花多少钱、为什么是你。适合启动大项目、融资或转型前把想法想清楚。",
+    "en": "Before any advice, a founder writes out answers on the problem, the specific customer, distribution, defensibility, capital, and founder fit. Use it before a major initiative, a raise, or a pivot."
+  },
+  "tags": {
+    "zh": [
+      "创业决策",
+      "商业模式",
+      "融资准备"
+    ],
+    "en": [
+      "founder",
+      "strategy",
+      "fundraising"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/office-hours-1.0.0.zip",
+    "sha256": "c2e3dba28d3da449a4395cc7a676ec6e95eb933fc082f8dd0349703a642e807b",
+    "size": 3034
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

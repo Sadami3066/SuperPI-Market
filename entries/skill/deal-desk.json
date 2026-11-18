@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "deal-desk",
+  "name": {
+    "zh": "特价交易评审",
+    "en": "Deal Desk"
+  },
+  "summary": {
+    "zh": "评估超权限折扣交易并给出审批路径",
+    "en": "Score off-policy deals and route them to the right approvers"
+  },
+  "description": {
+    "zh": "对折扣超出销售权限、MSA 被改条款或单笔经济性不清的成交机会做评分，指明需要哪些层级审批，并标出高风险条款。只提供建议，不会自动批准。",
+    "en": "Scores deals that need discounts beyond rep authority, carry redlined MSAs or have unclear unit economics, names the approvers required and flags risky terms. It never approves a deal automatically."
+  },
+  "tags": {
+    "zh": [
+      "特价",
+      "审批流",
+      "合同条款"
+    ],
+    "en": [
+      "Deal review",
+      "Approvals",
+      "Contracts"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/deal-desk-1.0.0.zip",
+    "sha256": "6ec29fa67bb3c2aa1e4d8a218480447b36bf0473b599d0a32ec1b63b0488422d",
+    "size": 30057
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

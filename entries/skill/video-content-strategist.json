@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "video-content-strategist",
+  "name": {
+    "zh": "视频内容策略",
+    "en": "Video Content Strategist"
+  },
+  "summary": {
+    "zh": "规划视频选题、开场钩子和分平台的分发方式",
+    "en": "Plan video hooks, structure and per-platform reuse before scripting"
+  },
+  "description": {
+    "zh": "在写脚本之前先定视频策略：受众、开场钩子、内容结构，以及一条长内容如何拆成分平台的短视频。适合做 YouTube 选题、Reels、TikTok、Shorts 系列，或把长文和播客转成视频时使用。",
+    "en": "Sets video strategy before any scripting: audience, hook, structure, and how one long piece splits into platform-specific clips. Fits YouTube planning, Reels, TikTok and Shorts series, or turning articles and podcasts into video."
+  },
+  "tags": {
+    "zh": [
+      "视频策略",
+      "短视频",
+      "内容分发"
+    ],
+    "en": [
+      "video strategy",
+      "shorts",
+      "repurposing"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/video-content-strategist-1.0.0.zip",
+    "sha256": "5384d6b166554a15bd7faee392651931529094168626aa78f62bd984451b5d99",
+    "size": 6254
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

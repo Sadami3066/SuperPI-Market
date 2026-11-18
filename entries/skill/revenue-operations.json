@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "revenue-operations",
+  "name": {
+    "zh": "收入运营分析",
+    "en": "Revenue Operations"
+  },
+  "summary": {
+    "zh": "检查销售管道覆盖度、预测准确性与获客回报",
+    "en": "Checks pipeline coverage, forecast accuracy and payback"
+  },
+  "description": {
+    "zh": "评估销售管道是否足以支撑目标，判断收入预测的可信度，并计算魔法数字和获客成本回收周期等指标。适合在季度复盘、预算规划或决定是否加大销售投入时使用。",
+    "en": "Checks whether the sales pipeline covers the target, how reliable the forecast is, and unit economics such as the magic number and CAC payback. Useful in quarterly reviews, budget planning or when weighing more sales spend."
+  },
+  "tags": {
+    "zh": [
+      "销售管道",
+      "预测",
+      "单位经济"
+    ],
+    "en": [
+      "pipeline",
+      "forecast",
+      "sales ops"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/revenue-operations-1.0.0.zip",
+    "sha256": "37d05055f52156f89ea5464db6cb53a5dbe6ffffd0dda6ac772ef5cee7978a09",
+    "size": 40385
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "experiment-designer",
+  "name": {
+    "zh": "A/B 实验设计",
+    "en": "Experiment Designer"
+  },
+  "summary": {
+    "zh": "设计 A/B 测试，估算样本量并解读结果",
+    "en": "Design A/B tests with sample size and result readouts"
+  },
+  "description": {
+    "zh": "为产品功能规划 A/B 测试，写清假设、样本量、运行时长和优先级，并给出结果判读标准。适合在决定要不要做实验、实验跑多久，或拿到数据后判断是否显著时使用。",
+    "en": "Plans product A/B tests with clear hypotheses, sample size, run length and priority, then helps read the results. Use it when asking what to test, how long to run, or whether a test actually won."
+  },
+  "tags": {
+    "zh": [
+      "A/B 测试",
+      "样本量",
+      "数据分析"
+    ],
+    "en": [
+      "A/B Testing",
+      "Statistics",
+      "Experiments"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/experiment-designer-1.0.0.zip",
+    "sha256": "1ae064c2053cb457371a757264020119041c2fcf441b712543e143a4536417f1",
+    "size": 6326
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

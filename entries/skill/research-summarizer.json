@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "research-summarizer",
+  "name": {
+    "zh": "论文摘要整理",
+    "en": "Research Summarizer"
+  },
+  "summary": {
+    "zh": "把论文和报告压缩成要点并提取引用",
+    "en": "Condense papers and reports into briefs with citations"
+  },
+  "description": {
+    "zh": "把论文、文章和报告压缩成简短摘要，对比多份材料并抽取引用条目。适合要快速读完一批文献，或为写作收集证据时使用。需要本地 Python 环境运行配套脚本。",
+    "en": "Condenses papers, articles and reports into a short brief, compares several sources and pulls out citations. Use it to catch up on reading or gather evidence for a write-up. Runs on local Python scripts."
+  },
+  "tags": {
+    "zh": [
+      "文献阅读",
+      "摘要",
+      "引用"
+    ],
+    "en": [
+      "Research",
+      "Summaries",
+      "Citations"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/research-summarizer-1.0.0.zip",
+    "sha256": "3715053c3c4701547dee4338e14ced663da2e106de0fe53efbdc2c3195695dec",
+    "size": 15883
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

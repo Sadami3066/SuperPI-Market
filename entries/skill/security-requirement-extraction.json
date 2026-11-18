@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "security-requirement-extraction",
+  "name": {
+    "zh": "安全需求提取",
+    "en": "Security Requirement Extraction"
+  },
+  "summary": {
+    "zh": "从威胁模型与业务背景推导可执行的安全需求",
+    "en": "Derive actionable security requirements from threat models"
+  },
+  "description": {
+    "zh": "把威胁模型和业务背景转化为具体的安全需求、用户故事和测试用例，让防护措施可以被验收。适合架构评审之后，或需要把安全目标写进需求文档时使用。",
+    "en": "Turns threat models and business context into concrete security requirements, user stories and test cases that can be verified. Use it after threat modeling or when security goals must reach the spec."
+  },
+  "tags": {
+    "zh": [
+      "安全需求",
+      "威胁模型",
+      "测试用例"
+    ],
+    "en": [
+      "Security",
+      "Threat modeling",
+      "User stories"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/security-requirement-extraction-1.0.0.zip",
+    "sha256": "d236d18be1eba1d69633b574ac049cdd47c727f5e29656902876f74b165a7974",
+    "size": 8272
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

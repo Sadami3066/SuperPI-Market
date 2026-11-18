@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "deepread",
+  "name": {
+    "zh": "深度阅读",
+    "en": "Deep Read"
+  },
+  "summary": {
+    "zh": "拆解书或长文的论点与证据，并建立知识地图",
+    "en": "Reads a book or long document closely and maps its claims"
+  },
+  "description": {
+    "zh": "用于深入读一本书、一篇文章、一份 PDF 或一组文档，提取其中的观点和支撑证据，梳理成知识地图，也可用费曼式讲解和回忆练习帮助掌握。提供快速、深读、地图、费曼和整书通读几种模式，适合需要真正读懂而不只是略读的场景。",
+    "en": "Reads a book, article, PDF or document set closely: pulls out claims and evidence, builds a knowledge map, and supports Feynman-style explanation and recall. Includes quick, deep, map, Feynman and whole-book modes."
+  },
+  "tags": {
+    "zh": [
+      "阅读笔记",
+      "知识地图",
+      "学习"
+    ],
+    "en": [
+      "reading",
+      "notes",
+      "learning"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/deepread-1.0.0.zip",
+    "sha256": "395de314e51cf6d3ff069298d3a46fcf05a128585ab2da05b3ecd9b0a52cf24c",
+    "size": 8444
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

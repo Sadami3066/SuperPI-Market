@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "andreessen",
+  "name": {
+    "zh": "想法直言评审",
+    "en": "Idea Verdict"
+  },
+  "summary": {
+    "zh": "先讲最强反方理由，再判断这个想法值不值得做",
+    "en": "Blunt verdict on an idea, counterargument first"
+  },
+  "description": {
+    "zh": "对想法、项目或职业选择先给出最有力的反方论点，再判断需求是否真实、是否已到产品与需求契合的阶段。也会把一天的工作排成三张 3x5 卡片式的行动计划。适合在投入之前想要一个不客气的第二意见时使用，不需要额外配置。",
+    "en": "Gives a blunt verdict on an idea, venture or career bet, leading with the strongest counterargument, then a demand and PMF read. Also drafts a day plan as three 3x5 cards, for a candid second opinion before committing."
+  },
+  "tags": {
+    "zh": [
+      "创业判断",
+      "需求验证",
+      "决策"
+    ],
+    "en": [
+      "startup",
+      "market fit",
+      "decision"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/andreessen-1.0.0.zip",
+    "sha256": "eac1d9174f465efbb4710459f9eafab215d738ba6787815936ccbdabc4750750",
+    "size": 33664
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

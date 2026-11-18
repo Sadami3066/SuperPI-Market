@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "scrum-master",
+  "name": {
+    "zh": "冲刺效能分析",
+    "en": "Sprint Analytics"
+  },
+  "summary": {
+    "zh": "预测冲刺速度并评估团队健康度",
+    "en": "Forecast velocity, score sprint health and track retro actions."
+  },
+  "description": {
+    "zh": "基于历史数据预测冲刺速度与完成概率，评估冲刺健康度，把回顾会议的行动项整理成清单并跟踪落地。适合冲刺规划、迭代复盘或想找出阻塞来源时使用。",
+    "en": "Forecasts sprint velocity and completion odds from history, scores sprint health, and turns retrospectives into tracked action items. Useful for sprint planning, retros and finding where work is stuck."
+  },
+  "tags": {
+    "zh": [
+      "冲刺",
+      "敏捷",
+      "复盘"
+    ],
+    "en": [
+      "Sprint",
+      "Agile",
+      "Velocity"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/scrum-master-1.0.0.zip",
+    "sha256": "7a0ba021f868eac9d5badde1999e38da812e346ad2f5100262e4fac3bcc6b6c8",
+    "size": 55669
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "baoyu-image-gen",
+  "name": {
+    "zh": "AI 图片生成",
+    "en": "AI Image Generation"
+  },
+  "summary": {
+    "zh": "调用多家图像模型生成或改写图片",
+    "en": "Generate images through multiple providers"
+  },
+  "description": {
+    "zh": "支持文生图、参考图生图和多种画幅比例，也能读取提示词文件批量出图。兼容 OpenAI、Azure、Google、OpenRouter、DashScope、Seedream、Replicate 等接口。需要自备所选服务的 API Key。",
+    "en": "Creates images from text or reference images with aspect ratio control, and can batch a saved prompt file. Works with OpenAI, Azure, Google, OpenRouter, DashScope, Seedream and similar APIs. Bring your own API key."
+  },
+  "tags": {
+    "zh": [
+      "文生图",
+      "批量生成",
+      "API"
+    ],
+    "en": [
+      "text-to-image",
+      "batch",
+      "api"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/baoyu-image-gen-1.0.0.zip",
+    "sha256": "f7605a3ce2b2f996a5acdcf1d7e0ba4a65efb3d8d1a20294eb0026ef7e83f699",
+    "size": 117762
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/JimLiu/baoyu-skills"
+  }
+}

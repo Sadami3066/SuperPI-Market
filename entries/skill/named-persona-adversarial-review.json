@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "named-persona-adversarial-review",
+  "name": {
+    "zh": "名工程师视角评审",
+    "en": "Named Persona Review"
+  },
+  "summary": {
+    "zh": "用知名工程师的公开观点评审改动",
+    "en": "Review changes through named engineers' documented views"
+  },
+  "description": {
+    "zh": "针对有架构或交互影响的 PR，按 Torvalds、Thompson、Carmack、Beck、Jobs、Cagan 等人的公开观点分别给出评审意见。适合自动评审显得空泛、需要具体参照和出处时使用。",
+    "en": "Reviews PRs with architectural or UX impact through the documented views of Torvalds, Thompson, Carmack, Beck, Jobs and Cagan, citing the source behind each critique. Useful when automated review feels generic."
+  },
+  "tags": {
+    "zh": [
+      "代码评审",
+      "架构",
+      "多视角"
+    ],
+    "en": [
+      "Code review",
+      "Architecture",
+      "Opinions"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/named-persona-adversarial-review-1.0.0.zip",
+    "sha256": "a0d54a6f6cab3aedfb36a9404d3112526c642a6b9c900a77aa83556b54bedd39",
+    "size": 9077
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

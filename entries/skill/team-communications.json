@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "team-communications",
+  "name": {
+    "zh": "内部沟通写作",
+    "en": "Internal Comms Writer"
+  },
+  "summary": {
+    "zh": "起草周报、公告与 FAQ 等内部沟通稿",
+    "en": "Draft 3P updates, status notes, newsletters and incident reports."
+  },
+  "description": {
+    "zh": "根据受众和场合起草 3P 更新、周报、状态同步、内部通讯、FAQ 和事故通报，对齐格式与详略程度。适合每周固定同步、跨部门通知或向管理层汇报时使用。",
+    "en": "Drafts 3P updates, weekly and status reports, newsletters, FAQs and incident write-ups in the format each audience expects. Useful for weekly rhythms, cross-team announcements and leadership updates."
+  },
+  "tags": {
+    "zh": [
+      "周报",
+      "公告",
+      "内部沟通"
+    ],
+    "en": [
+      "Updates",
+      "Newsletters",
+      "Comms"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/team-communications-1.0.0.zip",
+    "sha256": "4d9293d64dd85b28c9ae950c92150d77758c13efa05bff4a942ed6b0a891e853",
+    "size": 8426
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

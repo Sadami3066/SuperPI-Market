@@ -1,0 +1,36 @@
+{
+  "type": "skill",
+  "id": "marketing-context",
+  "name": {
+    "zh": "营销背景梳理",
+    "en": "Marketing Context"
+  },
+  "summary": {
+    "zh": "补齐目标客户、定位与品牌语气，形成共享背景",
+    "en": "Write the shared ICP, positioning and brand voice brief"
+  },
+  "description": {
+    "zh": "在营销项目开始时，把目标客户、产品定位和品牌语气整理成一份共享的背景文件，后续的营销工作都以它为输入。适合刚接手项目、或团队对这些基础信息说法不一致时使用。",
+    "en": "Turns ICP, positioning and brand voice into one shared brief that later marketing work reads from. Use it at the start of a project, or when the team describes these basics differently."
+  },
+  "tags": {
+    "zh": [
+      "定位",
+      "品牌语气"
+    ],
+    "en": [
+      "Positioning",
+      "Brand Voice"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/marketing-context-1.0.0.zip",
+    "sha256": "f70506e607b84f80b2186829d27476158b4578d23ee3535c1a83798ae784b3d9",
+    "size": 10098
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

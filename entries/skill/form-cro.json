@@ -1,0 +1,36 @@
+{
+  "type": "skill",
+  "id": "form-cro",
+  "name": {
+    "zh": "表单转化优化",
+    "en": "Form CRO"
+  },
+  "summary": {
+    "zh": "逐字段评估填写阻力，提升表单完成率",
+    "en": "Score field friction and raise form completion"
+  },
+  "description": {
+    "zh": "分析线索、联系、演示预约或结账表单的字段阻力，指出可以删减或合并的项，并给出字段顺序调整建议。适合表单转化偏低或即将改版时使用。",
+    "en": "Scores lead, contact, demo or checkout forms field by field, flags fields to cut or merge, and suggests a better order. Use it when a form converts poorly or before redesigning it."
+  },
+  "tags": {
+    "zh": [
+      "表单优化",
+      "转化率"
+    ],
+    "en": [
+      "Forms",
+      "Conversion"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/form-cro-1.0.0.zip",
+    "sha256": "a7b5f30609d795dc07a5fac412f4f5b01ad0269a268a13319be1699651530fac",
+    "size": 11484
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

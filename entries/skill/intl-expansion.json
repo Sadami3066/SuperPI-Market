@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "intl-expansion",
+  "name": {
+    "zh": "海外拓展",
+    "en": "International Expansion"
+  },
+  "summary": {
+    "zh": "选定目标国家并规划进入与本地化",
+    "en": "Choose a new market and plan entry, localization and compliance"
+  },
+  "description": {
+    "zh": "进入新国家时的整体规划，覆盖国家选择、进入方式、本地化、监管要求和区域销售打法。适合评估第一个海外目的地，或本土增长见顶后寻找新战场。",
+    "en": "End-to-end planning for entering a new country: picking the market, choosing the entry mode, localization, regulation and regional go-to-market. Fits a first overseas market or a home market that has stopped growing."
+  },
+  "tags": {
+    "zh": [
+      "全球化",
+      "出海",
+      "本地化"
+    ],
+    "en": [
+      "Expansion",
+      "Market entry",
+      "Localization"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/intl-expansion-1.0.0.zip",
+    "sha256": "4545298f71ca743230a0609c922e9816f22253b5657a1b6b8a33634ac63b977a",
+    "size": 9377
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

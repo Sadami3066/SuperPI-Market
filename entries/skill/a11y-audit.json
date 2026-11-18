@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "a11y-audit",
+  "name": {
+    "zh": "无障碍审计",
+    "en": "Accessibility Audit"
+  },
+  "summary": {
+    "zh": "按 WCAG 2.2 扫描并修复无障碍问题",
+    "en": "Audit WCAG 2.2 accessibility, check contrast, then fix and re-verify."
+  },
+  "description": {
+    "zh": "扫描 React、Next.js、Vue、Angular、Svelte 和静态 HTML 页面的无障碍缺陷，核对颜色对比度并生成合规报告，修复后复检确认问题已消失。适合上线前的无障碍检查、WCAG 2.2 A/AA 达标和接入 CI 的持续检查。扫描脚本依赖本地 Python 环境。",
+    "en": "Scans React, Next.js, Vue, Angular, Svelte and plain HTML for accessibility faults, checks contrast, writes a report and re-checks after fixes. Good for pre-launch checks, WCAG 2.2 A/AA work and CI gating. Scanners need local Python."
+  },
+  "tags": {
+    "zh": [
+      "无障碍",
+      "WCAG",
+      "前端质量"
+    ],
+    "en": [
+      "Accessibility",
+      "WCAG",
+      "Frontend"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/a11y-audit-1.0.0.zip",
+    "sha256": "7797619d99cf9484e1f3b92de8856e4ca4d62baddfc82f09eb438ac54de6e95a",
+    "size": 39755
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

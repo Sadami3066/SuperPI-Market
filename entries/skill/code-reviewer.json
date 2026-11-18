@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "code-reviewer",
+  "name": {
+    "zh": "多语言代码评审",
+    "en": "Multi-language Code Review"
+  },
+  "summary": {
+    "zh": "按语言规则评审代码并给出合并结论",
+    "en": "Review diffs in 14 languages and return a merge verdict"
+  },
+  "description": {
+    "zh": "对 PR、diff、单个函数或整份文件做评审，按语言检查安全、异步与资源释放、错误处理和性能问题，给出阻断项、非阻断项与合并结论。覆盖 TypeScript、Python、Go、Rust、Java 等主流语言。",
+    "en": "Reviews pull requests, diffs or a single function with per-language rules for security, async and resource handling, error handling and performance. Returns blocking and non-blocking findings plus a merge verdict."
+  },
+  "tags": {
+    "zh": [
+      "代码评审",
+      "风险检查",
+      "合并"
+    ],
+    "en": [
+      "Code review",
+      "Merge gate",
+      "Rules"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/code-reviewer-1.0.0.zip",
+    "sha256": "c6fbdb8236fd6a0ba3ae749cd817166c9e486ec92124ff6b467b75d91229588e",
+    "size": 67001
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

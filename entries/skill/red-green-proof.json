@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "red-green-proof",
+  "name": {
+    "zh": "缺陷复现验证",
+    "en": "Red-Green Bug Proof"
+  },
+  "summary": {
+    "zh": "先写必失败的测试，验证修复真的生效",
+    "en": "Prove a bug with a test that fails first, then passes"
+  },
+  "description": {
+    "zh": "把怀疑中的缺陷变成有证据的结论：先确认成因，写一个在当前代码上必然失败的测试，修好后撤回修复，看它重新变红。适合修缺陷、处理线上事故或加固偶发失败的测试时使用。",
+    "en": "Turns a suspected bug into proof: confirm the cause, write a test that fails on current code, apply the fix, then revert it and watch the test go red again. Use it when fixing bugs or chasing incidents."
+  },
+  "tags": {
+    "zh": [
+      "测试",
+      "调试",
+      "回归"
+    ],
+    "en": [
+      "Testing",
+      "Debugging",
+      "Regression"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/red-green-proof-1.0.0.zip",
+    "sha256": "0597b0e083592e1c49e46c1e0b4f09ddc030f8ac03482f7efef70e30eb53e51b",
+    "size": 7357
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

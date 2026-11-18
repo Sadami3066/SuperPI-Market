@@ -1,0 +1,36 @@
+{
+  "type": "skill",
+  "id": "marketing-strategy-pmm",
+  "name": {
+    "zh": "产品定位与上市",
+    "en": "Product Positioning"
+  },
+  "summary": {
+    "zh": "用定位方法产出定位语、竞品卡与上市计划",
+    "en": "Positioning statement, battlecards and launch plan"
+  },
+  "description": {
+    "zh": "按 April Dunford 的定位方法梳理产品定位和目标客户，产出定位语、竞品对比卡和上市计划。适合新产品发布前、进入新细分领域或销售缺少统一说辞时使用。",
+    "en": "Applies April Dunford's positioning method to define the product's place and ICP, producing a positioning statement, battlecards and a go-to-market plan. Use it before a launch or a new segment."
+  },
+  "tags": {
+    "zh": [
+      "产品定位",
+      "竞品分析"
+    ],
+    "en": [
+      "Positioning",
+      "Battlecards"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/marketing-strategy-pmm-1.0.0.zip",
+    "sha256": "157a77aee664392fde7004c25ad2af8de360d4e3c8d0a467324d85f17b98a9b3",
+    "size": 22527
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

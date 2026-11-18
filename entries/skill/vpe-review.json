@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "vpe-review",
+  "name": {
+    "zh": "研发交付评审",
+    "en": "Engineering Review"
+  },
+  "summary": {
+    "zh": "检验交付速度、研发招聘与值班安排",
+    "en": "Challenge delivery speed, eng hiring, team structure, and on-call."
+  },
+  "description": {
+    "zh": "在承诺交付节奏、扩充研发团队或调整值班制度前，检查排期依据、团队结构和人员负荷是否站得住。适合研发负责人审视其他部门提出的工程计划。",
+    "en": "Checks whether delivery dates, headcount asks, team structure, and on-call rotations hold up before anyone commits to them. Useful for engineering leaders reviewing plans that come from other parts of the company."
+  },
+  "tags": {
+    "zh": [
+      "交付节奏",
+      "研发组织",
+      "值班"
+    ],
+    "en": [
+      "delivery",
+      "engineering",
+      "on-call"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/vpe-review-1.0.0.zip",
+    "sha256": "9d6ac3305a2de4ff096096ab66e7e190672ea42a40e94884f76a9e7e3fc18765",
+    "size": 3504
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

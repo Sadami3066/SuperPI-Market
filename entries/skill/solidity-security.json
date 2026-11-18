@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "solidity-security",
+  "name": {
+    "zh": "智能合约安全",
+    "en": "Solidity Security"
+  },
+  "summary": {
+    "zh": "编写安全的 Solidity 合约",
+    "en": "Write secure Solidity contracts and audit existing ones"
+  },
+  "description": {
+    "zh": "梳理重入、整数溢出、访问控制、预言机操纵等常见智能合约风险，给出对应的安全写法和 gas 优化取舍，并附 Hardhat 测试示例。适合编写新合约、审计现有合约或准备专业审计前自查时使用。",
+    "en": "Covers reentrancy, integer overflow, access control, and oracle manipulation, with secure Solidity patterns, gas tradeoffs, and Hardhat tests. Use it when writing new contracts, auditing existing ones, or prepping for an audit."
+  },
+  "tags": {
+    "zh": [
+      "智能合约",
+      "安全审计",
+      "区块链"
+    ],
+    "en": [
+      "Solidity",
+      "Security",
+      "Blockchain"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/solidity-security-1.0.0.zip",
+    "sha256": "eea49724a6cd887e3a0d48ad9ee49877309e8a8ff21e211e96404ff86c72379e",
+    "size": 5500
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

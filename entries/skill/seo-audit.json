@@ -1,0 +1,36 @@
+{
+  "type": "skill",
+  "id": "seo-audit",
+  "name": {
+    "zh": "SEO诊断",
+    "en": "SEO Audit"
+  },
+  "summary": {
+    "zh": "定位技术、页面与元标签问题，解释排名下滑",
+    "en": "Find technical and on-page causes of ranking drops"
+  },
+  "description": {
+    "zh": "从技术配置、页面内容、元标签和站点健康度几个方面排查排名不佳的原因，并给出修复顺序。适合页面进不了搜索结果、流量突然下滑或需要做全面体检时使用。",
+    "en": "Traces weak rankings through technical setup, on-page content, meta tags and site health, then ranks fixes. Use it when pages miss Google results, traffic drops or a full checkup is due."
+  },
+  "tags": {
+    "zh": [
+      "SEO",
+      "网站诊断"
+    ],
+    "en": [
+      "SEO",
+      "Site Health"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/seo-audit-1.0.0.zip",
+    "sha256": "d4b513632c7b1b7fdc1247109155902816ce44a1aa977cba37a9d27d8c80caeb",
+    "size": 19669
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

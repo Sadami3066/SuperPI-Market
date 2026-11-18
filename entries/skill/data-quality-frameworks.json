@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "data-quality-frameworks",
+  "name": {
+    "zh": "数据质量框架",
+    "en": "Data Quality Frameworks"
+  },
+  "summary": {
+    "zh": "用测试与数据契约搭建数据质量校验",
+    "en": "Build data quality checks with tests and data contracts"
+  },
+  "description": {
+    "zh": "为数据管道设计校验规则，用 Great Expectations、dbt tests 和数据契约定义表与字段的预期结果。适合新管道上线前建立质量门槛，或把散落的校验规则收敛成统一标准。",
+    "en": "Defines validation rules for data pipelines using Great Expectations, dbt tests and data contracts for tables and columns. Use it to set quality gates for a new pipeline or to unify scattered checks."
+  },
+  "tags": {
+    "zh": [
+      "数据质量",
+      "校验",
+      "数据契约"
+    ],
+    "en": [
+      "Data quality",
+      "Testing",
+      "Data contracts"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/data-quality-frameworks-1.0.0.zip",
+    "sha256": "b0033abf9b73db429cc749906018a3792da20076c734276f6f69da4e5a9ffe18",
+    "size": 6768
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

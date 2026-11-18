@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "canvas-design",
+  "name": {
+    "zh": "画布平面设计",
+    "en": "Canvas Design"
+  },
+  "summary": {
+    "zh": "生成海报与平面作品的 PNG、PDF 成品",
+    "en": "Produce posters and static artwork as PNG and PDF files."
+  },
+  "description": {
+    "zh": "先确立一套视觉主张，再据此绘制海报、艺术画等静态画面，输出 PNG 或 PDF。适合需要原创平面视觉的场合，只做新设计，不模仿现成作品。生成 PDF 需要可用的排版工具链。",
+    "en": "Establishes a visual direction first, then renders posters and static artwork as PNG or PDF. Meant for original graphic work, with no reuse of existing artists' pieces. PDF output needs a working layout toolchain."
+  },
+  "tags": {
+    "zh": [
+      "平面设计",
+      "海报",
+      "视觉"
+    ],
+    "en": [
+      "poster",
+      "graphic",
+      "visual"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/canvas-design-1.0.0.zip",
+    "sha256": "850c433acd345bd76e4eb9ffbbebefcbd48366abf7d732e39882f95a46bb4a90",
+    "size": 2648337
+  },
+  "skill": {
+    "license": "Apache-2.0",
+    "source": "https://github.com/anthropics/skills"
+  }
+}

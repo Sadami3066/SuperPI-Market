@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "receiving-code-review",
+  "name": {
+    "zh": "处理评审意见",
+    "en": "Receiving Code Review"
+  },
+  "summary": {
+    "zh": "理性对待评审意见，先验证再动手改",
+    "en": "Handle review feedback by verifying it before changing code."
+  },
+  "description": {
+    "zh": "收到评审意见后先判断是否成立、是否值得改，必要时查证或复现，再决定采纳或说明理由。适合意见含糊、互相冲突或技术上存疑的场合，避免不加判断地照改一通。",
+    "en": "Checks each review comment for validity and worth before acting, verifying or reproducing the issue where needed, then either applies the change or explains the disagreement. Fits vague, conflicting or technically doubtful feedback."
+  },
+  "tags": {
+    "zh": [
+      "代码评审",
+      "沟通",
+      "质量"
+    ],
+    "en": [
+      "code review",
+      "feedback",
+      "quality"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/receiving-code-review-1.0.0.zip",
+    "sha256": "5ecdc6a6a714395a6b47ab6326c9ca1a3970725b0dc95c112f4c2746639df7b6",
+    "size": 4063
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/obra/superpowers"
+  }
+}

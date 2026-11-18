@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "senior-security",
+  "name": {
+    "zh": "安全威胁建模",
+    "en": "Security Threat Modeling"
+  },
+  "summary": {
+    "zh": "用 STRIDE 做威胁建模并查找泄露密钥",
+    "en": "STRIDE threat models, DREAD scores and secret scans"
+  },
+  "description": {
+    "zh": "对设计和代码做安全评估：用 STRIDE 列出可被攻击的环节，用 DREAD 给风险排序，并扫描代码库中泄露的密钥。适合评审新功能风险、判断可能被怎么攻击或上线前自查时使用。",
+    "en": "Assesses designs and code for security: STRIDE threat modeling, DREAD risk scoring and scanning the repository for leaked secrets. Use it to size up a new feature or run a pre-launch check."
+  },
+  "tags": {
+    "zh": [
+      "安全",
+      "威胁建模",
+      "密钥"
+    ],
+    "en": [
+      "Security",
+      "Threat model",
+      "Secrets"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/senior-security-1.0.0.zip",
+    "sha256": "b1d0dbbdd09ab2b54ca8dcc5f118b37f394ba56ed924913e84322dd6b590e216",
+    "size": 33273
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

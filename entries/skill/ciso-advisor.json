@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "ciso-advisor",
+  "name": {
+    "zh": "安全体系顾问",
+    "en": "Security Advisor"
+  },
+  "summary": {
+    "zh": "建设安全体系、算清风险与合规预算",
+    "en": "Build a security program, justify budget, and plan compliance."
+  },
+  "description": {
+    "zh": "用于安全体系建设、用金额论证安全预算、在 SOC 2、ISO 27001 与 HIPAA 之间选合规路线，以及向董事会汇报安全状况。随附脚本可量化风险并跟踪合规进度，只依赖 Python 标准库。",
+    "en": "Covers security program design, budget justification in dollars, choosing between SOC 2, ISO 27001, and HIPAA, and reporting risk to the board. Bundled scripts quantify risk and track compliance, using only the Python standard library."
+  },
+  "tags": {
+    "zh": [
+      "安全体系",
+      "合规",
+      "风险量化"
+    ],
+    "en": [
+      "security",
+      "compliance",
+      "risk"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/ciso-advisor-1.0.0.zip",
+    "sha256": "f5fdfe8d9b7848bec783aa86dbcf421de02518ff1b45f8aec1298e9c1702273e",
+    "size": 40214
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

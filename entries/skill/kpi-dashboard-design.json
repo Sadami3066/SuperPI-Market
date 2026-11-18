@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "kpi-dashboard-design",
+  "name": {
+    "zh": "KPI 看板设计",
+    "en": "KPI dashboard design"
+  },
+  "summary": {
+    "zh": "挑选指标并设计清晰的 KPI 看板",
+    "en": "Pick the right metrics and lay out a readable KPI dashboard."
+  },
+  "description": {
+    "zh": "从指标选择到可视化布局给出 KPI 看板的设计方法，覆盖经营数据、运营监控和留存分析等场景。搭建新看板，或排查指标口径不一致导致的数据矛盾时使用。",
+    "en": "Covers metric selection and visual layout for KPI dashboards, from executive numbers to operations monitoring and retention views. Use it when building a dashboard or when figures disagree because definitions differ."
+  },
+  "tags": {
+    "zh": [
+      "KPI",
+      "看板",
+      "指标口径"
+    ],
+    "en": [
+      "KPI",
+      "Dashboards",
+      "Metrics"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/kpi-dashboard-design-1.0.0.zip",
+    "sha256": "5623092c8a3d883fa9ed3335bb7413790b95246a5ac390182d72f93fa7a920e2",
+    "size": 8090
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

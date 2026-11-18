@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "vector-index-tuning",
+  "name": {
+    "zh": "向量索引调优",
+    "en": "Vector Index Tuning"
+  },
+  "summary": {
+    "zh": "调优向量索引，平衡延迟、召回与内存",
+    "en": "Tune vector indexes for latency, recall and memory"
+  },
+  "description": {
+    "zh": "围绕 HNSW 参数、量化策略与索引规模，给出延迟、召回率和内存占用的调整方向。适合检索结果不稳或线上查询变慢时排查与优化。需对现有索引结构和可用资源有基本了解。",
+    "en": "Guides tuning HNSW parameters, quantization and index scaling to balance latency, recall and memory. Useful when retrieval drifts or queries slow down. Assumes familiarity with the current index and hardware."
+  },
+  "tags": {
+    "zh": [
+      "向量索引",
+      "性能调优",
+      "HNSW"
+    ],
+    "en": [
+      "Vector Index",
+      "Performance",
+      "HNSW"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/vector-index-tuning-1.0.0.zip",
+    "sha256": "86c4a90f1b3eee9084eb315e4a959be0a3cfa2a4ba9db3c432e33ff5ecfc5d82",
+    "size": 6167
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

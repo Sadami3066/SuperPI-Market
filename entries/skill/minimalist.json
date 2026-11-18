@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "minimalist",
+  "name": {
+    "zh": "极简实现",
+    "en": "Minimalist"
+  },
+  "summary": {
+    "zh": "用最少的代码和依赖完成需求，能不加就不加",
+    "en": "Write the least code and add no dependency the task does not need"
+  },
+  "description": {
+    "zh": "按不做、复用、标准库、平台原生能力、已有依赖的顺序逐级取舍，只写满足需求的最少代码。适合方案越加越复杂、想砍掉多余依赖，或想确认某个功能是否能不引入新东西就完成时使用。",
+    "en": "Applies a ladder from YAGNI to reuse, stdlib, native platform features and existing dependencies, so only the code the task needs gets written. Use it when a design feels bloated or you want to confirm something can ship without new pieces."
+  },
+  "tags": {
+    "zh": [
+      "精简代码",
+      "依赖控制",
+      "方案取舍"
+    ],
+    "en": [
+      "Minimal Code",
+      "Dependencies",
+      "Tradeoffs"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/minimalist-1.0.0.zip",
+    "sha256": "43898ceec5ed5fdfa8f269b8c5011916d9a432bb9389b53e9c20dc8896346072",
+    "size": 2819
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

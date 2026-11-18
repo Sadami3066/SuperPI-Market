@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "meetings",
+  "name": {
+    "zh": "会议决策助手",
+    "en": "Meeting Prep"
+  },
+  "summary": {
+    "zh": "判断该不该开会，折算成本并把笔记转成待办",
+    "en": "Decide if a meeting pays off, then agenda and actions"
+  },
+  "description": {
+    "zh": "先判断这件事能否异步解决、时机是否未到，还是确实需要开会，并算出这次会议折算成多少钱。确定要开时排出以决策为先的议程；会后把杂乱笔记整理成带负责人和截止时间的行动项，没有归属的会被单独标出。",
+    "en": "Gates a meeting as async, not ready or meet, prices it in dollars, then builds a decision-first agenda. After the meeting it turns messy notes into action items with an owner and due date, flagging orphans."
+  },
+  "tags": {
+    "zh": [
+      "会议",
+      "议程",
+      "行动项"
+    ],
+    "en": [
+      "meetings",
+      "agenda",
+      "action items"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/meetings-1.0.0.zip",
+    "sha256": "db429efb4c21bd9e80b378a75290548fd9226674db5c451bd9303fbe8cf90bb1",
+    "size": 26579
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

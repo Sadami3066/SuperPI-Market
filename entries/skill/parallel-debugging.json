@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "parallel-debugging",
+  "name": {
+    "zh": "并行假设调试",
+    "en": "Parallel Debugging"
+  },
+  "summary": {
+    "zh": "用竞争假设并行排查并裁定根因",
+    "en": "Investigate competing root-cause hypotheses in parallel"
+  },
+  "description": {
+    "zh": "围绕逻辑、数据、并发、配置、环境、依赖六类故障模式提出多个竞争假设，分派并行调查、收集证据，最后按证据强弱裁定根因。适合问题有多个可能原因、初步排查无果，或缺陷横跨多个模块时使用。",
+    "en": "Generates competing hypotheses across six failure-mode categories, runs parallel investigations, collects evidence, and arbitrates the root cause. Use it when a bug has several plausible causes or spans modules."
+  },
+  "tags": {
+    "zh": [
+      "调试",
+      "根因分析",
+      "并行"
+    ],
+    "en": [
+      "Debugging",
+      "Root Cause",
+      "Agents"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/parallel-debugging-1.0.0.zip",
+    "sha256": "ccd9064ce5c7dcefa2a17ab64d9a6e11d539dee106a0e4c214f06a999677eb20",
+    "size": 4978
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

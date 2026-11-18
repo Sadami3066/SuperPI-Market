@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "python-design-patterns",
+  "name": {
+    "zh": "代码分层设计",
+    "en": "Python Design Patterns"
+  },
+  "summary": {
+    "zh": "决定代码怎么分层、何时该抽出新抽象",
+    "en": "Decide how to layer code and when to add abstractions"
+  },
+  "description": {
+    "zh": "围绕单一职责、关注点分离和组合优于继承，判断类与模块之间的边界。适合从零设计服务、拆分过大的类，或在评审中识别耦合过紧的结构。",
+    "en": "Guides module boundaries around single responsibility, separation of concerns, and composition over inheritance. Use it when designing a service, splitting an oversized class, or reviewing tight coupling."
+  },
+  "tags": {
+    "zh": [
+      "Python",
+      "架构",
+      "可维护性"
+    ],
+    "en": [
+      "Python",
+      "architecture",
+      "refactoring"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/python-design-patterns-1.0.0.zip",
+    "sha256": "7cabaecec2553f1ffaec9c9e25c5ca3e9837591c1ab06c7a9512968d9ee8b94e",
+    "size": 7123
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

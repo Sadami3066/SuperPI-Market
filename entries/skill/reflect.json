@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "reflect",
+  "name": {
+    "zh": "方向复盘",
+    "en": "Step Back Review"
+  },
+  "summary": {
+    "zh": "从五个维度重看方向、假设与偏见",
+    "en": "Recheck direction, assumptions and bias from five angles"
+  },
+  "description": {
+    "zh": "当工作已经沉到细节里，可以停下来从方向、假设、偏见等五个维度检查是否还在正轨上。适合阶段复盘、重大决定前的自查，或在长任务中途需要重新对齐时使用，不需要额外配置。",
+    "en": "Steps back to reassess direction, assumptions and bias across five dimensions when work has sunk into detail. Useful mid-project or before a decision, to check the effort still serves the goal."
+  },
+  "tags": {
+    "zh": [
+      "复盘",
+      "决策",
+      "自检"
+    ],
+    "en": [
+      "review",
+      "thinking",
+      "check-in"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/reflect-1.0.0.zip",
+    "sha256": "704c9e8c6a84cca46378eb1ee3e96614d4479139ee4f5e42dc6948a771bab7cf",
+    "size": 26125
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

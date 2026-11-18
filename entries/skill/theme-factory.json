@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "theme-factory",
+  "name": {
+    "zh": "主题配色方案",
+    "en": "Theme Factory"
+  },
+  "summary": {
+    "zh": "为幻灯片和文档套用统一的配色与字体",
+    "en": "Apply consistent color and type themes to decks and documents."
+  },
+  "description": {
+    "zh": "提供 10 套预设配色与字体搭配，选定后统一套用到幻灯片、文档、报告或网页上，也能按需生成一套新主题。适合需要成套视觉风格但不想逐页调样式的场景。",
+    "en": "Ships ten preset palettes with font pairings, applied consistently across slides, documents, reports or web pages, and can compose a new theme on request. Suits work that needs a coherent look without restyling page by page."
+  },
+  "tags": {
+    "zh": [
+      "配色",
+      "主题",
+      "字体"
+    ],
+    "en": [
+      "colors",
+      "theme",
+      "fonts"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/theme-factory-1.0.0.zip",
+    "sha256": "0e812a079f394e54a28cc65c4942c31530b6172fde89b9c112fe1441f15f3f5a",
+    "size": 123870
+  },
+  "skill": {
+    "license": "Apache-2.0",
+    "source": "https://github.com/anthropics/skills"
+  }
+}

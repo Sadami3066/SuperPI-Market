@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "board-deck-builder",
+  "name": {
+    "zh": "董事会汇报",
+    "en": "Board Deck Builder"
+  },
+  "summary": {
+    "zh": "按高管视角组织董事会材料与坏消息",
+    "en": "Structure a board deck or investor update from every executive's view."
+  },
+  "description": {
+    "zh": "把季度董事会材料按 CEO、CFO、COO 等视角组织成有结论的叙事，每个部分都写明负责人和观点。适合准备季度董事会、投资人更新或 QBR 时使用。缺少的数字会保留占位，不会自行编造。",
+    "en": "Builds a board narrative owned by each executive role, with a headline and so-what per section. Use it before a board meeting, investor update, or QBR. Missing figures stay as placeholders, not invented numbers."
+  },
+  "tags": {
+    "zh": [
+      "董事会",
+      "投资人沟通",
+      "季度复盘"
+    ],
+    "en": [
+      "board deck",
+      "investor update",
+      "QBR"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/board-deck-builder-1.0.0.zip",
+    "sha256": "ec9585ef561e69a43fdd08e6aafd9525699f139efd81dd1bc98b2bd5ffe85ca0",
+    "size": 11147
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "python-code-style",
+  "name": {
+    "zh": "Python 代码规范",
+    "en": "Python code style"
+  },
+  "summary": {
+    "zh": "统一 Python 代码风格与命名规范",
+    "en": "Sets consistent style, naming and docstring conventions."
+  },
+  "description": {
+    "zh": "为 Python 项目定下代码风格、命名和文档字符串的写法，并给出正误对照示例。适合新项目起步、写新代码或做代码审查时对齐口径。配置 linter 和 formatter 时也能直接参照这些规则。",
+    "en": "Sets code style, naming and docstring conventions for Python projects, with before-and-after examples. Use it when starting a project, writing new code or reviewing style, and when configuring linters and formatters."
+  },
+  "tags": {
+    "zh": [
+      "代码风格",
+      "代码审查",
+      "lint 规则"
+    ],
+    "en": [
+      "Code style",
+      "Code review",
+      "Linting"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/python-code-style-1.0.0.zip",
+    "sha256": "f5652a0fb11420b5ef2a9f6a036488fe5d2f9848ec1b6248b1d1585700f2d7c4",
+    "size": 4710
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "ms365-tenant-manager",
+  "name": {
+    "zh": "M365 租户管理",
+    "en": "Microsoft 365 Tenant Admin"
+  },
+  "summary": {
+    "zh": "管理 Microsoft 365 的用户与许可",
+    "en": "Administer Microsoft 365 users, licenses and policies"
+  },
+  "description": {
+    "zh": "规划并执行 Microsoft 365 租户配置：用户批量开通、Exchange Online 与 Teams 策略、许可证分配、条件访问和合规报告。适合接手租户治理、批量变更用户或准备审计时使用，需要全局管理员账号与相应 Graph 权限。",
+    "en": "Plans and runs Microsoft 365 tenant work: bulk user provisioning, Exchange Online and Teams policies, license allocation, Conditional Access and compliance reporting. Requires a global admin account with Graph permissions."
+  },
+  "tags": {
+    "zh": [
+      "M365",
+      "账号管理",
+      "合规"
+    ],
+    "en": [
+      "Microsoft 365",
+      "Tenant",
+      "Compliance"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/ms365-tenant-manager-1.0.0.zip",
+    "sha256": "4f09ae516cafd31238b851e256a35a1fa18188a95738f626a28f77fa73fe555a",
+    "size": 34778
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

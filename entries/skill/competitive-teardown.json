@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "competitive-teardown",
+  "name": {
+    "zh": "竞品深度拆解",
+    "en": "Competitive Teardown"
+  },
+  "summary": {
+    "zh": "从定价、口碑、招聘等 12 个维度拆竞品",
+    "en": "Score rivals across 12 dimensions with SWOT and maps"
+  },
+  "description": {
+    "zh": "从定价、用户评价、招聘、SEO 和 UX 等 12 个维度拆解竞争对手，给出评分、SWOT 和定位图。适合准备应对竞品动作，或需要向团队说明自身位置时使用。",
+    "en": "Tears down a competitor across 12 dimensions including pricing, reviews, hiring, SEO and UX, with scores, SWOT and positioning maps. Use it to see where you stand or plan a response to a rival's move."
+  },
+  "tags": {
+    "zh": [
+      "竞品分析",
+      "SWOT",
+      "定位"
+    ],
+    "en": [
+      "Competitors",
+      "SWOT",
+      "Positioning"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/competitive-teardown-1.0.0.zip",
+    "sha256": "09c33d69e653c9de6a680512a6aa5f0d0f1a7e216152df0913942e7839eb5744",
+    "size": 18433
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

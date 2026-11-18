@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "grill-with-docs",
+  "name": {
+    "zh": "文档压力测试",
+    "en": "Grill With Docs"
+  },
+  "summary": {
+    "zh": "用项目自己的术语表和决策记录追问方案",
+    "en": "Stress-test a plan against the project's own glossary and ADRs"
+  },
+  "description": {
+    "zh": "拿项目自己的术语表和决策记录来追问方案，指出与既有约定冲突的地方，并随着讨论同步更新文档。适合方案评审、术语开始打架，或想让设计经得起团队追问时使用。需要项目里已有 CONTEXT.md 或 docs/adr 这类文档。",
+    "en": "Grills a plan against the project's own glossary and decision records, then updates those docs as terms and decisions settle. Use it for design review or when terminology drifts. Needs existing CONTEXT.md or docs/adr files."
+  },
+  "tags": {
+    "zh": [
+      "方案评审",
+      "术语",
+      "ADR"
+    ],
+    "en": [
+      "Design Review",
+      "Glossary",
+      "ADR"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/grill-with-docs-1.0.0.zip",
+    "sha256": "0a4d708bfa224120d7c89b8fb2dcc22c83ec5275797de2312d7641b240ca439b",
+    "size": 31112
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

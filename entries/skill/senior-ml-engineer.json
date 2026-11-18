@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "senior-ml-engineer",
+  "name": {
+    "zh": "模型上线工程",
+    "en": "ML Production Engineering"
+  },
+  "summary": {
+    "zh": "把模型与 LLM 功能部署上线并做监控",
+    "en": "Deploy models and LLM features, then monitor for drift"
+  },
+  "description": {
+    "zh": "把训练好的模型或 LLM 功能推到生产：部署、漂移监控、RAG 链路搭建，以及 API 成本与重试控制。适合从实验走向上线、补监控或重构检索流程时使用，需要可用的云环境或模型服务。",
+    "en": "Takes models and LLM features to production: deployment, drift monitoring, RAG pipelines, and API cost and retry handling. A cloud target or model endpoint is expected."
+  },
+  "tags": {
+    "zh": [
+      "MLOps",
+      "模型部署",
+      "RAG"
+    ],
+    "en": [
+      "MLOps",
+      "Deployment",
+      "RAG"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/senior-ml-engineer-1.0.0.zip",
+    "sha256": "458ab32afc4c9bf70b9a5a93eddbcd16fc6adaf176d75a7b00489e79fd21d4fd",
+    "size": 19439
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

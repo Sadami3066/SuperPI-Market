@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "team-communication-protocols",
+  "name": {
+    "zh": "团队通信协议",
+    "en": "Team Communication Protocols"
+  },
+  "summary": {
+    "zh": "规范智能体团队的消息类型与协作流程",
+    "en": "Set message types and etiquette for agent teams"
+  },
+  "description": {
+    "zh": "定义智能体团队之间的消息类型选择，说明何时用私信、何时用广播，并给出计划审批流程与有序关停步骤，同时列出常见的协作反模式。适合为新组建的团队确立沟通规范，或在集成阶段排查协作问题时查阅。",
+    "en": "Defines message types for agent teams, when to message versus broadcast, plan approval, and graceful shutdown, plus common anti-patterns. Use it to set norms for a new team or debug peers that fail to coordinate at handoffs."
+  },
+  "tags": {
+    "zh": [
+      "多智能体",
+      "协作规范",
+      "消息"
+    ],
+    "en": [
+      "Agents",
+      "Messaging",
+      "Workflow"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/team-communication-protocols-1.0.0.zip",
+    "sha256": "0153bde305121199f232959efd557a5cea3d48481d2dc22a5c685dea6c85636b",
+    "size": 5417
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

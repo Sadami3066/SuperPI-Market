@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "linkedin-profile",
+  "name": {
+    "zh": "领英档案优化",
+    "en": "LinkedIn profile"
+  },
+  "summary": {
+    "zh": "体检并改写领英资料与标题",
+    "en": "Audit and rewrite a LinkedIn profile and headline."
+  },
+  "description": {
+    "zh": "检查 LinkedIn 个人主页的标题、简介、经历和精选区，找出缺失项并重写较弱的部分。适合求职、转换方向，或资料长期没有更新时使用。",
+    "en": "Reviews the headline, About, experience and Featured sections of a LinkedIn profile, flags gaps and rewrites weak parts. Use it when job hunting or after leaving the profile untouched for a long time."
+  },
+  "tags": {
+    "zh": [
+      "领英",
+      "资料",
+      "改写"
+    ],
+    "en": [
+      "LinkedIn",
+      "Profile",
+      "Rewrite"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/linkedin-profile-1.0.0.zip",
+    "sha256": "136899cd3b48519e05cf99cf25370846ee03d4115ac7128668250c7cd8a1fe6e",
+    "size": 28482
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

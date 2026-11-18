@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "langchain-architecture",
+  "name": {
+    "zh": "LangChain 应用架构",
+    "en": "LangChain Architecture"
+  },
+  "summary": {
+    "zh": "用 LangChain 与 LangGraph 组织智能体与工具",
+    "en": "Structure agents, memory and tools in LangGraph"
+  },
+  "description": {
+    "zh": "梳理 LangChain 1.x 与 LangGraph 中 agent、memory 和工具接入的组织方式，并给出复杂工作流的分层思路。适合从原型走向多步骤 LLM 应用时设计结构。需要具备 Python 与 LangChain 基础。",
+    "en": "Covers how agents, memory and tool integration fit together in LangChain 1.x and LangGraph, with a layered view of complex workflows. Suits moving from prototype to multi-step LLM app. Requires Python and LangChain basics."
+  },
+  "tags": {
+    "zh": [
+      "LangChain",
+      "智能体",
+      "工作流"
+    ],
+    "en": [
+      "LangChain",
+      "Agents",
+      "Workflows"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/langchain-architecture-1.0.0.zip",
+    "sha256": "f3491fca781942d01001e878624664a8a9d475ebc0240a37f970f79728fbd23f",
+    "size": 8159
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

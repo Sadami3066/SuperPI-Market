@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "ad-creative",
+  "name": {
+    "zh": "广告文案生成",
+    "en": "Ad Creative Copy"
+  },
+  "summary": {
+    "zh": "按平台规格批量产出广告文案并逐条校验",
+    "en": "Write ad copy in bulk and check every line against platform limits"
+  },
+  "description": {
+    "zh": "为 Google、Meta、LinkedIn、TikTok 等平台生成响应式广告的标题、正文和多组变体。每条文案都会对照平台字数上限与政策要求检查，适合正式投放前成稿。",
+    "en": "Generates RSA headlines, body copy and bulk variations for Google, Meta, LinkedIn and TikTok. Every line is checked against platform character limits and policy rules, so it is ready to review before launch."
+  },
+  "tags": {
+    "zh": [
+      "广告文案",
+      "投放合规",
+      "批量变体"
+    ],
+    "en": [
+      "Ad copy",
+      "Compliance",
+      "Variations"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/ad-creative-1.0.0.zip",
+    "sha256": "75ffaf40f2e83edc7061b8d28260603a43bcf85b8fb80d86a75e0b2e7f723289",
+    "size": 18978
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

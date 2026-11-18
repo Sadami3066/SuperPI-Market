@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "performance-profiler",
+  "name": {
+    "zh": "性能剖析",
+    "en": "Performance profiler"
+  },
+  "summary": {
+    "zh": "定位慢接口、内存泄漏与 CPU 峰值",
+    "en": "Find slow endpoints, memory leaks and CPU spikes with real numbers."
+  },
+  "description": {
+    "zh": "对 Node.js、Python 或 Go 服务先测量再优化，用火焰图、内存快照和压测数据定位瓶颈，改完再测一遍对比。适合接口变慢、内存持续上涨、包体积超标等场景。压测需要能本地启动服务并安装依赖。",
+    "en": "Measures before optimizing: flamegraphs, snapshots and load tests find the bottleneck, then a second run shows the gain. Covers slow endpoints, memory growth and oversized bundles in Node.js, Python or Go. Load tests need a running service."
+  },
+  "tags": {
+    "zh": [
+      "性能分析",
+      "火焰图",
+      "压测"
+    ],
+    "en": [
+      "Profiling",
+      "Flamegraphs",
+      "Load testing"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/performance-profiler-1.0.0.zip",
+    "sha256": "4552071eac5d2a40ec32b7336e1dc57623fe4a5c620f2677454df13ee26df94c",
+    "size": 11751
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

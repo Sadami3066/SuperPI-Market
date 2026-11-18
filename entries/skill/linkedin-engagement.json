@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "linkedin-engagement",
+  "name": {
+    "zh": "领英互动运营",
+    "en": "LinkedIn outreach"
+  },
+  "summary": {
+    "zh": "起草领英评论、私信与外联计划",
+    "en": "Draft LinkedIn comments, DMs and outreach plans."
+  },
+  "description": {
+    "zh": "为 LinkedIn 的评论、连接请求附言和私信起草内容，并规划分阶段的触达名单。适合日常互动维护，或在发起主动外联之前使用。同时会检查当日发送量是否在安全范围内。",
+    "en": "Drafts LinkedIn comments, connection notes and direct messages, and plans who to reach out to in what order. Use it for routine engagement or before an outreach push; it also checks that daily volume stays within safe limits."
+  },
+  "tags": {
+    "zh": [
+      "领英",
+      "外联",
+      "文案"
+    ],
+    "en": [
+      "LinkedIn",
+      "Outreach",
+      "Copywriting"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/linkedin-engagement-1.0.0.zip",
+    "sha256": "0170e612b3711bfd421f60f5eded9d83696fec740b24dd33586a1b4d3fb4f72d",
+    "size": 25837
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

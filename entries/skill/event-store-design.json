@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "event-store-design",
+  "name": {
+    "zh": "事件存储设计",
+    "en": "Event Store Design"
+  },
+  "summary": {
+    "zh": "为事件溯源系统设计事件存储与读取",
+    "en": "Design event stores for event-sourced systems"
+  },
+  "description": {
+    "zh": "说明事件流的组织方式、事件 schema 设计、追加与回放查询，以及容量增长时的分片和归档策略，并对比常见事件存储方案的取舍。适合搭建事件溯源基础设施或挑选事件存储技术时参考。",
+    "en": "Explains stream organization, event schema design, append and replay queries, and how to shard or archive as volume grows, with tradeoffs between store options. Use it when building event sourcing infrastructure."
+  },
+  "tags": {
+    "zh": [
+      "事件溯源",
+      "存储",
+      "架构"
+    ],
+    "en": [
+      "Event Sourcing",
+      "Storage",
+      "Architecture"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/event-store-design-1.0.0.zip",
+    "sha256": "16431d87b5b8791e3672d7f93dbdc3ae1475139e51ca70f05db42e32d6e91b3b",
+    "size": 5775
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

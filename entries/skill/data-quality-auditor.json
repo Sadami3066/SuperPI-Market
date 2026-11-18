@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "data-quality-auditor",
+  "name": {
+    "zh": "数据质量审计",
+    "en": "Data Quality Auditor"
+  },
+  "summary": {
+    "zh": "分析前先体检数据，找出缺失值和异常值",
+    "en": "Profile a dataset, find missing values and outliers, then plan fixes"
+  },
+  "description": {
+    "zh": "在分析和训练之前先给数据集做体检：字段分布、缺失值、异常值和重复项，并给出可执行的修复建议。适合接手陌生数据、模型效果莫名变差，或需要判断数据是否达到训练要求时使用。分析脚本需要本地 Python 和常用数据处理库。",
+    "en": "Profiles a dataset for field distributions, missing values, outliers and duplicates, then writes a remediation plan. Use it on unfamiliar data, when model quality drops, or before training. The scripts need Python and common data libraries."
+  },
+  "tags": {
+    "zh": [
+      "数据质量",
+      "缺失值",
+      "异常值"
+    ],
+    "en": [
+      "Data Quality",
+      "Missing Values",
+      "Outliers"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/data-quality-auditor-1.0.0.zip",
+    "sha256": "735b986b7e05ca989fec7f742a3ff96836fbbd9e968c19ccf5cf9f4425e01f7e",
+    "size": 18078
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

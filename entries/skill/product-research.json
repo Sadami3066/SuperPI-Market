@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "product-research",
+  "name": {
+    "zh": "用户研究设计",
+    "en": "Product Research"
+  },
+  "summary": {
+    "zh": "选对研究方法、定样本量并提炼洞察",
+    "en": "Pick a research method, size the study, and synthesize insights."
+  },
+  "description": {
+    "zh": "按研究目标和产品阶段选择方法，给出样本量与饱和度的依据，再把编码后的观察聚类成洞察。单一来源的观点会被标记为轶事而不是结论。随附脚本只依赖 Python 标准库。",
+    "en": "Matches the method to the research goal and product stage, justifies sample size and saturation, then clusters coded observations into insights. Single-source claims are flagged as anecdotes. Scripts use only the Python standard library."
+  },
+  "tags": {
+    "zh": [
+      "用户研究",
+      "样本设计",
+      "洞察提炼"
+    ],
+    "en": [
+      "user research",
+      "study design",
+      "insights"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/product-research-1.0.0.zip",
+    "sha256": "2bcd66bbf294584c260935de003bbb89ad94a35dc50bb36b103b60e80d3b8eec",
+    "size": 23357
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

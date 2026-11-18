@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "tailwind-design-system",
+  "name": {
+    "zh": "Tailwind 设计系统",
+    "en": "Tailwind Design System"
+  },
+  "summary": {
+    "zh": "用 design token 与组件库统一视觉规范",
+    "en": "Unify UI with design tokens and a component library"
+  },
+  "description": {
+    "zh": "基于 Tailwind CSS v4 建立 design token、组件库与响应式规范，用于统一多页面的视觉与交互。适合从零搭建设计系统或收敛零散样式时使用。需要项目已接入 Tailwind。",
+    "en": "Build design tokens, a component library, and responsive rules on Tailwind CSS v4 to keep UI consistent across pages. Suited to new design systems or consolidating scattered styles; needs Tailwind in the project."
+  },
+  "tags": {
+    "zh": [
+      "设计系统",
+      "组件库",
+      "Tailwind"
+    ],
+    "en": [
+      "design system",
+      "components",
+      "Tailwind"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/tailwind-design-system-1.0.0.zip",
+    "sha256": "c8b306f943412a7bb4506acd6e97b60d225898d69c47e508725e7643b2a6eadf",
+    "size": 9655
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

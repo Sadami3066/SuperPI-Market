@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "copy-editing",
+  "name": {
+    "zh": "文案精修",
+    "en": "Copy Editing"
+  },
+  "summary": {
+    "zh": "分轮打磨现有文案，兼顾清晰度、语气与可读性",
+    "en": "Polish existing copy in focused passes for clarity, voice and flow"
+  },
+  "description": {
+    "zh": "对已有页面、邮件或广告文案做多轮精修，分别处理清晰度、语气一致性、具体性和可读性，并清理明显的 AI 腔调。适合发布前润色，或改写冗长含糊的段落。",
+    "en": "Edits existing pages, emails and ads in separate passes for clarity, voice, specificity and readability, and strips out telltale AI phrasing. Good for a final polish or for tightening wordy sections."
+  },
+  "tags": {
+    "zh": [
+      "润色",
+      "校对",
+      "可读性"
+    ],
+    "en": [
+      "Proofreading",
+      "Clarity",
+      "Editing"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/copy-editing-1.0.0.zip",
+    "sha256": "a410f4dfe6b4e9d91911cc5b74d0ce1a05b8ad6733cf7e25b5bfd673fbe85e16",
+    "size": 22758
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

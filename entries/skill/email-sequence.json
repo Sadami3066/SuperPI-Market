@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "email-sequence",
+  "name": {
+    "zh": "邮件序列设计",
+    "en": "Email Sequence"
+  },
+  "summary": {
+    "zh": "设计欢迎、培育、引导与唤回邮件序列的节奏",
+    "en": "Design welcome, nurture and win-back email sequences with timing"
+  },
+  "description": {
+    "zh": "为已订阅用户规划滴灌、培育、上手引导、欢迎和唤回邮件序列：定发送节奏、触发条件和退出规则，并逐封写出内容。适合新用户引导、长期培育或挽回沉默用户时使用。序列检查脚本需要本地 Python 环境。",
+    "en": "Plans drip, nurture, onboarding, welcome and win-back sequences for opted-in users: timing, triggers, exit rules and copy for each email. Use it for a new-user flow, a nurture track or winning back quiet subscribers. Needs Python."
+  },
+  "tags": {
+    "zh": [
+      "邮件营销",
+      "培育",
+      "自动化"
+    ],
+    "en": [
+      "email",
+      "nurture",
+      "lifecycle"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/email-sequence-1.0.0.zip",
+    "sha256": "7f5dbf81211be8fe5e554cd677691a7c9d6f092a1a4738753a55c13733ecbb86",
+    "size": 11265
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

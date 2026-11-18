@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "dossier",
+  "name": {
+    "zh": "尽调与面谈准备",
+    "en": "Dossier Builder"
+  },
+  "summary": {
+    "zh": "为会面或尽调准备公司个人档案",
+    "en": "Build decision-grade dossiers on a company or person for meetings."
+  },
+  "description": {
+    "zh": "研究指定的公司、个人或机构，用正反两面的证据检验你给出的判断，输出一份可交付的尽调档案。适合重要会面前做功课、投资尽调或合作方背景核查时使用。需要联网检索，成品为 .docx 文档。",
+    "en": "Researches a specific company, person or organisation, tests your stated hypothesis against balanced evidence and delivers a .docx dossier. Useful before important meetings, investor diligence or partner checks. Needs web access."
+  },
+  "tags": {
+    "zh": [
+      "尽调",
+      "会前准备",
+      "背景核查"
+    ],
+    "en": [
+      "Diligence",
+      "Meeting Prep",
+      "Research"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/dossier-1.0.0.zip",
+    "sha256": "dd14f6ac7bd73ba1c797c258881cbe53af78eb0f3553ffb3c9efa93b48befa65",
+    "size": 30050
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

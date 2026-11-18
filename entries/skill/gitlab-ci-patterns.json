@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "gitlab-ci-patterns",
+  "name": {
+    "zh": "GitLab CI 流水线",
+    "en": "GitLab CI Patterns"
+  },
+  "summary": {
+    "zh": "搭建带缓存与多阶段作业的 GitLab CI",
+    "en": "Build GitLab CI pipelines with caching and stages"
+  },
+  "description": {
+    "zh": "介绍多阶段作业、依赖缓存与分布式 runner 的组织方式，用于搭建自动化测试与部署流程。适合迁移到 GitLab 或压缩流水线耗时。需要可用的 GitLab Runner。",
+    "en": "Covers multi-stage jobs, dependency caching and distributed runners for automated test and deploy flows. Suits moving to GitLab or trimming pipeline time. Requires available GitLab runners."
+  },
+  "tags": {
+    "zh": [
+      "GitLab",
+      "CI/CD",
+      "流水线"
+    ],
+    "en": [
+      "GitLab",
+      "CI/CD",
+      "Pipeline"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/gitlab-ci-patterns-1.0.0.zip",
+    "sha256": "fa86b177ed50bbf2f6c944449df35eb7ad0477de3c304935ff057964fe079fc2",
+    "size": 3440
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

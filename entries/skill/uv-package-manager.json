@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "uv-package-manager",
+  "name": {
+    "zh": "uv 依赖管理",
+    "en": "uv Package Manager"
+  },
+  "summary": {
+    "zh": "用 uv 管理 Python 依赖和虚拟环境",
+    "en": "Manage Python dependencies and environments with uv"
+  },
+  "description": {
+    "zh": "用 uv 安装依赖、创建虚拟环境、锁定版本并统一项目工作流，速度明显快于传统工具。适合新建 Python 项目，或想简化现有项目的依赖管理。需要本机已安装 uv。",
+    "en": "Uses uv to install dependencies, create virtual environments, lock versions, and keep project workflows consistent. Good for new Python projects or simplifying existing setups. Requires uv installed locally."
+  },
+  "tags": {
+    "zh": [
+      "Python",
+      "依赖管理",
+      "虚拟环境"
+    ],
+    "en": [
+      "Python",
+      "uv",
+      "dependencies"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/uv-package-manager-1.0.0.zip",
+    "sha256": "8c60755b85b0508ff6e5e762c9fb6e0c9333860bad0da64128aa1a46a246d77d",
+    "size": 7176
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

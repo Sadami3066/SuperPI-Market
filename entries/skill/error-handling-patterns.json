@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "error-handling-patterns",
+  "name": {
+    "zh": "错误处理模式",
+    "en": "Error Handling Patterns"
+  },
+  "summary": {
+    "zh": "设计跨语言的错误传播与降级策略",
+    "en": "Design error propagation and graceful degradation"
+  },
+  "description": {
+    "zh": "对比异常、Result 类型、错误包装与重试等做法，给出 API 边界和降级策略的建议。适合在新增接口、统一错误规范或提升服务健壮性时使用。",
+    "en": "Compare exceptions, Result types, error wrapping, and retries, with advice on API boundaries and graceful degradation. Useful when adding endpoints, unifying error conventions, or improving resilience."
+  },
+  "tags": {
+    "zh": [
+      "错误处理",
+      "健壮性",
+      "API"
+    ],
+    "en": [
+      "error handling",
+      "resilience",
+      "API"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/error-handling-patterns-1.0.0.zip",
+    "sha256": "ec4e6a962808bb7d95d85fe94e64093e5486059dd4d881a610777a695c9937df",
+    "size": 7526
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

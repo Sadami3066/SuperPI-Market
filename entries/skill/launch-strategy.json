@@ -1,0 +1,36 @@
+{
+  "type": "skill",
+  "id": "launch-strategy",
+  "name": {
+    "zh": "产品发布策划",
+    "en": "Launch Strategy"
+  },
+  "summary": {
+    "zh": "评估发布就绪度，按渠道排出分阶段计划",
+    "en": "Score launch readiness and build a phased plan"
+  },
+  "description": {
+    "zh": "为产品或功能发布做就绪度评估，并按渠道给出分阶段执行计划，覆盖预热、首发和后续跟进。适合临近上线、筹备 Product Hunt 首发、内测或等待名单时使用。",
+    "en": "Assesses launch readiness and lays out a phased, per-channel plan covering warm-up, launch day and follow-through. Use it ahead of a release, a Product Hunt day, a beta or a waitlist."
+  },
+  "tags": {
+    "zh": [
+      "发布计划",
+      "渠道策略"
+    ],
+    "en": [
+      "Launch",
+      "Channels"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/launch-strategy-1.0.0.zip",
+    "sha256": "5725f7fa23e97ac02663b42424806e476d743c0165312e8f8d4b5c54cafb8dae",
+    "size": 12626
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

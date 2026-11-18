@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "self-eval",
+  "name": {
+    "zh": "工作自评",
+    "en": "Self Eval"
+  },
+  "summary": {
+    "zh": "从难度和完成度两维给已完成工作打分",
+    "en": "Rate finished work on ambition and quality, without score inflation"
+  },
+  "description": {
+    "zh": "对已完成的任务从目标难度和执行质量两个维度打分，用固定规则合成最终结果，并主动为偏高和偏低两种判断找理由。适合交付后想听真实评价，或需要跨项目保持一致的评分记录时使用。纯提示词运行，无需额外安装或配置。",
+    "en": "Grades a finished task on ambition and execution quality, then combines them with a fixed rule while arguing against inflated and deflated marks. Use it for candid review after delivery or a consistent record across projects. Prompt-only."
+  },
+  "tags": {
+    "zh": [
+      "自评",
+      "复盘",
+      "质量"
+    ],
+    "en": [
+      "self-review",
+      "quality",
+      "feedback"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/self-eval-1.0.0.zip",
+    "sha256": "9d2348608a846e57866976efc99c3b19ebd3187d1c5eed6f9d4e7ef62f0ffea5",
+    "size": 4827
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

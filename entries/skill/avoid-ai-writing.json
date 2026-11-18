@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "avoid-ai-writing",
+  "name": {
+    "zh": "AI 文风清理",
+    "en": "Remove AI Writing Tells"
+  },
+  "summary": {
+    "zh": "找出并改写机器味明显的文字",
+    "en": "Detect and rewrite prose that reads as machine-generated"
+  },
+  "description": {
+    "zh": "审查 README、更新日志、发布说明、PR 描述和博客，标出模板化句式与空泛表达，并按需改写。支持只检测、重写和就地编辑三种方式，也可指定语气与使用场景。适合文案发布前做一次去机器味处理。",
+    "en": "Audit READMEs, changelogs, release notes, PR descriptions, and posts for template phrasing and empty claims, then rewrite as needed. Detects only, rewrites, or edits in place, with optional voice profiles."
+  },
+  "tags": {
+    "zh": [
+      "文案",
+      "编辑",
+      "英文写作"
+    ],
+    "en": [
+      "copywriting",
+      "editing",
+      "writing style"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/avoid-ai-writing-1.0.0.zip",
+    "sha256": "00fed0b1e91437516e9bc7ae2f57ef5cc7ae5d98096f9d1663a48255c2f71e3a",
+    "size": 21336
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

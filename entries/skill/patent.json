@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "patent",
+  "name": {
+    "zh": "专利检索分析",
+    "en": "Patent Search"
+  },
+  "summary": {
+    "zh": "检索专利现有技术并分析实施风险",
+    "en": "Search prior art, freedom to operate and patent landscapes."
+  },
+  "description": {
+    "zh": "在 Google Patents、Espacenet 和 USPTO 检索现有技术，分析自由实施风险、专利布局与收购标的，输出 .docx 报告。适合立项查新、推出新产品前规避风险或并购尽调时使用。结果为信息参考，不构成法律意见。",
+    "en": "Searches Google Patents, Espacenet and USPTO for prior art, freedom-to-operate risk, landscapes and acquisition diligence, then writes a .docx. Useful before R&D bets, market entry or M&A. Not legal advice."
+  },
+  "tags": {
+    "zh": [
+      "专利",
+      "现有技术",
+      "自由实施"
+    ],
+    "en": [
+      "Patents",
+      "Prior Art",
+      "FTO"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/patent-1.0.0.zip",
+    "sha256": "55014514ce2614aee5aa2817400d1095c272639fd17c45515f9e3e29e44ccae1",
+    "size": 29370
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

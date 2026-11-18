@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "baoyu-infographic",
+  "name": {
+    "zh": "信息图生成",
+    "en": "Infographic"
+  },
+  "summary": {
+    "zh": "生成高密度信息长图",
+    "en": "Build dense one-page infographics"
+  },
+  "description": {
+    "zh": "提供 21 种版式和 22 种视觉风格，会先读内容再给出推荐搭配，然后产出可直接发布的信息图。适合把报告、文章浓缩成一页大图。生成图片需要可用的图像生成后端。",
+    "en": "Picks a layout from 21 types and a style from 22 options after reading the content, then renders a publication-ready infographic. Good for compressing reports or articles into one tall image. Needs an image generation backend."
+  },
+  "tags": {
+    "zh": [
+      "信息图",
+      "可视化",
+      "长图"
+    ],
+    "en": [
+      "infographic",
+      "visualization",
+      "layout"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/baoyu-infographic-1.0.0.zip",
+    "sha256": "7ade41562cd28d15855316a0128573bccc659a36ad621bfbe75bbc828b284810",
+    "size": 51919
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/JimLiu/baoyu-skills"
+  }
+}

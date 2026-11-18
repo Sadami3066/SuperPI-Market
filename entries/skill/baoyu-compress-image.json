@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "baoyu-compress-image",
+  "name": {
+    "zh": "图片压缩",
+    "en": "Image Compressor"
+  },
+  "summary": {
+    "zh": "把图片转成 WebP 或 PNG 并压缩体积",
+    "en": "Shrink images and convert them to WebP"
+  },
+  "description": {
+    "zh": "压缩单张图片或整个目录，默认转成 WebP，也可以保留 PNG，并自动挑一个可用的压缩工具。适合上传前减小体积。需要本机有 bun 或 npx，以及 sips、cwebp、ImageMagick 之一。",
+    "en": "Compresses single images or whole folders to WebP or PNG, keeping the original if asked and picking a suitable tool automatically. Meant for trimming upload size. Needs bun or npx plus one of sips, cwebp or ImageMagick."
+  },
+  "tags": {
+    "zh": [
+      "压缩",
+      "WebP",
+      "体积优化"
+    ],
+    "en": [
+      "compression",
+      "webp",
+      "optimization"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/baoyu-compress-image-1.0.0.zip",
+    "sha256": "75055919268c74c29a0f6150d095a552f8018448facb631e262f3c942042464c",
+    "size": 5382
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/JimLiu/baoyu-skills"
+  }
+}

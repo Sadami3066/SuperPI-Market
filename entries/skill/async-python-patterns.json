@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "async-python-patterns",
+  "name": {
+    "zh": "异步 Python 模式",
+    "en": "Async Python patterns"
+  },
+  "summary": {
+    "zh": "用 asyncio 编排并发与异步 I/O",
+    "en": "Structure concurrent and I/O-bound code with asyncio."
+  },
+  "description": {
+    "zh": "梳理 asyncio 的并发模型、任务调度和 async/await 写法，用来搭高吞吐的异步接口和 I/O 密集服务。开始写 async 端点、并发抓取或其他非阻塞任务时适合参考。",
+    "en": "Explains the asyncio concurrency model, task scheduling and async/await patterns for high-throughput APIs and I/O-bound services. A good starting point for async endpoints, concurrent fetching or other non-blocking work."
+  },
+  "tags": {
+    "zh": [
+      "asyncio",
+      "并发",
+      "异步"
+    ],
+    "en": [
+      "asyncio",
+      "Concurrency",
+      "Async"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/async-python-patterns-1.0.0.zip",
+    "sha256": "33495faf6ffac96a337bdb664f4e8a351b266b42ef3564b7f48a4ff8a0b1f7d3",
+    "size": 7861
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

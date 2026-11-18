@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "linkedin-content",
+  "name": {
+    "zh": "领英帖子撰写",
+    "en": "LinkedIn posts"
+  },
+  "summary": {
+    "zh": "写或改领英帖子，含故事、教程与投票",
+    "en": "Write, edit and review LinkedIn posts of any format."
+  },
+  "description": {
+    "zh": "撰写或打磨 LinkedIn 帖子，覆盖故事、教程、轮播、视频脚本和投票几种形式。也能把已有草稿、博客文章或演讲稿改写成符合平台节奏的帖子。",
+    "en": "Writes and edits LinkedIn posts in several formats: story, how-to, carousel, video script and poll. It can also turn an existing draft, blog post or talk into posts that fit the platform's pace."
+  },
+  "tags": {
+    "zh": [
+      "领英",
+      "帖子",
+      "内容"
+    ],
+    "en": [
+      "LinkedIn",
+      "Posts",
+      "Content"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/linkedin-content-1.0.0.zip",
+    "sha256": "b066149cfcda9da8a627c6f8646693affb537b41d215153b3939359dcf5ba23c",
+    "size": 35210
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "pptx-visual-assets",
+  "name": {
+    "zh": "PPT 配图选放",
+    "en": "Deck Visual Assets"
+  },
+  "summary": {
+    "zh": "为幻灯片挑选并摆放合适的图标、图片和图示",
+    "en": "Pick and place icons, images, and diagrams in slides"
+  },
+  "description": {
+    "zh": "按页面要表达的信息选择图标、图片、SVG 或示意图，确认来源与使用授权后按指定尺寸摆放，并补上替代文本。只在配图能帮助理解时使用，关键文字仍保留为可编辑对象。",
+    "en": "Selects icons, images, SVGs, and diagrams that support the message, then places them at explicit sizes with alt text and recorded sources. Use it when a slide needs visuals without flattening key content."
+  },
+  "tags": {
+    "zh": [
+      "PPT",
+      "配图",
+      "图标"
+    ],
+    "en": [
+      "PPTX",
+      "assets",
+      "icons"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/pptx-visual-assets-1.0.0.zip",
+    "sha256": "6ebfbfed76b633eac953c6e0a9fabf0ff6daf9223d282f0199e4350c4f448796",
+    "size": 2788
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

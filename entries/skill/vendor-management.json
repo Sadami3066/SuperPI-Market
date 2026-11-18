@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "vendor-management",
+  "name": {
+    "zh": "供应商评估",
+    "en": "Vendor Management"
+  },
+  "summary": {
+    "zh": "评估供应商表现与 SLA 履约情况",
+    "en": "Score vendors, track SLA compliance and classify third-party risk."
+  },
+  "description": {
+    "zh": "为供应商建立评分卡，跟踪 SLA 履约与服务抵扣，划分第三方风险等级，并支持一级供应商的年度评审。适合供应商续约、年度复盘或采购合规检查时使用。",
+    "en": "Builds vendor scorecards, tracks SLA compliance and service credits, and tiers third-party risk ahead of reviews. Fits renewals, annual vendor reviews and procurement compliance checks."
+  },
+  "tags": {
+    "zh": [
+      "供应商",
+      "SLA",
+      "风险评估"
+    ],
+    "en": [
+      "Vendors",
+      "SLA",
+      "Risk"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/vendor-management-1.0.0.zip",
+    "sha256": "9ab18e00cb657340f5640e7e30bf4480fe1b94599b18bb33f2be63d3818dc14c",
+    "size": 29974
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

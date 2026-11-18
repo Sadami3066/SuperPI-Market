@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "chief-data-officer-advisor",
+  "name": {
+    "zh": "数据战略顾问",
+    "en": "Data Strategy Advisor"
+  },
+  "summary": {
+    "zh": "选数据架构，评估数据资产与训练数据合规",
+    "en": "Pick data architecture, audit training data, value assets"
+  },
+  "description": {
+    "zh": "处理数据战略决策：能否用客户数据训练模型、选数据仓库还是 lakehouse 或 data mesh、如何在融资或并购中给数据资产估值。适合制定数据战略或排定数据团队招聘顺序时使用。",
+    "en": "Covers data strategy calls: training models on customer data, choosing warehouse, lakehouse or data mesh, and valuing data assets for a raise or M&A. Use it to set direction or sequence data hiring."
+  },
+  "tags": {
+    "zh": [
+      "数据战略",
+      "数据资产",
+      "合规"
+    ],
+    "en": [
+      "Data Strategy",
+      "Data Assets",
+      "Governance"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/chief-data-officer-advisor-1.0.0.zip",
+    "sha256": "19735e139930e95281f5578554d5d2f37306a5b1dcb722eb0f375b4a192704d7",
+    "size": 39135
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

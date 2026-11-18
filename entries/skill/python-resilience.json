@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "python-resilience",
+  "name": {
+    "zh": "Python 容错设计",
+    "en": "Python resilience"
+  },
+  "summary": {
+    "zh": "为重试、超时和瞬时故障设计容错",
+    "en": "Retry, back off and time out calls that can fail."
+  },
+  "description": {
+    "zh": "整理重试、指数退避、超时和容错装饰器的用法，让服务在瞬时故障下仍可用。给外部调用加保护、实现超时，或构建容错服务时使用。",
+    "en": "Patterns for retries with exponential backoff, timeouts and fault-tolerant decorators that keep a service usable through transient failures. Use it when guarding outbound calls, adding timeouts or building resilient services."
+  },
+  "tags": {
+    "zh": [
+      "重试",
+      "超时",
+      "退避"
+    ],
+    "en": [
+      "Retries",
+      "Timeouts",
+      "Backoff"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/python-resilience-1.0.0.zip",
+    "sha256": "be52857f3a493a79744abfe53d2746b204fa691af9d79473650b36cb2b1b30ab",
+    "size": 5455
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

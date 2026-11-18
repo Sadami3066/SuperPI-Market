@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "md-slides",
+  "name": {
+    "zh": "幻灯片生成",
+    "en": "Markdown Slides"
+  },
+  "summary": {
+    "zh": "把笔记变成可翻页的网页幻灯片",
+    "en": "Turn markdown notes into a single-file slide deck"
+  },
+  "description": {
+    "zh": "把 markdown 文件转成一个可独立打开的网页幻灯片，支持键盘翻页、演讲者备注和打印成 PDF。适合讲稿或笔记已经写好、需要快速做出演示稿并方便分发的时候。生成结果是单个文件，不需要服务器。",
+    "en": "Turns a markdown file into one self-contained HTML deck with keyboard navigation, presenter notes and print-to-PDF. Good when notes already exist and you need slides fast; the output is a single file, no server."
+  },
+  "tags": {
+    "zh": [
+      "幻灯片",
+      "Markdown",
+      "演示"
+    ],
+    "en": [
+      "slides",
+      "markdown",
+      "presentation"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/md-slides-1.0.0.zip",
+    "sha256": "2ae3edb2df144a395ee4ca65de4462ed0cfdd7897ea6ffb42f4581e9cf4f567b",
+    "size": 27175
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

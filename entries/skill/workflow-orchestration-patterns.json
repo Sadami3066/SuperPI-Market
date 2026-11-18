@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "workflow-orchestration-patterns",
+  "name": {
+    "zh": "持久化工作流设计",
+    "en": "Workflow Orchestration Patterns"
+  },
+  "summary": {
+    "zh": "用 Temporal 设计可恢复的长流程与事务",
+    "en": "Design durable long-running workflows with Temporal"
+  },
+  "description": {
+    "zh": "讲清 workflow 与 activity 的职责划分、saga 补偿、状态持久化和确定性约束，并说明哪些场景不该用工作流引擎。适合构建跨服务的长流程、分布式事务或微服务编排时参考。需要可用的 Temporal 服务端。",
+    "en": "Explains workflow versus activity separation, saga compensation, state persistence, and determinism, plus when not to use a workflow engine. Use it for long-running cross-service processes. A Temporal server is required."
+  },
+  "tags": {
+    "zh": [
+      "Temporal",
+      "工作流",
+      "分布式事务"
+    ],
+    "en": [
+      "Temporal",
+      "Orchestration",
+      "Distributed"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/workflow-orchestration-patterns-1.0.0.zip",
+    "sha256": "cd4df916b6f000ea21c8b9fe3d53ae85c91e1374be13a697c97c47fdae18ea50",
+    "size": 5770
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

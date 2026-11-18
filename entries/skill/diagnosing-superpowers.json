@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "diagnosing-superpowers",
+  "name": {
+    "zh": "会话问题复盘",
+    "en": "Session Diagnostics"
+  },
+  "summary": {
+    "zh": "查清一次会话为何变慢、返工或结果不佳",
+    "en": "Trace why a session ran slow, cost too much or went off track."
+  },
+  "description": {
+    "zh": "结合你对问题的描述，读取磁盘上的会话记录逐步定位，按技能调用、计划执行、重复劳动、卡顿和耗时成本等维度分析，最后给出带出处引用的报告。适合复盘一次返工、超时或花销异常的运行，也可据此整理问题反馈。",
+    "en": "Starts from what went wrong, finds the transcripts on disk and reviews them by skill timeline, plan adherence, repeated work, stumbles and cost. Returns a report where each finding cites file and line. Good for post-mortems and bug reports."
+  },
+  "tags": {
+    "zh": [
+      "复盘",
+      "日志分析",
+      "排错"
+    ],
+    "en": [
+      "post-mortem",
+      "logs",
+      "debugging"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/diagnosing-superpowers-1.0.0.zip",
+    "sha256": "4b1d906be298ca5e171a813594a6462a6c7a225d589b72df3bdea01ddc6509a7",
+    "size": 25241
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/obra/superpowers"
+  }
+}

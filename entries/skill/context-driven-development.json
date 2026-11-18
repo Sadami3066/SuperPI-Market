@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "context-driven-development",
+  "name": {
+    "zh": "项目上下文管理",
+    "en": "Context-Driven Development"
+  },
+  "summary": {
+    "zh": "维护项目上下文文档并保持与代码一致",
+    "en": "Keep product, stack and workflow context docs in sync"
+  },
+  "description": {
+    "zh": "为新项目生成产品说明、技术栈、开发流程和工作单元四类上下文文档，也能从现有代码库提炼这些内容，并在实现前检查文档是否一致。适合项目启动、接手旧项目或文档逐渐失真时使用。",
+    "en": "Scaffolds product, tech stack, workflow and work-unit docs in a conductor directory or extracts them from an existing codebase, and checks consistency before implementation. Good for new projects or hand-overs."
+  },
+  "tags": {
+    "zh": [
+      "项目文档",
+      "脚手架",
+      "协作"
+    ],
+    "en": [
+      "Project docs",
+      "Scaffolding",
+      "Workflow"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/context-driven-development-1.0.0.zip",
+    "sha256": "ef49858365d661eb467a09385cd6a6883f0131c8f44429fa72c3ed1b0bc84fad",
+    "size": 8089
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

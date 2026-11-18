@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "changelog-generator",
+  "name": {
+    "zh": "变更日志生成",
+    "en": "Changelog generator"
+  },
+  "summary": {
+    "zh": "从提交记录生成发布说明，并推荐下一个版本号",
+    "en": "Turn commits into release notes and pick the next semver version."
+  },
+  "description": {
+    "zh": "汇总两次发布之间的提交，分类整理成 CHANGELOG 和面向用户的发布说明，并按语义化版本推荐下一个版本号。适合准备发版、写更新公告，或先梳理提交信息规范的时候。",
+    "en": "Collects the commits between releases, groups them into a CHANGELOG and user-facing notes, and suggests the next semantic version. Use it when cutting a release, announcing changes or tidying commit messages first."
+  },
+  "tags": {
+    "zh": [
+      "CHANGELOG",
+      "版本号",
+      "发布说明"
+    ],
+    "en": [
+      "Changelog",
+      "Semver",
+      "Release notes"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/changelog-generator-1.0.0.zip",
+    "sha256": "9db76d83721d24c57034e90bf2f8794e459a59f357a11dc20712cb45a197fa4a",
+    "size": 24561
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "markdown-html-orchestrator",
+  "name": {
+    "zh": "文档转换分流",
+    "en": "Markdown Router"
+  },
+  "summary": {
+    "zh": "判断文档类型，转成对应的网页形式",
+    "en": "Identify the markdown type and pick its page format"
+  },
+  "description": {
+    "zh": "判断一份 markdown 属于长文档、代码评审还是演示稿，再走对应的转换，输出单个可打开的 HTML 页面。适合不确定该用哪种形式呈现时，先让它分类再决定。转换前需要先设好品牌样式。",
+    "en": "Classifies a markdown file as a long document, a code review or a deck, then routes it to the matching conversion and returns one self-contained HTML page. Set brand styles first."
+  },
+  "tags": {
+    "zh": [
+      "文档转换",
+      "Markdown",
+      "分流"
+    ],
+    "en": [
+      "conversion",
+      "markdown",
+      "routing"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/markdown-html-orchestrator-1.0.0.zip",
+    "sha256": "4b0a083dceccf6d0d8f3b7e1c684b33c18ee0d2dc4e13b4be9c659d2b619f5b6",
+    "size": 22021
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

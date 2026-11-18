@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "nodejs-backend-patterns",
+  "name": {
+    "zh": "Node 服务端架构",
+    "en": "Node.js Backend Patterns"
+  },
+  "summary": {
+    "zh": "搭建可上线的 Node.js 后端服务结构",
+    "en": "Build production-ready Node.js backend services"
+  },
+  "description": {
+    "zh": "用 Express 或 Fastify 组织中间件、错误处理、认证、数据库接入和接口设计，形成可维护的服务骨架。适合从零搭建 REST 或 GraphQL 后端，也适合整理已有的 Node.js 服务。需要本机装好 Node.js 与所选框架依赖。",
+    "en": "Structures Express or Fastify services with middleware, error handling, auth, database access, and API design. Use it to start a REST or GraphQL backend or clean up an existing one. Requires Node.js and the chosen framework packages."
+  },
+  "tags": {
+    "zh": [
+      "Node.js",
+      "后端",
+      "API 设计"
+    ],
+    "en": [
+      "Node.js",
+      "backend",
+      "API"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/nodejs-backend-patterns-1.0.0.zip",
+    "sha256": "f8ac48423034073bbe64003e418057912b541a64d0edcea2a1eee8743e5cf27c",
+    "size": 10145
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

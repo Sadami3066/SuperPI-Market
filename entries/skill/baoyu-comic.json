@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "baoyu-comic",
+  "name": {
+    "zh": "知识漫画",
+    "en": "Knowledge Comic"
+  },
+  "summary": {
+    "zh": "把知识内容改编成多格教育漫画",
+    "en": "Turn knowledge into multi-panel comics"
+  },
+  "description": {
+    "zh": "根据主题生成原创教育漫画，支持多种画风和语气，分镜版式可细致调整。适合科普、人物小传和教程类内容。生成画面需要可用的图像生成后端。",
+    "en": "Builds original educational comics with configurable art styles, tone and panel layout. Fits science explainers, short biographies and tutorial series. Image generation requires an available backend."
+  },
+  "tags": {
+    "zh": [
+      "漫画",
+      "分镜",
+      "科普"
+    ],
+    "en": [
+      "comics",
+      "panels",
+      "education"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/baoyu-comic-1.0.0.zip",
+    "sha256": "96876e567958187a50328d52f53fe44b9ebc37aad2571bd68bf47ac6bbaf6fb7",
+    "size": 67336
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/JimLiu/baoyu-skills"
+  }
+}

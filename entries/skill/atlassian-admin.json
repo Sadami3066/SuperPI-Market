@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "atlassian-admin",
+  "name": {
+    "zh": "Atlassian 管理",
+    "en": "Atlassian Admin"
+  },
+  "summary": {
+    "zh": "Jira 与 Confluence 权限管理",
+    "en": "Audit Jira and Confluence users, groups, SSO and security policy."
+  },
+  "description": {
+    "zh": "审计 Jira 与 Confluence 的账号、用户组和空间权限，梳理 SSO 登录、应用授权与安全策略，输出可执行的整改清单。适合组织扩容、权限收口或安全评审前做一次全面盘点。需要具备对应站点的管理员权限。",
+    "en": "Audits Jira and Confluence accounts, groups and space permissions, reviews SSO, app access and security policy, then lists concrete fixes. Useful before org changes, permission cleanups or security reviews. Needs admin access to the site."
+  },
+  "tags": {
+    "zh": [
+      "权限审计",
+      "Jira",
+      "安全合规"
+    ],
+    "en": [
+      "Permissions",
+      "Jira",
+      "SSO"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/atlassian-admin-1.0.0.zip",
+    "sha256": "7a67da2912adb3ccc64f34a4f04f649f16a57f26eac8596640dfcb35a7154d19",
+    "size": 18303
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

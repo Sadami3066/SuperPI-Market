@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "baoyu-xhs-images",
+  "name": {
+    "zh": "小红书图片卡片",
+    "en": "Social Image Cards"
+  },
+  "summary": {
+    "zh": "把内容拆成适合社交平台传播的图卡",
+    "en": "Turn content into shareable social image cards"
+  },
+  "description": {
+    "zh": "把一段内容拆成 1 到 10 张卡通风格图片卡片，提供 12 种视觉风格、8 种版式和 3 套配色可选。适合小红书种草、微信图文这类需要连续多图呈现的场景。生成图片需要可用的图像生成后端。",
+    "en": "Breaks a piece of writing into 1 to 10 cartoon-style cards, with 12 visual styles, 8 layouts and 3 palettes to choose from. Built for Xiaohongshu and WeChat posts that need a scrollable card series. An image generation backend is required."
+  },
+  "tags": {
+    "zh": [
+      "图卡",
+      "社交媒体",
+      "内容排版"
+    ],
+    "en": [
+      "image cards",
+      "social media",
+      "layout"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/baoyu-xhs-images-1.0.0.zip",
+    "sha256": "ccefaf7a54fdef1b7e7c7d23d456bbd0916c950c6e2930112e45e39f4ff35fb3",
+    "size": 58427
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/JimLiu/baoyu-skills"
+  }
+}

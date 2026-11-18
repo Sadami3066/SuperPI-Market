@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "deep-work",
+  "name": {
+    "zh": "专注时间块规划",
+    "en": "Deep Work Day"
+  },
+  "summary": {
+    "zh": "把任务分成深浅两类，排出能量优先的时间块",
+    "en": "Time-block a deep work day and cap shallow work"
+  },
+  "description": {
+    "zh": "把待办按深度和浅度分类，排出以精力高峰为优先的时间块，深度工作总量控制在四小时以内，琐事集中到至多两个窗口。还能记录每次专注会话与连续天数，配合日终收尾流程。适合注意力被会议切碎、需要重新拿回整块时间的时候。",
+    "en": "Classifies tasks as deep or shallow, builds an energy-first time-blocked schedule capped at four hours of deep work, batches shallow work into two windows and logs focus sessions with an end-of-day shutdown."
+  },
+  "tags": {
+    "zh": [
+      "时间管理",
+      "专注",
+      "日程"
+    ],
+    "en": [
+      "time blocking",
+      "focus",
+      "scheduling"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/deep-work-1.0.0.zip",
+    "sha256": "a0ffa4d8274963a2167bbec9cee25a5a3a4f8a865b65b678779c9df92b3d29f3",
+    "size": 28257
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

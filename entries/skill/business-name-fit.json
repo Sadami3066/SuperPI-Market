@@ -1,0 +1,36 @@
+{
+  "type": "skill",
+  "id": "business-name-fit",
+  "name": {
+    "zh": "品牌命名评估",
+    "en": "Brand Name Fit"
+  },
+  "summary": {
+    "zh": "检验名称在目标地区的发音、歧义与可信度",
+    "en": "Test pronunciation, meaning and trust per region"
+  },
+  "description": {
+    "zh": "为公司、品牌或产品名做跨地区检验：发音是否顺口、是否带有不雅含义、在当地是否可信，并给出替代名称建议。适合定名前后、准备进入新地区时使用。",
+    "en": "Checks a company, brand or product name across target regions for pronunciation, unintended meanings and local trust, then suggests alternatives. Use it before committing to a name or entering a new region."
+  },
+  "tags": {
+    "zh": [
+      "品牌命名",
+      "本地化"
+    ],
+    "en": [
+      "Naming",
+      "Localization"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/business-name-fit-1.0.0.zip",
+    "sha256": "7d8587b743d6928a3257d11347f2240c43921f67e202858aca5bd3b0a542862b",
+    "size": 12917
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

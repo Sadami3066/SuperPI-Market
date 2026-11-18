@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "visual-design-foundations",
+  "name": {
+    "zh": "视觉设计基础",
+    "en": "Visual Design Foundations"
+  },
+  "summary": {
+    "zh": "用字体、色彩、间距建立统一视觉",
+    "en": "Typography, color, spacing, and iconography fundamentals."
+  },
+  "description": {
+    "zh": "从字体排布、色彩理论、间距体系和图标风格入手，建立一套前后一致的视觉规则。适合制定设计规范、整理设计令牌，或改善界面的层级与一致性。",
+    "en": "Establishes consistent visual rules from typography, color theory, spacing systems, and iconography. Useful for style guides, design tokens, or fixing hierarchy and consistency in an existing interface."
+  },
+  "tags": {
+    "zh": [
+      "视觉设计",
+      "字体",
+      "色彩"
+    ],
+    "en": [
+      "Visual design",
+      "Typography",
+      "Color"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/visual-design-foundations-1.0.0.zip",
+    "sha256": "cbafeb926896b59ff7a3df72e3893a856557936cd0344262fb7426508aae3c07",
+    "size": 15169
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

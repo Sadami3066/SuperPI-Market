@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "data-storytelling",
+  "name": {
+    "zh": "数据叙事",
+    "en": "Data storytelling"
+  },
+  "summary": {
+    "zh": "把分析结果讲成能推动决策的故事",
+    "en": "Turn analytics into a narrative that drives decisions."
+  },
+  "description": {
+    "zh": "用图表、背景和叙事结构把分析结果组织成有说服力的汇报，让结论对非技术受众也讲得通。做季度业务回顾、投资人材料或数据分析报告时使用。",
+    "en": "Shapes charts, context and structure into a narrative that persuades. Use it for business reviews, investor decks and data reports aimed at non-technical audiences."
+  },
+  "tags": {
+    "zh": [
+      "数据叙事",
+      "可视化",
+      "汇报"
+    ],
+    "en": [
+      "Storytelling",
+      "Visualization",
+      "Reporting"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/data-storytelling-1.0.0.zip",
+    "sha256": "bbf6f6f611c479cae972fa8ca9df6bfc442ed14a764ee8a9c90e93e320af53e4",
+    "size": 6480
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

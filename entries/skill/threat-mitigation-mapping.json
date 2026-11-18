@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "threat-mitigation-mapping",
+  "name": {
+    "zh": "威胁缓解映射",
+    "en": "Threat Mitigation Mapping"
+  },
+  "summary": {
+    "zh": "将已识别威胁对应到安全控制措施",
+    "en": "Map identified threats to security controls and mitigations."
+  },
+  "description": {
+    "zh": "把威胁建模中列出的风险逐条对应到具体的安全控制和缓解方案，并排出优先级与实施顺序。适合安排安全投入、编制整改计划，或复核现有控制是否真的有效。",
+    "en": "Turns the threats from a threat model into concrete security controls and mitigations, with priorities and a remediation order. Useful when budgeting security work, writing a remediation plan, or checking whether existing controls hold."
+  },
+  "tags": {
+    "zh": [
+      "威胁建模",
+      "安全控制",
+      "整改计划"
+    ],
+    "en": [
+      "Threat modeling",
+      "Security controls",
+      "Remediation"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/threat-mitigation-mapping-1.0.0.zip",
+    "sha256": "5cd8f47f09d0271dba259a9c1b3676d158ad4830c7c1d97d5f85cc851200bde5",
+    "size": 8232
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

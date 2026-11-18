@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "landing-page-generator",
+  "name": {
+    "zh": "落地页生成器",
+    "en": "Landing Page Generator"
+  },
+  "summary": {
+    "zh": "生成 Next.js 落地页组件与营销文案",
+    "en": "Generate a Next.js landing page with Tailwind and copy"
+  },
+  "description": {
+    "zh": "生成 Next.js + TypeScript 的落地页组件，带 Tailwind 样式、PAS/AIDA/BAB 文案结构、SEO meta 和 Core Web Vitals 目标。适合需要快速上线活动页或产品介绍页时使用。",
+    "en": "Generates a Next.js TypeScript landing page with Tailwind, PAS/AIDA/BAB copy structure, SEO meta tags and Core Web Vitals targets. Use it for campaign or product pages that need to ship quickly."
+  },
+  "tags": {
+    "zh": [
+      "落地页",
+      "Next.js",
+      "营销"
+    ],
+    "en": [
+      "Landing Page",
+      "Next.js",
+      "Marketing"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/landing-page-generator-1.0.0.zip",
+    "sha256": "e654df3d36d36551065e81dec75ada7f1706d986ab5132f1c6da7d54007b31a9",
+    "size": 23248
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

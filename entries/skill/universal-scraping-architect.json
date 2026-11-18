@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "universal-scraping-architect",
+  "name": {
+    "zh": "数据抓取搭建",
+    "en": "Universal Scraping Architect"
+  },
+  "summary": {
+    "zh": "为网页、PDF 或分页 API 搭建抓取并校验字段",
+    "en": "Build and validate scrapers for sites, PDFs and paginated APIs"
+  },
+  "description": {
+    "zh": "为网页、PDF 或分页 API 设计抓取与字段提取方案，并对抓到的字段做校验，避免数据悄悄错位。适合要从页面或文件里取数，或现有爬虫失效需要重写时使用。走 Firecrawl 需要 API Key，本地运行则需要安装 Python 依赖并能访问目标站点。",
+    "en": "Designs and validates scrapers for sites, PDFs and paginated APIs. Use it to pull data from pages or files, or when an existing scraper breaks. Firecrawl needs an API key; local runs need Python and network access."
+  },
+  "tags": {
+    "zh": [
+      "数据抓取",
+      "字段校验",
+      "PDF"
+    ],
+    "en": [
+      "Scraping",
+      "Field Validation",
+      "PDF"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/universal-scraping-architect-1.0.0.zip",
+    "sha256": "5e3395ae781811b2d3da05f7377bf34eb369985ee1e67d8ae86815bb46d1bc16",
+    "size": 17055
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

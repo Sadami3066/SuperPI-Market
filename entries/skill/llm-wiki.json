@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "llm-wiki",
+  "name": {
+    "zh": "知识库维护",
+    "en": "LLM Wiki"
+  },
+  "summary": {
+    "zh": "把文章、论文或书籍整理进可持续维护的知识库",
+    "en": "Keep an Obsidian knowledge base current as sources come in"
+  },
+  "description": {
+    "zh": "把论文、文章或书籍整理进 Obsidian 知识库，维护索引、链接和条目格式，并定期检查断链与重复。适合长期维护第二大脑、需要持续消化外部资料，或知识库越写越乱时使用。需要一个 Obsidian 库目录，整理脚本需要本地 Python 环境。",
+    "en": "Ingests papers, articles and books into an Obsidian vault, keeping the index, links and entry format in shape and flagging broken links over time. Use it for a long-lived second brain. Needs a vault directory and local Python."
+  },
+  "tags": {
+    "zh": [
+      "知识库",
+      "Obsidian",
+      "笔记"
+    ],
+    "en": [
+      "Knowledge Base",
+      "Obsidian",
+      "Notes"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/llm-wiki-1.0.0.zip",
+    "sha256": "0ba3bafe003f0bd01b1f2ffe5ea450bbb98336ab0a5b867798488e05a7879243",
+    "size": 58076
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

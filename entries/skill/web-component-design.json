@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "web-component-design",
+  "name": {
+    "zh": "前端组件设计",
+    "en": "Web Component Design"
+  },
+  "summary": {
+    "zh": "组织可复用的前端组件架构",
+    "en": "Component patterns for React, Vue, and Svelte projects."
+  },
+  "description": {
+    "zh": "梳理 React、Vue 与 Svelte 的组件写法，涵盖样式方案、组合方式与组件接口设计。适合搭建组件库、制定前端规范，或重构难维护的组件。",
+    "en": "Covers component patterns across React, Vue, and Svelte, including styling approaches, composition, and component API design. Useful for building a component library, setting frontend conventions, or refactoring messy components."
+  },
+  "tags": {
+    "zh": [
+      "组件",
+      "React",
+      "前端规范"
+    ],
+    "en": [
+      "Components",
+      "React",
+      "Frontend"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/web-component-design-1.0.0.zip",
+    "sha256": "fd020db444ca1b5f776c6007f0332654d484ebcdbc29f4067e24d8e3161e894b",
+    "size": 16822
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "stress-test",
+  "name": {
+    "zh": "计划压力测试",
+    "en": "Plan Stress Test"
+  },
+  "summary": {
+    "zh": "检验计划里没被验证的关键假设",
+    "en": "Test the untested assumptions a plan depends on"
+  },
+  "description": {
+    "zh": "对建立在未经验证假设上的计划做压力测试，尤其是爆发式增长模型或周期很长的试点。逐条检查哪些前提必须成立、现有证据够不够、最可能崩在哪一环。适合在投入资源之前冷静核对一遍。",
+    "en": "Stress-tests plans resting on unverified assumptions, especially hockey-stick growth models and long pilots. Checks what must hold, whether evidence exists and where it breaks first. Use before committing resources."
+  },
+  "tags": {
+    "zh": [
+      "计划评审",
+      "假设验证",
+      "风险"
+    ],
+    "en": [
+      "Planning",
+      "Assumptions",
+      "Risk"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/stress-test-1.0.0.zip",
+    "sha256": "d3c0bd6f2f1b2e9a1d9779ddf317626ce06eb8f5a0ff510d5d12f0dcd54056f1",
+    "size": 4750
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

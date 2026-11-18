@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "screen-reader-testing",
+  "name": {
+    "zh": "读屏器测试",
+    "en": "Screen Reader Testing"
+  },
+  "summary": {
+    "zh": "用读屏器验证网页的无障碍可用性",
+    "en": "Validate accessibility with VoiceOver, NVDA and JAWS"
+  },
+  "description": {
+    "zh": "给出 VoiceOver、NVDA、JAWS 等读屏器的测试流程，覆盖 ARIA 实现、表单和动态内容播报的检查点。适合上线前验证无障碍支持或排查读屏异常。需要在对应系统上安装读屏器并人工操作。",
+    "en": "Provides test flows for VoiceOver, NVDA and JAWS, covering ARIA, forms and dynamic content announcements. Suits pre-release accessibility checks or debugging assistive-tech issues. Requires the screen readers and manual testing."
+  },
+  "tags": {
+    "zh": [
+      "无障碍",
+      "读屏器",
+      "测试"
+    ],
+    "en": [
+      "Accessibility",
+      "Screen Reader",
+      "Testing"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/screen-reader-testing-1.0.0.zip",
+    "sha256": "7a7a6d05cede07c58f3cdd88d045dcbe9645c92604a24f99dd11351e2400d8b3",
+    "size": 8187
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

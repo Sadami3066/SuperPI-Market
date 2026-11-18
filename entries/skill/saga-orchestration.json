@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "saga-orchestration",
+  "name": {
+    "zh": "分布式事务编排",
+    "en": "Saga Orchestration"
+  },
+  "summary": {
+    "zh": "用补偿事务实现跨服务分布式流程",
+    "en": "Coordinate distributed transactions with compensating actions"
+  },
+  "description": {
+    "zh": "为跨微服务的业务流程设计 Saga 编排，在库存、支付、物流等服务之间安排补偿与回滚步骤，并处理长期卡住的事务状态。适合无法使用两阶段提交、又需要最终一致性的场景。落地时需要结合具体的服务与消息中间件。",
+    "en": "Design saga coordinators for multi-service workflows, with compensating steps across inventory, payment, and shipping plus recovery for stuck transactions. Use it when two-phase commit is unavailable and eventual consistency is needed."
+  },
+  "tags": {
+    "zh": [
+      "微服务",
+      "分布式事务",
+      "补偿事务"
+    ],
+    "en": [
+      "microservices",
+      "distributed transactions",
+      "compensation"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/saga-orchestration-1.0.0.zip",
+    "sha256": "3e51d6cdc946c4af29dc4133e9b5f4ee22f70d19bceb3009a7de8ac3b31a7479",
+    "size": 11090
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "cfo-advisor",
+  "name": {
+    "zh": "创业财务顾问",
+    "en": "CFO Advisor"
+  },
+  "summary": {
+    "zh": "算清现金能撑多久与单位经济",
+    "en": "Startup finance for runway, unit economics and dilution"
+  },
+  "description": {
+    "zh": "处理创业公司的财务问题，包括现金储备与烧钱速度、LTV 与 CAC、回本周期、融资与股权稀释。在问到现金还能撑多久、烧钱是否过快，或给出 ARR、CAC 数据时使用。适合融资前后做一次财务体检。",
+    "en": "Startup finance: runway and burn, LTV and CAC, payback period, fundraising and dilution. Comes in when someone asks how long cash lasts, or brings ARR and CAC numbers. Works before or after a raise."
+  },
+  "tags": {
+    "zh": [
+      "财务",
+      "现金流",
+      "融资"
+    ],
+    "en": [
+      "Finance",
+      "Runway",
+      "Fundraising"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/cfo-advisor-1.0.0.zip",
+    "sha256": "d457980a7f783f0732d1801437284e58579aa40ead984e7728a4fe2a910eba65",
+    "size": 39472
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

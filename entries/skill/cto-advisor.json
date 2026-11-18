@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "cto-advisor",
+  "name": {
+    "zh": "技术决策顾问",
+    "en": "CTO Advisor"
+  },
+  "summary": {
+    "zh": "判断技术债、架构方向与团队扩张",
+    "en": "Decide on tech debt, architecture bets, and engineering team growth."
+  },
+  "description": {
+    "zh": "针对技术债要不要还、该重写还是重构、架构怎么选以及工程团队如何扩张给出判断依据。适合技术投入需要向上汇报，或团队规模要跨台阶时使用。会结合 DORA 指标评估研发效率。",
+    "en": "Weighs in on paying down tech debt, rewriting versus refactoring, and how to scale the engineering team. Use it when a technical bet needs a defensible case or when headcount has to grow. Grounds the discussion in DORA metrics."
+  },
+  "tags": {
+    "zh": [
+      "技术战略",
+      "架构决策",
+      "研发效能"
+    ],
+    "en": [
+      "tech strategy",
+      "architecture",
+      "DORA"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/cto-advisor-1.0.0.zip",
+    "sha256": "d01b57f7a2650417d70bbabe68daf98db2c9a1e07a1bca5f97579b3919d7a586",
+    "size": 29059
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

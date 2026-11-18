@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "apple-hig-expert",
+  "name": {
+    "zh": "苹果界面规范审查",
+    "en": "Apple HIG Review"
+  },
+  "summary": {
+    "zh": "对照 Apple 人机界面指南检查界面",
+    "en": "Check iOS and macOS UI against Apple's HIG"
+  },
+  "description": {
+    "zh": "对照 Apple 人机界面指南审查 iOS、macOS、watchOS 和 visionOS 的界面，覆盖 Liquid Glass、对比度、点击区域和布局细节。适合在设计评审或上线前逐项核对规范，并拿到可执行的整改建议。需要本地 Python 环境运行配套检查脚本。",
+    "en": "Audits iOS, macOS, watchOS and visionOS UI against Apple's Human Interface Guidelines, covering Liquid Glass, contrast, tap targets and layout. Use it for design review or pre-release checks. Needs Python locally for the checker."
+  },
+  "tags": {
+    "zh": [
+      "设计规范",
+      "Apple",
+      "界面评审"
+    ],
+    "en": [
+      "Apple HIG",
+      "Design Review",
+      "Accessibility"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/apple-hig-expert-1.0.0.zip",
+    "sha256": "236890c5f2fc739d8c3f18eafc3a96bb0b338c6cd45da144030859b7e47696df",
+    "size": 11270
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

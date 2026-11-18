@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "spec-driven-workflow",
+  "name": {
+    "zh": "规格驱动开发",
+    "en": "Spec-Driven Workflow"
+  },
+  "summary": {
+    "zh": "先写验收标准再编码，并从规格中提取测试",
+    "en": "Write the spec and acceptance criteria first, then derive tests"
+  },
+  "description": {
+    "zh": "在动手写代码前先把功能写成规格：范围、验收标准、边界情况，再从规格里提取测试用例。适合需求含糊、多人协作容易理解不一致，或想用测试守住行为的时候。配套脚本需要本地 Python 环境。",
+    "en": "Writes a feature spec before coding, covering scope, acceptance criteria and edge cases, then extracts test cases from that spec. Use it when requirements are vague or several people must agree on behavior. Scripts need local Python."
+  },
+  "tags": {
+    "zh": [
+      "规格",
+      "验收标准",
+      "测试用例"
+    ],
+    "en": [
+      "Spec",
+      "Acceptance Criteria",
+      "Tests"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/spec-driven-workflow-1.0.0.zip",
+    "sha256": "1ef144923c4acf5045b77a65edcce76896caf4415824ca2809e4226fcbcd0679",
+    "size": 37340
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

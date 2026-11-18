@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "cold-email",
+  "name": {
+    "zh": "冷邮件序列",
+    "en": "Cold Email Sequences"
+  },
+  "summary": {
+    "zh": "为未订阅客户撰写冷邮件及跟进序列",
+    "en": "Draft cold outreach and follow-up sequences for prospects"
+  },
+  "description": {
+    "zh": "为未主动订阅的潜在客户撰写首次触达邮件和后续跟进序列，并按长度、个性化程度和垃圾邮件风险逐封打分。适合 SDR 外呼前检查初稿。",
+    "en": "Writes first-touch emails and follow-up sequences for prospects who never opted in, then scores each message for length, personalization and spam risk. Useful for reviewing SDR drafts before sending."
+  },
+  "tags": {
+    "zh": [
+      "冷邮件",
+      "跟进序列",
+      "触达"
+    ],
+    "en": [
+      "Cold email",
+      "Outreach",
+      "SDR"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/cold-email-1.0.0.zip",
+    "sha256": "ee33cd995398ee50cc03c33b29a5da9fd5fc62ae47c1f302d0dc81463a7756e1",
+    "size": 26746
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

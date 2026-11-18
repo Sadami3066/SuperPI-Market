@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "deep-learning-book",
+  "name": {
+    "zh": "深度学习教材导读",
+    "en": "Deep Learning Book"
+  },
+  "summary": {
+    "zh": "按章节导读《深度学习》，并对照今天的实践",
+    "en": "Read the Deep Learning book chapter by chapter, updated for today"
+  },
+  "description": {
+    "zh": "把《深度学习》的二十章拆成可查的索引，标注从 2016 年到今天的观点变化，还能按目标规划阅读顺序、诊断训练问题。适合系统学习这本书、想确认其中某条建议如今是否仍然成立，或遇到训练故障时对照排查。",
+    "en": "Indexes all twenty chapters of the Deep Learning book, flags what changed from 2016 to today, plans reading paths and diagnoses training problems. Use it while studying the book or checking whether its advice still holds."
+  },
+  "tags": {
+    "zh": [
+      "深度学习",
+      "教材",
+      "训练诊断"
+    ],
+    "en": [
+      "Deep Learning",
+      "Book",
+      "Diagnostics"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/deep-learning-book-1.0.0.zip",
+    "sha256": "c2acc3a783c40ae312987e57b0f0196f86314389ee69e45c42b28d20486e7c59",
+    "size": 88190
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

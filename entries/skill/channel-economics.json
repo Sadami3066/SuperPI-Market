@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "channel-economics",
+  "name": {
+    "zh": "渠道经济测算",
+    "en": "Channel Economics"
+  },
+  "summary": {
+    "zh": "对比直销与伙伴渠道的成本、回报与配比",
+    "en": "Compare direct and partner channel cost, ROI and mix"
+  },
+  "description": {
+    "zh": "评估直销与合作伙伴渠道的完全服务成本与投入回报，并在约束条件下给出较优的渠道配比。适合年度渠道复盘，或决定是否新增伙伴渠道时使用。",
+    "en": "Reviews the fully loaded cost to serve and ROI of direct versus partner channels, then recommends a mix under real constraints. Use it for an annual channel review or before adding a partner route."
+  },
+  "tags": {
+    "zh": [
+      "渠道",
+      "成本",
+      "ROI"
+    ],
+    "en": [
+      "Channels",
+      "Cost to serve",
+      "ROI"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/channel-economics-1.0.0.zip",
+    "sha256": "485c77d20f0b2f55297d54c0bda06e01b62ffa129605129244f7802d71161129",
+    "size": 28960
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

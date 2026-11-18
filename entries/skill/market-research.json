@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "market-research",
+  "name": {
+    "zh": "行业规模测算",
+    "en": "Market Sizing"
+  },
+  "summary": {
+    "zh": "双口径测算规模，并估算样本量与客群分层",
+    "en": "Size a market, plan survey samples and score segments"
+  },
+  "description": {
+    "zh": "同时用自上而下和自下而上两种方法测算 TAM、SAM、SOM，并对照两边的差异，避免只给一个没有出处的数字。还能按置信度和误差范围估算问卷样本量，筛掉规模不够或难以触达的客群切分。适合立项论证、融资材料和年度规划时需要可追溯依据的场合，需要本地 Python 3 环境。",
+    "en": "Sizes TAM, SAM and SOM top-down and bottom-up side by side, shows where the two disagree, plans survey sample sizes per segment and drops segments that are too small or unreachable. Needs Python 3."
+  },
+  "tags": {
+    "zh": [
+      "行业调研",
+      "规模测算",
+      "抽样"
+    ],
+    "en": [
+      "market sizing",
+      "sampling",
+      "segmentation"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/market-research-1.0.0.zip",
+    "sha256": "d4d62a18fe69f0fa4f553a2364ced3d3c84d9ee4c58e85433c208b948e6e23a5",
+    "size": 23457
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

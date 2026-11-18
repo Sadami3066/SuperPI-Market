@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "spinning-up-deep-rl",
+  "name": {
+    "zh": "深度强化学习",
+    "en": "Spinning Up Deep RL"
+  },
+  "summary": {
+    "zh": "学习或调试 PPO、SAC 等强化学习算法",
+    "en": "Learn and debug deep RL algorithms such as PPO, SAC and TD3"
+  },
+  "description": {
+    "zh": "围绕 OpenAI Spinning Up 讲解策略梯度、VPG、PPO、SAC、TD3 等算法，并帮助定位训练不收敛的原因。适合奖励长期不涨、想弄清某个算法为何这样设计，或准备跑自己的强化学习实验时使用。运行示例需要安装 PyTorch 与 Gym 等训练依赖。",
+    "en": "Explains policy gradients, VPG, PPO, SAC, TD3 and DDPG through OpenAI Spinning Up, and helps diagnose training that never converges. Use it when reward stays flat. Examples need PyTorch and Gym installed."
+  },
+  "tags": {
+    "zh": [
+      "强化学习",
+      "PPO",
+      "训练调试"
+    ],
+    "en": [
+      "Reinforcement Learning",
+      "PPO",
+      "Debugging"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/spinning-up-deep-rl-1.0.0.zip",
+    "sha256": "516ffd33154608fd53a4f3fed5b34c9d861d3408d0750d0b6adf04539e43f2b5",
+    "size": 75607
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "skill",
+  "id": "page-cro",
+  "name": {
+    "zh": "页面转化优化",
+    "en": "Page CRO"
+  },
+  "summary": {
+    "zh": "逐段审查页面，按影响排序给出改动建议",
+    "en": "Section-by-section audit with fixes ranked by impact"
+  },
+  "description": {
+    "zh": "对首页、落地页、定价页或功能页逐段审查，找出用户在何处失去兴趣，并按影响大小排序改动项。适合页面访问量不低、但注册、购买或点击转化偏低时使用。",
+    "en": "Audits home, landing, pricing or feature pages section by section to find where visitors drop off, then ranks fixes by impact. Use it when traffic is fine but signups, sales or clicks are not."
+  },
+  "tags": {
+    "zh": [
+      "落地页",
+      "转化率"
+    ],
+    "en": [
+      "Landing Page",
+      "Conversion"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/page-cro-1.0.0.zip",
+    "sha256": "78923d2dfb27cb3932e5a766e7780757a5520f35a656553d2f047f7c5324b112",
+    "size": 10226
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

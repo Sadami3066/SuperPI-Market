@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "baoyu-translate",
+  "name": {
+    "zh": "文章翻译",
+    "en": "Article Translation"
+  },
+  "summary": {
+    "zh": "在快翻、常规、精翻三档间翻译文章",
+    "en": "Translate articles in three depth modes"
+  },
+  "description": {
+    "zh": "支持中英互译，可在快翻、常规、精翻三档之间选择，也能挂自定义术语表。适合翻译外文长文、做本地化，或把已有译文再打磨一遍。抓取链接内容需要联网。",
+    "en": "Translates text or a linked page between Chinese and English in quick, normal or refined mode, with optional custom glossaries. Good for long articles, localization or tightening a draft. Fetching a URL needs network access."
+  },
+  "tags": {
+    "zh": [
+      "翻译",
+      "本地化",
+      "术语表"
+    ],
+    "en": [
+      "translation",
+      "localization",
+      "glossary"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/baoyu-translate-1.0.0.zip",
+    "sha256": "cc82e4174eb4bdc9ade967b30775bc36de97edd36427ad7f4bc94ca62a71a312",
+    "size": 20046
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/JimLiu/baoyu-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "cmo-advisor",
+  "name": {
+    "zh": "营销负责人顾问",
+    "en": "CMO Advisor"
+  },
+  "summary": {
+    "zh": "定位、增长模式与渠道预算分配",
+    "en": "Marketing leadership for positioning, growth model and budget"
+  },
+  "description": {
+    "zh": "面向营销负责人，处理定位、产品驱动与销售驱动及社区驱动的增长选择、渠道预算分配和营销团队搭建。适合增长停滞，或不确定该把预算和人放在哪个渠道的时候。",
+    "en": "Marketing leadership work: positioning, choosing between product-led, sales-led and community-led growth, splitting budget across channels, and designing the team. Fits a growth plateau or a stuck budget call."
+  },
+  "tags": {
+    "zh": [
+      "营销",
+      "定位",
+      "增长"
+    ],
+    "en": [
+      "Marketing",
+      "Positioning",
+      "Growth"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/cmo-advisor-1.0.0.zip",
+    "sha256": "af94f5a1875604c8747f2d71820b6184a603398b73815e94779840051504adc1",
+    "size": 35024
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

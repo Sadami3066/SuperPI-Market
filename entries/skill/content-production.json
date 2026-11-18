@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "content-production",
+  "name": {
+    "zh": "博客长文写作",
+    "en": "Content Production"
+  },
+  "summary": {
+    "zh": "从调研、大纲到完稿写出一篇博客文章或指南",
+    "en": "Take a topic from research and outline to a finished blog post"
+  },
+  "description": {
+    "zh": "按调研、提纲、成稿、SEO 优化和质量检查的顺序，写完一篇博客文章、教程或指南。适合交来一个选题或一堆零散笔记，需要直接得到可发布全文的时候。研究阶段需要联网查资料。",
+    "en": "Writes a blog post, article or guide in order: research, outline, draft, SEO pass and quality gates. Use it when you hand over a topic or rough notes and want a publishable piece back. Needs web access for research."
+  },
+  "tags": {
+    "zh": [
+      "博客写作",
+      "SEO",
+      "内容"
+    ],
+    "en": [
+      "blog writing",
+      "SEO",
+      "articles"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/content-production-1.0.0.zip",
+    "sha256": "83241c9c9b9ca434af3d703b5f3bc5ddc7c8a8476859da63fa6cba01e3017ffb",
+    "size": 33387
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

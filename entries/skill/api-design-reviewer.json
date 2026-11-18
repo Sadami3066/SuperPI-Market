@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "api-design-reviewer",
+  "name": {
+    "zh": "API 设计评审",
+    "en": "API design reviewer"
+  },
+  "summary": {
+    "zh": "评审 REST 接口改动，查规范与破坏性变更",
+    "en": "Review REST endpoint changes for conventions and breaking changes."
+  },
+  "description": {
+    "zh": "在合并或批准之前评审新增、变更的 REST 接口，检查命名与约定是否一致，标出会影响现有调用方的破坏性变更，并给出设计评分。适合接口 PR 和设计文档评审。评分脚本需要 Python 环境。",
+    "en": "Reviews new or changed REST endpoints before merge: naming and conventions, changes that break existing callers, and a design score. Fits endpoint PRs and design docs. The scoring scripts need Python."
+  },
+  "tags": {
+    "zh": [
+      "REST",
+      "破坏性变更",
+      "接口规范"
+    ],
+    "en": [
+      "REST",
+      "Breaking changes",
+      "API conventions"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/api-design-reviewer-1.0.0.zip",
+    "sha256": "399d318743f53d7df78b8856038fcdd302756fd468344fed229293d2459e9b04",
+    "size": 45349
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

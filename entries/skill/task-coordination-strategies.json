@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "task-coordination-strategies",
+  "name": {
+    "zh": "任务协调策略",
+    "en": "Task Coordination Strategies"
+  },
+  "summary": {
+    "zh": "拆解任务、编排依赖并平衡团队负载",
+    "en": "Break down tasks, map dependencies, balance workload"
+  },
+  "description": {
+    "zh": "介绍按层、按组件、按关注点和按文件归属拆解任务的方法，说明依赖关系（blockedBy/blocks）的设计与验收标准写法，并给出关键路径识别和负载再平衡的做法。适合给智能体团队分配工作或跟进多任务进度时使用。",
+    "en": "Covers decomposing work by layer, component, concern, or file ownership, designing blockedBy/blocks dependencies, writing acceptance criteria, and spotting the critical path. Use it when handing work to an agent team or tracking progress."
+  },
+  "tags": {
+    "zh": [
+      "任务拆解",
+      "依赖管理",
+      "调度"
+    ],
+    "en": [
+      "Planning",
+      "Dependencies",
+      "Agents"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/task-coordination-strategies-1.0.0.zip",
+    "sha256": "d7842d5df1a21d7b8fb21271b393b0332b126049a5473d8feeaab8b1b06fbded",
+    "size": 6012
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

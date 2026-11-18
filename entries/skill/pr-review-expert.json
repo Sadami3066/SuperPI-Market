@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "pr-review-expert",
+  "name": {
+    "zh": "PR 代码审查",
+    "en": "PR Review Expert"
+  },
+  "summary": {
+    "zh": "逐文件审查代码改动，给出合并前的缺陷与安全结论",
+    "en": "Review PRs file by file, flag bugs and risks, and give a merge verdict"
+  },
+  "description": {
+    "zh": "逐个文件检查 Pull Request 的改动，指出潜在缺陷、安全问题和代码质量隐患，最后说明能否合并。适合在合并前做最后一轮把关，或接手不熟悉的改动时使用。需要能读取仓库和 PR 内容。",
+    "en": "Walks a pull request file by file, pointing out bugs, security issues and quality problems, then states whether it is safe to merge. Useful as a final check before merging or when picking up unfamiliar changes. Needs repo and PR access."
+  },
+  "tags": {
+    "zh": [
+      "代码审查",
+      "Pull Request",
+      "安全"
+    ],
+    "en": [
+      "code review",
+      "pull request",
+      "security"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/pr-review-expert-1.0.0.zip",
+    "sha256": "f1bcf0493b98a92e7d9479f5f5aceb4a51f83cc884c1f818ff62a103c62cdf54",
+    "size": 6871
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

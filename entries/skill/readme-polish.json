@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "readme-polish",
+  "name": {
+    "zh": "README 打磨",
+    "en": "README polish"
+  },
+  "summary": {
+    "zh": "重排现有 README 的第一屏与结构",
+    "en": "Audit and polish an existing README for scanning."
+  },
+  "description": {
+    "zh": "升级已有 README 的第一屏和整体结构：重写开头介绍、调整信息层级，按需补充徽章、Mermaid 图和折叠区块。会参照同一生态的头部项目做校准。适合说明已显陈旧或首屏平淡的仓库，不适用于从零新写或封面图设计。",
+    "en": "Upgrades an existing README: rewrites the opening, reorders the information hierarchy and adds badges, Mermaid diagrams or collapsible sections, calibrated against leading repos in the same ecosystem. For stale READMEs, not from scratch."
+  },
+  "tags": {
+    "zh": [
+      "文档",
+      "README",
+      "结构"
+    ],
+    "en": [
+      "Docs",
+      "README",
+      "Structure"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/readme-polish-1.0.0.zip",
+    "sha256": "230042bdc3ac81015b113f19b5ebcd4febb0cc458db287b49990c9c9d3393a25",
+    "size": 16164
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

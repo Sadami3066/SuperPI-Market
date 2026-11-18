@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "openapi-spec-generation",
+  "name": {
+    "zh": "OpenAPI 规范生成",
+    "en": "OpenAPI Spec Generation"
+  },
+  "summary": {
+    "zh": "生成并维护 OpenAPI 3.1 接口规范",
+    "en": "Generate and maintain OpenAPI 3.1 specifications."
+  },
+  "description": {
+    "zh": "从代码或设计稿产出 OpenAPI 3.1 规范，并检查接口描述是否前后一致、是否满足约定。适合补全 API 文档、为生成 SDK 做准备，以及在接口变更后校验契约。",
+    "en": "Produces OpenAPI 3.1 specs from code or a design-first draft and checks the description for consistency. Useful for completing API docs, preparing SDK generation, or validating contracts after interface changes."
+  },
+  "tags": {
+    "zh": [
+      "OpenAPI",
+      "API 文档",
+      "接口契约"
+    ],
+    "en": [
+      "OpenAPI",
+      "API docs",
+      "Contract"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/openapi-spec-generation-1.0.0.zip",
+    "sha256": "fb1b541204d8670895c78b618e193e471229d69d3a1d62a477b665bc5f90ccb3",
+    "size": 9055
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

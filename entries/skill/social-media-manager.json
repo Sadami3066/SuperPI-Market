@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "social-media-manager",
+  "name": {
+    "zh": "社媒运营规划",
+    "en": "Social Media Manager"
+  },
+  "summary": {
+    "zh": "制定社媒策略、内容日历、社群维护与涨粉计划",
+    "en": "Set social strategy, a posting calendar and a follower growth plan"
+  },
+  "description": {
+    "zh": "决定发什么、什么时候发：排内容日历、定社区互动方式、规划涨粉路径，并保持账号统一的声音。适合需要长期运营社媒账号，或在规划季度内容节奏时使用。",
+    "en": "Decides what to post and when: builds the content calendar, sets how to handle community replies, and plans follower growth with one consistent voice. Use it for ongoing account operations or when mapping a quarter of social content."
+  },
+  "tags": {
+    "zh": [
+      "社媒运营",
+      "内容日历",
+      "涨粉"
+    ],
+    "en": [
+      "social media",
+      "calendar",
+      "growth"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/social-media-manager-1.0.0.zip",
+    "sha256": "38190c6a24b32471dc7b63134e24248885b861ce37183c8c987cc669aaf65c4e",
+    "size": 10085
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

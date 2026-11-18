@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "inbox-triage",
+  "name": {
+    "zh": "收件箱分拣",
+    "en": "Inbox Triage"
+  },
+  "summary": {
+    "zh": "按已有规则分类近期邮件并起草回复",
+    "en": "Sort recent mail and draft replies that are never sent"
+  },
+  "description": {
+    "zh": "读取最近的邮件，按已有的优先级规则分类，必要时起草回复草稿，并汇总当天真正需要你处理的事项。草稿只生成不发送，发出前由你确认。适合每天开工或收件箱堆积时使用，需要先完成一次邮件规则设置并能访问邮箱。",
+    "en": "Sorts recent email against your saved priority rules, drafts replies that are never sent and reports what truly needs you today. Drafts wait for your approval. Set up the rules and mailbox access first."
+  },
+  "tags": {
+    "zh": [
+      "邮件",
+      "分拣",
+      "回复草稿"
+    ],
+    "en": [
+      "email",
+      "triage",
+      "drafts"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/inbox-triage-1.0.0.zip",
+    "sha256": "e7c475f9fcd50c939f99fac21e27111a1928e6ec051b9de2101211d3dfbc7353",
+    "size": 25947
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

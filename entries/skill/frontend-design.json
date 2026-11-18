@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "frontend-design",
+  "name": {
+    "zh": "界面视觉设计",
+    "en": "Frontend Design"
+  },
+  "summary": {
+    "zh": "为新界面给出清晰的视觉方向与排版方案",
+    "en": "Set a clear visual direction and type system for new UI."
+  },
+  "description": {
+    "zh": "在新建或改造界面时提供审美方向、字体层级和配色决策，让成品不像套用默认模板。适合从零搭页面、或现有界面观感平庸需要重做视觉时使用。",
+    "en": "Offers aesthetic direction, type hierarchy and color decisions when building or reshaping an interface, so the result does not read as a default template. Useful when starting a page from scratch or when an existing screen looks generic."
+  },
+  "tags": {
+    "zh": [
+      "视觉",
+      "排版",
+      "UI"
+    ],
+    "en": [
+      "visual",
+      "typography",
+      "UI"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/frontend-design-1.0.0.zip",
+    "sha256": "3478244b357f4de3eea45e327740bc5d908f8f3e93c7ae77d28e8da32ed097a0",
+    "size": 8593
+  },
+  "skill": {
+    "license": "Apache-2.0",
+    "source": "https://github.com/anthropics/skills"
+  }
+}

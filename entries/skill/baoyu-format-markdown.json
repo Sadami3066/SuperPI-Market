@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "baoyu-format-markdown",
+  "name": {
+    "zh": "文章排版整理",
+    "en": "Markdown Formatter"
+  },
+  "summary": {
+    "zh": "给杂乱文本补上标题、摘要和层级",
+    "en": "Give rough text headings, summary and structure"
+  },
+  "description": {
+    "zh": "把纯文本或松散的 Markdown 整理成规整文档，补齐属性头、标题、摘要、各级标题、列表和代码块。适合发布前清一遍草稿。结果另存为带有 formatted 后缀的新文件。",
+    "en": "Turns plain text or loose Markdown into a tidy document with frontmatter, title, summary, headings, lists and code blocks. Useful for cleaning up a draft before publishing. Saves the result to a new file with a formatted suffix."
+  },
+  "tags": {
+    "zh": [
+      "排版",
+      "Markdown",
+      "文本整理"
+    ],
+    "en": [
+      "formatting",
+      "markdown",
+      "cleanup"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/baoyu-format-markdown-1.0.0.zip",
+    "sha256": "1a952097863eeaa0b1c76a4d9f62a3c01bd627415fc91ca524a34c9894d7b1ce",
+    "size": 20123
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/JimLiu/baoyu-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "doc-coauthoring",
+  "name": {
+    "zh": "文档协作撰写",
+    "en": "Doc Co-authoring"
+  },
+  "summary": {
+    "zh": "分阶段协作写完文档，再验证读者能否读懂",
+    "en": "Co-write documents in stages, then check reader clarity."
+  },
+  "description": {
+    "zh": "按结构化流程推进文档、提案、技术规格和决策记录的撰写，逐轮补充背景并打磨内容。适合篇幅较长、需要反复确认重点的写作任务，也适合写完先检验目标读者能否看懂。",
+    "en": "Guides writing of documents, proposals, specs and decision records in a structured loop, filling gaps round by round. Suits longer pieces whose key points need confirming, and checks that the intended reader can follow."
+  },
+  "tags": {
+    "zh": [
+      "写作",
+      "文档",
+      "流程"
+    ],
+    "en": [
+      "writing",
+      "docs",
+      "workflow"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/doc-coauthoring-1.0.0.zip",
+    "sha256": "8c58e65ca66c093a47f34cfb48850e946e1436c69a06f8ad50483e9d933aa044",
+    "size": 10452
+  },
+  "skill": {
+    "license": "Apache-2.0",
+    "source": "https://github.com/anthropics/skills"
+  }
+}

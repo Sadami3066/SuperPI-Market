@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "nextjs-app-router-patterns",
+  "name": {
+    "zh": "Next.js 路由模式",
+    "en": "Next.js App Router Patterns"
+  },
+  "summary": {
+    "zh": "用 Server Components 与流式渲染构建应用",
+    "en": "Build with Server Components, streaming, and parallel routes"
+  },
+  "description": {
+    "zh": "覆盖 App Router 下的 Server Components、流式渲染、并行路由与数据获取策略。适合新建立 Next.js 14+ 应用、实现 SSR/SSG 或优化首屏加载时使用。",
+    "en": "Covers Server Components, streaming, parallel routes, and data fetching under the App Router. Useful for new Next.js 14+ apps, SSR/SSG setups, and first-load performance work."
+  },
+  "tags": {
+    "zh": [
+      "Next.js",
+      "SSR",
+      "前端"
+    ],
+    "en": [
+      "Next.js",
+      "SSR",
+      "frontend"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/nextjs-app-router-patterns-1.0.0.zip",
+    "sha256": "668647d22a292448a27e0bcd3d1fdf3e83384b1a4d97285e6160b14edcf1d743",
+    "size": 6287
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

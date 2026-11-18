@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "inbox-setup",
+  "name": {
+    "zh": "邮件规则设置",
+    "en": "Inbox Setup"
+  },
+  "summary": {
+    "zh": "用问答建立邮箱分拣所需的知识库",
+    "en": "Build the priority knowledge base that email sorting reads"
+  },
+  "description": {
+    "zh": "一次只问一个问题，把你的角色、重要联系人和优先级问清楚，写成后续邮件分拣使用的知识库，并在保存前校验完整性。适合第一次启用邮件整理，或职责与优先级发生变化时使用，需要本地 Python 3 环境。",
+    "en": "Interviews you one question at a time about your role, key contacts and priorities, then writes the knowledge base that email sorting relies on, validating it before saving. Run it once, or again when priorities change."
+  },
+  "tags": {
+    "zh": [
+      "邮件",
+      "优先级",
+      "配置"
+    ],
+    "en": [
+      "email",
+      "priorities",
+      "setup"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/inbox-setup-1.0.0.zip",
+    "sha256": "7d2e82d5ad402a635d50f1bfc4ec962c6858d1a9e0c0baa869378d19adb7c415",
+    "size": 28338
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

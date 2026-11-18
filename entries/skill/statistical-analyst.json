@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "statistical-analyst",
+  "name": {
+    "zh": "显著性检验",
+    "en": "Statistical Analyst"
+  },
+  "summary": {
+    "zh": "判断 A/B 差异是真实提升还是随机波动",
+    "en": "Separate a real A/B lift from noise using significance tests"
+  },
+  "description": {
+    "zh": "用显著性检验和置信区间判断 A/B 结果里的差异是真实提升还是随机波动，并给出所需样本量和测试时长。适合质疑某个指标的变化、判断哪个版本胜出，或设计下一次实验时使用。",
+    "en": "Uses significance tests, confidence intervals, sample size and test duration to separate a real A/B lift from noise. Use it to challenge a metric move, pick the winning variant or size the next experiment."
+  },
+  "tags": {
+    "zh": [
+      "A/B 测试",
+      "显著性",
+      "样本量"
+    ],
+    "en": [
+      "A/B Testing",
+      "Significance",
+      "Sample Size"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/statistical-analyst-1.0.0.zip",
+    "sha256": "242199cb9912e5d38838dff71ba75f132bcf81c1f631f17030d09413c2e0c5c5",
+    "size": 19203
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

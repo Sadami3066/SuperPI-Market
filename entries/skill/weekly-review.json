@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "weekly-review",
+  "name": {
+    "zh": "每周复盘",
+    "en": "Weekly Review"
+  },
+  "summary": {
+    "zh": "清理未闭环事项，评估项目与承诺的健康度",
+    "en": "Close open loops and score commitment health"
+  },
+  "description": {
+    "zh": "按清空、对齐、展望三个阶段走一遍每周复盘，盘出所有未闭环的事项，用清单逐项确认缺口，并给出承诺健康度评分。适合周末收尾、系统开始不信任，或复盘习惯中断后重新启动时使用，需要本地 Python 3 环境。",
+    "en": "Runs a three-phase weekly review: inventories open loops, flags named gaps on a checklist and scores commitment health. Good for a weekly close, restarting a lapsed habit or when your system feels untrustworthy."
+  },
+  "tags": {
+    "zh": [
+      "复盘",
+      "任务管理",
+      "习惯"
+    ],
+    "en": [
+      "weekly review",
+      "productivity",
+      "GTD"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/weekly-review-1.0.0.zip",
+    "sha256": "cb215997d6de6e6c51283f153ee8c88f62deb542cce76d57369e58e8b4b6625b",
+    "size": 26626
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

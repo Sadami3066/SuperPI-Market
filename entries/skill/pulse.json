@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "pulse",
+  "name": {
+    "zh": "话题舆情速览",
+    "en": "Topic Pulse"
+  },
+  "summary": {
+    "zh": "了解某话题近期在社区和网络上的讨论与情绪",
+    "en": "See what people are saying about a topic right now"
+  },
+  "description": {
+    "zh": "围绕一个话题，收集近期在 Reddit、Hacker News 和网页上的讨论，整理成带引用出处的简要报告，并标出互动热度。适合新品调研、竞品对比或发布前快速摸清真实反馈。需要联网访问这些公开来源。",
+    "en": "Collects recent discussion about a topic across Reddit, Hacker News and the web, then returns a cited briefing with engagement signals. Useful before product research, competitor comparisons or sentiment checks. Requires internet access."
+  },
+  "tags": {
+    "zh": [
+      "舆情调研",
+      "社区讨论",
+      "竞品对比"
+    ],
+    "en": [
+      "social listening",
+      "research",
+      "trends"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/pulse-1.0.0.zip",
+    "sha256": "237abfc2946b32258e9c85ed253980b7df382e7a1062f3113c09a3b7b67c884b",
+    "size": 29808
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

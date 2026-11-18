@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "design-qa",
+  "name": {
+    "zh": "界面交付检查",
+    "en": "Design QA"
+  },
+  "summary": {
+    "zh": "在真实浏览器中检查界面能否交付",
+    "en": "Checks a rendered UI before it ships"
+  },
+  "description": {
+    "zh": "在界面准备交付前检查实际渲染效果：找出点了没反应的控件、占位文案、被去掉的焦点样式，缺失的加载、空白和错误状态，以及对比度不足、点击区域过小、焦点被隐藏和布局错乱等问题。适合开发自测、设计走查或上线前验收，需要在真实浏览器中运行。",
+    "en": "Checks a UI as rendered before it is called done: dead controls, placeholder copy, missing loading, empty and error states, removed focus rings, low contrast, small targets and broken reflow. Runs in a real browser."
+  },
+  "tags": {
+    "zh": [
+      "界面验收",
+      "可用性",
+      "走查"
+    ],
+    "en": [
+      "UI review",
+      "accessibility",
+      "QA"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/design-qa-1.0.0.zip",
+    "sha256": "913788bb6bce22d17b594a9fa5b81d5e868fe3fb3f113c841d570e285755ce51",
+    "size": 40214
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

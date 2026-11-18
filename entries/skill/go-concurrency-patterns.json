@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "go-concurrency-patterns",
+  "name": {
+    "zh": "Go 并发模式",
+    "en": "Go Concurrency Patterns"
+  },
+  "summary": {
+    "zh": "用 goroutine 与 channel 构建并发程序",
+    "en": "Build concurrent Go with goroutines and channels"
+  },
+  "description": {
+    "zh": "讲解 goroutine、channel、context 与同步原语的组合用法，包括 worker pool 和取消传播。适合在编写并发 Go 程序或定位数据竞争与死锁时参考。数据竞争检测依赖 Go 工具链自带的 race detector。",
+    "en": "Covers goroutines, channels, context, and sync primitives, with worker pools and cancellation. Use it when writing concurrent Go or tracking down races and deadlocks; race detection relies on the Go toolchain."
+  },
+  "tags": {
+    "zh": [
+      "Go",
+      "并发",
+      "goroutine"
+    ],
+    "en": [
+      "Go",
+      "concurrency",
+      "goroutine"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/go-concurrency-patterns-1.0.0.zip",
+    "sha256": "5f9931d549e002b4e27dcb11030cef57b8d7117b257dec8bb977d197503714ae",
+    "size": 5922
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

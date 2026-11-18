@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "litreview",
+  "name": {
+    "zh": "文献综述规划",
+    "en": "Literature Review Planner"
+  },
+  "summary": {
+    "zh": "规划文献综述的检索策略与阅读框架",
+    "en": "Plan a literature review with PICO or SPIDER and a reading guide."
+  },
+  "description": {
+    "zh": "为文献综述选定 PICO、SPIDER 等检索框架，在 PubMed 和 OpenAlex 检索并整理成一份 .docx 入门指南。适合刚启动综述、需要先摸清领域脉络时使用。检索依赖联网，单篇论文查询直接提问即可。",
+    "en": "Picks a PICO or SPIDER search frame, runs PubMed and OpenAlex queries and writes a .docx orientation guide for a literature review. Useful at the start of a review. Needs web access; single-paper lookups are best asked directly."
+  },
+  "tags": {
+    "zh": [
+      "文献综述",
+      "检索策略",
+      "PubMed"
+    ],
+    "en": [
+      "Literature",
+      "Search",
+      "PubMed"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/litreview-1.0.0.zip",
+    "sha256": "5375f82f1908785a56e94f55a5306bb81c7c7f97a93bda94fff39330c2cafacc",
+    "size": 35234
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

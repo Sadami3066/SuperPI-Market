@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "signup-flow-cro",
+  "name": {
+    "zh": "注册流程优化",
+    "en": "Signup Flow CRO"
+  },
+  "summary": {
+    "zh": "定位注册流程的流失步骤，逐字段减少阻碍",
+    "en": "Find where signups drop off and strip friction field by field"
+  },
+  "description": {
+    "zh": "在注册、报名或试用开通流程中找出用户流失的那一步，再逐个字段、逐个步骤拆掉多余摩擦，并给出可验证的改法。适合注册转化偏低，或正在设计新的注册流程时使用。分析脚本需要本地 Python 环境。",
+    "en": "Finds the step where people abandon a signup, registration or trial-start flow, then removes friction field by field with changes you can test. Use it when signup conversion is low or a new flow is being designed. The analyzer needs Python."
+  },
+  "tags": {
+    "zh": [
+      "注册转化",
+      "漏斗",
+      "CRO"
+    ],
+    "en": [
+      "signup",
+      "funnel",
+      "CRO"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/signup-flow-cro-1.0.0.zip",
+    "sha256": "11eedbea5006ac6703f5637e539a9aaaf42be8cb673b7ee18bc3dd76c0ffbb01",
+    "size": 11959
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

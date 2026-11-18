@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "fastapi-templates",
+  "name": {
+    "zh": "FastAPI 项目模板",
+    "en": "FastAPI Project Templates"
+  },
+  "summary": {
+    "zh": "生成可直接投产的 FastAPI 后端骨架",
+    "en": "Scaffold production-ready FastAPI backend projects."
+  },
+  "description": {
+    "zh": "生成结构完整的 FastAPI 后端骨架，包含异步路由、依赖注入和统一的错误处理。适合从零搭建 API 服务，或为团队统一新项目的起始结构。需要本地已装好 Python 和依赖管理工具。",
+    "en": "Generates a production-ready FastAPI backend skeleton with async routes, dependency injection, and consistent error handling. Fits new API services or a shared starting point for a team. Requires Python and a package manager locally."
+  },
+  "tags": {
+    "zh": [
+      "FastAPI",
+      "后端",
+      "项目脚手架"
+    ],
+    "en": [
+      "FastAPI",
+      "Backend",
+      "Scaffolding"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/fastapi-templates-1.0.0.zip",
+    "sha256": "5aca789ae6f311f5a0ebc3613848b83aecb6c8dc496acc4d262adfa1920e9a36",
+    "size": 6984
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

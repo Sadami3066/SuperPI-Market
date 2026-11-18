@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "cpo-review",
+  "name": {
+    "zh": "产品决策评审",
+    "en": "Product Review"
+  },
+  "summary": {
+    "zh": "用六个问题砍掉多余路线与功能",
+    "en": "Stress-test a roadmap, a PMF claim, or a decision to kill a feature."
+  },
+  "description": {
+    "zh": "在承诺季度路线图、上线新产品线，或一次加太多功能之前，用六个问题检查用户任务、北极星指标、PMF 信号、RICE 排序和机会成本。也用于反驳 PMF 已经成立的结论。",
+    "en": "Six questions cover the job to be done, the north star metric, PMF signal, RICE rank, and what gets cut if this ships. Use it before a roadmap commitment, and to push back on a PMF claim or a feature kill."
+  },
+  "tags": {
+    "zh": [
+      "产品路线",
+      "需求取舍",
+      "PMF"
+    ],
+    "en": [
+      "roadmap",
+      "product",
+      "PMF"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/cpo-review-1.0.0.zip",
+    "sha256": "2944d273b9d79e16ad90cddcce9f2b89292795beaf91448a2a3922d7fa4eb3ae",
+    "size": 2859
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

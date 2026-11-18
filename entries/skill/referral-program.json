@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "referral-program",
+  "name": {
+    "zh": "推荐计划设计",
+    "en": "Referral Program"
+  },
+  "summary": {
+    "zh": "设计或修复推荐、联盟与大使计划，并测算奖励成本",
+    "en": "Design referral and affiliate programs and model rewards against ROI"
+  },
+  "description": {
+    "zh": "从奖励规则、触发时机、归因和防作弊到邀请文案，完整设计推荐、联盟或大使计划，并用计算脚本估算奖励成本与回报。适合新开推荐项目，或现有项目拉不动人、奖励发得过多时使用。计算脚本需要本地 Python 环境。",
+    "en": "Plans referral, affiliate or ambassador programs end to end: rewards, triggers, anti-fraud and invite copy, with a payout model. Use it to launch one or fix a program that costs more than it brings. Needs local Python."
+  },
+  "tags": {
+    "zh": [
+      "推荐计划",
+      "联盟营销",
+      "增长"
+    ],
+    "en": [
+      "referral",
+      "affiliate",
+      "growth"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/referral-program-1.0.0.zip",
+    "sha256": "c7242bdceba82ce6be474ba874daca83d7c56ccef76dcc3406623bb7fbf8e610",
+    "size": 19261
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

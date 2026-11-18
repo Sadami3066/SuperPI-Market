@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "zero-hallucination-coder",
+  "name": {
+    "zh": "零幻觉编码",
+    "en": "Zero Hallucination Coder"
+  },
+  "summary": {
+    "zh": "高风险编码前先规划，逐个核对用到的 API 是否真实存在",
+    "en": "Plan risky coding work and confirm every API exists before coding"
+  },
+  "description": {
+    "zh": "在认证、数据库迁移这类高风险改动前先做规划，拆出步骤并逐个核对用到的 import 与接口是否真实存在。适合多文件修改、旧系统改造，或需求里容易凭空编造接口的场景。改动很小时不必启用。",
+    "en": "Plans high-stakes work such as auth changes, migrations and multi-file edits, then checks that every import and API really exists. Use it when a task is complex enough that invented interfaces are a real risk. Small edits do not need it."
+  },
+  "tags": {
+    "zh": [
+      "编码规划",
+      "API 核对",
+      "高风险改动"
+    ],
+    "en": [
+      "Planning",
+      "API Checks",
+      "High Stakes"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/zero-hallucination-coder-1.0.0.zip",
+    "sha256": "6a0db1fe43f073cb14e8babeaf67adda82474b359075838d0e4834da1de3d3c1",
+    "size": 7355
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

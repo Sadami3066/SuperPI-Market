@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "md-review",
+  "name": {
+    "zh": "代码评审报告",
+    "en": "Markdown Review"
+  },
+  "summary": {
+    "zh": "把代码评审笔记整理成双栏网页报告",
+    "en": "Turn markdown code reviews into a two-column HTML report"
+  },
+  "description": {
+    "zh": "把带有 diff 片段和严重程度标注的 markdown 代码评审转成双栏 HTML 报告，左右对照查看改动与说明。适合评审结束后需要一份易读、可存档的结果时使用。转换时要指定评审人姓名，并先设定品牌样式。",
+    "en": "Turns a markdown code review with diff blocks and severity callouts into a two-column HTML report. Good when a review must be readable and archivable. A named reviewer and brand styles are required."
+  },
+  "tags": {
+    "zh": [
+      "代码评审",
+      "Markdown",
+      "报告"
+    ],
+    "en": [
+      "code review",
+      "markdown",
+      "report"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/md-review-1.0.0.zip",
+    "sha256": "7a8391a9dbfff845c71b97af31b09def03a7e80c0fa47cad4586a1873686fe76",
+    "size": 27505
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

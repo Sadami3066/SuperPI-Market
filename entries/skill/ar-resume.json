@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "ar-resume",
+  "name": {
+    "zh": "恢复实验",
+    "en": "Resume experiment"
+  },
+  "summary": {
+    "zh": "从分支和历史记录继续暂停的实验",
+    "en": "Continue a paused experiment from its branch and history."
+  },
+  "description": {
+    "zh": "读取实验所在的分支、配置和历史结果，从中断处继续推进。适合长任务被暂停、上下文丢失，或换了一台机器之后恢复使用。",
+    "en": "Picks a paused or interrupted experiment back up by reading its branch, config and result history, then continues from where it stopped. Use it after a long task was paused, context was lost or you moved to another machine."
+  },
+  "tags": {
+    "zh": [
+      "实验",
+      "续跑",
+      "工作流"
+    ],
+    "en": [
+      "Experiment",
+      "Resume",
+      "Workflow"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/ar-resume-1.0.0.zip",
+    "sha256": "67ed31b81ac8285fe7c5c6557e16dbcc027d8c48d2fcf41041baa54de6227f36",
+    "size": 2284
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

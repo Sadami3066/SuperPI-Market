@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "general-counsel-advisor",
+  "name": {
+    "zh": "法务与合同审查",
+    "en": "General Counsel Advisor"
+  },
+  "summary": {
+    "zh": "审合同风险条款，梳理 IP 与合规暴露",
+    "en": "Review contract risk, IP strategy and regulatory exposure"
+  },
+  "description": {
+    "zh": "审阅 MSA、SaaS 合同、NDA、DPA 和劳动合同中的风险条款，梳理 IP 归属以及 HIPAA、GDPR、FDA、金融监管方面的合规暴露。适合在签约前或融资谈判中快速定位问题条款时使用。它只提供初步参考，不能替代执业律师。",
+    "en": "Reviews MSAs, SaaS agreements, NDAs, DPAs and employment contracts for risky clauses, and maps IP ownership plus exposure to HIPAA, GDPR, FDA and fintech rules. Use it before signing or in deal talks. Not a substitute for licensed counsel."
+  },
+  "tags": {
+    "zh": [
+      "合同审查",
+      "法务",
+      "合规"
+    ],
+    "en": [
+      "Contracts",
+      "Legal",
+      "Compliance"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/general-counsel-advisor-1.0.0.zip",
+    "sha256": "0f2798b8da14744eb240deba176809a6ca7040d78769fff59a5646012d1d4d10",
+    "size": 30548
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

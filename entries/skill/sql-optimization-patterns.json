@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "sql-optimization-patterns",
+  "name": {
+    "zh": "SQL 查询优化",
+    "en": "SQL Optimization Patterns"
+  },
+  "summary": {
+    "zh": "通过索引与执行计划分析优化慢查询",
+    "en": "Speed up slow queries with indexes and EXPLAIN"
+  },
+  "description": {
+    "zh": "结合 EXPLAIN 分析、索引策略和查询改写定位数据库性能瓶颈。适合排查慢查询、设计表结构或上线前做性能评估。实际效果取决于数据库版本与数据分布。",
+    "en": "Diagnose slow queries with EXPLAIN plans, indexing strategies, and query rewrites. Useful for performance debugging, schema design, and pre-launch reviews; results vary with database version and data volume."
+  },
+  "tags": {
+    "zh": [
+      "数据库",
+      "索引",
+      "性能"
+    ],
+    "en": [
+      "database",
+      "indexing",
+      "performance"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/sql-optimization-patterns-1.0.0.zip",
+    "sha256": "4ae419c80a81a6acca0fd712cdd1bbde762c90ccf905976a38410bacc1614531",
+    "size": 6390
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

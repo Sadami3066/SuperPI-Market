@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "social-content",
+  "name": {
+    "zh": "社媒帖文撰写",
+    "en": "Social Content"
+  },
+  "summary": {
+    "zh": "按各平台的开头、长度与格式写出社媒帖文",
+    "en": "Write posts and threads shaped to each platform's hook and format"
+  },
+  "description": {
+    "zh": "写出 LinkedIn 帖文、X 长贴、Instagram 文案、TikTok 和 Facebook 帖文，按各平台的开头钩子、长度和版式来处理。适合需要一篇帖文，或把一个想法改写成多个平台版本时使用。",
+    "en": "Writes LinkedIn posts, X threads, Instagram captions, TikTok and Facebook posts, each shaped by the platform's hook, length and format. Use it for a single post or to adapt one idea across several platforms."
+  },
+  "tags": {
+    "zh": [
+      "社媒文案",
+      "多平台",
+      "帖文"
+    ],
+    "en": [
+      "social posts",
+      "threads",
+      "copy"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/social-content-1.0.0.zip",
+    "sha256": "92c0360e9456e181544729a2d6ec0490b90b6657d968030c9fcdded64a81b07f",
+    "size": 12735
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "cdo-review",
+  "name": {
+    "zh": "数据战略评审",
+    "en": "Data Review"
+  },
+  "summary": {
+    "zh": "审数据授权、架构选型与数据变现",
+    "en": "Challenge training-data rights, data architecture, and monetization."
+  },
+  "description": {
+    "zh": "在批准用客户数据训练模型、签多年数据基础设施合同或把数据做成产品之前，追问数据支撑哪个决策、授权来自哪里、内部消费方有多少。也用于并购尽调前的数据盘点。",
+    "en": "Questions what decision the data unlocks, where consent comes from, and how many internal consumers justify the architecture, before a training run, a multi-year data platform contract, or a data product. Useful ahead of M&A diligence."
+  },
+  "tags": {
+    "zh": [
+      "数据治理",
+      "授权合规",
+      "数据架构"
+    ],
+    "en": [
+      "data governance",
+      "consent",
+      "architecture"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/cdo-review-1.0.0.zip",
+    "sha256": "0cb2ffe11b8860c2503df0d82df181b84300bcc09e683bd80043059d984c7825",
+    "size": 3571
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "linkedin-analytics",
+  "name": {
+    "zh": "领英数据分析",
+    "en": "LinkedIn analytics"
+  },
+  "summary": {
+    "zh": "分析帖子表现，区分规律与波动",
+    "en": "Analyze LinkedIn post performance and spot patterns."
+  },
+  "description": {
+    "zh": "复盘已发布帖子的表现，解释触达下降的原因，判断某个现象是真实规律还是偶然波动。也会为仍存疑的猜想设计小规模测试。适合定期复盘，或怀疑账号被限流时使用。",
+    "en": "Reviews how published posts performed, explains a drop in reach and separates a real pattern from noise. It also designs small tests for open questions. Use it for regular reviews or when reach suddenly falls."
+  },
+  "tags": {
+    "zh": [
+      "领英",
+      "数据分析",
+      "复盘"
+    ],
+    "en": [
+      "LinkedIn",
+      "Analytics",
+      "Review"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/linkedin-analytics-1.0.0.zip",
+    "sha256": "98d79ea325375574cb43b62aa28ee3d60aa6cc0f96771f0c71b6e23a54914cb1",
+    "size": 27031
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

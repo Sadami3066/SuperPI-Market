@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "baoyu-cover-image",
+  "name": {
+    "zh": "文章封面图",
+    "en": "Cover Image"
+  },
+  "summary": {
+    "zh": "为文章生成多种风格的封面图",
+    "en": "Generate cover images for articles"
+  },
+  "description": {
+    "zh": "按类型、配色、渲染、文字和氛围五个维度设计封面，内置 11 套配色和 7 种渲染风格。支持电影感 2.35:1、宽屏 16:9 和方形 1:1 三种画幅。生成图片需要可用的图像生成后端。",
+    "en": "Designs article covers across five dimensions: type, palette, rendering, text and mood, with 11 palettes and 7 rendering styles. Supports cinematic 2.35:1, widescreen 16:9 and square 1:1 crops. Requires an image generation backend."
+  },
+  "tags": {
+    "zh": [
+      "封面",
+      "配图",
+      "视觉设计"
+    ],
+    "en": [
+      "cover",
+      "imagery",
+      "visual design"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/baoyu-cover-image-1.0.0.zip",
+    "sha256": "59a6a480a2fc3edbaacff203ba048615c1726a6f1abbe8960245cbd7191551f1",
+    "size": 47557
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/JimLiu/baoyu-skills"
+  }
+}

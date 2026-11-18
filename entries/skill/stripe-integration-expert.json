@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "stripe-integration-expert",
+  "name": {
+    "zh": "Stripe 支付",
+    "en": "Stripe Billing Integration"
+  },
+  "summary": {
+    "zh": "接订阅计费、试用与 Webhook 处理",
+    "en": "Subscriptions, proration and webhooks with Stripe"
+  },
+  "description": {
+    "zh": "接入 Stripe 的订阅与计费：试用、升降级折算、一次性支付、按用量计费、Checkout、客户门户和发票，并处理 Webhook 幂等与签名校验。适合在 Next.js、Express 或 Django 里加付费流程时使用，需要 Stripe 账号与 API 密钥。",
+    "en": "Adds Stripe billing: subscriptions with trials and proration, one-time and usage-based charges, Checkout, customer portal, invoices and idempotent webhook handlers. A Stripe account and API keys are required."
+  },
+  "tags": {
+    "zh": [
+      "支付",
+      "订阅",
+      "Webhook"
+    ],
+    "en": [
+      "Payments",
+      "Subscriptions",
+      "Webhooks"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/stripe-integration-expert-1.0.0.zip",
+    "sha256": "3cba4008d5314747e216fbd46233d3b7724f725940c9d4218b29ef9a71a0aa91",
+    "size": 5719
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

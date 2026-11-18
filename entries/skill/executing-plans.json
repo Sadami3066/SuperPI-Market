@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "executing-plans",
+  "name": {
+    "zh": "按计划内联执行",
+    "en": "Executing Plans"
+  },
+  "summary": {
+    "zh": "由主会话逐条执行实现计划并留下记录",
+    "en": "Execute an implementation plan task by task in one session."
+  },
+  "description": {
+    "zh": "在同一个会话里按计划逐项实现，用测试先失败再通过来验证每一步，并把决策记成可追溯的流水，最后做一次整体复查。适合计划已写好、想省掉逐任务分派开销的场合。",
+    "en": "Works through an existing plan task by task in one session, proving each step with a test seen failing then passing, logging decisions, and ending with one full review. Suits plans where per-task dispatch costs more than it returns."
+  },
+  "tags": {
+    "zh": [
+      "开发流程",
+      "计划",
+      "测试"
+    ],
+    "en": [
+      "workflow",
+      "planning",
+      "testing"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/executing-plans-1.0.0.zip",
+    "sha256": "f0490dd87f259433f4bfdba9e65250bc38aedc8bcc9574e964f0e4b38aa749fb",
+    "size": 10076
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/obra/superpowers"
+  }
+}

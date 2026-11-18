@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "handoff",
+  "name": {
+    "zh": "会话交接",
+    "en": "Handoff"
+  },
+  "summary": {
+    "zh": "把当前对话整理成交接文档，供下一个会话接手",
+    "en": "Turn the current session into a handoff doc the next agent can pick up"
+  },
+  "description": {
+    "zh": "把当前会话压缩成一份交接文档，写清目标、已定的决策、下一步和风险，并用路径或链接引用已有的 PRD、计划和提交，而不是复制内容。适合中途换人接手、收工前留档，或新会话需要接着做的时候。",
+    "en": "Compacts the session into a handoff document covering goals, decisions, next steps and risks, and references existing PRDs, plans and commits by path instead of copying them. Use it when someone else takes over."
+  },
+  "tags": {
+    "zh": [
+      "会话交接",
+      "上下文",
+      "文档"
+    ],
+    "en": [
+      "Handoff",
+      "Context",
+      "Docs"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/handoff-1.0.0.zip",
+    "sha256": "1c7c45a999ba58e437016c51ebbdc04814545457aa95939c2618d1865a765a4f",
+    "size": 22696
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

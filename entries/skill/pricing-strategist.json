@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "pricing-strategist",
+  "name": {
+    "zh": "定价策略",
+    "en": "Pricing Strategy"
+  },
+  "summary": {
+    "zh": "选定定价模式并测算用户支付意愿区间",
+    "en": "Choose a pricing model and estimate willingness-to-pay ranges"
+  },
+  "description": {
+    "zh": "在按席位、按用量、价值定价、免费增值或混合模式之间做选择，配合支付意愿分析和 Good/Better/Best 版本设计，输出价格区间而非单一数字。适合新品定价或调整价格结构。",
+    "en": "Helps choose between seat, usage, value-based, freemium and hybrid pricing, runs willingness-to-pay analysis and designs Good/Better/Best tiers. Returns a price range, not one number."
+  },
+  "tags": {
+    "zh": [
+      "定价",
+      "支付意愿",
+      "套餐"
+    ],
+    "en": [
+      "Pricing",
+      "WTP",
+      "Packaging"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/pricing-strategist-1.0.0.zip",
+    "sha256": "28471e67a26ecfdd47ad0713c675bd950e6b6597cc33952fde2a96d728d34f7e",
+    "size": 27452
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

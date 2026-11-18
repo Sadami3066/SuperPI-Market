@@ -1,0 +1,36 @@
+{
+  "type": "skill",
+  "id": "pricing-strategy",
+  "name": {
+    "zh": "定价策略设计",
+    "en": "Pricing Strategy"
+  },
+  "summary": {
+    "zh": "设计套餐层级与计费维度，测算收入影响",
+    "en": "Design tiers and value metrics, model revenue impact"
+  },
+  "description": {
+    "zh": "为 SaaS 设计套餐分层、价值维度和功能打包，也可以评估涨价方案，先用模型测算不同选项对收入的影响。适合筹备定价页、调整计费方式或计划提价时使用。",
+    "en": "Shapes SaaS tiers, value metrics and feature packaging, and models how each option affects revenue before numbers go public. Use it for a pricing page, a billing change or a price increase."
+  },
+  "tags": {
+    "zh": [
+      "定价",
+      "SaaS"
+    ],
+    "en": [
+      "Pricing",
+      "SaaS"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/pricing-strategy-1.0.0.zip",
+    "sha256": "ee78ca5148dbdf06ef521596fcb3f0d67050427f0168dc14c4fe1c58564f18a3",
+    "size": 18385
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/alirezarezvani/claude-skills"
+  }
+}

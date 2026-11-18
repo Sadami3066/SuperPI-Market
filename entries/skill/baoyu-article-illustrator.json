@@ -1,0 +1,38 @@
+{
+  "type": "skill",
+  "id": "baoyu-article-illustrator",
+  "name": {
+    "zh": "文章配图",
+    "en": "Article Illustrator"
+  },
+  "summary": {
+    "zh": "分析文章结构并插入合适的插图",
+    "en": "Place well-matched illustrations in an article"
+  },
+  "description": {
+    "zh": "先读文章结构，标出需要配图的位置，再按类型、风格、配色三个维度生成插图。适合长文发布前补齐配图。需要可用的图像生成服务。",
+    "en": "Reads an article's structure, marks where a visual would help, then generates illustrations along type, style and palette. Suited to finishing long posts before publishing. Requires an image generation service."
+  },
+  "tags": {
+    "zh": [
+      "配图",
+      "插图",
+      "长文"
+    ],
+    "en": [
+      "illustration",
+      "images",
+      "articles"
+    ]
+  },
+  "version": "1.0.0",
+  "artifact": {
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/skills-20261118/baoyu-article-illustrator-1.0.0.zip",
+    "sha256": "bca52e0f7a14a82d36bb227ecaf3153e6ecb006bf8e2952bd956796250228f40",
+    "size": 61657
+  },
+  "skill": {
+    "license": "MIT",
+    "source": "https://github.com/JimLiu/baoyu-skills"
+  }
+}
