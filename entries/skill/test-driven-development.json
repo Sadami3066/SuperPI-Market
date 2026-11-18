@@ -17,11 +17,13 @@
   "tags": {
     "zh": [
       "测试",
-      "开发"
+      "编码",
+      "重构"
     ],
     "en": [
       "Testing",
-      "Development"
+      "Coding",
+      "Refactoring"
     ]
   },
   "version": "1.0.0",
@@ -33,5 +35,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/obra/superpowers"
-  }
+  },
+  "category": "dev"
 }

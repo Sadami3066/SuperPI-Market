@@ -16,14 +16,14 @@
   "icon": "icons/wecom.png",
   "tags": {
     "zh": [
-      "企业微信",
-      "办公",
-      "消息"
+      "协作",
+      "文档",
+      "邮件"
     ],
     "en": [
-      "WeCom",
-      "Productivity",
-      "Messaging"
+      "Collaboration",
+      "Documents",
+      "Email"
     ]
   },
   "version": "2.6.1",
@@ -39,5 +39,6 @@
     "publisherName": "milous",
     "requiredAccess": "normal",
     "version": "2.6.1"
-  }
+  },
+  "category": "office"
 }

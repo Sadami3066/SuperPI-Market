@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "KPI",
-      "看板",
-      "指标口径"
+      "数据",
+      "分析",
+      "报告"
     ],
     "en": [
-      "KPI",
-      "Dashboards",
-      "Metrics"
+      "Data",
+      "Analysis",
+      "Reports"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/wshobson/agents"
-  }
+  },
+  "category": "research"
 }

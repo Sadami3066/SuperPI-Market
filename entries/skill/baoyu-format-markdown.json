@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "排版",
-      "Markdown",
-      "文本整理"
+      "写作",
+      "润色"
     ],
     "en": [
-      "formatting",
-      "markdown",
-      "cleanup"
+      "Formatting",
+      "Writing",
+      "Polishing"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/JimLiu/baoyu-skills"
-  }
+  },
+  "category": "content"
 }

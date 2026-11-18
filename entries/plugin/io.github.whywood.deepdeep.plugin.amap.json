@@ -7,14 +7,14 @@
   },
   "tags": {
     "zh": [
-      "高德",
       "地图",
-      "路线"
+      "出行",
+      "天气"
     ],
     "en": [
-      "Amap",
       "Maps",
-      "Routes"
+      "Travel",
+      "Weather"
     ]
   },
   "summary": {
@@ -39,5 +39,6 @@
     "publisherName": "milous",
     "requiredAccess": "normal",
     "version": "1.5.3"
-  }
+  },
+  "category": "life"
 }

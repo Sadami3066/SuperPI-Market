@@ -16,13 +16,11 @@
   "tags": {
     "zh": [
       "文档",
-      "README",
-      "结构"
+      "编码"
     ],
     "en": [
       "Docs",
-      "README",
-      "Structure"
+      "Coding"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +32,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "dev"
 }

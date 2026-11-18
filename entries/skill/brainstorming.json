@@ -16,12 +16,12 @@
   "icon": "icons/superpowers.png",
   "tags": {
     "zh": [
-      "规划",
-      "协作"
+      "架构",
+      "编码"
     ],
     "en": [
-      "Planning",
-      "Collaboration"
+      "Architecture",
+      "Coding"
     ]
   },
   "version": "1.0.0",
@@ -33,5 +33,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/obra/superpowers"
-  }
+  },
+  "category": "dev"
 }

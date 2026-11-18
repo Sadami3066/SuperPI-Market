@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "heroku",
+  "name": {
+    "zh": "Heroku",
+    "en": "Heroku"
+  },
+  "summary": {
+    "zh": "管理应用、配置与运行日志",
+    "en": "Manage apps, config, and runtime logs"
+  },
+  "description": {
+    "zh": "列出应用与 dyno 状态、读取配置变量和运行日志，执行常用运维操作。适合排查部署后进程异常。首次连接在浏览器登录 Heroku 授权。",
+    "en": "List apps and dyno status, read config vars and runtime logs, and run common maintenance operations. Useful for diagnosing a process that misbehaves after deploy. Sign in to Heroku in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "部署",
+      "运维"
+    ],
+    "en": [
+      "Development",
+      "Deployment",
+      "DevOps"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.heroku.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Heroku 并授权",
+      "en": "Sign in to Heroku and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

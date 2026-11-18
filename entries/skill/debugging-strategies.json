@@ -2,8 +2,8 @@
   "type": "skill",
   "id": "debugging-strategies",
   "name": {
-    "zh": "系统化调试",
-    "en": "Systematic Debugging"
+    "zh": "调试策略",
+    "en": "Debugging Strategies"
   },
   "summary": {
     "zh": "用分治与性能剖析定位疑难缺陷",
@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "调试",
-      "性能分析",
-      "排错"
+      "性能",
+      "测试"
     ],
     "en": [
-      "debugging",
-      "profiling",
-      "root cause"
+      "Debugging",
+      "Performance",
+      "Testing"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/wshobson/agents"
-  }
+  },
+  "category": "dev"
 }

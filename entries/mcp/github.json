@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "github",
+  "name": {
+    "zh": "GitHub",
+    "en": "GitHub"
+  },
+  "summary": {
+    "zh": "读写仓库、议题与拉取请求",
+    "en": "Read and write repos, issues, and pull requests"
+  },
+  "description": {
+    "zh": "查询和操作仓库、议题、拉取请求、代码搜索结果与 Actions 运行状态。适合在对话里跟进项目进展、整理议题或审阅改动。首次连接跳转浏览器登录 GitHub 并授权，也可改用个人访问令牌。",
+    "en": "Browse and modify repositories, issues, pull requests, code search results, and Actions runs. Useful for tracking project work, triaging issues, and reviewing changes in conversation. Sign in to GitHub in the browser on first connect, or use a personal access token instead."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "代码",
+      "协作"
+    ],
+    "en": [
+      "Development",
+      "Code",
+      "Collaboration"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://api.githubcopilot.com/mcp/",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 GitHub 并授权",
+      "en": "Sign in to GitHub and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

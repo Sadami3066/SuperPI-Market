@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "数据叙事",
-      "可视化",
-      "汇报"
+      "数据",
+      "报告",
+      "分析"
     ],
     "en": [
-      "Storytelling",
-      "Visualization",
-      "Reporting"
+      "Data",
+      "Reports",
+      "Analysis"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/wshobson/agents"
-  }
+  },
+  "category": "research"
 }

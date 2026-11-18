@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "attio",
+  "name": {
+    "zh": "Attio",
+    "en": "Attio"
+  },
+  "summary": {
+    "zh": "查询客户、公司与销售管道",
+    "en": "Query CRM records and deal pipelines"
+  },
+  "description": {
+    "zh": "读取公司、联系人、交易与自定义对象记录，按属性筛选并更新字段。适合在对话里查客户背景或推进商机。首次连接在浏览器登录 Attio 授权。",
+    "en": "Read companies, people, deals, and custom object records, filter by attribute, and update fields. Useful for pulling customer context or moving a deal forward in conversation. Sign in to Attio in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "商业",
+      "客户",
+      "CRM"
+    ],
+    "en": [
+      "Business",
+      "Customers",
+      "CRM"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.attio.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Attio 并授权",
+      "en": "Sign in to Attio and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

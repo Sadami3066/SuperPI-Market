@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "framer",
+  "name": {
+    "zh": "Framer",
+    "en": "Framer"
+  },
+  "summary": {
+    "zh": "查看并更新站点页面内容",
+    "en": "Inspect and update site page content"
+  },
+  "description": {
+    "zh": "读取站点页面结构与文案，按需生成和修改内容，确认后再发布。适合维护营销页或作品集。首次连接在浏览器登录 Framer 授权。",
+    "en": "Read page structure and copy, then draft or adjust content and publish when it looks right. Useful for maintaining marketing pages or a portfolio. Sign in to Framer in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "设计",
+      "站点",
+      "内容"
+    ],
+    "en": [
+      "Design",
+      "Websites",
+      "Content"
+    ]
+  },
+  "category": "design",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.framer.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Framer 并授权",
+      "en": "Sign in to Framer and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

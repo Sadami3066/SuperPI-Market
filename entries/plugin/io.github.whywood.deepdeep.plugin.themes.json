@@ -16,14 +16,14 @@
   "icon": "icons/themes.png",
   "tags": {
     "zh": [
-      "主题",
       "配色",
-      "外观"
+      "视觉",
+      "界面"
     ],
     "en": [
-      "Themes",
-      "Colours",
-      "Appearance"
+      "Color",
+      "Visual",
+      "UI"
     ]
   },
   "version": "1.0.1",
@@ -39,5 +39,6 @@
     "publisherName": "milous",
     "requiredAccess": "normal",
     "version": "1.0.1"
-  }
+  },
+  "category": "design"
 }

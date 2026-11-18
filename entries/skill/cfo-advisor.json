@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "财务",
-      "现金流",
-      "融资"
+      "创业",
+      "战略"
     ],
     "en": [
       "Finance",
-      "Runway",
-      "Fundraising"
+      "Startup",
+      "Strategy"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "business"
 }

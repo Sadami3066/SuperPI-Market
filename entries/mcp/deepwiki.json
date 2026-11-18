@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "deepwiki",
+  "name": {
+    "zh": "DeepWiki",
+    "en": "DeepWiki"
+  },
+  "summary": {
+    "zh": "按仓库问答生成结构说明",
+    "en": "Ask questions about any GitHub repository"
+  },
+  "description": {
+    "zh": "针对公开 GitHub 仓库回答架构、模块划分与实现细节，回答附带源码位置。适合接手陌生项目或弄清某个依赖库的用法。无需授权，填好地址即可连接。",
+    "en": "Answer questions about architecture, module layout, and implementation details of public GitHub repositories, with pointers into the source. Good for onboarding onto an unfamiliar project or understanding a dependency. No sign-in required; connect with the URL alone."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "文档",
+      "问答"
+    ],
+    "en": [
+      "Development",
+      "Documentation",
+      "Q&A"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.deepwiki.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "无需授权，填好地址即可连接",
+      "en": "No sign-in needed, connect with the URL"
+    },
+    "auth": {
+      "type": "none"
+    }
+  }
+}

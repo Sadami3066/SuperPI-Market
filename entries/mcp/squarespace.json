@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "squarespace",
+  "name": {
+    "zh": "Squarespace",
+    "en": "Squarespace"
+  },
+  "summary": {
+    "zh": "管理站点页面与商品内容",
+    "en": "Manage site pages and product content"
+  },
+  "description": {
+    "zh": "读取站点页面、博客与商品信息，更新内容并检查发布状态。适合维护作品集或小型商店。连接时完成 Squarespace 授权并选择站点。",
+    "en": "Read site pages, blog posts, and products, update content, and check publish state. Useful for maintaining a portfolio or small shop. Authorize and pick a site when connecting."
+  },
+  "tags": {
+    "zh": [
+      "内容",
+      "站点",
+      "电商"
+    ],
+    "en": [
+      "Content",
+      "Websites",
+      "E-commerce"
+    ]
+  },
+  "category": "content",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.squarespace.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Squarespace 并选择站点",
+      "en": "Sign in to Squarespace and choose a site on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

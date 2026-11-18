@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "A/B 测试",
-      "样本量",
-      "数据分析"
+      "实验",
+      "统计",
+      "分析"
     ],
     "en": [
-      "A/B Testing",
+      "Experiments",
       "Statistics",
-      "Experiments"
+      "Analysis"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "research"
 }

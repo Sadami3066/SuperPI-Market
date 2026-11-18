@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "vercel",
+  "name": {
+    "zh": "Vercel",
+    "en": "Vercel"
+  },
+  "summary": {
+    "zh": "管理部署、项目与环境变量",
+    "en": "Manage deployments, projects, and env vars"
+  },
+  "description": {
+    "zh": "列出项目与部署、查看构建日志、读写环境变量，并可触发重新部署。适合排查线上构建失败或确认发布状态。首次连接在浏览器登录 Vercel 授权。",
+    "en": "List projects and deployments, read build logs, read and update environment variables, and trigger redeploys. Useful for diagnosing failed builds or confirming what is live. Sign in to Vercel in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "部署",
+      "运维"
+    ],
+    "en": [
+      "Development",
+      "Deployment",
+      "DevOps"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.vercel.com/",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Vercel 并授权",
+      "en": "Sign in to Vercel and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

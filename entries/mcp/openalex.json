@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "openalex",
+  "name": {
+    "zh": "OpenAlex",
+    "en": "OpenAlex"
+  },
+  "summary": {
+    "zh": "检索论文、作者与引用关系",
+    "en": "Search works, authors, and citations"
+  },
+  "description": {
+    "zh": "检索学术论文、作者、机构与引用关系，返回开放获取链接与摘要。适合做文献综述或查证研究来源。首次连接在浏览器完成 OpenAlex 授权。",
+    "en": "Search scholarly works, authors, institutions, and citation links, with open access links and abstracts. Useful for literature reviews or verifying where a claim comes from. OpenAlex consent happens in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "研究",
+      "论文",
+      "学术"
+    ],
+    "en": [
+      "Research",
+      "Papers",
+      "Academic"
+    ]
+  },
+  "category": "research",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.openalex.org/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 OpenAlex 并授权",
+      "en": "Sign in to OpenAlex and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

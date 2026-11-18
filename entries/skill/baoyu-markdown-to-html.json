@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "Markdown",
-      "HTML",
-      "公众号"
+      "排版",
+      "公众号",
+      "写作"
     ],
     "en": [
-      "markdown",
-      "html",
-      "wechat"
+      "Formatting",
+      "WeChat",
+      "Writing"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/JimLiu/baoyu-skills"
-  }
+  },
+  "category": "content"
 }

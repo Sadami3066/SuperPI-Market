@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "会话交接",
-      "上下文",
-      "文档"
+      "协作",
+      "文档",
+      "笔记"
     ],
     "en": [
-      "Handoff",
-      "Context",
-      "Docs"
+      "Collaboration",
+      "Documents",
+      "Notes"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "office"
 }

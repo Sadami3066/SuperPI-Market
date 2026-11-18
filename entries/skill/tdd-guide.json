@@ -15,13 +15,13 @@
   },
   "tags": {
     "zh": [
-      "TDD",
-      "单元测试",
+      "测试",
+      "编码",
       "重构"
     ],
     "en": [
-      "TDD",
-      "Unit tests",
+      "Testing",
+      "Coding",
       "Refactoring"
     ]
   },
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "dev"
 }

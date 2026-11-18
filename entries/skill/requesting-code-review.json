@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "代码评审",
-      "质量",
-      "合并"
+      "编码",
+      "版本控制"
     ],
     "en": [
-      "code review",
-      "quality",
-      "merge"
+      "Code Review",
+      "Coding",
+      "Version Control"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/obra/superpowers"
-  }
+  },
+  "category": "dev"
 }

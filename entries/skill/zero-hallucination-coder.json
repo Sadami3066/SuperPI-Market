@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "编码规划",
-      "API 核对",
-      "高风险改动"
+      "编码",
+      "架构",
+      "数据库"
     ],
     "en": [
-      "Planning",
-      "API Checks",
-      "High Stakes"
+      "Coding",
+      "Architecture",
+      "Database"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "dev"
 }

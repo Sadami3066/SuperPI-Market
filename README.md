@@ -51,7 +51,8 @@ DeepDeep App 的市场页固定读取上面的索引，用内置公钥验证签�
 - `id`：全局唯一；
 - `version`：字符串；
 - `name` / `summary` / `description`：`{"zh": "…", "en": "…"}`，两种语言都不能为空；
-- `tags`：`{"zh": ["…"], "en": ["…"]}`，两种语言都至少一项；
+- `tags`：`{"zh": ["…"], "en": ["…"]}`，两种语言各 2–4 个短标签，写用户会用的词；
+- `category`（可选）：`office` / `content` / `dev` / `study` / `research` / `business` / `design` / `life`，对应「办公 / 内容 / 开发 / 学习 / 研究 / 商业 / 设计 / 生活」；客户端按它筛选市场，缺失时条目只出现在「全部」；
 - `icon`（可选）：`icons/<name>.png`，≤128KB 且必须是 PNG。`publish.mjs` 会按当前文件内容追加 `?v=<sha256 前 12 位>`；客户端按带版本的 URL 缓存，替换图标内容后重新发布即自动失效，不要手写 `?v=`。
 
 **插件条目**

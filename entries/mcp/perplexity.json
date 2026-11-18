@@ -16,14 +16,14 @@
   "icon": "icons/perplexity.png",
   "tags": {
     "zh": [
-      "搜索",
-      "研究",
-      "AI"
+      "调研",
+      "资料",
+      "分析"
     ],
     "en": [
-      "Search",
       "Research",
-      "AI"
+      "Sources",
+      "Analysis"
     ]
   },
   "version": "0.7.0",
@@ -45,5 +45,6 @@
       },
       "helpUrl": "https://www.perplexity.ai/settings/api"
     }
-  }
+  },
+  "category": "research"
 }

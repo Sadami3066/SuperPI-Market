@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "复盘",
-      "决策",
-      "自检"
+      "效率",
+      "笔记"
     ],
     "en": [
-      "review",
-      "thinking",
-      "check-in"
+      "Review",
+      "Efficiency",
+      "Notes"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "office"
 }

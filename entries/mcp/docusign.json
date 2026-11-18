@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "docusign",
+  "name": {
+    "zh": "Docusign",
+    "en": "Docusign"
+  },
+  "summary": {
+    "zh": "发送与跟踪电子签名",
+    "en": "Send and track e-signature envelopes"
+  },
+  "description": {
+    "zh": "列出信封与模板、查询签署进度、发起新的签署流程。适合确认合同是否已签或提醒补签。首次连接在浏览器登录 Docusign 授权。",
+    "en": "List envelopes and templates, check signature progress, and start a new signing flow. Useful for confirming whether a contract is signed or nudging someone to sign. Sign in to Docusign in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "办公",
+      "合同",
+      "签署"
+    ],
+    "en": [
+      "Productivity",
+      "Contracts",
+      "Signing"
+    ]
+  },
+  "category": "office",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.docusign.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Docusign 并授权",
+      "en": "Sign in to Docusign and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

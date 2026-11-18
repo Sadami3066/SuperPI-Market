@@ -16,14 +16,14 @@
   "icon": "icons/posthog.png",
   "tags": {
     "zh": [
-      "分析",
-      "数据",
-      "产品"
+      "产品",
+      "增长",
+      "运营"
     ],
     "en": [
-      "Analytics",
-      "Data",
-      "Product"
+      "Product",
+      "Growth",
+      "Operations"
     ]
   },
   "version": "1.0.1",
@@ -45,5 +45,6 @@
       },
       "helpUrl": "https://posthog.com/docs/api"
     }
-  }
+  },
+  "category": "business"
 }

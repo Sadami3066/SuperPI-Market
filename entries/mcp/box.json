@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "box",
+  "name": {
+    "zh": "Box",
+    "en": "Box"
+  },
+  "summary": {
+    "zh": "搜索与读取企业文件",
+    "en": "Search and read files in Box"
+  },
+  "description": {
+    "zh": "在 Box 中搜索文件和文件夹、读取文档内容与元数据。适合从企业网盘里找资料并直接引用。首次连接在浏览器登录 Box 授权。",
+    "en": "Search files and folders in Box and read document content and metadata. Useful for pulling reference material out of a company drive. Sign in to Box in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "办公",
+      "文件",
+      "检索"
+    ],
+    "en": [
+      "Productivity",
+      "Files",
+      "Search"
+    ]
+  },
+  "category": "office",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.box.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Box 并授权",
+      "en": "Sign in to Box and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

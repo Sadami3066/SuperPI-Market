@@ -1,0 +1,47 @@
+{
+  "type": "mcp",
+  "id": "mcd",
+  "name": {
+    "zh": "麦当劳中国",
+    "en": "McDonald's China"
+  },
+  "summary": {
+    "zh": "点餐、到店取餐与活动查询",
+    "en": "Order delivery, pickup and promotions"
+  },
+  "description": {
+    "zh": "查询麦当劳中国的菜单、优惠活动，办理麦乐送点餐与到店取餐。需要先在开放平台申请 MCP Token，连接时填入。",
+    "en": "Browse menus and promotions, order delivery or pickup from McDonald's China. Request an MCP token on the open platform and enter it when connecting."
+  },
+  "tags": {
+    "zh": [
+      "美食",
+      "购物"
+    ],
+    "en": [
+      "Food",
+      "Shopping"
+    ]
+  },
+  "category": "life",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.mcd.cn",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "在开放平台用手机号登录并申请 MCP Token，填入后连接。",
+      "en": "Sign in on the open platform, request an MCP token, then connect."
+    },
+    "auth": {
+      "type": "apiKey",
+      "header": "Authorization",
+      "prefix": "Bearer ",
+      "placeholder": {
+        "zh": "MCP Token",
+        "en": "MCP token"
+      },
+      "helpUrl": "https://open.mcd.cn/mcp"
+    }
+  }
+}

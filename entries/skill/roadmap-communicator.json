@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "路线图",
-      "发布说明",
-      "沟通"
+      "产品",
+      "战略",
+      "运营"
     ],
     "en": [
-      "Roadmap",
-      "Release Notes",
-      "Updates"
+      "Product",
+      "Strategy",
+      "Operations"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "business"
 }

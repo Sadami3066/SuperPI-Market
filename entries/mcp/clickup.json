@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "clickup",
+  "name": {
+    "zh": "ClickUp",
+    "en": "ClickUp"
+  },
+  "summary": {
+    "zh": "管理任务、列表与文档",
+    "en": "Manage tasks, lists, and docs"
+  },
+  "description": {
+    "zh": "读写空间、列表与任务，创建任务、更新状态并检索文档。适合整理待办或跟进迭代。首次连接在浏览器登录 ClickUp 授权。",
+    "en": "Read and write spaces, lists, and tasks, create tasks, update status, and search docs. Useful for tidying a backlog or following a sprint. Sign in to ClickUp in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "办公",
+      "任务",
+      "协作"
+    ],
+    "en": [
+      "Productivity",
+      "Tasks",
+      "Collaboration"
+    ]
+  },
+  "category": "office",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.clickup.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 ClickUp 并授权",
+      "en": "Sign in to ClickUp and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

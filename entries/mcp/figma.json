@@ -16,12 +16,14 @@
   "icon": "icons/figma.png",
   "tags": {
     "zh": [
-      "设计",
-      "协作"
+      "界面",
+      "视觉",
+      "原型"
     ],
     "en": [
-      "Design",
-      "Collaboration"
+      "UI",
+      "Visual",
+      "Prototype"
     ]
   },
   "version": "1.0.3",
@@ -36,5 +38,6 @@
     "auth": {
       "type": "oauth"
     }
-  }
+  },
+  "category": "design"
 }

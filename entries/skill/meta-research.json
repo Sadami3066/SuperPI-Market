@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "深度调研",
-      "交叉验证",
-      "证据留存"
+      "调研",
+      "资料",
+      "分析"
     ],
     "en": [
-      "Deep Research",
-      "Triangulation",
-      "Evidence"
+      "Research",
+      "Sources",
+      "Analysis"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "research"
 }

@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "邮件营销",
-      "培育",
-      "自动化"
+      "营销",
+      "文案",
+      "写作"
     ],
     "en": [
-      "email",
-      "nurture",
-      "lifecycle"
+      "Marketing",
+      "Copywriting",
+      "Writing"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "content"
 }

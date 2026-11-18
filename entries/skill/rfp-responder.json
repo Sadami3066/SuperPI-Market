@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "投标",
-      "问卷",
-      "应答"
+      "销售",
+      "合同",
+      "战略"
     ],
     "en": [
-      "RFP",
-      "Questionnaire",
-      "Proposal"
+      "Sales",
+      "Contracts",
+      "Strategy"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "business"
 }

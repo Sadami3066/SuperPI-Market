@@ -16,14 +16,14 @@
   "icon": "icons/wechat.png",
   "tags": {
     "zh": [
-      "微信",
-      "导出",
-      "聊天记录"
+      "复盘",
+      "笔记",
+      "效率"
     ],
     "en": [
-      "WeChat",
-      "Export",
-      "Chat history"
+      "Review",
+      "Notes",
+      "Efficiency"
     ]
   },
   "version": "0.5.2",
@@ -39,5 +39,6 @@
     "publisherName": "milous",
     "requiredAccess": "root",
     "version": "0.5.2"
-  }
+  },
+  "category": "office"
 }

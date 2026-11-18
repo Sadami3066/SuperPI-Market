@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "miro",
+  "name": {
+    "zh": "Miro",
+    "en": "Miro"
+  },
+  "summary": {
+    "zh": "读取与创建白板内容",
+    "en": "Read and create board content"
+  },
+  "description": {
+    "zh": "读取白板上的便签、图形与框架，创建和整理内容并生成汇总。适合把头脑风暴结果带进对话。首次连接在浏览器登录 Miro 授权。",
+    "en": "Read sticky notes, shapes, and frames on a board, create and rearrange content, and summarize it. Good for bringing a brainstorming session into conversation. Sign in to Miro in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "设计",
+      "白板",
+      "协作"
+    ],
+    "en": [
+      "Design",
+      "Whiteboard",
+      "Collaboration"
+    ]
+  },
+  "category": "design",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.miro.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Miro 并授权",
+      "en": "Sign in to Miro and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

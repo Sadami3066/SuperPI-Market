@@ -16,14 +16,14 @@
   "icon": "icons/atlassian.png",
   "tags": {
     "zh": [
+      "任务",
       "协作",
-      "项目管理",
       "文档"
     ],
     "en": [
+      "Tasks",
       "Collaboration",
-      "Project Management",
-      "Documentation"
+      "Documents"
     ]
   },
   "version": "2.0.0",
@@ -38,5 +38,6 @@
     "auth": {
       "type": "oauth"
     }
-  }
+  },
+  "category": "office"
 }

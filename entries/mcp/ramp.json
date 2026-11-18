@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "ramp",
+  "name": {
+    "zh": "Ramp",
+    "en": "Ramp"
+  },
+  "summary": {
+    "zh": "查询公司卡消费与报销",
+    "en": "Inspect card spend and reimbursements"
+  },
+  "description": {
+    "zh": "读取公司卡交易、报销单与预算使用情况，可按商户或时间筛选。适合核对支出或准备月度汇总。首次连接在浏览器登录 Ramp 授权。",
+    "en": "Read card transactions, reimbursement requests, and budget usage, filtered by merchant or date. Useful for checking spend or preparing a monthly summary. Sign in to Ramp in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "商业",
+      "财务",
+      "报销"
+    ],
+    "en": [
+      "Business",
+      "Finance",
+      "Expenses"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.ramp.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Ramp 并授权",
+      "en": "Sign in to Ramp and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

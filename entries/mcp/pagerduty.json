@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "pagerduty",
+  "name": {
+    "zh": "PagerDuty",
+    "en": "PagerDuty"
+  },
+  "summary": {
+    "zh": "查看事件、值班表与服务状态",
+    "en": "Check incidents, on-call, and services"
+  },
+  "description": {
+    "zh": "查询事件、服务、值班表与升级策略，也能创建或更新事件。适合值班时确认谁在班、事件进展如何。首次连接在浏览器登录 PagerDuty 授权。",
+    "en": "Look up incidents, services, on-call schedules, and escalation policies, and create or update incidents. Useful during on-call to see who is covering and how an incident is progressing. Sign in to PagerDuty in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "运维",
+      "告警"
+    ],
+    "en": [
+      "Development",
+      "DevOps",
+      "Alerting"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.pagerduty.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 PagerDuty 并授权",
+      "en": "Sign in to PagerDuty and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

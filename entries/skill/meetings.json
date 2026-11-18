@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "会议",
-      "议程",
-      "行动项"
+      "任务",
+      "效率"
     ],
     "en": [
-      "meetings",
-      "agenda",
-      "action items"
+      "Meeting",
+      "Tasks",
+      "Efficiency"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "office"
 }

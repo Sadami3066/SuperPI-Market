@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "配图",
-      "插图",
-      "长文"
+      "图片",
+      "写作",
+      "排版"
     ],
     "en": [
-      "illustration",
-      "images",
-      "articles"
+      "Images",
+      "Writing",
+      "Formatting"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/JimLiu/baoyu-skills"
-  }
+  },
+  "category": "content"
 }

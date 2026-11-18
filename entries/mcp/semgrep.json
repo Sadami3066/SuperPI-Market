@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "semgrep",
+  "name": {
+    "zh": "Semgrep",
+    "en": "Semgrep"
+  },
+  "summary": {
+    "zh": "扫描代码安全与质量问题",
+    "en": "Scan code for security and quality issues"
+  },
+  "description": {
+    "zh": "对仓库或代码片段运行规则扫描，返回安全漏洞、代码异味及规则说明。适合合并前做静态检查，或在对话里解释某条告警。首次连接用 Semgrep 账号在浏览器授权。",
+    "en": "Run rule-based scans on repositories or snippets and get back findings plus rule explanations. Useful for pre-merge static checks or explaining a specific alert in conversation. Authorize with your Semgrep account in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "安全",
+      "代码"
+    ],
+    "en": [
+      "Development",
+      "Security",
+      "Code"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.semgrep.ai/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Semgrep 并授权",
+      "en": "Sign in to Semgrep and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

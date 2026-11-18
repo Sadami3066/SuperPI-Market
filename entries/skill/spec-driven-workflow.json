@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "规格",
-      "验收标准",
-      "测试用例"
+      "测试",
+      "文档",
+      "架构"
     ],
     "en": [
-      "Spec",
-      "Acceptance Criteria",
-      "Tests"
+      "Testing",
+      "Docs",
+      "Architecture"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "dev"
 }

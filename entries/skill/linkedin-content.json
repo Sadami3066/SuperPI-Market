@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "领英",
-      "帖子",
-      "内容"
+      "社交媒体",
+      "写作",
+      "文案"
     ],
     "en": [
-      "LinkedIn",
-      "Posts",
-      "Content"
+      "Social Media",
+      "Writing",
+      "Copywriting"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "content"
 }

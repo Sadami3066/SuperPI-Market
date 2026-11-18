@@ -8,13 +8,13 @@
   "tags": {
     "zh": [
       "酒店",
-      "预订",
-      "旅行"
+      "出行",
+      "生活服务"
     ],
     "en": [
       "Hotels",
-      "Booking",
-      "Travel"
+      "Travel",
+      "Services"
     ]
   },
   "summary": {
@@ -39,5 +39,6 @@
     "publisherName": "milous",
     "requiredAccess": "normal",
     "version": "1.4.1"
-  }
+  },
+  "category": "life"
 }

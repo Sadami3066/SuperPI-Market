@@ -16,14 +16,12 @@
   "icon": "icons/sysu.png",
   "tags": {
     "zh": [
-      "中山大学",
-      "教务",
-      "命令行"
+      "课程",
+      "考试"
     ],
     "en": [
-      "Sun Yat-sen University",
-      "Academics",
-      "CLI"
+      "Courses",
+      "Exams"
     ]
   },
   "version": "2.7.2",
@@ -43,5 +41,6 @@
       "https://raw.githubusercontent.com/Sadami3066/deepdeep-market/master/previews/sysu-1.jpg",
       "https://raw.githubusercontent.com/Sadami3066/deepdeep-market/master/previews/sysu-2.jpg"
     ]
-  }
+  },
+  "category": "study"
 }

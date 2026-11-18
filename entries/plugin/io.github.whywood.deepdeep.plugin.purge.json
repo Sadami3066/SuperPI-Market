@@ -16,16 +16,14 @@
   "icon": "icons/netsec.png",
   "tags": {
     "zh": [
-      "网络攻防",
       "安全",
-      "红队",
-      "渗透测试"
+      "测试",
+      "脚本"
     ],
     "en": [
-      "NetSec",
       "Security",
-      "Red team",
-      "Pentest"
+      "Testing",
+      "Scripts"
     ]
   },
   "version": "1.0.1",
@@ -41,5 +39,6 @@
     "publisherName": "milous",
     "requiredAccess": "normal",
     "version": "1.0.1"
-  }
+  },
+  "category": "dev"
 }

@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "代码评审",
-      "风险检查",
-      "合并"
+      "安全",
+      "性能"
     ],
     "en": [
-      "Code review",
-      "Merge gate",
-      "Rules"
+      "Code Review",
+      "Security",
+      "Performance"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "dev"
 }

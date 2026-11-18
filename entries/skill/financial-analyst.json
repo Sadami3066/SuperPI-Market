@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "财报",
-      "DCF",
-      "预测"
+      "财务",
+      "战略",
+      "运营"
     ],
     "en": [
-      "finance",
-      "DCF",
-      "forecasting"
+      "Finance",
+      "Strategy",
+      "Operations"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "business"
 }

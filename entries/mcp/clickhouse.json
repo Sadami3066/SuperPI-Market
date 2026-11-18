@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "clickhouse",
+  "name": {
+    "zh": "ClickHouse Cloud",
+    "en": "ClickHouse Cloud"
+  },
+  "summary": {
+    "zh": "查询云上数据库与表结构",
+    "en": "Query cloud databases and table schemas"
+  },
+  "description": {
+    "zh": "对 ClickHouse Cloud 服务执行只读 SQL 查询，浏览数据库与表结构。适合数据探查和报表核对。首次连接用 ClickHouse Cloud 账号授权并选择服务。",
+    "en": "Run read-only SQL against a ClickHouse Cloud service and browse databases and table schemas. Useful for data exploration and checking reported numbers. Authorize with your ClickHouse Cloud account and pick a service on first connect."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "数据库",
+      "分析"
+    ],
+    "en": [
+      "Development",
+      "Database",
+      "Analytics"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.clickhouse.cloud/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 ClickHouse Cloud 并授权",
+      "en": "Sign in to ClickHouse Cloud and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

@@ -11,5 +11,6 @@
 - [ ] 插件：`plugin.previews`（如有）为 1–6 个 https 竖版图（9:20），内容与插件一致。
 - [ ] 技能：zip 内为单个技能目录（含 SKILL.md），无二进制/脚本之外的越权内容。
 - [ ] MCP：只接受远程 HTTP 端点，不允许本地 command/args/env；不收集用户凭据；`auth` 与 `authHint` 写清授权方式。
-- [ ] 文案：`name`/`summary`/`description`/`tags` 均含 `zh` 与 `en`，英文自然；不含开发侧说明与内部链接。
+- [ ] 分类：`category` 必须是 office/content/dev/study/research/business/design/life 之一，且与条目用途一致。
+- [ ] 文案：`name`/`summary`/`description`/`tags` 均含 `zh` 与 `en`，英文自然；不含开发侧说明与内部链接；`tags` 各语言 2–4 个，不堆砌同义词。
 - [ ] 图标：≤128KB PNG，来源可追溯（品牌图标仅用于识别来源）；索引里的 `?v=` 由 `publish.mjs` 生成，若与文件内容哈希不一致说明未重新生成索引。

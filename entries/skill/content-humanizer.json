@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "改写",
-      "语气",
-      "品牌调性"
+      "润色",
+      "写作",
+      "文案"
     ],
     "en": [
-      "Rewrite",
-      "Tone",
-      "Voice"
+      "Polishing",
+      "Writing",
+      "Copywriting"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "content"
 }

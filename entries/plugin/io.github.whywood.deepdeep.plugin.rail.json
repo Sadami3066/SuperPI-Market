@@ -7,14 +7,12 @@
   },
   "tags": {
     "zh": [
-      "火车",
-      "12306",
-      "余票"
+      "出行",
+      "生活服务"
     ],
     "en": [
-      "Railway",
-      "12306",
-      "Tickets"
+      "Travel",
+      "Services"
     ]
   },
   "summary": {
@@ -39,5 +37,6 @@
     "publisherName": "milous",
     "requiredAccess": "normal",
     "version": "1.4.0"
-  }
+  },
+  "category": "life"
 }

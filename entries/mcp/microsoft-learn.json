@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "microsoft-learn",
+  "name": {
+    "zh": "Microsoft Learn",
+    "en": "Microsoft Learn"
+  },
+  "summary": {
+    "zh": "检索微软官方文档与示例",
+    "en": "Search Microsoft docs and code samples"
+  },
+  "description": {
+    "zh": "在 Microsoft Learn 上检索官方文档与代码示例，返回带链接的说明。适合确认 .NET、Azure 与 Microsoft 365 的具体用法。无需授权，填好地址即可连接。",
+    "en": "Search official Microsoft documentation and code samples, returning explanations with links. Useful for confirming how .NET, Azure, and Microsoft 365 APIs behave. No sign-in required; connect with the URL alone."
+  },
+  "tags": {
+    "zh": [
+      "学习",
+      "文档",
+      "开发"
+    ],
+    "en": [
+      "Study",
+      "Documentation",
+      "Development"
+    ]
+  },
+  "category": "study",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://learn.microsoft.com/api/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "无需授权，填好地址即可连接",
+      "en": "No sign-in needed, connect with the URL"
+    },
+    "auth": {
+      "type": "none"
+    }
+  }
+}

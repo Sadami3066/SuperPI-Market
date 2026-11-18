@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "close",
+  "name": {
+    "zh": "Close",
+    "en": "Close"
+  },
+  "summary": {
+    "zh": "管理线索、商机与往来邮件",
+    "en": "Manage leads, opportunities, and emails"
+  },
+  "description": {
+    "zh": "读取线索、联系人与商机，记录通话和邮件往来并更新跟进状态。适合销售跟进时快速取上下文。首次连接在浏览器登录 Close 授权。",
+    "en": "Read leads, contacts, and opportunities, log calls and emails, and update follow-up status. Useful for keeping context while working a deal. Sign in to Close in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "商业",
+      "销售",
+      "CRM"
+    ],
+    "en": [
+      "Business",
+      "Sales",
+      "CRM"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.close.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Close 并授权",
+      "en": "Sign in to Close and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

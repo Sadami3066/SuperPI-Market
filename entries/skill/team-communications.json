@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "周报",
-      "公告",
-      "内部沟通"
+      "写作",
+      "协作",
+      "汇报"
     ],
     "en": [
-      "Updates",
-      "Newsletters",
-      "Comms"
+      "Writing",
+      "Collaboration",
+      "Report"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "office"
 }

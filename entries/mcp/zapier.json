@@ -16,12 +16,14 @@
   "icon": "icons/zapier.png",
   "tags": {
     "zh": [
-      "自动化",
-      "效率"
+      "效率",
+      "任务",
+      "协作"
     ],
     "en": [
-      "Automation",
-      "Productivity"
+      "Efficiency",
+      "Tasks",
+      "Collaboration"
     ]
   },
   "version": "1.0.1",
@@ -36,5 +38,6 @@
     "auth": {
       "type": "oauth"
     }
-  }
+  },
+  "category": "office"
 }

@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "apollo",
+  "name": {
+    "zh": "Apollo.io",
+    "en": "Apollo.io"
+  },
+  "summary": {
+    "zh": "查找公司与联系人线索",
+    "en": "Find companies and contact leads"
+  },
+  "description": {
+    "zh": "按行业、规模、地区检索公司与联系人，获取职位与公开联系方式。适合销售拓客或调研目标企业。首次连接在浏览器登录 Apollo 授权。",
+    "en": "Search companies and people by industry, size, and region, with titles and public contact details. Useful for prospecting or researching target companies. Sign in to Apollo in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "商业",
+      "销售",
+      "线索"
+    ],
+    "en": [
+      "Business",
+      "Sales",
+      "Leads"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.apollo.io/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Apollo 并授权",
+      "en": "Sign in to Apollo and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

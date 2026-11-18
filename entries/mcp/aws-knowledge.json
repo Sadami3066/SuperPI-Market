@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "aws-knowledge",
+  "name": {
+    "zh": "AWS Knowledge",
+    "en": "AWS Knowledge"
+  },
+  "summary": {
+    "zh": "检索 AWS 官方文档与指南",
+    "en": "Search AWS documentation and guides"
+  },
+  "description": {
+    "zh": "检索 AWS 官方文档、架构指南与公告，回答服务配置和选型问题。适合排查 AWS 报错或确认配额限制。无需授权，填好地址即可连接。",
+    "en": "Search AWS documentation, architecture guidance, and announcements for configuration and service selection. Useful for chasing an AWS error or confirming quotas and limits. No sign-in required; connect with the URL alone."
+  },
+  "tags": {
+    "zh": [
+      "学习",
+      "云服务",
+      "文档"
+    ],
+    "en": [
+      "Study",
+      "Cloud",
+      "Documentation"
+    ]
+  },
+  "category": "study",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://knowledge-mcp.global.api.aws",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "无需授权，填好地址即可连接",
+      "en": "No sign-in needed, connect with the URL"
+    },
+    "auth": {
+      "type": "none"
+    }
+  }
+}

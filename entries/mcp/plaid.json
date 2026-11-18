@@ -1,0 +1,49 @@
+{
+  "type": "mcp",
+  "id": "plaid",
+  "name": {
+    "zh": "Plaid",
+    "en": "Plaid"
+  },
+  "summary": {
+    "zh": "查询账户余额与交易明细",
+    "en": "Check account balances and transactions"
+  },
+  "description": {
+    "zh": "对已链接账户查询余额、交易与账户信息，用于核对流水或调试接入。适合开发和数据分析场景。先在 Plaid 控制台生成访问令牌，再填入连接配置。",
+    "en": "Query balances, transactions, and account details for linked accounts, for reconciliation or integration debugging. Aimed at development and data analysis work. Create an access token in the Plaid dashboard first, then add it to the connection."
+  },
+  "tags": {
+    "zh": [
+      "商业",
+      "金融",
+      "数据"
+    ],
+    "en": [
+      "Business",
+      "Finance",
+      "Data"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.plaid.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "在 Plaid 控制台生成访问令牌后填入",
+      "en": "Create an access token in the Plaid dashboard"
+    },
+    "auth": {
+      "type": "apiKey",
+      "header": "Authorization",
+      "prefix": "Bearer ",
+      "placeholder": {
+        "zh": "Plaid 访问令牌",
+        "en": "Plaid access token"
+      },
+      "helpUrl": "https://plaid.com/docs/resources/mcp/"
+    }
+  }
+}

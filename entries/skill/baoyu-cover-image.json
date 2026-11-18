@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "封面",
-      "配图",
-      "视觉设计"
+      "图片",
+      "排版"
     ],
     "en": [
-      "cover",
-      "imagery",
-      "visual design"
+      "Cover",
+      "Images",
+      "Formatting"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/JimLiu/baoyu-skills"
-  }
+  },
+  "category": "content"
 }

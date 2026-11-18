@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "paypal",
+  "name": {
+    "zh": "PayPal",
+    "en": "PayPal"
+  },
+  "summary": {
+    "zh": "查询交易、发票与支付状态",
+    "en": "Look up transactions, invoices, and payments"
+  },
+  "description": {
+    "zh": "读取交易、订单与发票记录，查询结算和退款状态。适合核对收款或排查支付失败。首次连接在浏览器登录 PayPal 商家账号授权。",
+    "en": "Read transactions, orders, and invoices, and check settlement and refund status. Useful for reconciling incoming payments or tracing a failed charge. Sign in with a PayPal business account on first connect."
+  },
+  "tags": {
+    "zh": [
+      "商业",
+      "支付",
+      "财务"
+    ],
+    "en": [
+      "Business",
+      "Payments",
+      "Finance"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.paypal.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 PayPal 商家账号并授权",
+      "en": "Sign in to your PayPal business account and authorize"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

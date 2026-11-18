@@ -16,14 +16,14 @@
   "icon": "icons/firecrawl.png",
   "tags": {
     "zh": [
-      "网页抓取",
-      "搜索",
-      "数据"
+      "资料",
+      "数据",
+      "调研"
     ],
     "en": [
-      "Scraping",
-      "Search",
-      "Data"
+      "Sources",
+      "Data",
+      "Research"
     ]
   },
   "version": "3.38.0",
@@ -38,5 +38,6 @@
     "auth": {
       "type": "none"
     }
-  }
+  },
+  "category": "research"
 }

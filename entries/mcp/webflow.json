@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "webflow",
+  "name": {
+    "zh": "Webflow",
+    "en": "Webflow"
+  },
+  "summary": {
+    "zh": "管理站点内容与集合条目",
+    "en": "Manage site content and CMS items"
+  },
+  "description": {
+    "zh": "读取站点、页面与 CMS 集合，创建和更新内容条目。适合批量维护博客或产品页文案。首次连接在浏览器登录 Webflow 授权并选择站点。",
+    "en": "Read sites, pages, and CMS collections, and create or update items. Useful for bulk-editing blog posts or product page copy. Sign in to Webflow and pick a site on first connect."
+  },
+  "tags": {
+    "zh": [
+      "内容",
+      "站点",
+      "CMS"
+    ],
+    "en": [
+      "Content",
+      "Websites",
+      "CMS"
+    ]
+  },
+  "category": "content",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.webflow.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Webflow 并选择站点",
+      "en": "Sign in to Webflow and choose a site on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

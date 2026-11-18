@@ -15,14 +15,12 @@
   },
   "tags": {
     "zh": [
-      "SQL 优化",
-      "索引",
-      "ORM 迁移"
+      "数据库",
+      "性能"
     ],
     "en": [
-      "SQL tuning",
-      "Indexes",
-      "ORM migrations"
+      "Database",
+      "Performance"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +32,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "dev"
 }

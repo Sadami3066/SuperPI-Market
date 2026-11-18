@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "文案",
-      "标题",
-      "落地页"
+      "营销",
+      "写作"
     ],
     "en": [
       "Copywriting",
-      "Headlines",
-      "Landing page"
+      "Marketing",
+      "Writing"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "content"
 }

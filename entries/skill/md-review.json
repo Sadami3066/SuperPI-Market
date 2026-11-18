@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "代码评审",
-      "Markdown",
-      "报告"
+      "复盘",
+      "汇报",
+      "文档"
     ],
     "en": [
-      "code review",
-      "markdown",
-      "report"
+      "Review",
+      "Report",
+      "Documents"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "office"
 }

@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "asana",
+  "name": {
+    "zh": "Asana",
+    "en": "Asana"
+  },
+  "summary": {
+    "zh": "查看项目、任务与负责人",
+    "en": "Browse projects, tasks, and assignees"
+  },
+  "description": {
+    "zh": "查询工作区、项目与任务，创建和更新任务、评论与截止时间。适合把讨论结果直接落成待办。首次连接在浏览器登录 Asana 授权。",
+    "en": "Query workspaces, projects, and tasks, and create or update tasks, comments, and due dates. Good for turning a discussion into tracked work. Sign in to Asana in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "办公",
+      "任务",
+      "项目"
+    ],
+    "en": [
+      "Productivity",
+      "Tasks",
+      "Projects"
+    ]
+  },
+  "category": "office",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.asana.com/v2/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Asana 并授权",
+      "en": "Sign in to Asana and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

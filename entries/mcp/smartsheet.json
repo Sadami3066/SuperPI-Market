@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "smartsheet",
+  "name": {
+    "zh": "Smartsheet",
+    "en": "Smartsheet"
+  },
+  "summary": {
+    "zh": "管理表格、行与附件",
+    "en": "Manage sheets, rows, and attachments"
+  },
+  "description": {
+    "zh": "读取和更新表格、行、列与附件，按条件查询项目数据。适合跟进共享表格里的排期与状态。首次连接在浏览器登录 Smartsheet 授权。",
+    "en": "Read and update sheets, rows, columns, and attachments, and query project data with filters. Useful for tracking schedules and status kept in shared sheets. Sign in to Smartsheet in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "办公",
+      "表格",
+      "项目"
+    ],
+    "en": [
+      "Productivity",
+      "Spreadsheets",
+      "Projects"
+    ]
+  },
+  "category": "office",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.smartsheet.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Smartsheet 并授权",
+      "en": "Sign in to Smartsheet and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

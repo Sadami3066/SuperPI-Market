@@ -16,11 +16,13 @@
   "tags": {
     "zh": [
       "定价",
-      "SaaS"
+      "产品",
+      "财务"
     ],
     "en": [
       "Pricing",
-      "SaaS"
+      "Product",
+      "Finance"
     ]
   },
   "version": "1.0.0",
@@ -32,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "business"
 }

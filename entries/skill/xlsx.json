@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "表格",
-      "数据",
-      "办公"
+      "汇报",
+      "效率"
     ],
     "en": [
-      "spreadsheet",
-      "data",
-      "office"
+      "Spreadsheet",
+      "Report",
+      "Efficiency"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "Apache-2.0",
     "source": "https://github.com/anthropics/skills"
-  }
+  },
+  "category": "office"
 }

@@ -1,0 +1,49 @@
+{
+  "type": "mcp",
+  "id": "postman",
+  "name": {
+    "zh": "Postman",
+    "en": "Postman"
+  },
+  "summary": {
+    "zh": "运行集合、查看接口与工作区",
+    "en": "Run collections and browse APIs"
+  },
+  "description": {
+    "zh": "读取工作区、集合与接口定义，执行请求并查看环境变量。适合调试第三方接口，或把已有集合当作接口文档查询。连接时在请求头填入 Postman API Key。",
+    "en": "Read workspaces, collections, and API definitions, run requests, and inspect environment variables. Useful for debugging third-party APIs or treating an existing collection as documentation. Supply a Postman API key in the request header."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "接口",
+      "调试"
+    ],
+    "en": [
+      "Development",
+      "API",
+      "Testing"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.postman.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "在 Postman 账号设置里生成 API Key 后填入",
+      "en": "Generate an API key in your Postman account settings"
+    },
+    "auth": {
+      "type": "apiKey",
+      "header": "Authorization",
+      "prefix": "Bearer ",
+      "placeholder": {
+        "zh": "Postman API Key",
+        "en": "Postman API key"
+      },
+      "helpUrl": "https://postman.postman.co/settings/me/api-keys"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "wix",
+  "name": {
+    "zh": "Wix",
+    "en": "Wix"
+  },
+  "summary": {
+    "zh": "管理站点内容与订单",
+    "en": "Manage site content and orders"
+  },
+  "description": {
+    "zh": "读取和修改站点的商品、订单、博客与页面内容。适合维护小型网店或落地页。首次连接在浏览器登录 Wix 授权并选择站点。",
+    "en": "Read and update products, orders, blog posts, and page content on a Wix site. Useful for maintaining a small shop or landing page. Sign in to Wix and choose a site on first connect."
+  },
+  "tags": {
+    "zh": [
+      "内容",
+      "站点",
+      "电商"
+    ],
+    "en": [
+      "Content",
+      "Websites",
+      "E-commerce"
+    ]
+  },
+  "category": "content",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.wix.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Wix 并选择站点",
+      "en": "Sign in to Wix and choose a site on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

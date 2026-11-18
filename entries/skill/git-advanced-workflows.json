@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "Git",
       "版本控制",
-      "排错"
+      "调试",
+      "编码"
     ],
     "en": [
-      "Git",
-      "version control",
-      "troubleshooting"
+      "Version Control",
+      "Debugging",
+      "Coding"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/wshobson/agents"
-  }
+  },
+  "category": "dev"
 }

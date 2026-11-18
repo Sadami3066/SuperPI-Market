@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "视觉设计",
       "字体",
-      "色彩"
+      "配色",
+      "布局"
     ],
     "en": [
-      "Visual design",
       "Typography",
-      "Color"
+      "Color",
+      "Layout"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/wshobson/agents"
-  }
+  },
+  "category": "design"
 }

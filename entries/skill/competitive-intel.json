@@ -17,12 +17,12 @@
     "zh": [
       "竞品",
       "销售",
-      "定位"
+      "战略"
     ],
     "en": [
       "Competitors",
       "Sales",
-      "Positioning"
+      "Strategy"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "business"
 }

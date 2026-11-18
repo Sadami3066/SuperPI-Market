@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "竞品分析",
-      "SWOT",
-      "定位"
+      "竞品",
+      "战略",
+      "市场"
     ],
     "en": [
       "Competitors",
-      "SWOT",
-      "Positioning"
+      "Strategy",
+      "Market"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "business"
 }

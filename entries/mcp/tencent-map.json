@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "tencent-map",
+  "name": {
+    "zh": "腾讯地图",
+    "en": "Tencent Map"
+  },
+  "summary": {
+    "zh": "地址解析、路线规划与周边搜索",
+    "en": "Geocoding, routing, and nearby search"
+  },
+  "description": {
+    "zh": "提供地址与坐标互转、驾车步行路线规划、周边地点搜索与天气查询。适合出行规划或按位置找店。填好地址即可连接。",
+    "en": "Convert between addresses and coordinates, plan driving and walking routes, search nearby places, and check weather. Useful for trip planning or finding shops by location. Connect with the URL alone."
+  },
+  "tags": {
+    "zh": [
+      "出行",
+      "地图",
+      "导航"
+    ],
+    "en": [
+      "Travel",
+      "Maps",
+      "Navigation"
+    ]
+  },
+  "category": "life",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.map.qq.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "无需授权，填好地址即可连接",
+      "en": "No sign-in needed, connect with the URL"
+    },
+    "auth": {
+      "type": "none"
+    }
+  }
+}

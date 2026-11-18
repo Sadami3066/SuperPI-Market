@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
+      "界面",
       "视觉",
-      "排版",
-      "UI"
+      "字体"
     ],
     "en": [
-      "visual",
-      "typography",
-      "UI"
+      "UI",
+      "Visual",
+      "Typography"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "Apache-2.0",
     "source": "https://github.com/anthropics/skills"
-  }
+  },
+  "category": "design"
 }

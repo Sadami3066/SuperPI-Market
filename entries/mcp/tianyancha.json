@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "tianyancha",
+  "name": {
+    "zh": "天眼查",
+    "en": "Tianyancha"
+  },
+  "summary": {
+    "zh": "查询企业工商与风险信息",
+    "en": "Look up company registry and risk data"
+  },
+  "description": {
+    "zh": "按企业名称查询工商登记、股东、对外投资、司法与经营风险信息。适合合作前做背景核查。首次连接跳转天眼查账号登录并授权。",
+    "en": "Look up registration details, shareholders, investments, litigation, and operating risk for a company. Useful for background checks before a partnership. Tianyancha sign-in and consent happen in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "商业",
+      "企业",
+      "尽调"
+    ],
+    "en": [
+      "Business",
+      "Company data",
+      "Due diligence"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.tianyancha.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接跳转天眼查登录并授权",
+      "en": "Sign in to Tianyancha and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

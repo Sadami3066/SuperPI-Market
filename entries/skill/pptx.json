@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "幻灯片",
       "演示",
-      "办公"
+      "汇报",
+      "笔记"
     ],
     "en": [
-      "slides",
-      "presentation",
-      "office"
+      "Slides",
+      "Report",
+      "Notes"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "Apache-2.0",
     "source": "https://github.com/anthropics/skills"
-  }
+  },
+  "category": "office"
 }

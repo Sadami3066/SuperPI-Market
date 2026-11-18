@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "mixpanel",
+  "name": {
+    "zh": "Mixpanel",
+    "en": "Mixpanel"
+  },
+  "summary": {
+    "zh": "查询产品事件与留存数据",
+    "en": "Query product events and retention"
+  },
+  "description": {
+    "zh": "查询事件量、漏斗、留存与用户分群数据。适合产品分析时快速取数。首次连接在浏览器登录 Mixpanel 授权并选择项目。",
+    "en": "Query event counts, funnels, retention, and segment data. Useful for pulling product numbers without opening the dashboard. Sign in to Mixpanel and choose a project on first connect."
+  },
+  "tags": {
+    "zh": [
+      "商业",
+      "分析",
+      "数据"
+    ],
+    "en": [
+      "Business",
+      "Analytics",
+      "Data"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.mixpanel.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Mixpanel 并选择项目",
+      "en": "Sign in to Mixpanel and choose a project on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

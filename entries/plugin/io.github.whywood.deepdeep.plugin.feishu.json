@@ -16,14 +16,14 @@
   "icon": "icons/feishu.png",
   "tags": {
     "zh": [
-      "飞书",
-      "办公",
-      "消息"
+      "协作",
+      "文档",
+      "会议"
     ],
     "en": [
-      "Feishu",
-      "Productivity",
-      "Messaging"
+      "Collaboration",
+      "Documents",
+      "Meeting"
     ]
   },
   "version": "2.7.0",
@@ -39,5 +39,6 @@
     "publisherName": "milous",
     "requiredAccess": "normal",
     "version": "2.7.0"
-  }
+  },
+  "category": "office"
 }

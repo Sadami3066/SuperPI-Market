@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "创始人",
-      "授权",
-      "精力管理"
+      "创业",
+      "运营",
+      "战略"
     ],
     "en": [
-      "founder",
-      "delegation",
-      "leadership"
+      "Startup",
+      "Operations",
+      "Strategy"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "business"
 }

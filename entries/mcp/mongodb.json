@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "mongodb",
+  "name": {
+    "zh": "MongoDB Atlas",
+    "en": "MongoDB Atlas"
+  },
+  "summary": {
+    "zh": "查询集群、集合与索引建议",
+    "en": "Query clusters, collections, and index advice"
+  },
+  "description": {
+    "zh": "连接 Atlas，列出数据库与集合、执行查询和聚合、查看性能与索引建议。适合分析线上数据或确认查询效率。首次连接通过 Atlas 身份完成授权。",
+    "en": "Connect to Atlas, list databases and collections, run queries and aggregations, and review performance and index advice. Useful for exploring production data or checking query efficiency. Authorization uses your Atlas identity through OAuth."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "数据库",
+      "数据"
+    ],
+    "en": [
+      "Development",
+      "Database",
+      "Data"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.mongodb.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 MongoDB Atlas 并授权",
+      "en": "Sign in to MongoDB Atlas and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

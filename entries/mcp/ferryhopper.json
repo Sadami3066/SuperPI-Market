@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "ferryhopper",
+  "name": {
+    "zh": "Ferryhopper",
+    "en": "Ferryhopper"
+  },
+  "summary": {
+    "zh": "查询轮渡航线与班次票价",
+    "en": "Search ferry routes, schedules, and fares"
+  },
+  "description": {
+    "zh": "查询地中海与欧洲沿海的轮渡航线、班次和票价，比较不同船公司。适合海岛行程规划。无需授权，填好地址即可连接。",
+    "en": "Search ferry routes, schedules, and fares around the Mediterranean and European coasts, comparing operators. Useful for island hopping itineraries. No sign-in required; connect with the URL alone."
+  },
+  "tags": {
+    "zh": [
+      "出行",
+      "轮渡",
+      "票务"
+    ],
+    "en": [
+      "Travel",
+      "Ferry",
+      "Tickets"
+    ]
+  },
+  "category": "life",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.ferryhopper.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "无需授权，填好地址即可连接",
+      "en": "No sign-in needed, connect with the URL"
+    },
+    "auth": {
+      "type": "none"
+    }
+  }
+}

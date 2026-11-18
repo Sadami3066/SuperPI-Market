@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "PDF",
-      "OCR",
-      "文档"
+      "文档",
+      "汇报"
     ],
     "en": [
       "PDF",
-      "OCR",
-      "documents"
+      "Documents",
+      "Report"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "Apache-2.0",
     "source": "https://github.com/anthropics/skills"
-  }
+  },
+  "category": "office"
 }

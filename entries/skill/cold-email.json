@@ -15,14 +15,12 @@
   },
   "tags": {
     "zh": [
-      "冷邮件",
-      "跟进序列",
-      "触达"
+      "文案",
+      "营销"
     ],
     "en": [
-      "Cold email",
-      "Outreach",
-      "SDR"
+      "Copywriting",
+      "Marketing"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +32,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "content"
 }

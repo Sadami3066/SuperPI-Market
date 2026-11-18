@@ -52,6 +52,15 @@ const checkLocalized = (value, field, id) => {
   }
 }
 
+const CATEGORIES = ['office', 'content', 'dev', 'study', 'research', 'business', 'design', 'life']
+
+const checkCategory = (value, id) => {
+  if (value === undefined) return
+  if (typeof value !== 'string' || !CATEGORIES.includes(value)) {
+    fail(`${id}: category 必须是 ${CATEGORIES.join('/')}`)
+  }
+}
+
 const checkTags = (value, id) => {
   if (!isObject(value)) {
     fail(`${id}: tags 必须是 {zh, en} 对象`)
@@ -123,6 +132,7 @@ for (const [index, entry] of entries.entries()) {
   checkLocalized(entry.summary, 'summary', id)
   checkLocalized(entry.description, 'description', id)
   checkTags(entry.tags, id)
+  checkCategory(entry.category, id)
 
   if (entry.icon !== undefined) {
     const iconMatch = typeof entry.icon === 'string'

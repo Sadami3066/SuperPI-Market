@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "strava",
+  "name": {
+    "zh": "Strava",
+    "en": "Strava"
+  },
+  "summary": {
+    "zh": "查看训练记录与体能趋势",
+    "en": "Review activities and fitness trends"
+  },
+  "description": {
+    "zh": "读取活动记录、里程、配速与体能趋势，按时间或运动类型筛选。适合复盘训练或安排下周计划。首次连接在浏览器登录 Strava 授权，需要有效订阅。",
+    "en": "Read activities, distance, pace, and fitness trends, filtered by date or sport. Useful for reviewing training or planning the next week. Sign in to Strava on first connect; an active subscription is required."
+  },
+  "tags": {
+    "zh": [
+      "生活",
+      "运动",
+      "健康"
+    ],
+    "en": [
+      "Life",
+      "Fitness",
+      "Health"
+    ]
+  },
+  "category": "life",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.strava.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Strava 并授权",
+      "en": "Sign in to Strava and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

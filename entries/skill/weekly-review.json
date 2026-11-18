@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "复盘",
-      "任务管理",
-      "习惯"
+      "任务",
+      "效率"
     ],
     "en": [
-      "weekly review",
-      "productivity",
-      "GTD"
+      "Review",
+      "Tasks",
+      "Efficiency"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "office"
 }

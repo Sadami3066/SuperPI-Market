@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "开发流程",
-      "计划",
-      "测试"
+      "编码",
+      "测试",
+      "文档"
     ],
     "en": [
-      "workflow",
-      "planning",
-      "testing"
+      "Coding",
+      "Testing",
+      "Docs"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/obra/superpowers"
-  }
+  },
+  "category": "dev"
 }

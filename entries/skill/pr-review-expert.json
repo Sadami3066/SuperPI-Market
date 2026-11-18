@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "代码审查",
-      "Pull Request",
-      "安全"
+      "代码评审",
+      "安全",
+      "版本控制"
     ],
     "en": [
-      "code review",
-      "pull request",
-      "security"
+      "Code Review",
+      "Security",
+      "Version Control"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "dev"
 }

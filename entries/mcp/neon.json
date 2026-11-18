@@ -17,13 +17,13 @@
   "tags": {
     "zh": [
       "数据库",
-      "Postgres",
-      "云服务"
+      "后端",
+      "部署"
     ],
     "en": [
       "Database",
-      "Postgres",
-      "Cloud"
+      "Backend",
+      "Deployment"
     ]
   },
   "version": "2.0.0",
@@ -38,5 +38,6 @@
     "auth": {
       "type": "oauth"
     }
-  }
+  },
+  "category": "dev"
 }

@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "CEO",
       "战略",
-      "董事会"
+      "财务",
+      "创业"
     ],
     "en": [
-      "CEO",
       "Strategy",
-      "Board"
+      "Finance",
+      "Startup"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "business"
 }

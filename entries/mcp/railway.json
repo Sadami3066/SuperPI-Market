@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "railway",
+  "name": {
+    "zh": "Railway",
+    "en": "Railway"
+  },
+  "summary": {
+    "zh": "查看服务状态与部署日志",
+    "en": "Inspect services and deployment logs"
+  },
+  "description": {
+    "zh": "读取项目、服务、环境与部署状态，查看日志并触发重新部署。适合在手机上跟进后端服务。首次连接在浏览器完成 Railway 授权。",
+    "en": "Read projects, services, environments, and deployment status, view logs, and trigger redeploys. Handy for following a backend service from a phone. Railway authorization happens in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "部署",
+      "运维"
+    ],
+    "en": [
+      "Development",
+      "Deployment",
+      "DevOps"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.railway.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Railway 并授权",
+      "en": "Sign in to Railway and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

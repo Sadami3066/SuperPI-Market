@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "sentry",
+  "name": {
+    "zh": "Sentry",
+    "en": "Sentry"
+  },
+  "summary": {
+    "zh": "查看错误、性能与发布记录",
+    "en": "Inspect errors, performance traces, and releases"
+  },
+  "description": {
+    "zh": "查询项目的错误事件、堆栈、性能追踪与发布版本。适合线上报错后拉取上下文、确认影响范围。首次连接在浏览器登录 Sentry 并选择组织授权。",
+    "en": "Query error events, stack traces, performance traces, and releases for your projects. Useful for pulling context after a production error and checking impact. Sign in to Sentry and pick an organization on first connect."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "监控",
+      "排错"
+    ],
+    "en": [
+      "Development",
+      "Monitoring",
+      "Debugging"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.sentry.dev/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Sentry 并授权",
+      "en": "Sign in to Sentry and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

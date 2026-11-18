@@ -16,14 +16,14 @@
   "icon": "icons/stripe.png",
   "tags": {
     "zh": [
-      "支付",
-      "电商",
-      "财务"
+      "财务",
+      "销售",
+      "定价"
     ],
     "en": [
-      "Payments",
-      "Commerce",
-      "Finance"
+      "Finance",
+      "Sales",
+      "Pricing"
     ]
   },
   "version": "0.2.4",
@@ -45,5 +45,6 @@
       },
       "helpUrl": "https://dashboard.stripe.com/apikeys"
     }
-  }
+  },
+  "category": "business"
 }

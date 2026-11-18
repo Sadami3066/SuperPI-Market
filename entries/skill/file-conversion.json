@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "格式转换",
-      "本地处理",
-      "音视频"
+      "文档",
+      "效率",
+      "PDF"
     ],
     "en": [
-      "conversion",
-      "local",
-      "media"
+      "Documents",
+      "Efficiency",
+      "PDF"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/wshobson/agents"
-  }
+  },
+  "category": "office"
 }

@@ -1,0 +1,49 @@
+{
+  "type": "mcp",
+  "id": "launchdarkly",
+  "name": {
+    "zh": "LaunchDarkly",
+    "en": "LaunchDarkly"
+  },
+  "summary": {
+    "zh": "查看功能开关与投放规则",
+    "en": "Inspect feature flags and targeting rules"
+  },
+  "description": {
+    "zh": "读取项目里的功能开关、目标规则与环境配置，可按需开关某个功能。适合确认某次发布是否受开关控制。连接时填入 LaunchDarkly 访问令牌。",
+    "en": "Read feature flags, targeting rules, and per-environment settings, and toggle a flag when needed. Useful for confirming whether a release is gated. Supply a LaunchDarkly access token when connecting."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "发布",
+      "配置"
+    ],
+    "en": [
+      "Development",
+      "Release",
+      "Configuration"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.launchdarkly.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "在 LaunchDarkly 账号设置里生成访问令牌后填入",
+      "en": "Create an access token in your LaunchDarkly account settings"
+    },
+    "auth": {
+      "type": "apiKey",
+      "header": "Authorization",
+      "prefix": "Bearer ",
+      "placeholder": {
+        "zh": "访问令牌",
+        "en": "Access token"
+      },
+      "helpUrl": "https://launchdarkly.com/docs/home/getting-started/mcp"
+    }
+  }
+}

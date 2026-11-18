@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "square",
+  "name": {
+    "zh": "Square",
+    "en": "Square"
+  },
+  "summary": {
+    "zh": "查看订单、支付与商品",
+    "en": "View orders, payments, and catalog items"
+  },
+  "description": {
+    "zh": "读取订单、支付、商品目录与客户信息，支持创建订单和退款。适合门店对账或查某笔交易。首次连接在浏览器登录 Square 授权。",
+    "en": "Read orders, payments, catalog items, and customers, and create orders or refunds. Useful for store reconciliation or tracing a single transaction. Sign in to Square in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "商业",
+      "支付",
+      "门店"
+    ],
+    "en": [
+      "Business",
+      "Payments",
+      "Retail"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.squareup.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Square 并授权",
+      "en": "Sign in to Square and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

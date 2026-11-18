@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "mintlify",
+  "name": {
+    "zh": "Mintlify",
+    "en": "Mintlify"
+  },
+  "summary": {
+    "zh": "检索与更新文档站点",
+    "en": "Search and update documentation sites"
+  },
+  "description": {
+    "zh": "在托管的文档站里搜索内容、读取页面并提交修改。适合维护产品文档或校对术语。首次连接在浏览器登录 Mintlify 授权。",
+    "en": "Search hosted documentation, read pages, and submit edits. Useful for maintaining product docs or checking terminology. Sign in to Mintlify in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "内容",
+      "文档",
+      "写作"
+    ],
+    "en": [
+      "Content",
+      "Documentation",
+      "Writing"
+    ]
+  },
+  "category": "content",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.mintlify.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Mintlify 并授权",
+      "en": "Sign in to Mintlify and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

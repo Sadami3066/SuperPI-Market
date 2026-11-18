@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "课程备课",
-      "文献检索",
-      "阅读清单"
+      "课程",
+      "论文",
+      "阅读"
     ],
     "en": [
-      "education",
-      "literature",
-      "readings"
+      "Courses",
+      "Papers",
+      "Reading"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "study"
 }

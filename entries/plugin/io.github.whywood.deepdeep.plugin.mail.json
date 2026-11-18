@@ -16,14 +16,14 @@
   "icon": "icons/mail.png",
   "tags": {
     "zh": [
-      "邮箱",
       "邮件",
-      "办公"
+      "写作",
+      "效率"
     ],
     "en": [
-      "Mail",
       "Email",
-      "Productivity"
+      "Writing",
+      "Efficiency"
     ]
   },
   "version": "1.6.2",
@@ -39,5 +39,6 @@
     "publisherName": "milous",
     "requiredAccess": "normal",
     "version": "1.6.2"
-  }
+  },
+  "category": "office"
 }

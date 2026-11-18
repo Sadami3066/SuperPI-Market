@@ -17,11 +17,11 @@
   "tags": {
     "zh": [
       "文档",
-      "开发"
+      "编码"
     ],
     "en": [
-      "Documentation",
-      "Development"
+      "Docs",
+      "Coding"
     ]
   },
   "version": "4.5.1",
@@ -36,5 +36,6 @@
     "auth": {
       "type": "none"
     }
-  }
+  },
+  "category": "dev"
 }

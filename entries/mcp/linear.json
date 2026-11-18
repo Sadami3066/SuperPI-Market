@@ -16,14 +16,14 @@
   "icon": "icons/linear.png",
   "tags": {
     "zh": [
-      "项目管理",
-      "开发",
-      "协作"
+      "任务",
+      "协作",
+      "文档"
     ],
     "en": [
-      "Project Management",
-      "Development",
-      "Collaboration"
+      "Tasks",
+      "Collaboration",
+      "Documents"
     ]
   },
   "version": "1.0.2",
@@ -38,5 +38,6 @@
     "auth": {
       "type": "oauth"
     }
-  }
+  },
+  "category": "office"
 }

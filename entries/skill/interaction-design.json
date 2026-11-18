@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "交互",
-      "动效",
-      "反馈"
+      "体验",
+      "界面",
+      "视觉"
     ],
     "en": [
-      "Interaction",
-      "Motion",
-      "Feedback"
+      "UX",
+      "UI",
+      "Visual"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/wshobson/agents"
-  }
+  },
+  "category": "design"
 }

@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "instacart",
+  "name": {
+    "zh": "Instacart",
+    "en": "Instacart"
+  },
+  "summary": {
+    "zh": "按食谱生成食材与购物清单",
+    "en": "Turn recipes into grocery shopping lists"
+  },
+  "description": {
+    "zh": "把菜谱转成可购买的食材清单，搜索附近门店商品并返回价格。适合按食谱备料或日常补货。连接无需授权，下单仍在 Instacart 账号内完成。",
+    "en": "Turn a recipe into a shoppable ingredient list, search nearby store products, and return prices. Useful for meal prep or restocking. No sign-in to connect; checkout still happens in your Instacart account."
+  },
+  "tags": {
+    "zh": [
+      "生活",
+      "购物",
+      "做饭"
+    ],
+    "en": [
+      "Life",
+      "Shopping",
+      "Cooking"
+    ]
+  },
+  "category": "life",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.instacart.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "无需授权，填好地址即可连接",
+      "en": "No sign-in needed, connect with the URL"
+    },
+    "auth": {
+      "type": "none"
+    }
+  }
+}

@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "博客写作",
-      "SEO",
-      "内容"
+      "写作",
+      "营销",
+      "文案"
     ],
     "en": [
-      "blog writing",
-      "SEO",
-      "articles"
+      "Writing",
+      "Marketing",
+      "Copywriting"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "content"
 }

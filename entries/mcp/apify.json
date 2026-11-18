@@ -16,14 +16,14 @@
   "icon": "icons/apify.png",
   "tags": {
     "zh": [
-      "网页抓取",
-      "自动化",
-      "数据"
+      "数据",
+      "资料",
+      "调研"
     ],
     "en": [
-      "Scraping",
-      "Automation",
-      "Data"
+      "Data",
+      "Sources",
+      "Research"
     ]
   },
   "version": "0.21.4",
@@ -45,5 +45,6 @@
       },
       "helpUrl": "https://console.apify.com/settings/integrations"
     }
-  }
+  },
+  "category": "research"
 }

@@ -15,14 +15,12 @@
   },
   "tags": {
     "zh": [
-      "技能编写",
-      "规范",
-      "验证"
+      "文档",
+      "测试"
     ],
     "en": [
-      "authoring",
-      "guidelines",
-      "verification"
+      "Docs",
+      "Testing"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +32,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/obra/superpowers"
-  }
+  },
+  "category": "dev"
 }

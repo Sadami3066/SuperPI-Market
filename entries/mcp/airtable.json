@@ -16,13 +16,13 @@
   "icon": "icons/airtable.png",
   "tags": {
     "zh": [
-      "数据库",
       "表格",
+      "任务",
       "协作"
     ],
     "en": [
-      "Database",
-      "Spreadsheets",
+      "Spreadsheet",
+      "Tasks",
       "Collaboration"
     ]
   },
@@ -38,5 +38,6 @@
     "auth": {
       "type": "oauth"
     }
-  }
+  },
+  "category": "office"
 }

@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "容器",
-      "镜像优化",
-      "compose"
+      "部署",
+      "安全",
+      "性能"
     ],
     "en": [
-      "Containers",
-      "Image Size",
-      "Compose"
+      "Deployment",
+      "Security",
+      "Performance"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "dev"
 }

@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "gitlab",
+  "name": {
+    "zh": "GitLab",
+    "en": "GitLab"
+  },
+  "summary": {
+    "zh": "访问项目、议题与合并请求",
+    "en": "Access projects, issues, and merge requests"
+  },
+  "description": {
+    "zh": "读取 GitLab.com 上的项目、文件、议题与合并请求，支持搜索与差异查看。适合跟进研发进度或核对某次改动。首次连接跳转 GitLab 登录页完成授权。",
+    "en": "Read projects, files, issues, and merge requests on GitLab.com, including search and diff views. Good for following development progress or checking a specific change. GitLab sign-in and consent happen in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "代码",
+      "协作"
+    ],
+    "en": [
+      "Development",
+      "Code",
+      "Collaboration"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://gitlab.com/api/v4/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 GitLab 并授权",
+      "en": "Sign in to GitLab and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

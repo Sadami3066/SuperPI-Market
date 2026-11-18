@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "自评",
       "复盘",
-      "质量"
+      "汇报",
+      "效率"
     ],
     "en": [
-      "self-review",
-      "quality",
-      "feedback"
+      "Review",
+      "Report",
+      "Efficiency"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "office"
 }

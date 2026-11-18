@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "图卡",
-      "社交媒体",
-      "内容排版"
+      "小红书",
+      "图片",
+      "社交媒体"
     ],
     "en": [
-      "image cards",
-      "social media",
-      "layout"
+      "Xiaohongshu",
+      "Images",
+      "Social Media"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/JimLiu/baoyu-skills"
-  }
+  },
+  "category": "content"
 }

@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "文档",
-      "Markdown",
-      "目录"
+      "汇报",
+      "协作"
     ],
     "en": [
-      "docs",
-      "markdown",
-      "HTML"
+      "Documents",
+      "Report",
+      "Collaboration"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "office"
 }

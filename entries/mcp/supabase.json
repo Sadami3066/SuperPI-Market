@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "supabase",
+  "name": {
+    "zh": "Supabase",
+    "en": "Supabase"
+  },
+  "summary": {
+    "zh": "查询数据库、表结构与日志",
+    "en": "Query databases, schemas, and logs"
+  },
+  "description": {
+    "zh": "对项目执行 SQL 查询、查看表结构与迁移，读取日志和边缘函数信息。适合排查数据问题或确认线上结构。首次连接在浏览器登录 Supabase 授权，可只授权单个项目。",
+    "en": "Run SQL queries, inspect schemas and migrations, and read logs and edge function details. Useful for chasing data issues or confirming production structure. Sign in to Supabase in the browser and scope access to a single project if you prefer."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "数据库",
+      "后端"
+    ],
+    "en": [
+      "Development",
+      "Database",
+      "Backend"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.supabase.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Supabase 并授权",
+      "en": "Sign in to Supabase and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

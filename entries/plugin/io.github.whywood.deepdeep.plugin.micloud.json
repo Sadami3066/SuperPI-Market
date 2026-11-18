@@ -16,14 +16,14 @@
   "icon": "icons/micloud.png",
   "tags": {
     "zh": [
-      "小米云",
       "笔记",
-      "相册"
+      "任务",
+      "效率"
     ],
     "en": [
-      "Mi Cloud",
       "Notes",
-      "Photos"
+      "Tasks",
+      "Efficiency"
     ]
   },
   "version": "2.7.4",
@@ -39,5 +39,6 @@
     "publisherName": "milous",
     "requiredAccess": "normal",
     "version": "2.7.4"
-  }
+  },
+  "category": "office"
 }

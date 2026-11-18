@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "feishu",
+  "name": {
+    "zh": "飞书",
+    "en": "Feishu"
+  },
+  "summary": {
+    "zh": "读写云文档、消息与成员",
+    "en": "Read and write docs, messages, and members"
+  },
+  "description": {
+    "zh": "搜索和读写飞书云文档、查看群消息与成员、读取用户信息。适合把飞书里的资料带进对话或整理会议结论。首次连接跳转飞书账号登录并授权。",
+    "en": "Search and edit Feishu docs, read group messages and members, and fetch user profiles. Good for bringing Feishu material into a conversation or turning meeting notes into documents. Feishu sign-in and consent happen in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "办公",
+      "文档",
+      "协作"
+    ],
+    "en": [
+      "Productivity",
+      "Documents",
+      "Collaboration"
+    ]
+  },
+  "category": "office",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.feishu.cn/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接跳转飞书登录并授权",
+      "en": "Sign in to Feishu and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

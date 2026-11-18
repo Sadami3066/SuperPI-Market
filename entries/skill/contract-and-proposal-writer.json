@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "合同",
-      "提案",
-      "法务文书"
+      "销售",
+      "创业"
     ],
     "en": [
-      "contracts",
-      "proposals",
-      "legal docs"
+      "Contracts",
+      "Sales",
+      "Startup"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "business"
 }

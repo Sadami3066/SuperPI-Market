@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "tavily",
+  "name": {
+    "zh": "Tavily",
+    "en": "Tavily"
+  },
+  "summary": {
+    "zh": "检索网页并提取可引用正文",
+    "en": "Web search with citable page extracts"
+  },
+  "description": {
+    "zh": "执行网页搜索、提取页面正文并返回可直接引用的片段。适合需要来源支撑的问答与事实核对。首次连接在浏览器登录 Tavily 授权。",
+    "en": "Run web searches, extract page content, and return excerpts that can be cited. Useful for answers that need sources and for fact checking. Sign in to Tavily in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "研究",
+      "搜索",
+      "资料"
+    ],
+    "en": [
+      "Research",
+      "Search",
+      "Sources"
+    ]
+  },
+  "category": "research",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.tavily.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Tavily 并授权",
+      "en": "Sign in to Tavily and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "exa",
+  "name": {
+    "zh": "Exa",
+    "en": "Exa"
+  },
+  "summary": {
+    "zh": "语义搜索网页与抓取正文",
+    "en": "Semantic web search and page fetching"
+  },
+  "description": {
+    "zh": "按语义描述检索网页、抓取页面正文并做多步研究。适合需要最新资料或跨站汇总的问答。无需授权即可连接使用。",
+    "en": "Search the web by meaning, fetch page content, and run multi-step research. Useful for questions that need current sources or cross-site synthesis. No sign-in required to connect."
+  },
+  "tags": {
+    "zh": [
+      "研究",
+      "搜索",
+      "网页"
+    ],
+    "en": [
+      "Research",
+      "Search",
+      "Web"
+    ]
+  },
+  "category": "research",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.exa.ai/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "无需授权，填好地址即可连接",
+      "en": "No sign-in needed, connect with the URL"
+    },
+    "auth": {
+      "type": "none"
+    }
+  }
+}

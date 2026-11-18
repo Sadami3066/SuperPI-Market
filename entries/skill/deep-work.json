@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "时间管理",
-      "专注",
-      "日程"
+      "效率",
+      "任务",
+      "复盘"
     ],
     "en": [
-      "time blocking",
-      "focus",
-      "scheduling"
+      "Efficiency",
+      "Tasks",
+      "Review"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "office"
 }

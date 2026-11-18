@@ -16,14 +16,14 @@
   "icon": "icons/zanao.png",
   "tags": {
     "zh": [
-      "校园集市",
       "校园",
-      "命令行"
+      "娱乐",
+      "生活服务"
     ],
     "en": [
-      "Campus market",
       "Campus",
-      "CLI"
+      "Entertainment",
+      "Services"
     ]
   },
   "version": "1.0.18",
@@ -39,5 +39,6 @@
     "publisherName": "milous",
     "requiredAccess": "normal",
     "version": "1.0.18"
-  }
+  },
+  "category": "life"
 }

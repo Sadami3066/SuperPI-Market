@@ -16,13 +16,13 @@
   "icon": "icons/notion.png",
   "tags": {
     "zh": [
+      "文档",
       "笔记",
-      "知识库",
       "协作"
     ],
     "en": [
+      "Documents",
       "Notes",
-      "Knowledge Base",
       "Collaboration"
     ]
   },
@@ -38,5 +38,6 @@
     "auth": {
       "type": "oauth"
     }
-  }
+  },
+  "category": "office"
 }

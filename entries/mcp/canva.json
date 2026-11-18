@@ -16,12 +16,14 @@
   "icon": "icons/canva.png",
   "tags": {
     "zh": [
-      "设计",
-      "图片"
+      "视觉",
+      "布局",
+      "品牌"
     ],
     "en": [
-      "Design",
-      "Images"
+      "Visual",
+      "Layout",
+      "Brand"
     ]
   },
   "version": "1.0.0",
@@ -36,5 +38,6 @@
     "auth": {
       "type": "oauth"
     }
-  }
+  },
+  "category": "design"
 }

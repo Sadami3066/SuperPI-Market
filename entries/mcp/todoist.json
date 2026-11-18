@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "todoist",
+  "name": {
+    "zh": "Todoist",
+    "en": "Todoist"
+  },
+  "summary": {
+    "zh": "添加与整理待办任务",
+    "en": "Add and organize to-do tasks"
+  },
+  "description": {
+    "zh": "读取项目与任务、添加待办、修改截止时间与优先级并完成任务。适合随手把想法记成任务再统一安排。首次连接在浏览器登录 Todoist 授权。",
+    "en": "Read projects and tasks, add to-dos, adjust due dates and priority, and complete tasks. Good for capturing ideas as tasks and sorting them later. Sign in to Todoist in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "办公",
+      "任务",
+      "效率"
+    ],
+    "en": [
+      "Productivity",
+      "Tasks",
+      "Planning"
+    ]
+  },
+  "category": "office",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://ai.todoist.net/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Todoist 并授权",
+      "en": "Sign in to Todoist and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

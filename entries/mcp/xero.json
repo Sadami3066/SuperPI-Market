@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "xero",
+  "name": {
+    "zh": "Xero",
+    "en": "Xero"
+  },
+  "summary": {
+    "zh": "查看账目、发票与联系人",
+    "en": "View accounts, invoices, and contacts"
+  },
+  "description": {
+    "zh": "读取组织的科目表、发票、账单与联系人，查询账目余额。适合小企业财务核对。首次连接在浏览器登录 Xero 授权并选择组织。",
+    "en": "Read chart of accounts, invoices, bills, and contacts, and check account balances. Useful for small business bookkeeping checks. Sign in to Xero and choose an organization on first connect."
+  },
+  "tags": {
+    "zh": [
+      "商业",
+      "财务",
+      "记账"
+    ],
+    "en": [
+      "Business",
+      "Finance",
+      "Accounting"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.xero.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Xero 并选择组织",
+      "en": "Sign in to Xero and choose an organization on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

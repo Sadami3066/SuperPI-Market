@@ -2,8 +2,8 @@
   "type": "skill",
   "id": "md-slides",
   "name": {
-    "zh": "幻灯片生成",
-    "en": "Markdown Slides"
+    "zh": "网页幻灯片",
+    "en": "Web Slides"
   },
   "summary": {
     "zh": "把笔记变成可翻页的网页幻灯片",
@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "幻灯片",
-      "Markdown",
-      "演示"
+      "演示",
+      "笔记",
+      "汇报"
     ],
     "en": [
-      "slides",
-      "markdown",
-      "presentation"
+      "Slides",
+      "Notes",
+      "Report"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "office"
 }

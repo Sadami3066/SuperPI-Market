@@ -15,12 +15,14 @@
   },
   "tags": {
     "zh": [
-      "GitHub",
-      "协作"
+      "文档",
+      "版本控制",
+      "调试"
     ],
     "en": [
-      "GitHub",
-      "Collaboration"
+      "Docs",
+      "Version Control",
+      "Debugging"
     ]
   },
   "version": "1.0.0",
@@ -32,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/microsoft/skills"
-  }
+  },
+  "category": "dev"
 }

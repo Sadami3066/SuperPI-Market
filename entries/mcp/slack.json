@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "slack",
+  "name": {
+    "zh": "Slack",
+    "en": "Slack"
+  },
+  "summary": {
+    "zh": "搜索消息、频道与成员",
+    "en": "Search messages, channels, and members"
+  },
+  "description": {
+    "zh": "在工作区里搜索消息与文件、读取频道历史和成员信息，并可发送消息。适合查找历史讨论或把结论同步到频道。首次连接在浏览器登录 Slack 授权。",
+    "en": "Search messages and files, read channel history and member profiles, and post messages. Useful for finding an earlier discussion or sharing a conclusion back to a channel. Sign in to Slack in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "办公",
+      "消息",
+      "协作"
+    ],
+    "en": [
+      "Productivity",
+      "Messaging",
+      "Collaboration"
+    ]
+  },
+  "category": "office",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.slack.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Slack 并授权",
+      "en": "Sign in to Slack and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "monday",
+  "name": {
+    "zh": "monday.com",
+    "en": "monday.com"
+  },
+  "summary": {
+    "zh": "管理看板、条目与列值",
+    "en": "Manage boards, items, and column values"
+  },
+  "description": {
+    "zh": "读取和更新看板、分组、条目与列值，支持按条件检索。适合把任务进度同步进对话，或批量调整条目状态。首次连接在浏览器登录 monday.com 授权。",
+    "en": "Read and update boards, groups, items, and column values, with filtered lookups. Useful for bringing task status into a conversation or updating items in bulk. Sign in to monday.com in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "办公",
+      "协作",
+      "项目"
+    ],
+    "en": [
+      "Productivity",
+      "Collaboration",
+      "Projects"
+    ]
+  },
+  "category": "office",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.monday.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 monday.com 并授权",
+      "en": "Sign in to monday.com and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

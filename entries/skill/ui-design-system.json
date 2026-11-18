@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "设计系统",
-      "Design Token",
-      "组件规范"
+      "界面",
+      "布局",
+      "视觉"
     ],
     "en": [
-      "Design System",
-      "Tokens",
-      "Handoff"
+      "UI",
+      "Layout",
+      "Visual"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/alirezarezvani/claude-skills"
-  }
+  },
+  "category": "design"
 }

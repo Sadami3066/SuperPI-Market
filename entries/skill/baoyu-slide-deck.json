@@ -2,8 +2,8 @@
   "type": "skill",
   "id": "baoyu-slide-deck",
   "name": {
-    "zh": "幻灯片生成",
-    "en": "Slide Deck"
+    "zh": "幻灯片图片",
+    "en": "Slide Deck Images"
   },
   "summary": {
     "zh": "把内容做成可滚动浏览的幻灯片图片",
@@ -15,14 +15,12 @@
   },
   "tags": {
     "zh": [
-      "幻灯片",
-      "演示",
-      "配图"
+      "图片",
+      "排版"
     ],
     "en": [
-      "slides",
-      "presentation",
-      "imagery"
+      "Images",
+      "Formatting"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +32,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/JimLiu/baoyu-skills"
-  }
+  },
+  "category": "content"
 }

@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "netlify",
+  "name": {
+    "zh": "Netlify",
+    "en": "Netlify"
+  },
+  "summary": {
+    "zh": "管理站点部署与构建日志",
+    "en": "Manage site deploys and build logs"
+  },
+  "description": {
+    "zh": "查看站点、部署记录与构建日志，创建新部署并读取环境变量。适合发布静态站点后排查失败或回滚。首次连接在浏览器登录 Netlify 授权。",
+    "en": "Inspect sites, deploy history, and build logs, create new deploys, and read environment variables. Useful for debugging a failed static site build or rolling back. Sign in to Netlify in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "部署",
+      "站点"
+    ],
+    "en": [
+      "Development",
+      "Deployment",
+      "Websites"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://netlify-mcp.netlify.app/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Netlify 并授权",
+      "en": "Sign in to Netlify and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

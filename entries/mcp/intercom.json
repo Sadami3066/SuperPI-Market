@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "intercom",
+  "name": {
+    "zh": "Intercom",
+    "en": "Intercom"
+  },
+  "summary": {
+    "zh": "查询客户对话与工单",
+    "en": "Look up customer conversations and tickets"
+  },
+  "description": {
+    "zh": "读取联系人、对话与工单，搜索历史沟通记录并添加回复或备注。适合客服场景里快速了解用户背景。首次连接在浏览器登录 Intercom 授权。",
+    "en": "Read contacts, conversations, and tickets, search past exchanges, and add replies or notes. Useful in support work to get a customer's context fast. Sign in to Intercom in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "办公",
+      "客服",
+      "工单"
+    ],
+    "en": [
+      "Productivity",
+      "Support",
+      "Tickets"
+    ]
+  },
+  "category": "office",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.intercom.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Intercom 并授权",
+      "en": "Sign in to Intercom and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

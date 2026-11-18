@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "dingtalk",
+  "name": {
+    "zh": "钉钉",
+    "en": "DingTalk"
+  },
+  "summary": {
+    "zh": "登录后调用钉钉办公工具",
+    "en": "Call DingTalk office tools after sign-in"
+  },
+  "description": {
+    "zh": "连接钉钉官方 MCP 服务，按组织授权后调用钉钉开放的办公工具。适合在对话里处理钉钉侧的日常办公事务。首次连接需在浏览器扫码登录钉钉账号。",
+    "en": "Connect to DingTalk's hosted MCP service and call the office tools it exposes once your organization grants access. Useful for everyday DingTalk work from a conversation. Scan the QR code to sign in on first connect."
+  },
+  "tags": {
+    "zh": [
+      "办公",
+      "协作",
+      "企业"
+    ],
+    "en": [
+      "Productivity",
+      "Collaboration",
+      "Enterprise"
+    ]
+  },
+  "category": "office",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.dingtalk.com/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器扫码登录钉钉并授权",
+      "en": "Scan the QR code to sign in to DingTalk on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}

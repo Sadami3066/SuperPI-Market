@@ -15,14 +15,14 @@
   },
   "tags": {
     "zh": [
-      "并行",
-      "任务编排",
-      "效率"
+      "编码",
+      "重构",
+      "性能"
     ],
     "en": [
-      "parallel",
-      "tasks",
-      "efficiency"
+      "Coding",
+      "Refactoring",
+      "Performance"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/obra/superpowers"
-  }
+  },
+  "category": "dev"
 }

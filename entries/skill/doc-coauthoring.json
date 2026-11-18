@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "写作",
-      "文档",
-      "流程"
+      "协作",
+      "文档"
     ],
     "en": [
-      "writing",
-      "docs",
-      "workflow"
+      "Writing",
+      "Collaboration",
+      "Documents"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "Apache-2.0",
     "source": "https://github.com/anthropics/skills"
-  }
+  },
+  "category": "office"
 }

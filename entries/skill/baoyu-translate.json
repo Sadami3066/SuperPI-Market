@@ -16,13 +16,13 @@
   "tags": {
     "zh": [
       "翻译",
-      "本地化",
-      "术语表"
+      "润色",
+      "写作"
     ],
     "en": [
-      "translation",
-      "localization",
-      "glossary"
+      "Translation",
+      "Polishing",
+      "Writing"
     ]
   },
   "version": "1.0.0",
@@ -34,5 +34,6 @@
   "skill": {
     "license": "MIT",
     "source": "https://github.com/JimLiu/baoyu-skills"
-  }
+  },
+  "category": "content"
 }

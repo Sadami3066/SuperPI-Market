@@ -16,12 +16,12 @@
   "icon": "icons/cloudflare.png",
   "tags": {
     "zh": [
-      "云服务",
-      "文档"
+      "文档",
+      "部署"
     ],
     "en": [
-      "Cloud",
-      "Documentation"
+      "Docs",
+      "Deployment"
     ]
   },
   "version": "1.0.0",
@@ -36,5 +36,6 @@
     "auth": {
       "type": "none"
     }
-  }
+  },
+  "category": "dev"
 }

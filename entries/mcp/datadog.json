@@ -1,0 +1,42 @@
+{
+  "type": "mcp",
+  "id": "datadog",
+  "name": {
+    "zh": "Datadog",
+    "en": "Datadog"
+  },
+  "summary": {
+    "zh": "查询指标、日志与监控告警",
+    "en": "Query metrics, logs, and monitors"
+  },
+  "description": {
+    "zh": "检索日志、指标、追踪和监控器状态，支持按服务与时间窗过滤。适合告警后快速定位受影响的服务。首次连接在浏览器登录 Datadog 授权。",
+    "en": "Search logs, metrics, traces, and monitor state, filtered by service and time window. Useful for locating the affected service right after an alert. Sign in to Datadog in the browser on first connect."
+  },
+  "tags": {
+    "zh": [
+      "开发",
+      "监控",
+      "日志"
+    ],
+    "en": [
+      "Development",
+      "Monitoring",
+      "Logs"
+    ]
+  },
+  "category": "dev",
+  "version": "1.0.0",
+  "mcp": {
+    "url": "https://mcp.datadoghq.com/api/unstable/mcp-server/mcp",
+    "transport": "http",
+    "headers": {},
+    "authHint": {
+      "zh": "首次连接在浏览器登录 Datadog 并授权",
+      "en": "Sign in to Datadog and authorize on first connect"
+    },
+    "auth": {
+      "type": "oauth"
+    }
+  }
+}
