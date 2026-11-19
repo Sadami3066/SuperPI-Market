@@ -1,6 +1,6 @@
 {
   "type": "plugin",
-  "id": "io.github.whywood.deepdeep.plugin.micloud",
+  "id": "io.github.whywood.superpi.plugin.micloud",
   "name": {
     "zh": "小米云服务",
     "en": "Mi Cloud"
@@ -28,13 +28,13 @@
   },
   "version": "2.7.4",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116-3/micloud-2.7.4.ddp",
-    "sha256": "25c0abdd1c27efb3290dc8ec07716d129c253a6799438c153d2d1000a3d46cf6",
-    "size": 1128587
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261120/micloud-2.7.4.ddp",
+    "sha256": "ff1170e55f104755f4ea7c190dafba6642ce718e2214780d75eda9a4b4645a0f",
+    "size": 1128446
   },
   "plugin": {
-    "apiLevel": 6,
-    "minHostVersion": "1.4.0",
+    "apiLevel": 7,
+    "minHostVersion": "2.0.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",

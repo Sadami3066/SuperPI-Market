@@ -1,6 +1,6 @@
 {
   "type": "plugin",
-  "id": "io.github.whywood.deepdeep.plugin.wecom",
+  "id": "io.github.whywood.superpi.plugin.wecom",
   "name": {
     "zh": "企业微信",
     "en": "WeCom"
@@ -28,13 +28,13 @@
   },
   "version": "2.6.2",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261119/wecom-2.6.2.ddp",
-    "sha256": "9bab665eb52859d721ce7627c28e9cfb14096d502423c3568e66310cdc931ac3",
-    "size": 1029099
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261120/wecom-2.6.2.ddp",
+    "sha256": "fe05a8b49335063273f7cfdb53323e7fce2b2d2b0ec39fa8869a0451cf804051",
+    "size": 1029110
   },
   "plugin": {
-    "apiLevel": 6,
-    "minHostVersion": "1.4.3",
+    "apiLevel": 7,
+    "minHostVersion": "2.0.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",

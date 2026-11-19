@@ -1,6 +1,6 @@
 {
   "type": "plugin",
-  "id": "io.github.whywood.deepdeep.plugin.hotel",
+  "id": "io.github.whywood.superpi.plugin.hotel",
   "name": {
     "zh": "RollingGo酒店",
     "en": "RollingGo Hotels"
@@ -28,13 +28,13 @@
   "icon": "icons/hotel.png",
   "version": "1.4.1",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/hotel-1.4.1.ddp",
-    "sha256": "2648852624eccaccfaae44d0ad5f710114fa9355cdd4b72483cf795eb14ef891",
-    "size": 1463476
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261120/hotel-1.4.1.ddp",
+    "sha256": "6fc8489bc42a9685bceaed6a90eb5f7bef40dacbd5cb6a00ce58c65dca968bfc",
+    "size": 1465101
   },
   "plugin": {
-    "apiLevel": 6,
-    "minHostVersion": "1.4.0",
+    "apiLevel": 7,
+    "minHostVersion": "2.0.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",

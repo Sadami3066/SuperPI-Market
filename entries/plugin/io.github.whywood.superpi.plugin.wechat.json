@@ -1,6 +1,6 @@
 {
   "type": "plugin",
-  "id": "io.github.whywood.deepdeep.plugin.wechat",
+  "id": "io.github.whywood.superpi.plugin.wechat",
   "name": {
     "zh": "微信聊天记录",
     "en": "WeChat Chat History"
@@ -28,13 +28,13 @@
   },
   "version": "0.5.2",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/wechat-0.5.2.ddp",
-    "sha256": "afd2257125820b48e4567a71cca5a41878f0dd23dc405fd97e4e5adb7dee504f",
-    "size": 894528
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261120/wechat-0.5.2.ddp",
+    "sha256": "e7845ec35ef4946413774250028b59fd42e6c87eb7a322dcb079c78a4ffce339",
+    "size": 894544
   },
   "plugin": {
-    "apiLevel": 6,
-    "minHostVersion": "1.0.8",
+    "apiLevel": 7,
+    "minHostVersion": "2.0.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "root",

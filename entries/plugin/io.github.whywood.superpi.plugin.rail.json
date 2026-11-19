@@ -1,6 +1,6 @@
 {
   "type": "plugin",
-  "id": "io.github.whywood.deepdeep.plugin.rail",
+  "id": "io.github.whywood.superpi.plugin.rail",
   "name": {
     "zh": "12306铁路",
     "en": "12306 Railway"
@@ -26,13 +26,13 @@
   "icon": "icons/rail.png",
   "version": "1.4.0",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/rail-1.4.0.ddp",
-    "sha256": "83603bb5622100c78cd0125aa05711e4adfd9657e44e3f836067ec3dc82ef978",
-    "size": 1144840
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261120/rail-1.4.0.ddp",
+    "sha256": "8d32f9293eb7d04305d98de66ac4b29b69ec7589074813070e707df9c4f3dc12",
+    "size": 1144623
   },
   "plugin": {
-    "apiLevel": 6,
-    "minHostVersion": "1.4.0",
+    "apiLevel": 7,
+    "minHostVersion": "2.0.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",

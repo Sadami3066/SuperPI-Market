@@ -4,7 +4,7 @@
 
 Super PI Agent 的插件、技能与远程 MCP 市场：本仓库提供**签名索引**与**制品分发**，不包含客户端代码。
 
-- 索引：`https://sadami3066.github.io/deepdeep-market/registry.json`
+- 索引：`https://sadami3066.github.io/SuperPI-Market/registry.json`
 - 签名：`registry.json.sig`（ECDSA P-256 + SHA-256，对 `registry.json` 原始字节签名，DER 编码后 base64）
 
 ## 概览
@@ -90,8 +90,8 @@ PI App 的市场页固定读取上面的索引，用内置公钥验证签名并�
 ### 1. 新建条目文件
 
 ```bash
-git clone https://github.com/Sadami3066/deepdeep-market.git
-cd deepdeep-market
+git clone https://github.com/Sadami3066/SuperPI-Market.git
+cd SuperPI-Market
 cp entries/sample.json entries/skill/my-skill.json
 ```
 
@@ -110,7 +110,7 @@ sha256sum my-skill-1.0.0.zip
 stat -c %s my-skill-1.0.0.zip
 ```
 
-把输出分别填入 `artifact.sha256` 与 `artifact.size`；`artifact.url` 填 Release 资产的直链。插件预览图可放在 `previews/`，用 `https://raw.githubusercontent.com/Sadami3066/deepdeep-market/master/previews/<file>` 引用。
+把输出分别填入 `artifact.sha256` 与 `artifact.size`；`artifact.url` 填 Release 资产的直链。插件预览图可放在 `previews/`，用 `https://raw.githubusercontent.com/Sadami3066/SuperPI-Market/master/previews/<file>` 引用。
 
 ### 4. 本地生成并校验索引
 
@@ -194,5 +194,5 @@ App 的市场页从固定 URL 读取索引：
 ## 声明与反馈
 
 - 索引与制品按现状提供，不附带任何担保；是否安装第三方内容由用户自行决定并承担风险。
-- 问题、条目建议或下架请求：在本仓库提交 Issue / PR。审核与上架边界见 [Market Policy](https://github.com/Sadami3066/DeepDeep-Plugins/blob/master/MARKET_POLICY.md)。
+- 问题、条目建议或下架请求：在本仓库提交 Issue / PR。审核与上架边界见 [Market Policy](https://github.com/Sadami3066/SuperPI-Plugins/blob/master/MARKET_POLICY.md)。
 - 安全或凭据相关问题请勿在公开 Issue 中贴出敏感信息，请直接联系仓库维护者。

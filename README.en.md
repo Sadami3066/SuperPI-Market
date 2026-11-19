@@ -4,7 +4,7 @@
 
 The plugin, skill, and remote MCP marketplace for Super PI Agent: this repository provides the **signed registry** and **artifact distribution**. It contains no client code.
 
-- Registry: `https://sadami3066.github.io/deepdeep-market/registry.json`
+- Registry: `https://sadami3066.github.io/SuperPI-Market/registry.json`
 - Signature: `registry.json.sig` (ECDSA P-256 + SHA-256 over the raw bytes of `registry.json`, DER-encoded, base64)
 
 ## Overview
@@ -89,8 +89,8 @@ Requirements: Node.js 22 or newer and git. The scripts only use Node built-ins; 
 ### 1. Create the entry file
 
 ```bash
-git clone https://github.com/Sadami3066/deepdeep-market.git
-cd deepdeep-market
+git clone https://github.com/Sadami3066/SuperPI-Market.git
+cd SuperPI-Market
 cp entries/sample.json entries/skill/my-skill.json
 ```
 
@@ -109,7 +109,7 @@ sha256sum my-skill-1.0.0.zip
 stat -c %s my-skill-1.0.0.zip
 ```
 
-Put the results into `artifact.sha256` and `artifact.size`; set `artifact.url` to the direct Release asset URL. Plugin preview images can live in `previews/` and be referenced as `https://raw.githubusercontent.com/Sadami3066/deepdeep-market/master/previews/<file>`.
+Put the results into `artifact.sha256` and `artifact.size`; set `artifact.url` to the direct Release asset URL. Plugin preview images can live in `previews/` and be referenced as `https://raw.githubusercontent.com/Sadami3066/SuperPI-Market/master/previews/<file>`.
 
 ### 4. Build and validate the registry locally
 
@@ -193,5 +193,5 @@ To install a plugin manually, download the `.ddp` from its Release and use "Impo
 ## Disclaimer and feedback
 
 - The registry and artifacts are provided as-is, without warranty. You decide whether to install third-party content and accept the risk.
-- For issues, entry suggestions, or takedown requests, open an Issue or PR in this repository. Review and listing boundaries are described in the [Market Policy](https://github.com/Sadami3066/DeepDeep-Plugins/blob/master/MARKET_POLICY.md).
+- For issues, entry suggestions, or takedown requests, open an Issue or PR in this repository. Review and listing boundaries are described in the [Market Policy](https://github.com/Sadami3066/SuperPI-Plugins/blob/master/MARKET_POLICY.md).
 - For security or credential-related matters, do not post sensitive information in a public Issue; contact the repository maintainer directly.

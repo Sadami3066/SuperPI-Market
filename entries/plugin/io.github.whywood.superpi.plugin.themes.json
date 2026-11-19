@@ -1,6 +1,6 @@
 {
   "type": "plugin",
-  "id": "io.github.whywood.deepdeep.plugin.themes",
+  "id": "io.github.whywood.superpi.plugin.themes",
   "name": {
     "zh": "主题",
     "en": "Themes"
@@ -28,13 +28,13 @@
   },
   "version": "1.0.1",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/themes-1.0.1.ddp",
-    "sha256": "6ed1d2c3f074e64df42ec8cb050782ca3c36abd38cb96b2f1d4244fd76624a0e",
-    "size": 815862
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261120/themes-1.0.1.ddp",
+    "sha256": "4b15a86b2fdfd0b96f993191ab3eeeb48da511a93a8d42bf6e5b41c626319534",
+    "size": 815869
   },
   "plugin": {
-    "apiLevel": 6,
-    "minHostVersion": "1.0.8",
+    "apiLevel": 7,
+    "minHostVersion": "2.0.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",

@@ -47,7 +47,7 @@ jobs:
         uses: actions/deploy-pages@v4
       - name: Verify deployed registry
         run: |
-          base=https://sadami3066.github.io/deepdeep-market
+          base=https://sadami3066.github.io/SuperPI-Market
           for attempt in $(seq 1 30); do
             curl -fsSL "$base/registry.json" -o /tmp/live-registry.json || true
             curl -fsSL "$base/registry.json.sig" -o /tmp/live-registry.json.sig || true

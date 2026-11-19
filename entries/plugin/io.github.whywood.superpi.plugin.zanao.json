@@ -1,6 +1,6 @@
 {
   "type": "plugin",
-  "id": "io.github.whywood.deepdeep.plugin.zanao",
+  "id": "io.github.whywood.superpi.plugin.zanao",
   "name": {
     "zh": "校园集市",
     "en": "Campus Market"
@@ -28,13 +28,13 @@
   },
   "version": "1.0.18",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261114-6/zanao-1.0.18.ddp",
-    "sha256": "b64961a5da8e0cea07ffaa63d9758b8df2e128fe9c32b927c6b8a69e7e916d56",
-    "size": 1721947
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261120/zanao-1.0.18.ddp",
+    "sha256": "40fb2ebfef7e4daf62151c3ca9b75edfd2b42ff88e45c8065c9f2671709d9116",
+    "size": 1724396
   },
   "plugin": {
-    "apiLevel": 6,
-    "minHostVersion": "1.0.8",
+    "apiLevel": 7,
+    "minHostVersion": "2.0.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",

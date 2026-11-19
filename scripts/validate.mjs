@@ -19,7 +19,7 @@ const inputPath = arg('--in') ?? join(root, 'registry.json')
 const signaturePath = arg('--sig') ?? join(root, 'registry.json.sig')
 const publicKeyPath = arg('--pub') ?? join(root, 'keys/market-public.pem')
 
-const PLUGIN_API_LEVEL = 6
+const PLUGIN_API_LEVEL = 7
 const MIN_HOST_VERSION = '1.0.4'
 
 const errors = []

@@ -1,6 +1,6 @@
 {
   "type": "plugin",
-  "id": "io.github.whywood.deepdeep.plugin.ride",
+  "id": "io.github.whywood.superpi.plugin.ride",
   "name": {
     "zh": "滴滴打车",
     "en": "DiDi Ride"
@@ -28,13 +28,13 @@
   "icon": "icons/ride.png",
   "version": "1.3.1",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116-5/ride-1.3.1.ddp",
-    "sha256": "8753e6a0118d98e4f1fa50a35a89a4aa31e4562c3638fa118f0db21019a9fa66",
-    "size": 1015863
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261120/ride-1.3.1.ddp",
+    "sha256": "ea1b828c20b169b0799a518569c3afbd14cc6d989e451a7a71cf01a101677127",
+    "size": 1015821
   },
   "plugin": {
-    "apiLevel": 6,
-    "minHostVersion": "1.4.0",
+    "apiLevel": 7,
+    "minHostVersion": "2.0.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",

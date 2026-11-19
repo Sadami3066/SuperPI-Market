@@ -1,6 +1,6 @@
 {
   "type": "plugin",
-  "id": "io.github.whywood.deepdeep.plugin.sysu",
+  "id": "io.github.whywood.superpi.plugin.sysu",
   "name": {
     "zh": "中山大学 CLI",
     "en": "SYSU CLI"
@@ -26,20 +26,20 @@
   },
   "version": "2.7.3",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261119/sysu-2.7.3.ddp",
-    "sha256": "a5af02bc23e970bc2076c3c15aa44289bafc43ab718a17497140f4dc6586ac9b",
-    "size": 1023648
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261120/sysu-2.7.3.ddp",
+    "sha256": "c4b51c156a3f2fdb8811660550b4e5b2c609ca4640b4c34ff7c6848b98ffc119",
+    "size": 1023631
   },
   "plugin": {
-    "apiLevel": 6,
-    "minHostVersion": "1.4.3",
+    "apiLevel": 7,
+    "minHostVersion": "2.0.0",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
     "version": "2.7.3",
     "previews": [
-      "https://raw.githubusercontent.com/Sadami3066/deepdeep-market/master/previews/sysu-1.jpg",
-      "https://raw.githubusercontent.com/Sadami3066/deepdeep-market/master/previews/sysu-2.jpg"
+      "https://raw.githubusercontent.com/Sadami3066/SuperPI-Market/master/previews/sysu-1.jpg",
+      "https://raw.githubusercontent.com/Sadami3066/SuperPI-Market/master/previews/sysu-2.jpg"
     ]
   },
   "category": "study"
