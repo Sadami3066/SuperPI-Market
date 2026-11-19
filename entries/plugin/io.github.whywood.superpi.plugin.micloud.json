@@ -28,9 +28,9 @@
   },
   "version": "2.7.4",
   "artifact": {
-    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261120/micloud-2.7.4.ddp",
-    "sha256": "ff1170e55f104755f4ea7c190dafba6642ce718e2214780d75eda9a4b4645a0f",
-    "size": 1128446
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261121/micloud-2.7.4.ddp",
+    "sha256": "ff17c29a61d48e259c1819a9d93428c81f1a97846ab114dc4f36887828291e14",
+    "size": 1128456
   },
   "plugin": {
     "apiLevel": 7,

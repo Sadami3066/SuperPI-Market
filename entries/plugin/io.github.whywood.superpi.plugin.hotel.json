@@ -28,9 +28,9 @@
   "icon": "icons/hotel.png",
   "version": "1.4.1",
   "artifact": {
-    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261120/hotel-1.4.1.ddp",
-    "sha256": "6fc8489bc42a9685bceaed6a90eb5f7bef40dacbd5cb6a00ce58c65dca968bfc",
-    "size": 1465101
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261121/hotel-1.4.1.ddp",
+    "sha256": "8419705f769c1f0fbbb3e5cdf8ef54583fbb5bde6ec1049884627769f5f0a8ce",
+    "size": 1465100
   },
   "plugin": {
     "apiLevel": 7,
