@@ -1,21 +1,21 @@
-# DeepDeep Market
+# Super PI Agent Market
 
-中文 | [English](README.md)
+[中文](README.md) | English
 
-The plugin, skill, and remote MCP marketplace for DeepDeep: this repository provides the **signed registry** and **artifact distribution**. It contains no client code.
+The plugin, skill, and remote MCP marketplace for Super PI Agent: this repository provides the **signed registry** and **artifact distribution**. It contains no client code.
 
 - Registry: `https://sadami3066.github.io/deepdeep-market/registry.json`
 - Signature: `registry.json.sig` (ECDSA P-256 + SHA-256 over the raw bytes of `registry.json`, DER-encoded, base64)
 
 ## Overview
 
-The DeepDeep App's Market tab always reads the registry URL above, verifies it with a built-in public key, checks that `keyId` matches, and then shows the entries:
+The Super PI Agent app's Market tab always reads the registry URL above, verifies it with a built-in public key, checks that `keyId` matches, and then shows the entries:
 
 - **Plugins**: `.ddp` packages downloaded from GitHub Releases, adding capabilities and skills to the App;
 - **Skills**: `.zip` packages downloaded from Releases;
 - **MCP**: remote HTTP server configuration; no artifact.
 
-The registry only carries metadata plus `sha256`/`size`; artifacts live in type- and date-based GitHub Releases. This repository has no user-facing client code — the client lives in the DeepDeep App repository.
+The registry only carries metadata plus `sha256`/`size`; artifacts live in type- and date-based GitHub Releases. This repository has no user-facing client code — the client lives in the Super PI Agent app repository.
 
 ## What's in the repository
 
@@ -186,7 +186,7 @@ To install a plugin manually, download the `.ddp` from its Release and use "Impo
 
 ## Licensing
 
-- The scripts and workflows in this repository are licensed under [Apache-2.0](LICENSE) (same as the DeepDeep App).
+- The scripts and workflows in this repository are licensed under [Apache-2.0](LICENSE) (same as the Super PI Agent app).
 - Third-party skills, plugins, and brand icons belong to their respective authors or trademark holders and follow the `skill.license` and upstream source recorded in each entry; MCP names and icons belong to their respective providers.
 - This repository is not affiliated with or endorsed by any third-party service it lists.
 

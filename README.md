@@ -1,21 +1,21 @@
-# DeepDeep 市场
+# Super PI Agent 市场
 
 [English](README.en.md) | 中文
 
-DeepDeep 的插件、技能与远程 MCP 市场：本仓库提供**签名索引**与**制品分发**，不包含客户端代码。
+Super PI Agent 的插件、技能与远程 MCP 市场：本仓库提供**签名索引**与**制品分发**，不包含客户端代码。
 
 - 索引：`https://sadami3066.github.io/deepdeep-market/registry.json`
 - 签名：`registry.json.sig`（ECDSA P-256 + SHA-256，对 `registry.json` 原始字节签名，DER 编码后 base64）
 
 ## 概览
 
-DeepDeep App 的市场页固定读取上面的索引，用内置公钥验证签名并确认 `keyId` 匹配后展示条目：
+PI App 的市场页固定读取上面的索引，用内置公钥验证签名并确认 `keyId` 匹配后展示条目：
 
 - **插件**：`.ddp` 包，从 GitHub Releases 下载安装，为 App 增加能力与技能；
 - **技能**：`.zip` 包，从 Releases 下载安装；
 - **MCP**：远程 HTTP 服务配置，没有制品。
 
-索引只存元数据与 `sha256`/`size`，制品放在按类型与日期命名的 GitHub Releases 中。本仓库不含用户端代码，客户端在 DeepDeep App 仓库。
+索引只存元数据与 `sha256`/`size`，制品放在按类型与日期命名的 GitHub Releases 中。本仓库不含用户端代码，客户端在 PI App 仓库。
 
 ## 仓库里有什么
 
@@ -187,7 +187,7 @@ App 的市场页从固定 URL 读取索引：
 
 ## 权益与许可
 
-- 本仓库的脚本与工作流采用 [Apache-2.0](LICENSE) 许可（与 DeepDeep App 一致）。
+- 本仓库的脚本与工作流采用 [Apache-2.0](LICENSE) 许可（与 PI App 一致）。
 - 条目中的第三方技能、插件与品牌图标归各自作者或商标持有人所有，遵循条目里标注的 `skill.license` 与上游来源；MCP 名称与图标归各自服务商。
 - 本仓库与条目中出现的第三方服务无隶属或背书关系。
 
