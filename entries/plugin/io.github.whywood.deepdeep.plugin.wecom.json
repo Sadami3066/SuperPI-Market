@@ -26,19 +26,19 @@
       "Email"
     ]
   },
-  "version": "2.6.1",
+  "version": "2.6.2",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116-4/wecom-2.6.1.ddp",
-    "sha256": "0f33692bf21580b5fe0c6dd86816dbeee8d4b2aea80fd5009f5bff53801f4de4",
-    "size": 1234514
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261119/wecom-2.6.2.ddp",
+    "sha256": "9bab665eb52859d721ce7627c28e9cfb14096d502423c3568e66310cdc931ac3",
+    "size": 1029099
   },
   "plugin": {
     "apiLevel": 6,
-    "minHostVersion": "1.4.0",
+    "minHostVersion": "1.4.3",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "2.6.1"
+    "version": "2.6.2"
   },
   "category": "office"
 }

@@ -24,19 +24,19 @@
       "Exams"
     ]
   },
-  "version": "2.7.2",
+  "version": "2.7.3",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116-6/sysu-2.7.2.ddp",
-    "sha256": "da6dbd598c8544a8ff77223bc1ad32c1e425c79ac27045b640d2e2b970df13af",
-    "size": 1304426
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261119/sysu-2.7.3.ddp",
+    "sha256": "a5af02bc23e970bc2076c3c15aa44289bafc43ab718a17497140f4dc6586ac9b",
+    "size": 1023648
   },
   "plugin": {
     "apiLevel": 6,
-    "minHostVersion": "1.4.0",
+    "minHostVersion": "1.4.3",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "2.7.2",
+    "version": "2.7.3",
     "previews": [
       "https://raw.githubusercontent.com/Sadami3066/deepdeep-market/master/previews/sysu-1.jpg",
       "https://raw.githubusercontent.com/Sadami3066/deepdeep-market/master/previews/sysu-2.jpg"

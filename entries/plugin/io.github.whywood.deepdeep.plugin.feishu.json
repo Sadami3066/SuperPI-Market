@@ -26,19 +26,19 @@
       "Meeting"
     ]
   },
-  "version": "2.7.0",
+  "version": "2.7.1",
   "artifact": {
-    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261116/feishu-2.7.0.ddp",
-    "sha256": "7c274c77be0a85e75e8be34d61d8b14f954a1ea07ba1a0240d99dc4ace8b35ab",
-    "size": 1226819
+    "url": "https://github.com/Sadami3066/deepdeep-market/releases/download/plugins-20261119/feishu-2.7.1.ddp",
+    "sha256": "e590f898690ea85da413980752421eeca8bb2bf91497f03877617a3bd8ac9eb9",
+    "size": 992887
   },
   "plugin": {
     "apiLevel": 6,
-    "minHostVersion": "1.4.0",
+    "minHostVersion": "1.4.3",
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "2.7.0"
+    "version": "2.7.1"
   },
   "category": "office"
 }
