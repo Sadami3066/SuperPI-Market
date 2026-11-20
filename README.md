@@ -59,10 +59,10 @@ Common entry fields (enforced by `scripts/validate.mjs`):
 - `artifact`: `{"url": "https://…", "sha256": "<64 lowercase hex>", "size": <bytes>}`, ≤50MB;
 - `plugin.publisherKeyId` (required): publisher key ID in `ed25519:<64 lowercase hex>` form; the App uses it to verify the Ed25519 signature inside the `.ddp` on install;
 - `plugin.publisherName` (optional): display name; the client prefers it and falls back to the first 12 characters of `publisherKeyId`;
-- `plugin.apiLevel` / `plugin.minHostVersion`: client compatibility fields; the validation script enforces `apiLevel = 6` and `minHostVersion >= 1.0.4`, and the client refuses installs that do not match;
+- `plugin.apiLevel` / `plugin.minHostVersion`: client compatibility fields; the validation script enforces `apiLevel = 7` and `minHostVersion >= 2.0.0`, and the client refuses installs that do not match;
 - `plugin.requiredAccess` (optional): the system access tier the plugin needs — `normal` (default), `adb`, or `root`; the App warns when the current access is lower, so declare it truthfully;
 - `plugin.previews` (optional): 1–6 HTTPS image URLs; the App shows them as portrait 9:20 cards (1080×2400 or 720×1600 recommended), tap to view full-screen with horizontal paging.
-- `plugin.version`: must match the entry `version` and the version in the Release asset name; plugins must target API level 6 (host 1.0.4+), and level 5 plugins are no longer accepted.
+- `plugin.version`: must match the entry `version` and the version in the Release asset name; plugins must target API level 7 (host 2.0.0+), and artifact validation also verifies the `.ddp` bundle's internal `assets/plugin.json` and Ed25519 signature (`META-INF/plugin-signature.json`).
 
 **Skill entries**
 

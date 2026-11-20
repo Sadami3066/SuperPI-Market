@@ -60,10 +60,10 @@ PI App 的市场页固定读取上面的索引，用内置公钥验证签名并�
 - `artifact`：`{"url": "https://…", "sha256": "<64 位小写 hex>", "size": <字节数>}`，≤50MB；
 - `plugin.publisherKeyId`（必填）：发布者公钥 ID，格式 `ed25519:<64 位小写 hex>`；App 安装时会用它校验 `.ddp` 内的 Ed25519 签名；
 - `plugin.publisherName`（可选）：发布者展示名，客户端优先显示，缺失时回落 `publisherKeyId` 前 12 位；
-- `plugin.apiLevel` / `plugin.minHostVersion`：客户端兼容性信息；校验脚本强制 `apiLevel = 6`、`minHostVersion ≥ 1.0.4`，客户端会禁用不满足条件的安装；
+- `plugin.apiLevel` / `plugin.minHostVersion`：客户端兼容性信息；校验脚本强制 `apiLevel = 7`、`minHostVersion ≥ 2.0.0`，客户端会禁用不满足条件的安装；
 - `plugin.requiredAccess`（可选）：插件运行需要的系统访问档位，`normal`（默认）/ `adb` / `root`；客户端会在当前启用权限低于要求时标注「部分功能可能不可用」，请如实标注、不要虚标；
 - `plugin.previews`（可选）：1–6 个 https 图片 URL；App 按竖版 9:20 卡片展示（建议 1080×2400 或 720×1600），点开可全屏左右滑动。
-- `plugin.version`：必须与条目 `version` 一致，并与 Release 资产文件名里的版本一致；插件只接受 API level 6（宿主 1.0.4+），level 5 插件不再上架。
+- `plugin.version`：必须与条目 `version` 一致，并与 Release 资产文件名里的版本一致；插件要求 API level 7（宿主 2.0.0+），制品校验还会进一步解包校验 `.ddp` 内部的 `assets/plugin.json` 与 Ed25519 签名（`META-INF/plugin-signature.json`）。
 
 **技能条目**
 

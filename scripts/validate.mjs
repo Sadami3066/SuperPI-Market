@@ -3,6 +3,7 @@ import { createHash, createPublicKey, verify } from 'node:crypto'
 import { existsSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { verifyDdpBuffer } from './verify-ddp.mjs'
 
 const root = fileURLToPath(new URL('..', import.meta.url))
 const args = process.argv.slice(2)
@@ -20,7 +21,7 @@ const signaturePath = arg('--sig') ?? join(root, 'registry.json.sig')
 const publicKeyPath = arg('--pub') ?? join(root, 'keys/market-public.pem')
 
 const PLUGIN_API_LEVEL = 7
-const MIN_HOST_VERSION = '1.0.4'
+const MIN_HOST_VERSION = '2.0.0'
 
 const errors = []
 const fail = (message) => errors.push(message)
@@ -207,7 +208,23 @@ for (const [index, entry] of entries.entries()) {
     if (!isObject(entry.skill) || typeof entry.skill.license !== 'string' || !entry.skill.license.trim()) fail(`${id}: skill.license 缺失`)
     if (!isObject(entry.skill) || !isUrl(entry.skill.source)) fail(`${id}: skill.source 必须是 https URL`)
   }
-  artifacts.push({ id, url: entry.artifact.url, sha256: entry.artifact.sha256, size: entry.artifact.size })
+  artifacts.push({
+    id,
+    type: entry.type,
+    url: entry.artifact.url,
+    sha256: entry.artifact.sha256,
+    size: entry.artifact.size,
+    expectedPlugin:
+      entry.type === 'plugin' && isObject(entry.plugin)
+        ? {
+            id,
+            version: entry.version,
+            apiLevel: entry.plugin.apiLevel,
+            minHostVersion: entry.plugin.minHostVersion,
+            publisherKeyId: entry.plugin.publisherKeyId,
+          }
+        : null,
+  })
 }
 
 if (!noSignature) {
@@ -258,6 +275,15 @@ const checkArtifact = async (artifact) => {
         const error = new Error(`sha256 ${sha256} != ${artifact.sha256}`)
         error.verification = true
         throw error
+      }
+      if (artifact.type === 'plugin' && artifact.expectedPlugin) {
+        try {
+          verifyDdpBuffer(buffer, artifact.expectedPlugin)
+        } catch (ddpError) {
+          const error = new Error(`invalid .ddp bundle (${ddpError.message})`)
+          error.verification = true
+          throw error
+        }
       }
       return `${artifact.id}: ${artifact.size} bytes`
     } catch (error) {
