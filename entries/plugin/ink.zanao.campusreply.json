@@ -1,0 +1,36 @@
+{
+  "type": "plugin",
+  "id": "ink.zanao.campusreply",
+  "name": {
+    "zh": "校园集市回复助手",
+    "en": "Campus Market Reply Assistant"
+  },
+  "summary": {
+    "zh": "自动回复校园集市帖子与评论，三路来源库增强",
+    "en": "Auto-replies to campus market posts with three knowledge sources"
+  },
+  "description": {
+    "zh": "按策略扫描赞噢校园集市并生成回复；可接入逸问官方问答、中大资料上游、帖主公开历史作为来源；支持精选订阅分发与定时删除。需要集市 App 会话；逸问来源需校园网。",
+    "en": "Scans the Zanao campus market and posts policy-driven replies; optional sources from the official Yiwen QA, SYSU materials and the author's public history; curated delivery and scheduled deletes. Needs a market app session; the Yiwen source needs campus network."
+  },
+  "icon": "icons/campus-reply.png",
+  "tags": {
+    "zh": ["校园", "自动化", "生活服务"],
+    "en": ["Campus", "Automation", "Services"]
+  },
+  "version": "1.0.38",
+  "artifact": {
+    "url": "https://github.com/shuziyuxingxing-stack/campus-reply/releases/download/v1.0.38/campus-reply-1.0.38.ddp",
+    "sha256": "cafd5b73c58060439201f27a4fb7c551fff3a696771ebd718121a6f0b106ae63",
+    "size": 1362741
+  },
+  "plugin": {
+    "apiLevel": 7,
+    "minHostVersion": "2.0.0",
+    "publisherKeyId": "ed25519:98673f6bfa0cd5f3cbdb10feb9fdf6897b21276e39c88baedfe4542865ad9a22",
+    "publisherName": "本地定制 · 校园集市",
+    "requiredAccess": "normal",
+    "version": "1.0.38"
+  },
+  "category": "life"
+}
