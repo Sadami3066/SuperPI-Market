@@ -26,11 +26,11 @@
     "en": "Connect RollingGo to filter hotels by budget, distance, tags and brand, view live rooms, create a pending booking, check orders and cancel a booking from chat. Results appear as cards; payment happens on the official RollingGo page. The plugin page manages installation, updates and sign-in, with no API key."
   },
   "icon": "icons/hotel.png",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "artifact": {
-    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261121/hotel-1.4.1.ddp",
-    "sha256": "8419705f769c1f0fbbb3e5cdf8ef54583fbb5bde6ec1049884627769f5f0a8ce",
-    "size": 1465100
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261125/hotel-1.4.2.ddp",
+    "sha256": "d53f66546e030ea51b838385b6c53c954338441b2ff2a96cbd2f4ac4e7c4f1ca",
+    "size": 1465468
   },
   "plugin": {
     "apiLevel": 7,
@@ -38,7 +38,7 @@
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "1.4.1"
+    "version": "1.4.2"
   },
   "category": "life"
 }

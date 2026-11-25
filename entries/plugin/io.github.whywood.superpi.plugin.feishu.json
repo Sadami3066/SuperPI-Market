@@ -26,11 +26,11 @@
       "Meeting"
     ]
   },
-  "version": "2.7.1",
+  "version": "2.7.2",
   "artifact": {
-    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261121/feishu-2.7.1.ddp",
-    "sha256": "ade98a305cde346278a8e53f0c63b2bb45e74a22be420ebba09967aeefc6f636",
-    "size": 992926
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261125/feishu-2.7.2.ddp",
+    "sha256": "9881a5f18e7d99ebf81bc356508c7335d4509f8be7bc11655df25f7e9f409fd5",
+    "size": 995084
   },
   "plugin": {
     "apiLevel": 7,
@@ -38,7 +38,7 @@
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "2.7.1"
+    "version": "2.7.2"
   },
   "category": "office"
 }

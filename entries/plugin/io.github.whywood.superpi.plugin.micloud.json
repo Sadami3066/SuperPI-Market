@@ -26,11 +26,11 @@
       "Efficiency"
     ]
   },
-  "version": "2.7.4",
+  "version": "2.7.5",
   "artifact": {
-    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261121/micloud-2.7.4.ddp",
-    "sha256": "ff17c29a61d48e259c1819a9d93428c81f1a97846ab114dc4f36887828291e14",
-    "size": 1128456
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261125/micloud-2.7.5.ddp",
+    "sha256": "00fcbb7a4dcd7e02ccfd159c13f68129e1f418d2b8a31c22d9c8cd715525423a",
+    "size": 1128197
   },
   "plugin": {
     "apiLevel": 7,
@@ -38,7 +38,7 @@
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "2.7.4"
+    "version": "2.7.5"
   },
   "category": "office"
 }

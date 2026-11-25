@@ -26,11 +26,11 @@
       "Efficiency"
     ]
   },
-  "version": "1.6.2",
+  "version": "1.6.3",
   "artifact": {
-    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261121/mail-1.6.2.ddp",
-    "sha256": "50a62acb8da671234eb1210e37bcbc8a411065273d609ed3da6b9ddcc7682341",
-    "size": 1819332
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261125/mail-1.6.3.ddp",
+    "sha256": "9571584534842712cf7550fab25353329508b48dcf4a204356d269739726c57a",
+    "size": 1824230
   },
   "plugin": {
     "apiLevel": 7,
@@ -38,7 +38,7 @@
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "1.6.2"
+    "version": "1.6.3"
   },
   "category": "office"
 }

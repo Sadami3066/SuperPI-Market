@@ -26,11 +26,11 @@
       "Email"
     ]
   },
-  "version": "2.6.2",
+  "version": "2.6.3",
   "artifact": {
-    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261121/wecom-2.6.2.ddp",
-    "sha256": "fe05a8b49335063273f7cfdb53323e7fce2b2d2b0ec39fa8869a0451cf804051",
-    "size": 1029110
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261125/wecom-2.6.3.ddp",
+    "sha256": "6bc0c5262b292e9fc8798b508a3d7cee40bbf1e8fb1c0a2bec64fa4d72a96b06",
+    "size": 1031303
   },
   "plugin": {
     "apiLevel": 7,
@@ -38,7 +38,7 @@
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "2.6.2"
+    "version": "2.6.3"
   },
   "category": "office"
 }

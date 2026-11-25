@@ -26,11 +26,11 @@
     "en": "Search places, explore nearby spots, turn coordinates into addresses, plan driving, transit, walking and cycling routes, and check weather. Results appear as cards you can open in Amap Maps. The key stays on this device; navigation and rides happen inside Amap Maps."
   },
   "icon": "icons/amap.png",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "artifact": {
-    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261121/amap-1.5.3.ddp",
-    "sha256": "af73873381f16ba5bbb9f163448c82c539662eeda596d2ec32867481d217c94a",
-    "size": 1104633
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261125/amap-1.5.4.ddp",
+    "sha256": "4927cebd7dc9a323951fd50088c6fd871b0054b2e8a0261e0e706e6fa17cb2a3",
+    "size": 1107291
   },
   "plugin": {
     "apiLevel": 7,
@@ -38,7 +38,7 @@
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "1.5.3"
+    "version": "1.5.4"
   },
   "category": "life"
 }

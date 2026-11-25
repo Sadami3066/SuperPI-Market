@@ -26,11 +26,11 @@
       "Services"
     ]
   },
-  "version": "1.0.18",
+  "version": "1.0.19",
   "artifact": {
-    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261121/zanao-1.0.18.ddp",
-    "sha256": "40fb2ebfef7e4daf62151c3ca9b75edfd2b42ff88e45c8065c9f2671709d9116",
-    "size": 1724396
+    "url": "https://github.com/Sadami3066/SuperPI-Market/releases/download/plugins-20261125/zanao-1.0.19.ddp",
+    "sha256": "0f81d64798954f4cb8919ba68d5ceec997b00324233b5cf5bbbebbe2e3025d78",
+    "size": 1730763
   },
   "plugin": {
     "apiLevel": 7,
@@ -38,7 +38,7 @@
     "publisherKeyId": "ed25519:cb08701a59d66606aa5cf461d1c865e3787dbf571ef53b2cd2c3d750a6b53ee2",
     "publisherName": "milous",
     "requiredAccess": "normal",
-    "version": "1.0.18"
+    "version": "1.0.19"
   },
   "category": "life"
 }
