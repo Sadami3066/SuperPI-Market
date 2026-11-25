@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
@@ -40,9 +41,23 @@ jobs:
           mkdir -p site
           cp registry.json registry.json.sig site/
           cp -r icons site/icons
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: site
+      - name: Wait for Pages artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for attempt in $(seq 1 20); do
+            count=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts?name=github-pages" --jq '.total_count' 2>/dev/null || echo 0)
+            if [ "${count:-0}" -ge 1 ]; then
+              echo "github-pages artifact indexed (count=$count) on attempt $attempt"
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "github-pages artifact not indexed in time"
+          exit 1
       - id: deployment
         uses: actions/deploy-pages@v4
       - name: Verify deployed registry
